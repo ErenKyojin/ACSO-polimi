@@ -1,0 +1,166 @@
+{
+  "main": {
+    "id": "4356b37439347768",
+    "type": "split",
+    "children": [
+      {
+        "id": "0bb2b07da9a96e07",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Architettura/formato delle istruzioni.md",
+            "mode": "source",
+            "source": false
+          }
+        },
+        "group": "8fa2970029ec45ae"
+      },
+      {
+        "id": "98e0d3ce1ab4a1a3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Architettura/formato delle istruzioni.md",
+            "mode": "preview",
+            "source": false
+          }
+        },
+        "group": "8fa2970029ec45ae"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "428600fc50632376",
+    "type": "split",
+    "children": [
+      {
+        "id": "63e670490b29350b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ecc7f6f46e00a7f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "966c4219ea26da5e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a1d7cbbcf27977da",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "76d34a8244e4ffdd",
+    "type": "split",
+    "children": [
+      {
+        "id": "70d4a7dea5a183d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "354e65b6c2363fb2",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "ca84216db5abd953",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Architettura/formato delle istruzioni.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c20eb4a618ce5236",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Architettura/formato delle istruzioni.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0147da3a5ae670da",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4c324c69745c417f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Architettura/formato delle istruzioni.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0bb2b07da9a96e07",
+  "lastOpenFiles": [
+    "Architettura/istruzioni di scorrimento.md",
+    "Architettura/Istruzioni di tasferimento.md",
+    "Architettura/Istruzioni di trasferimento dati IO.md",
+    "Architettura/Livelli di astrazione.md",
+    "Architettura/macchina di von neumann.md",
+    "Architettura/pseudo istruzioni.md",
+    "Architettura/Unità aritmetico logica.md",
+    "Architettura/memoria.md",
+    "Architettura/registro.md",
+    "Architettura/RISC-V.md"
+  ]
+}

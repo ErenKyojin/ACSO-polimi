@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "4356b37439347768",
+    "type": "split",
+    "children": [
+      {
+        "id": "0bb2b07da9a96e07",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Architettura/Istruzioni aritmetico logiche.md",
+            "mode": "source",
+            "source": false
+          }
+        },
+        "group": "a12af43d7acb3bd0"
+      },
+      {
+        "id": "125dcd1b7c162fa7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Architettura/Istruzioni aritmetico logiche.md",
+            "mode": "preview",
+            "source": false
+          }
+        },
+        "group": "a12af43d7acb3bd0"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "019389876aa009ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "7cf38aaa15b6f24e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92df59a97213c340",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3d92efd687d572c4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d32704c65eeee64b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d5b6c2f3bc48b98c",
+    "type": "split",
+    "children": [
+      {
+        "id": "721c9462f6217a91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb264f064a043949",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Architettura/Istruzioni aritmetico logiche.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e3642022737de368",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Architettura/Istruzioni aritmetico logiche.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2973f0224c321d02",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c9fc60585808e880",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Architettura/Istruzioni aritmetico logiche.md"
+              }
+            }
+          },
+          {
+            "id": "5f80955cd2ae9579",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "c3207f6f3269eeb6",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "0bb2b07da9a96e07",
+  "lastOpenFiles": [
+    "Architettura/RISC-V.md",
+    "Architettura/registro.md",
+    "Architettura/memoria.md",
+    "Architettura/Istruzioni di flusso.md",
+    "Architettura/Istruzioni di tasferimento.md",
+    "Architettura/Istruzioni di trasferimento dati IO.md",
+    "Architettura/macchina di von neumann.md",
+    "Architettura/Istruzioni aritmetico logiche.md",
+    "Architettura/assembler.md",
+    "Architettura/architettura.md"
+  ]
+}
