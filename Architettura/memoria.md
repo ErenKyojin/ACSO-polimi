@@ -42,6 +42,13 @@ La memoria può virtualmente (ossia massimo teorica) avere $2^{64}$ indirizzi
 
 ```mermaid
 sequenceDiagram
-   Address --> Memory: 
+   Address -->> Memory: ffff ffff ffff ffff
+   activate Memory
+   Note right of Memory: RISERVATO
+   Address -->> Memory: sp
+   deactivate Memory
+   activate Memory
+   
+
 
 ```
