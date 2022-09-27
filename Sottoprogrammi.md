@@ -59,7 +59,23 @@ flowchart BT
 	 c2[jr ra]
 	 end
 	 c2 --> B:
-	 b2 --x A:
-	 a2 --x MAIN
+	 b2 --> b2
+	 b2 -.-x A:
+	 a2 -.-x MAIN
 ```
 
+Se salviamo ad ogni chiamata nel [[registro]] ra, già dopo due chiamate non è possibile tornare indietro al chiamante originale, la soluzione è semplice, salvare gli ra precedenti in memoria.
+
+
+## Utilizzo della [[memoria]]
+Ogni chiamata crea un'area di attivazione sullo stack, quando il sottoprogramma termina l'area viene rilasciata:
+
+```mermaid
+classDiagram
+   class main
+   main: A
+   main: B
+   main: C
+   main: indirizzi bassi()
+```
+I dati vengono inseriti con 
