@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Architettura/formato delle istruzioni.md",
+            "file": "Modalità di indirizzamente.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Architettura/formato delle istruzioni.md",
+            "file": "Modalità di indirizzamente.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura/formato delle istruzioni.md",
+                "file": "Modalità di indirizzamente.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura/formato delle istruzioni.md",
+                "file": "Modalità di indirizzamente.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura/formato delle istruzioni.md"
+                "file": "Modalità di indirizzamente.md"
               }
             }
           },
@@ -150,8 +150,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f9525425eb00be09",
+  "active": "0290cdb14651d22d",
   "lastOpenFiles": [
+    "Architettura/Istruzioni di flusso.md",
+    "Architettura/Istruzioni di trasferimento dati IO.md",
+    "Architettura/Livelli di astrazione.md",
+    "Architettura/Istruzioni di tasferimento.md",
+    "Architettura/formato delle istruzioni.md",
     "Architettura/Istruzioni aritmetico logiche.md"
   ]
 }

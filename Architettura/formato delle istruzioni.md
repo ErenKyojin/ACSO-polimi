@@ -137,7 +137,7 @@ Istruzioni che ci permettono di "saltare" attraverso il codice.
  **imm = offset:** distanza di salto, in positivo o in negativo, rispetto al [[program counter]], in termini di half word, quindi va aggiunto uno 0 nel bit meno significativo per ottenere la distanza in byte.
 
 >[!oss]
->Non è incluso il bit 0, che è dato per scontato essere 0, in quanto il valore del bit meno significativo indirizza i byte (essendo l'indirizzamento della )
+>Non è incluso il bit 0, che è dato per scontato essere 0, in quanto il valore del bit meno significativo indirizza i byte (essendo l'indirizzamento della memoria a byte)
 
 
 
