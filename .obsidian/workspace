@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Allocazione.md",
+            "file": "variabili.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Allocazione.md",
+            "file": "variabili.md",
             "mode": "preview",
             "source": false
           }
@@ -75,7 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 256.5
   },
   "right": {
     "id": "ecd6fd3e765648c3",
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Allocazione.md",
+                "file": "variabili.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Allocazione.md",
+                "file": "variabili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Allocazione.md"
+                "file": "variabili.md"
               }
             }
           },
@@ -153,14 +153,14 @@
   "active": "0290cdb14651d22d",
   "lastOpenFiles": [
     "Architettura/memoria.md",
+    "variabili.md",
+    "Allocazione.md",
     "Architettura/macchina di von neumann.md",
     "Architettura/istruzioni di confronto.md",
     "Senza nome.md",
     "Compilazione.md",
     "Modalità di indirizzamente.md",
     "Architettura/Istruzioni di flusso.md",
-    "Architettura/Istruzioni di trasferimento dati IO.md",
-    "Architettura/Livelli di astrazione.md",
-    "Architettura/Istruzioni di tasferimento.md"
+    "Architettura/Istruzioni di trasferimento dati IO.md"
   ]
 }

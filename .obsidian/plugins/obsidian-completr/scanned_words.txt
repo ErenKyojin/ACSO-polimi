@@ -57,6 +57,9 @@ dividere
 diversa
 distanza
 dato
+dichiarate
+direttive
+double
 astrazione
 assembler
 assemblatore
@@ -275,6 +278,7 @@ informazioni
 invece
 inizio
 incluso
+interno
 macchina
 mnemonici
 memoria
@@ -374,6 +378,7 @@ eseguono
 equivalente
 evidenziato
 estrarre
+esterne
 riferimento
 registri
 ra
@@ -435,6 +440,7 @@ niente
 notare
 nella
 negativo
+nei
 Idealizzazione
 Il
 Instruction
@@ -451,6 +457,7 @@ Architettura
 ABI
 Alla
 Aggiunge
+Area
 trasferimento
 tp
 thread
@@ -467,8 +474,11 @@ tutti
 termini
 tomato
 teorica
+testo
+tramite
 Da
 DELLE
+Dimensioni
 Registro
 Registri
 RISC
@@ -476,6 +486,7 @@ Registr
 Reduced
 Ridurre
 Riprendiamo
+Ricordiamo
 gli
 generali
 gp
@@ -488,6 +499,7 @@ Gli
 Byte
 Branch
 Visto
+VAR
 Fa
 Formato
 FORMATO
@@ -499,6 +511,7 @@ Scorrimento
 Store
 Si
 SB
+SIZE
 Non
 Nop
 Not
@@ -517,3 +530,4 @@ xori
 jalr
 jal
 Quindi
+Half

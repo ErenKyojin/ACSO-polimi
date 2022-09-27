@@ -106,7 +106,7 @@ Area dati e area testo vengono dichiarate tramite direttive all'assemblatore:
 >[!oss]
 >Ricordiamo che le variabili all'interno della CPU sono nei [[registro|registri]], le variabili esterne alla CPU sono nella memoria.
 
-## Dimensioni variabili
+## Dimensioni [[variabili]]
 
 VAR | SIZE
  --- | ---
