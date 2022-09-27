@@ -71,3 +71,5 @@ sequenceDiagram
 
 
 Area dati e area testo vengono dichiarate tramite direttive all'assemblatore: 
+
+>[!c]
