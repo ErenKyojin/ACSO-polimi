@@ -20,3 +20,37 @@
 </g>
 </svg>;
 }
+
+.cm-header-2
+{
+    text-decoration: underline;
+    text-decoration-color: #f4a261;
+}
+
+.cm-header-1
+{
+    text-decoration: underline;
+    text-decoration-color: #e76f51;
+}
+
+.cm-header-3
+{
+
+    text-decoration: underline;
+    text-decoration-color: #e9c46a;
+
+}
+
+.cm-header-4
+{
+    text-decoration: underline;
+    text-decoration-color: #2a9d8f;
+}
+
+.cm-header-5
+{
+
+    text-decoration: underline;
+    text-decoration-color: #264653;
+
+}
