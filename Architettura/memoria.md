@@ -75,8 +75,43 @@ Area dati e area testo vengono dichiarate tramite direttive all'assemblatore:
 >[!multi-column]
 >
 >>[!clang]
+>>```c
+>>//variabili globali
+>>int a
+>>int b
+>>...
+>>
+>>main()
+>>{
+>>//body
+>>...
+>>}
 >>```
->```
 >
 >>[!assembly]
+>>```armasm
+>>;0x0000 0000 1000 0000
+>>.data
+>>A: .word
+>>B: .word
+>>...
+>>;0x0000 0000 0040 0000
+>>.text
+>>MAIN:
+>>...
 >>
+>>;la stack non va dichiarata
+>>```
+
+>[!oss]
+>Ricordiamo che le variabili all'interno della CPU sono nei [[registro|registri]], le variabili esterne alla CPU sono nella memoria.
+
+# A
+## bb
+### ccc
+#### dddd
+##### eeeee
+###### f
+>[!C]
+
+Sizeof char
