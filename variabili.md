@@ -48,3 +48,7 @@ Esistono anche delle istruzioni di allineamento per casi specifici
 
 
 
+## Dichiarazione
+Si dichiarano le variabili tramite le [[Direttive]] di compilazione, sotto la tabella con la maggior parte della dichiarazione dei tipi:
+
+>[!list]

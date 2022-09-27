@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Senza nome 1.md",
+            "file": "variabili.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Senza nome 1.md",
+            "file": "variabili.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Senza nome 1.md",
+                "file": "variabili.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Senza nome 1.md",
+                "file": "variabili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Senza nome 1.md"
+                "file": "variabili.md"
               }
             }
           },
@@ -152,6 +152,7 @@
   },
   "active": "0290cdb14651d22d",
   "lastOpenFiles": [
+    "Direttive.md",
     "Allocazione.md",
     "variabili.md",
     "Architettura/memoria.md",
@@ -160,7 +161,6 @@
     "Senza nome.md",
     "Compilazione.md",
     "Modalità di indirizzamente.md",
-    "Architettura/Istruzioni di flusso.md",
-    "Architettura/Istruzioni di trasferimento dati IO.md"
+    "Architettura/Istruzioni di flusso.md"
   ]
 }
