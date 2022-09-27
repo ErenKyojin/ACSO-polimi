@@ -78,4 +78,18 @@ classDiagram
    main: C
    main: indirizzi bassi()
 ```
-I dati vengono inseriti con 
+I dati vengono inseriti con push ed estratti con pop
+
+>[!def] Push
+>```armasm
+>addi sp, sp, -16
+>sd t1, 8(sp)
+>sd t2, 0(sp)
+>```
+
+>[!def] Pop
+>```armasm
+>ld t2, 0(sp)
+>ld t1, 8(sp)
+>addi sp, sp(16)
+>```
