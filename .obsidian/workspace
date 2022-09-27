@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Compilazione.md",
+            "file": "Architettura/memoria.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Compilazione.md",
+            "file": "Architettura/memoria.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Compilazione.md",
+                "file": "Architettura/memoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Compilazione.md",
+                "file": "Architettura/memoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Compilazione.md"
+                "file": "Architettura/memoria.md"
               }
             }
           },
@@ -152,12 +152,15 @@
   },
   "active": "0290cdb14651d22d",
   "lastOpenFiles": [
+    "Architettura/istruzioni di confronto.md",
+    "Senza nome.md",
+    "Architettura/memoria.md",
+    "Compilazione.md",
     "Modalità di indirizzamente.md",
     "Architettura/Istruzioni di flusso.md",
     "Architettura/Istruzioni di trasferimento dati IO.md",
     "Architettura/Livelli di astrazione.md",
     "Architettura/Istruzioni di tasferimento.md",
-    "Architettura/formato delle istruzioni.md",
-    "Architettura/Istruzioni aritmetico logiche.md"
+    "Architettura/formato delle istruzioni.md"
   ]
 }

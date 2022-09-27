@@ -16,3 +16,5 @@ slti rd, rs1, 8 ; set on less than
 Prima estende in segno la costante `8` a 64 bit dai 12 di partenza, poi assegna a `rd` il valore 1 se `rs1 < 8`, altrimenti 0.
 
 slt/slti eseguono confronti signed, per confronti unsigned sltu/sltui 
+
+

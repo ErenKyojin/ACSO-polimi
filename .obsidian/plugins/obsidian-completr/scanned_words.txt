@@ -97,6 +97,7 @@ andi
 auipc
 assegnati
 aggiunto
+avere
 Con
 CPU
 Ci
@@ -290,6 +291,7 @@ mantenere
 motivo
 mandarli
 mentre
+massimo
 ossia
 ogni
 occupa
@@ -419,6 +421,7 @@ vanno
 verso
 vedremo
 va
+virtualmente
 neumann
 nome
 non
@@ -463,6 +466,7 @@ tabella
 tutti
 termini
 tomato
+teorica
 Da
 DELLE
 Registro

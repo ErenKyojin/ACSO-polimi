@@ -37,3 +37,11 @@ Visto che le istruzioni occupano 32 bit hanno indirizzi allineati alla parola, m
 >-|-|-|-
 >0000 0000|0000 0000| 0000 0000 | 0000 0110
 
+
+La memoria può virtualmente (ossia massimo teorica) avere $2^{64}$ indirizzi
+
+```mermaid
+sequenceDiagram
+   Address --> Memory: 
+
+```
