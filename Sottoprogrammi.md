@@ -29,15 +29,37 @@
 Tuttavia non può essere così semplice il sistema, infatti in questo modo si creano svariati problemi:
 
 ```mermaid
-flowchart LR
+flowchart BT
 	 subgraph MAIN
 	 direction TB
 	 C[jal ra, A]
 	 end
 	 C --> A:
+	 
+	 
 	 subgraph A:
 	 direction TB
 	 a1[jal ra, B]
 	 a2[jr ra]
+	 a1 --> a2
 	 end
+	 a1 --> B:
+	 
+	 
+	 subgraph B:
+	 direction TB
+	 b1[jal ra, C]
+	 b2[jr ra]
+	 b1 --> b2
+	 end
+	 b1 --> C:
+	
+	 subgraph C:
+	 direction TB
+	 c2[jr ra]
+	 end
+	 c2 --> B:
+	 b2 --x A:
+	 a2 --x MAIN
 ```
+
