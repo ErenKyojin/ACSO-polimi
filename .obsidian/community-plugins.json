@@ -3,5 +3,6 @@
   "calendar",
   "obsidian-discordrpc",
   "obsidian-completr",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-git"
 ]
