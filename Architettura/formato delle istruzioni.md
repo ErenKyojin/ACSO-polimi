@@ -137,7 +137,7 @@ Istruzioni che ci permettono di "saltare" attraverso il codice.
  **imm = offset:** distanza di salto, in positivo o in negativo, rispetto al [[program counter]], in termini di half word, quindi va aggiunto uno 0 nel bit meno significativo per ottenere la distanza in byte.
 
 >[!oss]
->Non è incluso il bit 0, che è dato per scontato essere 0 per il salto
+>Non è incluso il bit 0, che è dato per scontato essere 0, in quanto il valore del bit meno significativo indirizza i byte (essendo l'indirizzamento della )
 
 
 
@@ -204,5 +204,20 @@ imm[31:12] | rd | OPCDOE
 >lui rd cost20             ;rd = cost20
 >auipc rd off20            ;rd = pc + off20
 >```
+
+Registro della lui:
+
+63:32 | 31:12 | 11:0
+--- | --- | ---
+ext segno | imm 20 bit + imm 12 bit | x00000
+
+Registro dopo LUI:
+0111 1110 0001 1110 0000 | 000 0000 0000
+
+
+0111 1110 0001 1110 0000 | 0000 0000 0000 +
+1111 1111 1111 1111 1111 | 1000 0111 0111 =
+
+0111 1110 0001 1101 1111 | 1000 0111 0111
 
 
