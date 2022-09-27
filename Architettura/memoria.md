@@ -62,6 +62,12 @@ sequenceDiagram
    note right of Memory: TEST
    Address -->> Memory: PC 0000 0000 0040 0000
    deactivate Memory
+   activate Memory
+   note right of Memory: RISERVATO
+   Address -->> Memory: 0000 0000 0000 0000
+   deactivate Memory
 
 ```
 
+
+Area dati e area testo vengono dichiarate tramite direttive all'assemblatore: 
