@@ -168,8 +168,6 @@ imm[12] | rs1 | funct3 | rd | OPCODE
 ---| --- | --- | --- | ---
 12 bit | 5 bit | 3 bit | 5 bit | 7 bit
 
-# formato U
-
 
 # Costanti su 32 bit
 
@@ -190,3 +188,11 @@ Che viene divisa nelle due isrtruzioni
 lui rd, %hi(cost32)
 addi rd, rd %lo(cost32)
 ```
+
+
+>[!LUI]
+> load upper immediate, carica il primo immediato da 20 bit nei 20 bit più significativo della metà inferiore di un registro da 64, un tipo di istruzione U
+
+# formato U
+
+
