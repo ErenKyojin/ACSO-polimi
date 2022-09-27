@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Architettura/memoria.md",
+            "file": "Allocazione.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Architettura/memoria.md",
+            "file": "Allocazione.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura/memoria.md",
+                "file": "Allocazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura/memoria.md",
+                "file": "Allocazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura/memoria.md"
+                "file": "Allocazione.md"
               }
             }
           },
@@ -150,10 +150,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c1c5c2dc04e35a46",
+  "active": "0290cdb14651d22d",
   "lastOpenFiles": [
-    "Architettura/macchina di von neumann.md",
     "Architettura/memoria.md",
+    "Architettura/macchina di von neumann.md",
     "Architettura/istruzioni di confronto.md",
     "Senza nome.md",
     "Compilazione.md",
