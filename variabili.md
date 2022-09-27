@@ -55,6 +55,7 @@ Si dichiarano le variabili tramite le [[Direttive]] di compilazione, sotto la ta
 >>[!multi-column]
 >>>[!c]
 >>>```c
+>>>//LONG 64 bit
 >>>char c = 'a';
 >>>short int h;
 >>>int i = 1;
@@ -77,3 +78,22 @@ Si dichiarano le variabili tramite le [[Direttive]] di compilazione, sotto la ta
 >>>VET: .zero 80
 >>>STR: .zero 10
 >>>```
+
+>[!esempio]
+>>[!multi-column]
+>>
+>>>[!c]
+>>>```c
+>>>int a;
+>>>a = 1;
+>>>```
+>>
+>>>[!assembly]
+>>>```armasm
+>>>A: .word
+>>>li t0, 1
+>>>la t1, A
+>>>sw t0, (t1)
+>>>```
+>
+>

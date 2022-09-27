@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "variabili.md",
+            "file": "Sottoprogrammi.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "variabili.md",
+            "file": "Sottoprogrammi.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "variabili.md",
+                "file": "Sottoprogrammi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "variabili.md",
+                "file": "Sottoprogrammi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "variabili.md"
+                "file": "Sottoprogrammi.md"
               }
             }
           },
@@ -152,15 +152,15 @@
   },
   "active": "0290cdb14651d22d",
   "lastOpenFiles": [
-    "Architettura/Unità aritmetico logica.md",
+    "Compilazione.md",
+    "esempi di conversione.md",
     "variabili.md",
+    "Architettura/Unità aritmetico logica.md",
     "Direttive.md",
     "Allocazione.md",
     "Architettura/memoria.md",
     "Architettura/macchina di von neumann.md",
     "Architettura/istruzioni di confronto.md",
-    "Senza nome.md",
-    "Compilazione.md",
-    "Modalità di indirizzamente.md"
+    "Sottoprogrammi.md"
   ]
 }

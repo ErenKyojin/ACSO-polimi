@@ -117,6 +117,7 @@ Codice
 COde
 COLOR
 Commento
+Che
 Linguaggio
 Le
 Load
@@ -234,6 +235,7 @@ center
 contenuti
 contenute
 casi
+convertito
 utilizza
 un
 utile
@@ -436,6 +438,7 @@ Pseudo
 Prima
 Possiamo
 Perch
+Programma
 Macchina
 Memoria
 Move

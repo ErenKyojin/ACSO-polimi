@@ -21,3 +21,6 @@
 >la t0, A
 >sd t1, 0(t0)
 >```
+
+
+[[esempi di conversione]]
