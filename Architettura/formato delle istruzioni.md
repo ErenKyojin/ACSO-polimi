@@ -195,4 +195,14 @@ addi rd, rd %lo(cost32)
 
 # formato U
 
+imm[31:12] | rd | OPCDOE
+--- | --- | ---
+20 bit | 5 bit | 7 bit
+
+>[!esempio]
+>```armasm
+>lui rd cost20             ;rd = cost20
+>auipc rd off20            ;rd = pc + off20
+>```
+
 
