@@ -67,6 +67,8 @@ dichiarano
 dichiarazione
 dell
 dopo
+danno
+direttiva
 astrazione
 assembler
 assemblatore
@@ -112,6 +114,8 @@ allocati
 allocate
 allineamento
 attivazione
+allocare
+alloca
 Con
 CPU
 Ci
@@ -124,11 +128,14 @@ Commento
 Che
 Chiamante
 Chiamato
+Costanti
 Linguaggio
 Le
 Load
 La
 Locali
+LOW
+LUI
 simbolico
 su
 sostituisce
@@ -195,6 +202,8 @@ salviamo
 soluzione
 salvare
 sullo
+space
+segmento
 che
 convertire
 codice
@@ -254,6 +263,8 @@ callee
 creano
 chiamante
 crea
+cosa
+carica
 utilizza
 un
 utile
@@ -266,6 +277,7 @@ usato
 utilizzano
 uno
 usare
+upper
 per
 programma
 prima
@@ -301,6 +313,9 @@ possibile
 precedenti
 push
 pop
+precedute
+punto
+primo
 il
 in
 inoltre
@@ -330,6 +345,14 @@ inidirizzi
 infatti
 indietro
 inseriti
+indicano
+indicazioni
+inizializzati
+indirizza
+introduciamo
+isrtruzioni
+immediate
+inferiore
 macchina
 mnemonici
 memoria
@@ -349,6 +372,7 @@ mentre
 massimo
 maggior
 modo
+met
 ossia
 ogni
 occupa
@@ -413,6 +437,7 @@ funct
 formati
 futuro
 fatto
+fa
 esecuzione
 eseguire
 elementi
@@ -437,6 +462,8 @@ evidenziato
 estrarre
 esterne
 estratti
+essendo
+ext
 riferimento
 registri
 ra
@@ -480,6 +507,7 @@ Macchina
 Memoria
 Move
 Memorizza
+Modalit
 von
 valori
 variabili
@@ -508,6 +536,8 @@ notare
 nella
 negativo
 nei
+num
+null
 Idealizzazione
 Il
 Instruction
@@ -522,6 +552,7 @@ Imm
 Infatti
 Indirizzi
 In
+Immediato
 ALU
 Architettura
 ABI
@@ -553,6 +584,8 @@ time
 tipi
 tornare
 termina
+tendenzialmente
+text
 Da
 DELLE
 Dimensioni
@@ -560,6 +593,7 @@ Dinamiche
 DW
 Dati
 Dichiarazione
+Dividiamo
 Registro
 Registri
 RISC
@@ -577,6 +611,7 @@ globale
 globali
 gruppi
 gi
+globl
 zero
 Gli
 Globali
@@ -611,6 +646,7 @@ Tuttavia
 OP
 Ossia
 Ogni
+OPCDOE
 word
 Jump
 JALR
@@ -626,3 +662,4 @@ jr
 Quindi
 Half
 HW
+HIGH

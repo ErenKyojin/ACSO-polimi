@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sottoprogrammi.md",
+            "file": "variabili.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sottoprogrammi.md",
+            "file": "variabili.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sottoprogrammi.md",
+                "file": "variabili.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sottoprogrammi.md",
+                "file": "variabili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sottoprogrammi.md"
+                "file": "variabili.md"
               }
             }
           },
@@ -150,17 +150,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0290cdb14651d22d",
+  "active": "f9ca7fff584983c1",
   "lastOpenFiles": [
-    "Compilazione.md",
-    "esempi di conversione.md",
-    "variabili.md",
-    "Architettura/Unità aritmetico logica.md",
+    "Sottoprogrammi.md",
+    "Modalità di indirizzamente.md",
     "Direttive.md",
     "Allocazione.md",
-    "Architettura/memoria.md",
-    "Architettura/macchina di von neumann.md",
-    "Architettura/istruzioni di confronto.md",
-    "Sottoprogrammi.md"
+    "Compilazione.md",
+    "Architettura/Unità aritmetico logica.md",
+    "Architettura/RISC-V.md",
+    "Architettura/codice binario.md",
+    "Architettura/architettura.md",
+    "Architettura/assembler.md"
   ]
 }
