@@ -51,4 +51,29 @@ Esistono anche delle istruzioni di allineamento per casi specifici
 ## Dichiarazione
 Si dichiarano le variabili tramite le [[Direttive]] di compilazione, sotto la tabella con la maggior parte della dichiarazione dei tipi:
 
->[!list]
+>[!abstract]
+>>[!multi-column]
+>>>[!c]
+>>>```c
+>>>char c = 'a';
+>>>short int h;
+>>>int i = 1;
+>>>LONG d = 2;
+>>>LONG *p1 = NULL;
+>>>char *p2
+>>>LONG vet[10]
+>>>char str[10]
+>>>```
+>>
+>>>[!assembly]
+>>>```armasm
+>>>.data
+>>>C: .byte 65
+>>>H: half
+>>>I: .word 1
+>>>D: .dword 2
+>>>P1: .dword 0
+>>>p2: .dword
+>>>VET: .zero 80
+>>>STR: .zero 10
+>>>```

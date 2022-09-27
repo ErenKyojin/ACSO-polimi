@@ -62,6 +62,8 @@ direttive
 double
 durante
 dinamici
+dichiarano
+dichiarazione
 astrazione
 assembler
 assemblatore
@@ -179,6 +181,7 @@ scontato
 specifici
 statici
 static
+sotto
 che
 convertire
 codice
@@ -314,6 +317,7 @@ motivo
 mandarli
 mentre
 massimo
+maggior
 ossia
 ogni
 occupa
@@ -505,12 +509,14 @@ teorica
 testo
 tramite
 time
+tipi
 Da
 DELLE
 Dimensioni
 Dinamiche
 DW
 Dati
+Dichiarazione
 Registro
 Registri
 RISC
