@@ -169,3 +169,24 @@ imm[12] | rs1 | funct3 | rd | OPCODE
 12 bit | 5 bit | 3 bit | 5 bit | 7 bit
 
 # formato U
+
+
+# Costanti su 32 bit
+
+Dividiamo la costante in 20 bit e 12 bit
+
+imm[31:12] | imm[11:0]
+--- | ---
+HIGH 20 bit | LOW 12 bit
+
+
+Quindi introduciamo la [[pseudo istruzioni|pseudo istruzione]] `li`
+
+```armasm
+li rd, cost32
+```
+Che viene divisa nelle due isrtruzioni
+```armasm
+lui rd, %hi(cost32)
+addi rd, rd %lo(cost32)
+```
