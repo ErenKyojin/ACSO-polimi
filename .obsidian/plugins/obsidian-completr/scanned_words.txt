@@ -60,6 +60,8 @@ dato
 dichiarate
 direttive
 double
+durante
+dinamici
 astrazione
 assembler
 assemblatore
@@ -101,6 +103,9 @@ auipc
 assegnati
 aggiunto
 avere
+allocati
+allocate
+allineamento
 Con
 CPU
 Ci
@@ -109,10 +114,12 @@ Computer
 Codice
 COde
 COLOR
+Commento
 Linguaggio
 Le
 Load
 La
+Locali
 simbolico
 su
 sostituisce
@@ -169,6 +176,9 @@ sacrificare
 scartiamo
 saltare
 scontato
+specifici
+statici
+static
 che
 convertire
 codice
@@ -218,6 +228,9 @@ costruita
 cablata
 cyan
 center
+contenuti
+contenute
+casi
 utilizza
 un
 utile
@@ -229,6 +242,7 @@ unica
 usato
 utilizzano
 uno
+usare
 per
 programma
 prima
@@ -254,6 +268,9 @@ possono
 positive
 permettono
 positivo
+partire
+poste
+pari
 il
 in
 inoltre
@@ -279,6 +296,7 @@ invece
 inizio
 incluso
 interno
+inidirizzi
 macchina
 mnemonici
 memoria
@@ -326,6 +344,7 @@ beq
 bne
 bge
 blt
+base
 Un
 Utilizzo
 Una
@@ -340,6 +359,7 @@ quindi
 quanto
 questo
 questa
+qualsiasi
 fasi
 forma
 funzionano
@@ -406,6 +426,7 @@ riportata
 riferiti
 ricevere
 ricomposto
+runtime
 Per
 Pseudo
 Prima
@@ -427,6 +448,7 @@ verso
 vedremo
 va
 virtualmente
+variano
 neumann
 nome
 non
@@ -452,12 +474,18 @@ Inoltre
 ISTRUZIONI
 ISTRUZIONE
 Imm
+Infatti
+Indirizzi
+In
 ALU
 Architettura
 ABI
 Alla
 Aggiunge
 Area
+Allineamento
+ALIGN
+Allocazione
 trasferimento
 tp
 thread
@@ -476,9 +504,13 @@ tomato
 teorica
 testo
 tramite
+time
 Da
 DELLE
 Dimensioni
+Dinamiche
+DW
+Dati
 Registro
 Registri
 RISC
@@ -496,10 +528,12 @@ globali
 gruppi
 zero
 Gli
+Globali
 Byte
 Branch
 Visto
 VAR
+Variabili
 Fa
 Formato
 FORMATO
@@ -512,6 +546,7 @@ Store
 Si
 SB
 SIZE
+Stack
 Non
 Nop
 Not
@@ -525,9 +560,11 @@ Jump
 JALR
 Essendo
 Ed
+Esistono
 xor
 xori
 jalr
 jal
 Quindi
 Half
+HW

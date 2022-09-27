@@ -26,4 +26,25 @@ Le variabili globali sono allocate a partire dall'indirizzo di [[memoria]] 0x000
 >>>B: .dword ;indirizzo 100
 >>>C: .dword ;indirizzo 108
 >>>A: .zero 160 ;indirizzo base 200
+>>>A[0]: 200
+>>>A[1]: 208 ;200 + 8*1
+>>>A[19]: 352 ;200 + 8*19
 >>>```
+
+
+
+## Allineamento
+
+Variabili poste in indirizzi specifici in base al tipo
+
+VAR | ALIGN | Commento
+--- | --- | ---
+Byte | 0,1,2,3,4 | Possiamo usare qualsiasi indirizzo
+HW | 0,2,4,6 | Indirizzi pari
+W | 0, 4, 8, 12| indirizzi multipli di 4
+DW | 0, 8, 16, 24| indirizzi multipli di 8
+
+Esistono anche delle istruzioni di allineamento per casi specifici
+
+
+
