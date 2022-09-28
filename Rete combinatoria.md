@@ -45,7 +45,7 @@ Data una forma booleana esistono una ed una sola forma canonica SoP ed una e una
 > È abbastanza intuitivo che si possa ottenere dall'[[OR]] delle seguenti funzioni:
 >>[!multi-column]
 >>
->>>[!1]
+>>>[!F1]
 >>>a | b | f1(a,b)
 >>>  --- | --- | ---
 >>>0 | 0 | 0
@@ -53,7 +53,7 @@ Data una forma booleana esistono una ed una sola forma canonica SoP ed una e una
 >>>1 | 0 | 0
 >>>1 | 1 | 0
 >>
->>>[!2]
+>>>[!F2]
 >>>a | b | f2(a,b)
 >>>--- | --- | ---
 >>>0 | 0 | 0
@@ -77,10 +77,11 @@ Data una forma booleana esistono una ed una sola forma canonica SoP ed una e una
 >\draw (Na.out) -| (ANDa.in 1);
 >\draw (ANDa.out) -| (ORa.in 1);
 >\draw (ANDb.out) -| (ORa.in 2);
->\draw (ANDa.in 2) |- (-2,-0.5);
->\draw (Na.in) |- (-2, 0.285);
+>\draw (ANDa.in 2) |- (-2,-0.5)node[left]{B};
+>\draw (Na.in) |- (-2, 0.285)node[left]{A};
 >\draw(ANDb.in 2) -| (-1,-0.5);
->\draw(ANDb.in 1) -| (-1.5,0.285)
+>\draw(ANDb.in 1) -| (-1.5,0.285);
+>\draw(ORa.out) -- (7,-1)node[right]{f(A,B)};
 >\end{tikzpicture}
 >\end{document}
 >```
