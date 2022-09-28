@@ -67,10 +67,14 @@ Data una forma booleana esistono una ed una sola forma canonica SoP ed una e una
 >\usepackage{circuitikz}
 >\begin{document}
 >\begin{tikzpicture}
->\node[not port] (Na) at (0,0){};
->\node[and port] (ANDa) at (2, 0){};
->\node[and port] (ANDb) at(2, -2){};
+>%nodes
+>\node[not port] (Na) at (0,0.285){};
+>\node[and port] (ANDa) at (3, 0){};
+>\node[and port] (ANDb) at(3, -2){};
+>\node[or port] (ORa) at(5,-1){};
 >
+>%connections
+>\draw (Na.out) -| (ANDa.in 1);
 >\end{tikzpicture}
 >\end{document}
 >```
