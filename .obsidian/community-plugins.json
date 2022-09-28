@@ -4,5 +4,6 @@
   "obsidian-discordrpc",
   "obsidian-completr",
   "templater-obsidian",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-tikzjax"
 ]

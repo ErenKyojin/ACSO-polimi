@@ -77,6 +77,7 @@ de
 distinti
 diversit
 dn
+digitale
 astrazione
 assembler
 assemblatore
@@ -128,6 +129,7 @@ ancora
 assumere
 altri
 af
+albero
 Con
 CPU
 Ci
@@ -299,6 +301,7 @@ circuito
 circuto
 chW
 cq
+combinatoria
 utilizza
 un
 utile
@@ -315,6 +318,7 @@ upper
 utilizzare
 universale
 uVP
+uscita
 per
 programma
 prima
@@ -361,6 +365,7 @@ pI
 pbP
 pPH
 propagazione
+porte
 il
 in
 inoltre
@@ -535,6 +540,7 @@ elemento
 effetti
 eX
 efficiente
+elemntari
 riferimento
 registri
 ra
@@ -567,6 +573,7 @@ ret
 rilasciata
 realizzare
 rss
+rete
 Per
 Pseudo
 Prima
@@ -580,6 +587,7 @@ Prodotto
 Propriet
 PNG
 PW
+Preferibile
 Macchina
 Memoria
 Move
@@ -711,6 +719,7 @@ Riprendiamo
 Ricordiamo
 Restituisce
 Riconosce
+Rete
 gli
 generali
 gp

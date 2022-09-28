@@ -1,2 +1,2 @@
 # Circuito a Cascata
-Meno efficiente per quanto riguarda i tempi di propagazione, costituito da una serie di circuiti
+Meno efficiente per quanto riguarda i tempi di propagazione, costituito da una serie di operatori che hanno un input diretto ed un input di un altro operatore, eccetto il primo nodo della serie.
