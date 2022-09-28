@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rete combinatoria.md",
+            "file": "Architettura/memoria.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rete combinatoria.md",
+            "file": "Architettura/memoria.md",
             "mode": "source",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rete combinatoria.md",
+                "file": "Architettura/memoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rete combinatoria.md",
+                "file": "Architettura/memoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rete combinatoria.md"
+                "file": "Architettura/memoria.md"
               }
             }
           },
@@ -152,15 +152,15 @@
   },
   "active": "0290cdb14651d22d",
   "lastOpenFiles": [
-    "OR.md",
-    "Rete combinatoria.md",
-    "Segnale binario.md",
-    "De morgan.md",
-    "NOT.md",
-    "circuito ad albero.md",
-    "circuito a cascata.md",
-    "Operatori.md",
-    "Allegati/Pasted image 20220928093958.png",
-    "AND.md"
+    "Sottoprogrammi.md",
+    "variabili.md",
+    "Architettura/RISC-V.md",
+    "Architettura/registro.md",
+    "Architettura/pseudo istruzioni.md",
+    "Architettura/assembler.md",
+    "Architettura/architettura.md",
+    "Architettura/codice binario.md",
+    "Architettura/formato delle istruzioni.md",
+    "Architettura/Istruzioni aritmetico logiche.md"
   ]
 }
