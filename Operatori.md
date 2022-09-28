@@ -17,6 +17,8 @@
 !1 = 0
 !0 = 1
 
+Grazie a questi tre operatori logici possiamo costruire qualsiasi [[funzione logica]]
+
 # Proprietà
 Proprietà | AND | OR
 --- | --- | ---
@@ -34,4 +36,3 @@ Notare che de morgan ci permette di fare una conversione tra AND (o NAND) e OR (
 
 !(A x B) = NAND
 !(A + B) = OR
-

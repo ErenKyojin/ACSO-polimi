@@ -13,3 +13,7 @@ Inoltre possiamo negare ancora le leggi per ottenere:
 
 
 Questo ci permette di utilizzare le leggi di de morgan e le altre proprietà degli [[operatori]] per [[trasformazioni]]
+
+>[!oss]
+>Usando and e not possiamo costruire l'or grazie a de morgan, quindi (not, and) è un insieme funzionalmente completo, ci permettono questi due soli operatori infatti di costruire qualsiasi [[funzione logica]]
+

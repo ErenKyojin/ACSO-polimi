@@ -21,6 +21,7 @@ lb
 lui
 lime
 link
+leggi
 di
 degli
 due
@@ -117,6 +118,7 @@ allineamento
 attivazione
 allocare
 alloca
+ancora
 Con
 CPU
 Ci
@@ -207,6 +209,7 @@ salvare
 sullo
 space
 segmento
+soli
 che
 convertire
 codice
@@ -269,6 +272,8 @@ crea
 cosa
 carica
 conversione
+costruire
+completo
 utilizza
 un
 utile
@@ -282,6 +287,7 @@ utilizzano
 uno
 usare
 upper
+utilizzare
 per
 programma
 prima
@@ -321,6 +327,8 @@ precedute
 punto
 primo
 permette
+possiamo
+propriet
 il
 in
 inoltre
@@ -359,6 +367,7 @@ isrtruzioni
 immediate
 inferiore
 identit
+insieme
 macchina
 mnemonici
 memoria
@@ -400,6 +409,7 @@ or
 ori
 orange
 originale
+operatori
 basato
 binari
 binaria
@@ -416,6 +426,7 @@ Un
 Utilizzo
 Una
 UJ
+Usando
 ha
 hanno
 hardware
@@ -428,6 +439,7 @@ questo
 questa
 qualsiasi
 quando
+questi
 fasi
 forma
 funzionano
@@ -446,6 +458,7 @@ futuro
 fatto
 fa
 fare
+funzionalmente
 esecuzione
 eseguire
 elementi
@@ -550,6 +563,10 @@ nei
 num
 null
 nullo
+nor
+nand
+negare
+not
 Idealizzazione
 Il
 Instruction
@@ -630,11 +647,13 @@ globali
 gruppi
 gi
 globl
+grazie
 zero
 Gli
 Globali
 Byte
 Branch
+Basata
 Visto
 VAR
 Variabili
@@ -643,6 +662,7 @@ Formato
 FORMATO
 Funct
 FONT
+Funzione
 Set
 Semplificare
 Scorrimento
@@ -683,6 +703,7 @@ jal
 jump
 jr
 Quindi
+Questo
 Half
 HW
 HIGH
