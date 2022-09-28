@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AND.md",
+            "file": "Operatori.md",
             "mode": "source",
             "source": false
           }
@@ -22,8 +22,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AND.md",
-            "mode": "preview",
+            "file": "Operatori.md",
+            "mode": "source",
             "source": false
           }
         },
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AND.md",
+                "file": "Operatori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AND.md",
+                "file": "Operatori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AND.md"
+                "file": "Operatori.md"
               }
             }
           },
@@ -152,15 +152,15 @@
   },
   "active": "0290cdb14651d22d",
   "lastOpenFiles": [
+    "circuito ad albero.md",
+    "circuito a cascata.md",
+    "OR.md",
     "Operatori.md",
     "Segnale binario.md",
+    "Allegati/Pasted image 20220928093958.png",
+    "AND.md",
     "Modalità di indirizzamente.md",
     "funzione logica.md",
-    "funzione combinatoria.md",
-    "Allocazione.md",
-    "Compilazione.md",
-    "De morgan.md",
-    "Direttive.md",
-    "trasformazioni.md"
+    "funzione combinatoria.md"
   ]
 }

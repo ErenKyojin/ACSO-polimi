@@ -1,6 +1,6 @@
 # Operatori
 
-### OR
+### [[OR]]
 ![[Pasted image 20220928093958.png|200]]
 
 0 + 0 = 0
