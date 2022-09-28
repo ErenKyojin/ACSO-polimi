@@ -1,12 +1,23 @@
 # Operatori
 
 ### OR
+![[Pasted image 20220928093958.png|200]]
+
 0 + 0 = 0
 0 + 1 = 1
 1 + 0 = 1
 1 + 1 = 1
 
+Scritta come tabella di verità:
+A | B | out
+--- | --- | ---
+0 | 0 | 1
+0 | 1 | 0
+1 | 0 | 0
+
+
 ### Prodotto (AND)
+![[Pasted image 20220928094015.png|200]]
 
 0 0 = 0
 0 1 = 0
