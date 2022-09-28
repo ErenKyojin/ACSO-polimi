@@ -75,6 +75,12 @@ Data una forma booleana esistono una ed una sola forma canonica SoP ed una e una
 >
 >%connections
 >\draw (Na.out) -| (ANDa.in 1);
+>\draw (ANDa.out) -| (ORa.in 1);
+>\draw (ANDb.out) -| (ORa.in 2);
+>\draw (ANDa.in 2) |- (-2,-0.5);
+>\draw (Na.in) |- (-2, 0.285);
+>\draw(ANDb.in 2) -| (-1,-0.5);
+>\draw(ANDb.in 1) -| (-1.5,0.285)
 >\end{tikzpicture}
 >\end{document}
 >```
