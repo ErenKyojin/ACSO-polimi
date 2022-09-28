@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Operatori.md",
+            "file": "AND.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Operatori.md",
+            "file": "AND.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operatori.md",
+                "file": "AND.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operatori.md",
+                "file": "AND.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operatori.md"
+                "file": "AND.md"
               }
             }
           },
@@ -152,6 +152,7 @@
   },
   "active": "0290cdb14651d22d",
   "lastOpenFiles": [
+    "Operatori.md",
     "Segnale binario.md",
     "Modalità di indirizzamente.md",
     "funzione logica.md",
@@ -160,7 +161,6 @@
     "Compilazione.md",
     "De morgan.md",
     "Direttive.md",
-    "Operatori.md",
     "trasformazioni.md"
   ]
 }

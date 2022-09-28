@@ -11,12 +11,12 @@
 Scritta come tabella di verità:
 A | B | out
 --- | --- | ---
-0 | 0 | 1
-0 | 1 | 0
-1 | 0 | 0
+0 | 0 | 0
+0 | 1 | 1
+1 | 0 | 1
+1 | 1 | 1
 
-
-### Prodotto (AND)
+### Prodotto ([[AND]])
 ![[Pasted image 20220928094015.png|200]]
 
 0 0 = 0
@@ -46,4 +46,28 @@ Assorbimento | A x ( A + B) = A | A + A B = A
 Notare che de morgan ci permette di fare una conversione tra AND (o NAND) e OR (o NOR)
 
 !(A x B) = NAND
-!(A + B) = OR
+!(A + B) = NOR
+
+
+### NOR
+![[Pasted image 20220928094159.png|200]]
+!or
+
+
+### XOR
+XOR = !AB + A!B
+
+Riconosce la diversità => 1 <==> A != B
+![[Pasted image 20220928094301.png|200]]
+
+
+### XNOR
+AB + !A!B
+Riconosce l'identità => 1 <==> A == B
+![[Pasted image 20220928094431.png]]
+
+
+>[!oss]
+>Lo XNOR è equivalente a questo circuto
+>![[Pasted image 20220928094757.png]]
+
