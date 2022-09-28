@@ -69,6 +69,7 @@ dell
 dopo
 danno
 direttiva
+de
 astrazione
 assembler
 assemblatore
@@ -129,6 +130,7 @@ Che
 Chiamante
 Chiamato
 Costanti
+Commutativa
 Linguaggio
 Le
 Load
@@ -136,6 +138,7 @@ La
 Locali
 LOW
 LUI
+Leggi
 simbolico
 su
 sostituisce
@@ -265,6 +268,7 @@ chiamante
 crea
 cosa
 carica
+conversione
 utilizza
 un
 utile
@@ -316,6 +320,7 @@ pop
 precedute
 punto
 primo
+permette
 il
 in
 inoltre
@@ -353,6 +358,7 @@ introduciamo
 isrtruzioni
 immediate
 inferiore
+identit
 macchina
 mnemonici
 memoria
@@ -373,6 +379,7 @@ massimo
 maggior
 modo
 met
+morgan
 ossia
 ogni
 occupa
@@ -438,6 +445,7 @@ formati
 futuro
 fatto
 fa
+fare
 esecuzione
 eseguire
 elementi
@@ -464,6 +472,7 @@ esterne
 estratti
 essendo
 ext
+elemento
 riferimento
 registri
 ra
@@ -503,6 +512,8 @@ Programma
 Predispone
 Push
 Pop
+Prodotto
+Propriet
 Macchina
 Memoria
 Move
@@ -538,6 +549,7 @@ negativo
 nei
 num
 null
+nullo
 Idealizzazione
 Il
 Instruction
@@ -553,6 +565,8 @@ Infatti
 Indirizzi
 In
 Immediato
+Idempotenza
+Inverso
 ALU
 Architettura
 ABI
@@ -562,6 +576,9 @@ Area
 Allineamento
 ALIGN
 Allocazione
+AND
+Associativa
+Assorbimento
 trasferimento
 tp
 thread
@@ -594,6 +611,7 @@ DW
 Dati
 Dichiarazione
 Dividiamo
+Distributiva
 Registro
 Registri
 RISC
@@ -640,6 +658,9 @@ Nop
 Not
 Negazione
 Notiamo
+Notare
+NAND
+NOR
 Tra
 Trasferisce
 Tuttavia
@@ -647,6 +668,8 @@ OP
 Ossia
 Ogni
 OPCDOE
+Operatori
+OR
 word
 Jump
 JALR
