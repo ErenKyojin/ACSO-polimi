@@ -4,30 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0290cdb14651d22d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "variabili.md",
-            "mode": "source",
-            "source": false
-          }
-        },
-        "group": "90942ceaff732f55"
-      },
-      {
         "id": "c1c5c2dc04e35a46",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "variabili.md",
+            "file": "Architettura/Istruzioni di tasferimento.md",
             "mode": "source",
             "source": false
           }
-        },
-        "group": "90942ceaff732f55"
+        }
       }
     ],
     "direction": "vertical"
@@ -75,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 212.5,
+    "collapsed": true
   },
   "right": {
     "id": "ecd6fd3e765648c3",
@@ -91,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "variabili.md",
+                "file": "Architettura/Istruzioni di tasferimento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "variabili.md",
+                "file": "Architettura/Istruzioni di tasferimento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "variabili.md"
+                "file": "Architettura/Istruzioni di tasferimento.md"
               }
             }
           },
@@ -150,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0290cdb14651d22d",
+  "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
+    "Architettura/Istruzioni di trasferimento dati IO.md",
+    "Architettura/istruzioni di scorrimento.md",
+    "Architettura/Istruzioni di flusso.md",
+    "variabili.md",
     "Architettura/memoria.md",
     "Sottoprogrammi.md",
-    "variabili.md",
     "Architettura/RISC-V.md",
     "Architettura/registro.md",
     "Architettura/pseudo istruzioni.md",
-    "Architettura/assembler.md",
-    "Architettura/architettura.md",
-    "Architettura/codice binario.md",
-    "Architettura/formato delle istruzioni.md"
+    "Architettura/assembler.md"
   ]
 }

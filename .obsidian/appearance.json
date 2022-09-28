@@ -3,5 +3,6 @@
     "test",
     "MCL Multi Column",
     "Assembly"
-  ]
+  ],
+  "baseFontSize": 15
 }
