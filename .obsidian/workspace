@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "variabili.md",
+            "file": "Operatori.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "variabili.md",
+            "file": "Operatori.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "variabili.md",
+                "file": "Operatori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "variabili.md",
+                "file": "Operatori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "variabili.md"
+                "file": "Operatori.md"
               }
             }
           },
@@ -150,8 +150,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f9ca7fff584983c1",
+  "active": "0290cdb14651d22d",
   "lastOpenFiles": [
+    "Segnale binario.md",
+    "variabili.md",
     "Sottoprogrammi.md",
     "Modalità di indirizzamente.md",
     "Direttive.md",
@@ -159,8 +161,6 @@
     "Compilazione.md",
     "Architettura/Unità aritmetico logica.md",
     "Architettura/RISC-V.md",
-    "Architettura/codice binario.md",
-    "Architettura/architettura.md",
-    "Architettura/assembler.md"
+    "Architettura/codice binario.md"
   ]
 }
