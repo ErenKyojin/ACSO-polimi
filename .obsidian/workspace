@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Architettura/memoria.md",
+            "file": "variabili.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Architettura/memoria.md",
+            "file": "variabili.md",
             "mode": "source",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura/memoria.md",
+                "file": "variabili.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura/memoria.md",
+                "file": "variabili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura/memoria.md"
+                "file": "variabili.md"
               }
             }
           },
@@ -152,6 +152,7 @@
   },
   "active": "0290cdb14651d22d",
   "lastOpenFiles": [
+    "Architettura/memoria.md",
     "Sottoprogrammi.md",
     "variabili.md",
     "Architettura/RISC-V.md",
@@ -160,7 +161,6 @@
     "Architettura/assembler.md",
     "Architettura/architettura.md",
     "Architettura/codice binario.md",
-    "Architettura/formato delle istruzioni.md",
-    "Architettura/Istruzioni aritmetico logiche.md"
+    "Architettura/formato delle istruzioni.md"
   ]
 }
