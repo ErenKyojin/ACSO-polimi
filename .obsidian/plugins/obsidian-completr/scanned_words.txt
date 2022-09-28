@@ -145,6 +145,7 @@ Commutativa
 Cascata
 Cu
 Cls
+Circuito
 Linguaggio
 Le
 Load
@@ -359,6 +360,7 @@ prodotto
 pI
 pbP
 pPH
+propagazione
 il
 in
 inoltre
@@ -532,6 +534,7 @@ ext
 elemento
 effetti
 eX
+efficiente
 riferimento
 registri
 ra
@@ -584,6 +587,7 @@ Memorizza
 Modalit
 MZ
 MDD
+Meno
 von
 valori
 variabili
@@ -684,6 +688,7 @@ tendenzialmente
 text
 tre
 tm
+tempi
 Da
 DELLE
 Dimensioni
