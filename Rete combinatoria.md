@@ -39,4 +39,40 @@ Data una forma booleana esistono una ed una sola forma canonica SoP ed una e una
 > --- | --- | ---
 > 0 | 0 | 0 
 > 0 | 1 | 1
-> 1 | 
+> 1 | 0 | 0
+> 1 | 1 | 1
+> 
+> È abbastanza intuitivo che si possa ottenere dall'[[OR]] delle seguenti funzioni:
+>>[!multi-column]
+>>
+>>>[!1]
+>>>a | b | f1(a,b)
+>>>  --- | --- | ---
+>>>0 | 0 | 0
+>>>0 | 1 | 1 
+>>>1 | 0 | 0
+>>>1 | 1 | 0
+>>
+>>>[!2]
+>>>a | b | f2(a,b)
+>>>--- | --- | ---
+>>>0 | 0 | 0
+>>>0| 1 | 0
+>>>1 |0 |0
+>>>1 | 1 | 1
+>
+>f(a,b) = !ab + ab  è la forma canonica SoP
+>
+>```tikz
+>\usepackage{circuitikz}
+>\begin{document}
+>\begin{tikzpicture}
+>\node[not port] (Na) at (0,0){};
+>\node[and port] (ANDa) at (2, 0){};
+>\node[and port] (ANDb) at(2, -2){};
+>
+>\end{tikzpicture}
+>\end{document}
+>```
+
+

@@ -78,6 +78,7 @@ distinti
 diversit
 dn
 digitale
+dalla
 astrazione
 assembler
 assemblatore
@@ -130,6 +131,8 @@ assumere
 altri
 af
 albero
+abbastanza
+ab
 Con
 CPU
 Ci
@@ -232,6 +235,10 @@ sufficiente
 speciale
 somma
 sempre
+somme
+sola
+seguente
+seguenti
 che
 convertire
 codice
@@ -302,6 +309,8 @@ circuto
 chW
 cq
 combinatoria
+canonica
+canoniche
 utilizza
 un
 utile
@@ -367,6 +376,8 @@ pPH
 propagazione
 porte
 privo
+prodotti
+possa
 il
 in
 inoltre
@@ -409,6 +420,7 @@ insieme
 insiemi
 indicati
 ingressi
+intuitivo
 macchina
 mnemonici
 memoria
@@ -469,6 +481,7 @@ bge
 blt
 base
 binario
+booleana
 Un
 Utilizzo
 Una
@@ -511,6 +524,7 @@ fare
 funzionalmente
 fondamentali
 fg
+forme
 esecuzione
 eseguire
 elementi
@@ -542,6 +556,7 @@ effetti
 eX
 efficiente
 elemntari
+esistono
 riferimento
 registri
 ra
@@ -576,6 +591,7 @@ realizzare
 rss
 rete
 retroazioni
+rappresenta
 Per
 Pseudo
 Prima
@@ -590,6 +606,7 @@ Propriet
 PNG
 PW
 Preferibile
+PoS
 Macchina
 Memoria
 Move
@@ -710,6 +727,7 @@ Distributiva
 DD
 DE
 DT
+Data
 Registro
 Registri
 RISC
@@ -721,6 +739,7 @@ Ricordiamo
 Restituisce
 Riconosce
 Rete
+Ricaviamo
 gli
 generali
 gp
@@ -754,6 +773,7 @@ Funct
 FONT
 Funzione
 FJKK
+Forma
 Set
 Semplificare
 Scorrimento
@@ -767,6 +787,8 @@ Se
 Segnale
 Scritta
 SV
+Somma
+SoP
 Non
 Nop
 Not
