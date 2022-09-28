@@ -366,6 +366,7 @@ pbP
 pPH
 propagazione
 porte
+privo
 il
 in
 inoltre
@@ -574,6 +575,7 @@ rilasciata
 realizzare
 rss
 rete
+retroazioni
 Per
 Pseudo
 Prima
@@ -629,7 +631,6 @@ num
 null
 nullo
 nor
-nand
 negare
 not
 negazione
