@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Architettura/assembler.md",
+            "file": "Linker.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Architettura/assembler.md",
+            "file": "Linker.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura/assembler.md",
+                "file": "Linker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura/assembler.md",
+                "file": "Linker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura/assembler.md"
+                "file": "Linker.md"
               }
             }
           },
@@ -152,15 +152,15 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
-    "Linker.md",
     "Architettura/assembler.md",
-    "Compilazione.md",
-    "Architettura/codice binario.md",
+    "Architettura/Istruzioni di tasferimento.md",
     "Architettura/formato delle istruzioni.md",
-    "Architettura/Istruzioni aritmetico logiche.md",
-    "Architettura/istruzioni di confronto.md",
+    "Architettura/codice binario.md",
+    "Architettura/architettura.md",
     "Architettura/Istruzioni di flusso.md",
-    "Architettura/istruzioni di scorrimento.md",
-    "Architettura/Livelli di astrazione.md"
+    "Direttive.md",
+    "Linker.md",
+    "Compilazione.md",
+    "Architettura/Istruzioni aritmetico logiche.md"
   ]
 }

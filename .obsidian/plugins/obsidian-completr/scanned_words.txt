@@ -84,6 +84,7 @@ dalla
 dotata
 detto
 dimensione
+deve
 astrazione
 assembler
 assemblatore
@@ -257,6 +258,7 @@ solamente
 sappiamo
 saranno
 simbolo
+sopra
 che
 convertire
 codice
@@ -404,6 +406,7 @@ passo
 pre
 post
 pcrel
+perch
 il
 in
 inoltre
@@ -587,6 +590,7 @@ elemntari
 esistono
 etichette
 eseguibile
+esadecimale
 riferimento
 registri
 ra
@@ -627,6 +631,7 @@ risovlere
 risolvere
 rilocazione
 rilocare
+risolto
 Per
 Pseudo
 Prima
@@ -754,6 +759,7 @@ text
 tre
 tm
 tempi
+tradotto
 Da
 DELLE
 Dimensioni
@@ -843,6 +849,7 @@ NAND
 NOR
 Nnn
 NOT
+Nell
 Tra
 Trasferisce
 Tuttavia

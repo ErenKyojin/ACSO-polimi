@@ -118,3 +118,4 @@ Sappiamo come risovlere Il load immediate finale in uqanto coinvolge solamente l
 >>4 | auipc | %pcrel_HI (y)
 >>8 | addi | %pcrel_LO (y)
 
+Si procede infine con la fase di [[Linker|linking]]
