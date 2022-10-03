@@ -2,3 +2,26 @@
 Linguaggio simbolico che utilizza un assemblatore per convertire il codice assembly in linguaggio macchina (ossia [[codice binario]]). È basato su codici mnemonici che corrispondono a codici binari, inoltre sostituisce ogni riferimento simbolico degli indirizzi con la forma binaria.
 
 Per capire i comandi [[assembler]] è utile capire come funziona la [[macchina di von neumann]], inoltre è importante capire che l'assembler e i suoi comandi dipendono dall'[[architettura]].
+
+
+## Assemblaggio
+Compiliamo la tabella dei simboli:
+
+Simbolo | Indirizzo | Tipo di segmento
+ --- | --- | ---
+ Label_VAR | indirizzo rilocabile | dati (D)
+ Label_IND  | indirizzo rilocabile | testo
+
+
+>[!multi-column]
+>
+>>[!assembly] pre-assemblaggio
+>>```armasm
+>>	.eqv const, 0x12345678
+>>	.data
+>>Y:  .dword 0
+>>     .text
+>>B:  bne a2, z
+>>```
+>
+>>[!assembly] post-assemblaggio
