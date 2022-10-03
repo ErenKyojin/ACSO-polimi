@@ -108,5 +108,8 @@ Sappiamo come risovlere Il load immediate finale in uqanto coinvolge solamente l
 >>Y simbolo da rilocare
 >>Tabella di rilocazione:
 >>
->>4 | auipc | 
->
+>>|  | 
+>> ---| --- | ---
+>>4 | auipc | %pcrel_HI (y)
+>>8 | addi | %pcrel_LO (y)
+
