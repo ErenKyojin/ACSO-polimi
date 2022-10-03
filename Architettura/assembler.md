@@ -5,6 +5,7 @@ Per capire i comandi [[assembler]] è utile capire come funziona la [[macchina d
 
 
 ## Assemblaggio
+L'assemblaggio si occupa di espandere le [[pseudo istruzioni]]
 
 ### passo 1 - tabella dei simboli:
 Compiliamo la tabella dei simboli:

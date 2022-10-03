@@ -153,14 +153,14 @@
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
     "Architettura/assembler.md",
-    "Architettura/Istruzioni di tasferimento.md",
-    "Architettura/formato delle istruzioni.md",
-    "Architettura/codice binario.md",
-    "Architettura/architettura.md",
-    "Architettura/Istruzioni di flusso.md",
-    "Direttive.md",
     "Linker.md",
-    "Compilazione.md",
-    "Architettura/Istruzioni aritmetico logiche.md"
+    "Architettura/istruzioni di scorrimento.md",
+    "Architettura/Istruzioni di tasferimento.md",
+    "Architettura/Istruzioni di trasferimento dati IO.md",
+    "Architettura/Istruzioni di flusso.md",
+    "Architettura/istruzioni di confronto.md",
+    "Architettura/Istruzioni aritmetico logiche.md",
+    "Architettura/formato delle istruzioni.md",
+    "Architettura/codice binario.md"
   ]
 }
