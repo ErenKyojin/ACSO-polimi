@@ -30,7 +30,7 @@ Cascata di AND tra A e B con l'AND di C
 
 \ctikzset{
 logic ports/scale = 01,
-logic ports/fill = red,
+logic ports/fill = darkgray,
 }
 
 %nodes
@@ -39,6 +39,8 @@ logic ports/fill = red,
 
 %connections
 \draw (ANDa.out) |- (ORa.in 1);
+\draw (3,3) -| (ORa.in 2);
+
 \end{tikzpicture}
 \end{document}
 ```
