@@ -25,6 +25,8 @@ leggi
 loro
 logici
 lq
+luscita
+livello
 di
 degli
 due
@@ -79,6 +81,8 @@ diversit
 dn
 digitale
 dalla
+dotata
+detto
 astrazione
 assembler
 assemblatore
@@ -133,6 +137,7 @@ af
 albero
 abbastanza
 ab
+avr
 Con
 CPU
 Ci
@@ -151,6 +156,7 @@ Cascata
 Cu
 Cls
 Circuito
+Combinazione
 Linguaggio
 Le
 Load
@@ -162,6 +168,7 @@ Leggi
 Lo
 LL
 LO
+Linker
 simbolico
 su
 sostituisce
@@ -239,6 +246,7 @@ somme
 sola
 seguente
 seguenti
+successivo
 che
 convertire
 codice
@@ -311,6 +319,7 @@ cq
 combinatoria
 canonica
 canoniche
+consideri
 utilizza
 un
 utile
@@ -328,6 +337,7 @@ utilizzare
 universale
 uVP
 uscita
+uscite
 per
 programma
 prima
@@ -444,6 +454,7 @@ met
 morgan
 mKD
 mq
+maggioranza
 ossia
 ogni
 occupa
@@ -557,6 +568,8 @@ eX
 efficiente
 elemntari
 esistono
+etichette
+eseguibile
 riferimento
 registri
 ra
@@ -630,6 +643,7 @@ va
 virtualmente
 variano
 verit
+vale
 neumann
 nome
 non
@@ -688,6 +702,7 @@ Associativa
 Assorbimento
 AB
 AR
+Avendo
 trasferimento
 tp
 thread
@@ -740,6 +755,7 @@ Restituisce
 Riconosce
 Rete
 Ricaviamo
+Risolve
 gli
 generali
 gp
@@ -752,6 +768,7 @@ globl
 grazie
 grandezza
 gG
+genera
 zero
 Gli
 Globali
@@ -798,6 +815,7 @@ Notare
 NAND
 NOR
 Nnn
+NOT
 Tra
 Trasferisce
 Tuttavia

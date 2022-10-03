@@ -9,11 +9,25 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Architettura/Istruzioni di tasferimento.md",
+            "file": "Linker.md",
             "mode": "source",
             "source": false
           }
-        }
+        },
+        "group": "eb3f71d541b3ecee"
+      },
+      {
+        "id": "2c4970a43d817aa7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Linker.md",
+            "mode": "preview",
+            "source": false
+          }
+        },
+        "group": "eb3f71d541b3ecee"
       }
     ],
     "direction": "vertical"
@@ -61,8 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.5,
-    "collapsed": true
+    "width": 212.5
   },
   "right": {
     "id": "ecd6fd3e765648c3",
@@ -78,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura/Istruzioni di tasferimento.md",
+                "file": "Linker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura/Istruzioni di tasferimento.md",
+                "file": "Linker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura/Istruzioni di tasferimento.md"
+                "file": "Linker.md"
               }
             }
           },
@@ -139,15 +152,15 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
-    "Architettura/Istruzioni di trasferimento dati IO.md",
-    "Architettura/istruzioni di scorrimento.md",
+    "Compilazione.md",
+    "Linker.md",
+    "Architettura/codice binario.md",
+    "Architettura/formato delle istruzioni.md",
+    "Architettura/Istruzioni aritmetico logiche.md",
+    "Architettura/istruzioni di confronto.md",
     "Architettura/Istruzioni di flusso.md",
-    "variabili.md",
-    "Architettura/memoria.md",
-    "Sottoprogrammi.md",
-    "Architettura/RISC-V.md",
-    "Architettura/registro.md",
-    "Architettura/pseudo istruzioni.md",
-    "Architettura/assembler.md"
+    "Architettura/istruzioni di scorrimento.md",
+    "Architettura/Livelli di astrazione.md",
+    "funzione combinatoria.md"
   ]
 }
