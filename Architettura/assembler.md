@@ -10,18 +10,47 @@ Compiliamo la tabella dei simboli:
 Simbolo | Indirizzo | Tipo di segmento
  --- | --- | ---
  Label_VAR | indirizzo rilocabile | dati (D)
- Label_IND  | indirizzo rilocabile | testo
+ Label_IND  | indirizzo rilocabile | testo (T)
 
 
 >[!multi-column]
 >
 >>[!assembly] pre-assemblaggio
+>>.
+>>.
+>>.
 >>```armasm
 >>	.eqv const, 0x12345678
 >>	.data
 >>Y:  .dword 0
 >>     .text
->>B:  bne a2, z
+>>B:  bne a2, zero, E
+>>	la  t0, y
+>>	sd  a1, 0(t0)
+>>E:  li  t1, const
 >>```
 >
 >>[!assembly] post-assemblaggio
+>>dimensione testo: ?
+>>dimensione dati: ?
+>>testo:
+>>```armasm
+>>0    bne a2, zero, 8
+>>4    auipc
+>>8    addi
+>>C    sd
+>>10   lui %hi(const)
+>>14   addi %lo(const)
+>>```
+>>
+>>Dati:
+>>0 | 0
+>>---|---
+>>---| ----
+>>Tabella dei simboli:
+>>
+>>Simbolo | indirizzo | tipo di segmento
+>>--- | --- | ---
+>>B | 0 | T
+>>E | 10 | T
+>>Y | 0 | D
