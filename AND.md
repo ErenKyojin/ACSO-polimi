@@ -23,12 +23,21 @@ Cascata di AND tra A e B con l'AND di C
 
 ```tikz
 \usepackage{circuitikz}
+\usetikzlibrary{calc}
 
 \begin{document}
 \begin{tikzpicture}
+
+\ctikzset{
+logic ports/scale = 01,
+logic ports/fill = red,
+}
+
 %nodes
 \node[and port] (ANDa) at (0,0){};
 \node[or port] (ORa) at (2,0){};
+
+%connections
 \draw (ANDa.out) |- (ORa.in 1);
 \end{tikzpicture}
 \end{document}
