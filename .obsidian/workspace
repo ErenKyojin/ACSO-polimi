@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linker.md",
+            "file": "AND.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linker.md",
+            "file": "AND.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linker.md",
+                "file": "AND.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linker.md",
+                "file": "AND.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linker.md"
+                "file": "AND.md"
               }
             }
           },
@@ -152,15 +152,15 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
-    "Architettura/assembler.md",
+    "circuito a cascata.md",
+    "AND.md",
     "Linker.md",
+    "Architettura/assembler.md",
     "Architettura/istruzioni di scorrimento.md",
     "Architettura/Istruzioni di tasferimento.md",
     "Architettura/Istruzioni di trasferimento dati IO.md",
     "Architettura/Istruzioni di flusso.md",
     "Architettura/istruzioni di confronto.md",
-    "Architettura/Istruzioni aritmetico logiche.md",
-    "Architettura/formato delle istruzioni.md",
-    "Architettura/codice binario.md"
+    "Architettura/Istruzioni aritmetico logiche.md"
   ]
 }

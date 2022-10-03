@@ -87,6 +87,7 @@ dimensione
 deve
 determinazione
 delta
+diretto
 astrazione
 assembler
 assemblatore
@@ -147,6 +148,7 @@ adress
 alti
 appartengono
 applicate
+altro
 Con
 CPU
 Ci
@@ -267,6 +269,7 @@ sopra
 sezione
 sequenzialmente
 struttura
+serie
 che
 convertire
 codice
@@ -346,6 +349,7 @@ costituita
 collegare
 cui
 correzione
+costituito
 utilizza
 un
 utile
@@ -470,6 +474,7 @@ intuitivo
 impossibile
 infine
 inserire
+input
 macchina
 mnemonici
 memoria
@@ -615,6 +620,7 @@ eseguibile
 esadecimale
 effettivo
 espandere
+eccetto
 riferimento
 registri
 ra
@@ -728,6 +734,7 @@ not
 negazione
 nS
 nuova
+nodo
 Idealizzazione
 Il
 Instruction
