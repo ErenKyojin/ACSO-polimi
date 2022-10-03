@@ -153,6 +153,7 @@
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
     "Linker.md",
+    "Architettura/assembler.md",
     "Compilazione.md",
     "Architettura/codice binario.md",
     "Architettura/formato delle istruzioni.md",
@@ -160,7 +161,6 @@
     "Architettura/istruzioni di confronto.md",
     "Architettura/Istruzioni di flusso.md",
     "Architettura/istruzioni di scorrimento.md",
-    "Architettura/Livelli di astrazione.md",
-    "funzione combinatoria.md"
+    "Architettura/Livelli di astrazione.md"
   ]
 }

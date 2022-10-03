@@ -58,7 +58,12 @@ Simbolo | Indirizzo | Tipo di segmento
 >>Y | 0 | D
 >
 
-Sappiamo come risovlere Il load immediate finale in uqanto coinvolge solamente la costante, load adress invece è impossibile da risolvere, non sappiamo ancora come saranno gestiti gli indirizzi dal [[Linker]]
+Sappiamo come risovlere Il load immediate finale in uqanto coinvolge solamente la costante, load adress invece è impossibile da risolvere, non sappiamo ancora come saranno gestiti gli indirizzi dal [[Linker]].
+
+>[!error]
+>per l'istruzione `bne`, il simbolo viene risolto come 
+>$$\frac{l1-PC}{2}$$
+>Nell'esempio sopra E viene tradotto come $\frac{10}{2}=8$ (10 è in base esadecimale), questo perchè deve saltare 4 istruzioni, ossia 8 half word.
 
 ### passo 2 - tabella di rilocazione:
 

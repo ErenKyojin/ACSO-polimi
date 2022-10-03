@@ -83,6 +83,7 @@ digitale
 dalla
 dotata
 detto
+dimensione
 astrazione
 assembler
 assemblatore
@@ -138,6 +139,8 @@ albero
 abbastanza
 ab
 avr
+assemblaggio
+adress
 Con
 CPU
 Ci
@@ -157,6 +160,7 @@ Cu
 Cls
 Circuito
 Combinazione
+Compiliamo
 Linguaggio
 Le
 Load
@@ -169,6 +173,7 @@ Lo
 LL
 LO
 Linker
+Label
 simbolico
 su
 sostituisce
@@ -247,6 +252,11 @@ sola
 seguente
 seguenti
 successivo
+simboli
+solamente
+sappiamo
+saranno
+simbolo
 che
 convertire
 codice
@@ -320,6 +330,7 @@ combinatoria
 canonica
 canoniche
 consideri
+coinvolge
 utilizza
 un
 utile
@@ -338,6 +349,7 @@ universale
 uVP
 uscita
 uscite
+uqanto
 per
 programma
 prima
@@ -388,6 +400,10 @@ porte
 privo
 prodotti
 possa
+passo
+pre
+post
+pcrel
 il
 in
 inoltre
@@ -431,6 +447,7 @@ insiemi
 indicati
 ingressi
 intuitivo
+impossibile
 macchina
 mnemonici
 memoria
@@ -605,6 +622,11 @@ rss
 rete
 retroazioni
 rappresenta
+rilocabile
+risovlere
+risolvere
+rilocazione
+rilocare
 Per
 Pseudo
 Prima
@@ -688,6 +710,7 @@ IHDR
 IDATx
 Iq
 ID
+IND
 ALU
 Architettura
 ABI
@@ -703,6 +726,7 @@ Assorbimento
 AB
 AR
 Avendo
+Assemblaggio
 trasferimento
 tp
 thread
@@ -769,6 +793,7 @@ grazie
 grandezza
 gG
 genera
+gestiti
 zero
 Gli
 Globali
@@ -806,6 +831,8 @@ Scritta
 SV
 Somma
 SoP
+Simbolo
+Sappiamo
 Non
 Nop
 Not
@@ -820,6 +847,8 @@ Tra
 Trasferisce
 Tuttavia
 TK
+Tipo
+Tabella
 OP
 Ossia
 Ogni
@@ -855,6 +884,7 @@ HHZ
 Hj
 HH
 HD
+HI
 XOR
 XNOR
 Xl
