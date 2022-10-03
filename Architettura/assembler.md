@@ -5,6 +5,8 @@ Per capire i comandi [[assembler]] è utile capire come funziona la [[macchina d
 
 
 ## Assemblaggio
+
+### passo 1 - tabella dei simboli:
 Compiliamo la tabella dei simboli:
 
 Simbolo | Indirizzo | Tipo di segmento
@@ -44,9 +46,9 @@ Simbolo | Indirizzo | Tipo di segmento
 >>```
 >>
 >>Dati:
+>>
 >>0 | 0
 >>---|---
->>---| ----
 >>Tabella dei simboli:
 >>
 >>Simbolo | indirizzo | tipo di segmento
@@ -54,3 +56,57 @@ Simbolo | Indirizzo | Tipo di segmento
 >>B | 0 | T
 >>E | 10 | T
 >>Y | 0 | D
+>
+
+Sappiamo come risovlere Il load immediate finale in uqanto coinvolge solamente la costante, load adress invece è impossibile da risolvere, non sappiamo ancora come saranno gestiti gli indirizzi dal [[Linker]]
+
+### passo 2 - tabella di rilocazione:
+
+
+>[!multi-column]
+>
+>>[!assembly] pre-assemblaggio
+>>.
+>>.
+>>.
+>>```armasm
+>>	.eqv const, 0x12345678
+>>	.data
+>>Y:  .dword 0
+>>     .text
+>>B:  bne a2, zero, E
+>>	la  t0, y
+>>	sd  a1, 0(t0)
+>>E:  li  t1, const
+>>```
+>
+>>[!assembly] post-assemblaggio
+>>dimensione testo: 0x18
+>>dimensione dati: 0x08
+>>testo:
+>>```armasm
+>>0    bne a2, zero, 0 0 8
+>>4    auipc t0, 0 0 0 0 0
+>>8    addi t0, t0, 0 0 0
+>>C    sd a1, 0(t0)
+>>10   lui 1 2 3 4 5
+>>14   addi 6 7 8
+>>```
+>>
+>>Dati:
+>>
+>>0 | 0
+>>---|---
+>>Tabella dei simboli:
+>>
+>>Simbolo | indirizzo | tipo di segmento
+>>--- | --- | ---
+>>B | 0 | T
+>>E | 10 | T
+>>Y | 0 | D
+>>
+>>Y simbolo da rilocare
+>>Tabella di rilocazione:
+>>
+>>4 | auipc | 
+>
