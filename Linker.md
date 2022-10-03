@@ -27,4 +27,18 @@ I moduli devono essere caricati sequenzialmente, rispettando la struttura di [[m
  testo del modulo B | 0x0040 0014
  testo del modulo MAIN | 0x0040 0000
  **RESERVED** |0x0000 0000
- 
+
+## Passo 2, tabella dei simboli globale
+È costituita dall'unione delle tabelle dei simboli dei moduli da collegare rilocati in base all'indirizzo base del modulo a cui appartengono:
+$$\text{Indirizzo finale} = \text{indirizzo iniziale} + \text{indirizzo base modulo}$$
+
+La tabella rispetto all'esempio visto nella parte di [[assembler]]
+
+Simbolo | indirizzo iniziale | Indirizzo base di rilocazione del modulo | indirizzo finale (effettivo)
+ --- | --- | --- | --- |
+ MAIN| 0 | 0040 0000 | 0040 0000
+ X | 0 | 1000 000 | 1000 0000
+ B | 0 | 0040 0014| 0040 0014
+ E | 10 | 0040 0014 | 0040 0024
+ Y | 0 | 1000 0010 | 1000 0008
+
