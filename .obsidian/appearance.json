@@ -2,6 +2,8 @@
   "enabledCssSnippets": [
     "test",
     "MCL Multi Column",
-    "Assembly"
-  ]
+    "Assembly",
+    "underline"
+  ],
+  "baseFontSize": 15
 }
