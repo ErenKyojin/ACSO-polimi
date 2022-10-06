@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bistabile SR sincrono.md",
+            "file": "flipflop D master-slave.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bistabile SR sincrono.md",
+            "file": "flipflop D master-slave.md",
             "mode": "source",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bistabile SR sincrono.md",
+                "file": "flipflop D master-slave.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bistabile SR sincrono.md",
+                "file": "flipflop D master-slave.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bistabile SR sincrono.md"
+                "file": "flipflop D master-slave.md"
               }
             }
           },
@@ -152,15 +152,15 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
-    "Bistabile SR asincrono.md",
-    "Bistabile D sincrono.md",
-    "AND.md",
-    "flipflop D master-slave.md",
-    "conflict-files-obsidian-git.md",
-    "Bistabile SR sincrono.md",
+    "esempi di conversione.md",
+    "Direttive.md",
+    "De morgan.md",
+    "Compilazione.md",
     "clock.md",
-    "OR.md",
+    "circuito ad albero.md",
     "circuito a cascata.md",
-    "Linker.md"
+    "Bistabile SR sincrono.md",
+    "Bistabile SR asincrono.md",
+    "Bistabile D sincrono.md"
   ]
 }

@@ -89,6 +89,7 @@ determinazione
 delta
 diretto
 deleted
+diretti
 astrazione
 assembler
 assemblatore
@@ -364,6 +365,8 @@ cambiare
 chiamato
 circuitikz
 clock
+composto
+cambia
 utilizza
 un
 utile
@@ -617,6 +620,7 @@ file
 fornisce
 filtra
 flop
+fila
 esecuzione
 eseguire
 elementi
@@ -848,6 +852,7 @@ them
 the
 terzo
 trasparente
+trasparenza
 Da
 DELLE
 Dimensioni
@@ -984,6 +989,7 @@ jr
 jT
 Quindi
 Questo
+Quando
 Half
 HW
 HIGH
