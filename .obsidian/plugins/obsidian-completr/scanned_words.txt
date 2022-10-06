@@ -151,6 +151,7 @@ appartengono
 applicate
 altro
 asincrono
+alto
 Con
 CPU
 Ci
@@ -275,6 +276,7 @@ struttura
 serie
 segnali
 sincrono
+slave
 che
 convertire
 codice
@@ -520,6 +522,7 @@ moduli
 modulo
 mantenuti
 main
+master
 ossia
 ogni
 occupa
@@ -564,6 +567,7 @@ be
 before
 bistabile
 blocca
+basso
 Un
 Utilizzo
 Una
@@ -612,6 +616,7 @@ files
 file
 fornisce
 filtra
+flop
 esecuzione
 eseguire
 elementi
@@ -726,6 +731,7 @@ MZ
 MDD
 Meno
 MAIN
+Master
 von
 valori
 variabili
@@ -841,6 +847,7 @@ terminologia
 them
 the
 terzo
+trasparente
 Da
 DELLE
 Dimensioni
@@ -908,6 +915,7 @@ FONT
 Funzione
 FJKK
 Forma
+Flip
 Set
 Semplificare
 Scorrimento
@@ -926,6 +934,7 @@ SoP
 Simbolo
 Sappiamo
 SR
+Slave
 Non
 Nop
 Not

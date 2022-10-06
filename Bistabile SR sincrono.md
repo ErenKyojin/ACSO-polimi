@@ -22,6 +22,9 @@ logic ports/fill = darkgray,
 \node(CLOCK) at (-3,-1){};
 \node(S) at (ANDa.in 1){};
 \node(R) at (ANDb.in 2){};
+\node(notQ) at (NORa.out){};
+\node(Q) at (NORb.out){};
+
 
 %connections
 \draw (ANDa.out) |- (NORa.in 1);
@@ -32,6 +35,8 @@ logic ports/fill = darkgray,
 \draw (CLOCK) -| (ANDa.in 2);
 \draw (S) node[left](In2){S};
 \draw (R) node[left](In3){R};
+\draw (notQ) node[right](Out1){$\bar{Q}$};
+\draw (Q) node[right](Out2){$Q$};
 
 \end{tikzpicture}
 \end{document}
