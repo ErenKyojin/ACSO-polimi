@@ -27,6 +27,7 @@ logici
 lq
 luscita
 livello
+linea
 di
 degli
 due
@@ -153,6 +154,8 @@ applicate
 altro
 asincrono
 alto
+allo
+alta
 Con
 CPU
 Ci
@@ -187,6 +190,7 @@ LL
 LO
 Linker
 Label
+Linee
 simbolico
 su
 sostituisce
@@ -279,6 +283,8 @@ segnali
 sincrono
 slave
 sequenziali
+segnale
+stato
 che
 convertire
 codice
@@ -369,6 +375,8 @@ clock
 composto
 cambia
 collegamento
+condivise
+connesso
 utilizza
 un
 utile
@@ -500,6 +508,8 @@ input
 introduzione
 introduce
 intervallo
+interferenza
+impegnato
 macchina
 mnemonici
 memoria
@@ -555,6 +565,7 @@ out
 oBu
 oltre
 origin
+opportuni
 basato
 binari
 binaria
@@ -625,6 +636,7 @@ fornisce
 filtra
 flop
 fila
+funzionali
 esecuzione
 eseguire
 elementi
@@ -663,6 +675,7 @@ esadecimale
 effettivo
 espandere
 eccetto
+entrambi
 riferimento
 registri
 ra
@@ -806,6 +819,7 @@ Iq
 ID
 IND
 ISTR
+Ipotizziamo
 ALU
 Architettura
 ABI
@@ -857,6 +871,7 @@ the
 terzo
 trasparente
 trasparenza
+trasporto
 Da
 DELLE
 Dimensioni
@@ -898,6 +913,8 @@ grandezza
 gG
 genera
 gestiti
+garantire
+generano
 zero
 Gli
 Globali
@@ -914,6 +931,7 @@ BASE
 Bistabile
 Blocchi
 Bus
+BUS
 Visto
 VAR
 Variabili
