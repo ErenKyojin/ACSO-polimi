@@ -368,6 +368,7 @@ circuitikz
 clock
 composto
 cambia
+collegamento
 utilizza
 un
 utile
@@ -448,6 +449,7 @@ perch
 procede
 posizione
 passi
+parallelo
 il
 in
 inoltre
@@ -572,6 +574,7 @@ before
 bistabile
 blocca
 basso
+bus
 Un
 Utilizzo
 Una
@@ -910,6 +913,7 @@ Base
 BASE
 Bistabile
 Blocchi
+Bus
 Visto
 VAR
 Variabili
