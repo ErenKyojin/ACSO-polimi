@@ -6,7 +6,9 @@ A | B | AND
 1 | 0 | 0
 1 | 1 | 1
 
-# AND A 3 INGRESSI
+
+
+## AND A 3 INGRESSI
 
 A | B | C | AND3
 --- | --- | --- | ---
