@@ -10,14 +10,16 @@
 \ctikzset{
 logic ports/scale = 1,
 logic ports/fill = darkgray,
+logic ports = ieee,
 }
 
 %nodes
 \node[buffer port] (ANDa) at (0,0){};
-\node (B) at (-3,2){};
+%\node (B) at (-3,2){};
 
 %connections
-\draw (B) to (ANDa.up);
+%\draw (B) to (ANDa.up);
+
 \end{tikzpicture}
 \end{document}
 ```
