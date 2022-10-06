@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "flipflop D master-slave.md",
+            "file": "Registro parallelo.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "flipflop D master-slave.md",
+            "file": "Registro parallelo.md",
             "mode": "source",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "flipflop D master-slave.md",
+                "file": "Registro parallelo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "flipflop D master-slave.md",
+                "file": "Registro parallelo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "flipflop D master-slave.md"
+                "file": "Registro parallelo.md"
               }
             }
           },
@@ -152,15 +152,15 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
+    "Blocchi sequenziali.md",
+    "Bus.md",
+    "flipflop D master-slave.md",
     "esempi di conversione.md",
     "Direttive.md",
     "De morgan.md",
     "Compilazione.md",
     "clock.md",
     "circuito ad albero.md",
-    "circuito a cascata.md",
-    "Bistabile SR sincrono.md",
-    "Bistabile SR asincrono.md",
-    "Bistabile D sincrono.md"
+    "circuito a cascata.md"
   ]
 }

@@ -278,6 +278,7 @@ serie
 segnali
 sincrono
 slave
+sequenziali
 che
 convertire
 codice
@@ -908,6 +909,7 @@ BDD
 Base
 BASE
 Bistabile
+Blocchi
 Visto
 VAR
 Variabili

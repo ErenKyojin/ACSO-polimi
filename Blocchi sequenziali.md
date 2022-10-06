@@ -1,0 +1,3 @@
+# Blocchi sequenziali
+[[Registro parallelo]]
+
