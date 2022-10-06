@@ -88,6 +88,7 @@ deve
 determinazione
 delta
 diretto
+deleted
 astrazione
 assembler
 assemblatore
@@ -149,6 +150,7 @@ alti
 appartengono
 applicate
 altro
+asincrono
 Con
 CPU
 Ci
@@ -169,6 +171,7 @@ Cls
 Circuito
 Combinazione
 Compiliamo
+Conflict
 Linguaggio
 Le
 Load
@@ -270,6 +273,8 @@ sezione
 sequenzialmente
 struttura
 serie
+segnali
+sincrono
 che
 convertire
 codice
@@ -350,6 +355,13 @@ collegare
 cui
 correzione
 costituito
+commit
+command
+casuali
+cambiare
+chiamato
+circuitikz
+clock
 utilizza
 un
 utile
@@ -370,6 +382,8 @@ uscita
 uscite
 uqanto
 unione
+uguale
+usiamo
 per
 programma
 prima
@@ -475,6 +489,9 @@ impossibile
 infine
 inserire
 input
+introduzione
+introduce
+intervallo
 macchina
 mnemonici
 memoria
@@ -501,6 +518,8 @@ mq
 maggioranza
 moduli
 modulo
+mantenuti
+main
 ossia
 ogni
 occupa
@@ -525,6 +544,8 @@ operatori
 operatore
 out
 oBu
+oltre
+origin
 basato
 binari
 binaria
@@ -539,6 +560,10 @@ blt
 base
 binario
 booleana
+be
+before
+bistabile
+blocca
 Un
 Utilizzo
 Una
@@ -583,6 +608,10 @@ fondamentali
 fg
 forme
 fase
+files
+file
+fornisce
+filtra
 esecuzione
 eseguire
 elementi
@@ -668,6 +697,7 @@ riferimenti
 riferita
 rilocato
 regole
+resolve
 Per
 Pseudo
 Prima
@@ -685,6 +715,8 @@ Preferibile
 PoS
 Passo
 PC
+Please
+Problema
 Macchina
 Memoria
 Move
@@ -711,6 +743,7 @@ variano
 verit
 vale
 visto
+voluti
 neumann
 nome
 non
@@ -805,6 +838,9 @@ tempi
 tradotto
 tabelle
 terminologia
+them
+the
+terzo
 Da
 DELLE
 Dimensioni
@@ -859,6 +895,7 @@ BR
 BDD
 Base
 BASE
+Bistabile
 Visto
 VAR
 Variabili
@@ -888,6 +925,7 @@ Somma
 SoP
 Simbolo
 Sappiamo
+SR
 Non
 Nop
 Not
@@ -905,6 +943,8 @@ Tuttavia
 TK
 Tipo
 Tabella
+This
+TODO
 OP
 Ossia
 Ogni
@@ -917,6 +957,7 @@ Or
 Ora
 word
 wY
+will
 Jump
 JALR
 Essendo
@@ -942,6 +983,8 @@ Hj
 HH
 HD
 HI
+Hazard
+HEAD
 XOR
 XNOR
 Xl
