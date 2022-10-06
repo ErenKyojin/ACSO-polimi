@@ -152,15 +152,15 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
-    "circuito a cascata.md",
+    "OR.md",
     "AND.md",
+    "circuito a cascata.md",
     "Linker.md",
     "Architettura/assembler.md",
     "Architettura/istruzioni di scorrimento.md",
     "Architettura/Istruzioni di tasferimento.md",
     "Architettura/Istruzioni di trasferimento dati IO.md",
     "Architettura/Istruzioni di flusso.md",
-    "Architettura/istruzioni di confronto.md",
-    "Architettura/Istruzioni aritmetico logiche.md"
+    "Architettura/istruzioni di confronto.md"
   ]
 }
