@@ -285,6 +285,7 @@ slave
 sequenziali
 segnale
 stato
+state
 che
 convertire
 codice
@@ -872,6 +873,7 @@ terzo
 trasparente
 trasparenza
 trasporto
+tri
 Da
 DELLE
 Dimensioni
@@ -932,6 +934,7 @@ Bistabile
 Blocchi
 Bus
 BUS
+Buffer
 Visto
 VAR
 Variabili
