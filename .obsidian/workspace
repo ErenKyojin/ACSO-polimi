@@ -153,14 +153,14 @@
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
     "Half Adder.md",
+    "Full adder.md",
+    "flipflop D master-slave.md",
+    "esempi di conversione.md",
     "Bistabile D sincrono.md",
     "Bistabile SR asincrono.md",
     "Bistabile SR sincrono.md",
     "Blocchi sequenziali.md",
     "Shifter.md",
-    "Confrontatore.md",
-    "Decoder.md",
-    "DEMUX.md",
-    "MUX.md"
+    "Confrontatore.md"
   ]
 }

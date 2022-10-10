@@ -959,6 +959,7 @@ Funzione
 FJKK
 Forma
 Flip
+Full
 Set
 Semplificare
 Scorrimento
