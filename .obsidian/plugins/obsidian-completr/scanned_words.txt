@@ -28,6 +28,7 @@ lq
 luscita
 livello
 linea
+latch
 di
 degli
 due
@@ -166,6 +167,7 @@ alta
 alias
 alcuni
 ammette
+analogo
 Con
 CPU
 Ci
@@ -403,6 +405,8 @@ componente
 carry
 circuiti
 caratterizzati
+chiusi
+corrente
 utilizza
 un
 utile
@@ -575,6 +579,7 @@ mux
 mantengono
 memorizzato
 modificano
+mantiene
 ossia
 ogni
 occupa
@@ -602,6 +607,7 @@ oBu
 oltre
 origin
 opportuni
+opaco
 basato
 binari
 binaria
@@ -676,6 +682,7 @@ fila
 funzionali
 foto
 finche
+funzionamento
 esecuzione
 eseguire
 elementi
@@ -716,6 +723,7 @@ espandere
 eccetto
 entrambi
 elementari
+efficaci
 riferimento
 registri
 ra
@@ -768,6 +776,7 @@ resto
 rappresentati
 reset
 rispettivamente
+ritardo
 Per
 Pseudo
 Prima

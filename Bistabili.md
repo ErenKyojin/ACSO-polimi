@@ -82,6 +82,8 @@ logic ports/fill = darkgray,
 \node(Q) at (NORb.out){};
 
 
+\node[flipflop JK] at (7,-1){};
+
 %connections
 \draw (ANDa.out) |- (NORa.in 1);
 \draw (ANDb.out) |- (NORb.in 2);
@@ -98,4 +100,9 @@ logic ports/fill = darkgray,
 \end{document}
 ```
 
-Non filtra per clock alti, quindi usiamo il [[Bistabile D sincrono]]
+
+Se il clock vale 0, gli ingressi sono chiusi (opaco), ed il bistabile mantiene lo stato corrente, se il clock è 1 gli ingressi sono efficaci, ossia il latch è trasparente, ed il funzionamento è analogo ad un SR asincrono
+
+
+## Bistabile D sincrono
+
