@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Decoder.md",
+            "file": "Confrontatore.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Decoder.md",
+            "file": "Confrontatore.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Decoder.md",
+                "file": "Confrontatore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Decoder.md",
+                "file": "Confrontatore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Decoder.md"
+                "file": "Confrontatore.md"
               }
             }
           },
@@ -152,6 +152,7 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
+    "Decoder.md",
     "DEMUX.md",
     "MUX.md",
     "Architettura/Istruzioni di trasferimento dati IO.md",
@@ -160,7 +161,6 @@
     "Architettura/formato delle istruzioni.md",
     "buffer tri-state.md",
     "Bus.md",
-    "impedenza.md",
-    "Architettura/memoria.md"
+    "impedenza.md"
   ]
 }
