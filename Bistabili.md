@@ -24,7 +24,8 @@ logic ports/fill = darkgray,
 \node[right](Q) at (ORb.out){$Q$};
 %connections
 %\draw (ANDa.out) |- (ORa.in 1);
-\draw (Q) -- (ORa.in 1);
+\draw (Q) -- (ORa.in 2);
+\draw (nQ) -- (ORb.in 1);
 
 \end{tikzpicture}
 \end{document}
@@ -34,8 +35,8 @@ logic ports/fill = darkgray,
 >[!error] Problema
 >Hazard, ossia segnali non voluti casuali, possono cambiare i valori mantenuti nel bistabile, la soluzione è l'introduzione del'[[clock]], che ci  introduce il bistabile SR sincrono
 
-
-
+Abbiamo gli ingressi S (set) e R (reset) e 2 uscite $Q$ e $\overline{Q}$, che sono rispettivamente lo stato memorizzato ed il suo negato.
+Quindi se S = R = 0
 ## Bistabile SR sincrono
 In questo tipo di bistabile c'è un terzo ingresso oltre ad S ed R, chiamato [[clock]], che se uguale a 0 "blocca" gli ingressi, questo fornisce un "intervallo" in cui è possibile cambiare i valori
 
