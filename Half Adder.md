@@ -25,6 +25,8 @@ logic ports/fill = darkgray,
 \node[xor port, rotate=270] (ORa) at (2,-4){};
 \node (A) at (1.5,1){A};
 \node (B) at (2.5,1){B};
+\node (Acr) at (1.5,-1){};
+\node (Bcr) at (2.5,-1){};
 %connections
 \draw (A) |- (ORa.in 2);
 \draw (B) |- (ORa.in 1);
