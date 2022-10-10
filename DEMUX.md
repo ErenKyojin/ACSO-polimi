@@ -25,3 +25,10 @@ logic ports/fill = darkgray,
 \end{tikzpicture}
 \end{document}
 ```
+
+I | S1 | S0 | O0 | O1 | O2 | O3
+---|---|---|---|---|---|---
+D | 0 | 0 | D | 0 | 0 | 0
+D | 0 | 1 | 0 | D | 0 | 0
+D | 1 | 0 | 0 | 0 | D | 0
+D | 1 | 1 | 0 | 0 | 0 | D
