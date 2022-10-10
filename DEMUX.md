@@ -1,3 +1,6 @@
 ---
 alias: demultiplexer
 ---
+
+# DEMUX
+B
