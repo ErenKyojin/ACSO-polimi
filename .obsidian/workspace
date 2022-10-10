@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "buffer tri-state.md",
+            "file": "Architettura/formato delle istruzioni.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "buffer tri-state.md",
+            "file": "Architettura/formato delle istruzioni.md",
             "mode": "source",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "buffer tri-state.md",
+                "file": "Architettura/formato delle istruzioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "buffer tri-state.md",
+                "file": "Architettura/formato delle istruzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "buffer tri-state.md"
+                "file": "Architettura/formato delle istruzioni.md"
               }
             }
           },
@@ -152,6 +152,7 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
+    "buffer tri-state.md",
     "Bus.md",
     "impedenza.md",
     "Architettura/memoria.md",
@@ -160,7 +161,6 @@
     "Rete combinatoria.md",
     "Registro parallelo.md",
     "flipflop D master-slave.md",
-    "esempi di conversione.md",
-    "Direttive.md"
+    "esempi di conversione.md"
   ]
 }
