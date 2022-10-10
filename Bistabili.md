@@ -48,6 +48,10 @@ Quindi se S = R = 0, l'uscita Q ammette 2 stati stabili:
 - Se S = 0, R = 1, $Q_{t+1}=0$ a prescindere
 - Se S = 1, R = 1, il sistema non è definito, in teoria dovremmo avere $Q = 0$ e $\overline{Q} =0$
 
+>[!oss] ritardo di propagazione di un bistabile SR asincrono
+>![[Pasted image 20221010183149.png|200]]
+
+
 ## Bistabile SR sincrono
 In questo tipo di bistabile c'è un terzo ingresso oltre ad S ed R, chiamato [[clock]], che se uguale a 0 "blocca" gli ingressi, questo fornisce un "intervallo" in cui è possibile cambiare i valori
 

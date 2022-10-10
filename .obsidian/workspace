@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ritardo di propagazione.md",
+            "file": "Bistabili.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ritardo di propagazione.md",
+            "file": "Bistabili.md",
             "mode": "source",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ritardo di propagazione.md",
+                "file": "Bistabili.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ritardo di propagazione.md",
+                "file": "Bistabili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ritardo di propagazione.md"
+                "file": "Bistabili.md"
               }
             }
           },
@@ -152,6 +152,7 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
+    "ritardo di propagazione.md",
     "Bistabili.md",
     "Circuiti sequenziali.md",
     "porte logiche.md",
@@ -160,7 +161,6 @@
     "Bistabile SR sincrono.md",
     "Bistabile SR asincrono.md",
     "Architettura/Unità aritmetico logica.md",
-    "Full adder.md",
-    "Half Adder.md"
+    "Full adder.md"
   ]
 }

@@ -2,3 +2,8 @@ img {
     display: block;
     margin: 0px auto;
   }
+
+
+.block-language-tikz svg{
+  margin-left: 200px;
+}

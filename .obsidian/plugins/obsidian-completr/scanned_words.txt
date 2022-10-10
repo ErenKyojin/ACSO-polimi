@@ -96,6 +96,8 @@ dotato
 determinato
 dagli
 dallo
+definito
+dovremmo
 astrazione
 assembler
 assemblatore
@@ -163,6 +165,7 @@ allo
 alta
 alias
 alcuni
+ammette
 Con
 CPU
 Ci
@@ -300,6 +303,10 @@ sta
 semplicemente
 sequenziale
 sue
+stati
+stabili
+soffrono
+suo
 che
 convertire
 codice
@@ -395,6 +402,7 @@ connesso
 componente
 carry
 circuiti
+caratterizzati
 utilizza
 un
 utile
@@ -479,6 +487,7 @@ parallelo
 passati
 presente
 prossimo
+prescindere
 il
 in
 inoltre
@@ -563,6 +572,9 @@ main
 master
 multiplexer
 mux
+mantengono
+memorizzato
+modificano
 ossia
 ogni
 occupa
@@ -610,6 +622,7 @@ bistabile
 blocca
 basso
 bus
+bistabili
 Un
 Utilizzo
 Una
@@ -662,6 +675,7 @@ flop
 fila
 funzionali
 foto
+finche
 esecuzione
 eseguire
 elementi
@@ -751,6 +765,9 @@ rilocato
 regole
 resolve
 resto
+rappresentati
+reset
+rispettivamente
 Per
 Pseudo
 Prima
@@ -823,6 +840,7 @@ negazione
 nS
 nuova
 nodo
+negato
 Idealizzazione
 Il
 Instruction
@@ -865,6 +883,7 @@ AR
 Avendo
 Assemblaggio
 Adder
+Abbiamo
 trasferimento
 tp
 thread
@@ -903,6 +922,7 @@ trasparenza
 trasporto
 tri
 tengono
+teoria
 Da
 DELLE
 Dimensioni
@@ -1039,6 +1059,7 @@ Esistono
 ED
 EEEa
 Ek
+Elementi
 xor
 xori
 jalr
