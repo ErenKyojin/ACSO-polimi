@@ -40,20 +40,14 @@ logic ports/fill = darkgray,
 
 %secondo half hadder
 %nodes
-\node[and port, xscale=-1] (ANDb) at (-2,-1){};
-\node[xor port, rotate=270] (ORb) at (2,-4){};
-\node (Ab) at (1.5,1){A};
-\node (Bb) at (2.5,1){B};
-\node (Acrb) at (1.5,-1){};
-\node (Bcrb) at (2.5,-1){};
+\node[and port, xscale=-1] (ANDb) at (-2,-7){};
+\node[xor port, rotate=270] (ORb) at (2.5,-10){};
 \node[left] (Coutb) at (ANDb.out){Cout};
 \node[below] (Sumb) at (ORb.out){Sum};
 
 %connections
-\draw (A) |- (ORa.in 2);
-\draw (B) |- (ORa.in 1);
-\draw (Acr) |- (ANDa.in 1);
-\draw (Bcr) |- (ANDa.in 2);
+\draw (ORa.out) -| (ORb.in 2);
+\draw (C) |- (ORb.in 1);
 
 
 
