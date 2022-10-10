@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Architettura/formato delle istruzioni.md",
+            "file": "MUX.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Architettura/formato delle istruzioni.md",
+            "file": "MUX.md",
             "mode": "source",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura/formato delle istruzioni.md",
+                "file": "MUX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura/formato delle istruzioni.md",
+                "file": "MUX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura/formato delle istruzioni.md"
+                "file": "MUX.md"
               }
             }
           },
@@ -152,15 +152,15 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
+    "Architettura/Istruzioni di trasferimento dati IO.md",
+    "MUX.md",
+    "Modalità di indirizzamente.md",
+    "AND.md",
+    "Architettura/formato delle istruzioni.md",
     "buffer tri-state.md",
     "Bus.md",
     "impedenza.md",
     "Architettura/memoria.md",
-    "Registro a scorrimento.md",
-    "Blocchi sequenziali.md",
-    "Rete combinatoria.md",
-    "Registro parallelo.md",
-    "flipflop D master-slave.md",
-    "esempi di conversione.md"
+    "Registro a scorrimento.md"
   ]
 }

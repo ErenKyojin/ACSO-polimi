@@ -156,6 +156,7 @@ asincrono
 alto
 allo
 alta
+alias
 Con
 CPU
 Ci
@@ -286,6 +287,7 @@ sequenziali
 segnale
 stato
 state
+seleziona
 che
 convertire
 codice
@@ -378,6 +380,7 @@ cambia
 collegamento
 condivise
 connesso
+componente
 utilizza
 un
 utile
@@ -540,6 +543,8 @@ modulo
 mantenuti
 main
 master
+multiplexer
+mux
 ossia
 ogni
 occupa
@@ -754,6 +759,7 @@ MDD
 Meno
 MAIN
 Master
+MUX
 von
 valori
 variabili
