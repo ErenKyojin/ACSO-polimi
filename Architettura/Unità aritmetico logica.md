@@ -25,8 +25,11 @@ logic ports/fill = darkgray,
 
 %nodes
 \node[ALU] (ALUa) at (0,0){};
+\node[above left] (a0) at (ALUa.blpin 1){a0};
+\node[above left] (b0) at (ALUa.blpin 2){b0};
+\node[above right] (o0) at (ALUa.brpin 1){result0};
+
 \node[ALU] (ALUb) at (0,-4){};
-\node (a0) at (ALUa in blpin1){d};
 
 %connections
 %\draw (ANDa.out) |- (ORa.in 1);
