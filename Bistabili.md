@@ -37,9 +37,6 @@ logic ports/fill = darkgray,
 ```
 
 
->[!error] Problema
->Hazard, ossia segnali non voluti casuali, possono cambiare i valori mantenuti nel bistabile, la soluzione è l'introduzione del'[[clock]], che ci  introduce il bistabile SR sincrono
-
 Abbiamo gli ingressi S (set) e R (reset) e 2 uscite $Q$ e $\overline{Q}$, che sono rispettivamente lo stato memorizzato ed il suo negato.
 Quindi se S = R = 0, l'uscita Q ammette 2 stati stabili:
 - Se lo stato presente $Q_{T} = 1 \implies Q_{T+1} = 1$
@@ -51,9 +48,14 @@ Quindi se S = R = 0, l'uscita Q ammette 2 stati stabili:
 >[!oss] ritardo di propagazione di un bistabile SR asincrono
 >![[Pasted image 20221010183149.png|200]]
 
+>[!error] Problema
+>Hazard, ossia segnali non voluti casuali, possono cambiare i valori mantenuti nel bistabile, la soluzione è l'introduzione del'[[clock]], che ci  introduce il bistabile SR sincrono
+>![[Pasted image 20221010183827.png|300]]
+
 
 ## Bistabile SR sincrono
-In questo tipo di bistabile c'è un terzo ingresso oltre ad S ed R, chiamato [[clock]], che se uguale a 0 "blocca" gli ingressi, questo fornisce un "intervallo" in cui è possibile cambiare i valori
+In questo tipo di bistabile c'è un terzo ingresso oltre ad S ed R, chiamato [[clock]], che se uguale a 0 "blocca" gli ingressi, questo fornisce un "intervallo" in cui è possibile cambiare i valori.
+
 
 
 ```tikz

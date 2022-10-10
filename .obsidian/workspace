@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bistabili.md",
+            "file": "clock.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bistabili.md",
+            "file": "clock.md",
             "mode": "source",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bistabili.md",
+                "file": "clock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bistabili.md",
+                "file": "clock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bistabili.md"
+                "file": "clock.md"
               }
             }
           },
@@ -152,8 +152,8 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
-    "ritardo di propagazione.md",
     "Bistabili.md",
+    "ritardo di propagazione.md",
     "Circuiti sequenziali.md",
     "porte logiche.md",
     "Blocchi sequenziali.md",
