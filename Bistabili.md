@@ -1,4 +1,15 @@
-# Bistabile SR sincrono
+# Bistabili
+## Bistabile SR asincrono
+
+#TODO 
+
+
+>[!error] Problema
+>Hazard, ossia segnali non voluti casuali, possono cambiare i valori mantenuti nel bistabile, la soluzione è l'introduzione del'[[clock]], che ci  introduce il bistabile SR sincrono
+
+
+
+## Bistabile SR sincrono
 In questo tipo di bistabile c'è un terzo ingresso oltre ad S ed R, chiamato [[clock]], che se uguale a 0 "blocca" gli ingressi, questo fornisce un "intervallo" in cui è possibile cambiare i valori
 
 

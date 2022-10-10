@@ -23,7 +23,7 @@
           "type": "markdown",
           "state": {
             "file": "Circuiti sequenziali.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         },
@@ -152,15 +152,15 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
+    "porte logiche.md",
+    "Circuiti sequenziali.md",
+    "Blocchi sequenziali.md",
+    "Bistabile D sincrono.md",
+    "Bistabili.md",
     "Bistabile SR sincrono.md",
     "Bistabile SR asincrono.md",
     "Architettura/Unità aritmetico logica.md",
     "Full adder.md",
-    "Half Adder.md",
-    "impedenza.md",
-    "flipflop D master-slave.md",
-    "esempi di conversione.md",
-    "Bistabile D sincrono.md",
-    "Blocchi sequenziali.md"
+    "Half Adder.md"
   ]
 }

@@ -91,6 +91,11 @@ delta
 diretto
 deleted
 diretti
+dice
+dotato
+determinato
+dagli
+dallo
 astrazione
 assembler
 assemblatore
@@ -157,6 +162,7 @@ alto
 allo
 alta
 alias
+alcuni
 Con
 CPU
 Ci
@@ -179,6 +185,7 @@ Combinazione
 Compiliamo
 Conflict
 Cout
+Circuiti
 Linguaggio
 Le
 Load
@@ -291,6 +298,8 @@ state
 seleziona
 sta
 semplicemente
+sequenziale
+sue
 che
 convertire
 codice
@@ -385,6 +394,7 @@ condivise
 connesso
 componente
 carry
+circuiti
 utilizza
 un
 utile
@@ -466,6 +476,9 @@ procede
 posizione
 passi
 parallelo
+passati
+presente
+prossimo
 il
 in
 inoltre
@@ -518,6 +531,7 @@ introduce
 intervallo
 interferenza
 impegnato
+istante
 macchina
 mnemonici
 memoria
@@ -687,6 +701,7 @@ effettivo
 espandere
 eccetto
 entrambi
+elementari
 riferimento
 registri
 ra
@@ -887,6 +902,7 @@ trasparente
 trasparenza
 trasporto
 tri
+tengono
 Da
 DELLE
 Dimensioni
@@ -948,6 +964,7 @@ Blocchi
 Bus
 BUS
 Buffer
+Bistabili
 Visto
 VAR
 Variabili
