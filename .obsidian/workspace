@@ -17,11 +17,15 @@
         "group": "eb3f71d541b3ecee"
       },
       {
-        "id": "2c4970a43d817aa7",
+        "id": "96d922cec6a0ca91",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Bistabili.md",
+            "mode": "preview",
+            "source": false
+          }
         },
         "group": "eb3f71d541b3ecee"
       }
@@ -148,15 +152,15 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
-    "Bistabile D sincrono.md",
+    "latch.md",
     "Bistabili.md",
+    "Bistabile D sincrono.md",
     "clock.md",
     "ritardo di propagazione.md",
     "Circuiti sequenziali.md",
     "porte logiche.md",
     "Blocchi sequenziali.md",
     "Bistabile SR sincrono.md",
-    "Bistabile SR asincrono.md",
-    "Architettura/Unità aritmetico logica.md"
+    "Bistabile SR asincrono.md"
   ]
 }

@@ -309,6 +309,8 @@ stati
 stabili
 soffrono
 suo
+sincronizzazione
+sull
 che
 convertire
 codice
@@ -545,6 +547,7 @@ intervallo
 interferenza
 impegnato
 istante
+inefficace
 macchina
 mnemonici
 memoria
@@ -580,6 +583,7 @@ mantengono
 memorizzato
 modificano
 mantiene
+memorizza
 ossia
 ogni
 occupa
@@ -724,6 +728,7 @@ eccetto
 entrambi
 elementari
 efficaci
+efficace
 riferimento
 registri
 ra
@@ -875,6 +880,7 @@ ID
 IND
 ISTR
 Ipotizziamo
+Ingresso
 ALU
 Architettura
 ABI

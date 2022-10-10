@@ -101,8 +101,44 @@ logic ports/fill = darkgray,
 ```
 
 
-Se il clock vale 0, gli ingressi sono chiusi (opaco), ed il bistabile mantiene lo stato corrente, se il clock è 1 gli ingressi sono efficaci, ossia il latch è trasparente, ed il funzionamento è analogo ad un SR asincrono
+Se il clock vale 0, gli ingressi sono chiusi (opaco), ed il bistabile mantiene lo stato corrente, se il clock è 1 gli ingressi sono efficaci, ossia il [[latch]] è trasparente, ed il funzionamento è analogo ad un SR asincrono
 
 
 ## Bistabile D sincrono
 
+- 1 Ingresso D
+- 1 ingresso di sincronizzazione
+- 2 uscite: $Q$ e $\overline{Q}$ 
+
+Se il clock vale $0$ l'ingresso $D$ è inefficace (Il latch D è opaco)
+Se il clock vale uno l'ingresso $D$ è efficace e il bistabile memorizza il valore presente sull'ingresso $D$
+[[flipflop D master-slave]]
+
+```tikz
+\usepackage{circuitikz}
+\usetikzlibrary{calc}
+
+\begin{document}
+\begin{tikzpicture}
+
+\ctikzset{
+logic ports/scale = 1,
+logic ports/fill = darkgray,
+}
+
+%nodes
+\node[and port] (ANDa) at (0,0.28){};
+\node[nor port] (NORa) at (2,0){};
+\node (D) at (-3,0.56){D};
+\node (CLK) at (-3,0){CLK};
+\node[not port,rotate=270] at (-2.5,-2){};
+
+%connections
+\draw (ANDa.out) |- (NORa.in 1);
+\draw (D) |- (ANDa.in 1);
+\draw (CLK) |- (ANDa.in 2);
+
+
+\end{tikzpicture}
+\end{document}
+```
