@@ -45,10 +45,14 @@ logic ports/fill = darkgray,
 \node[left] (Coutb) at (ANDb.out){Cout};
 \node[below] (Sumb) at (ORb.out){Sum};
 
-%connections
-\draw (ORa.out) -| (ORb.in 2);
-\draw (C) |- (ORb.in 1);
+\node(Abcr) at (2, -6.5){};
+\node(Ccr) at (3,-7.5){};
 
+%connections
+\draw (ORa.out) |- (ORb.in 2);
+\draw (C) |- (ORb.in 1);
+\draw (Abcr) |- (ANDb.in 1);
+\draw (Ccr) |- (ANDb.in 2);
 
 
 %connections
