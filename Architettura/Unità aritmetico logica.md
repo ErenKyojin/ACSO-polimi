@@ -23,7 +23,7 @@ logic ports/scale = 1,
 logic ports/fill = darkgray,
 }
 
-\node (Operation) at (0,0){};
+\node (Operation) at (5,0){};
 
 %alu1
 \node[ALU] (ALUa) at (0,0){};
@@ -53,7 +53,8 @@ logic ports/fill = darkgray,
 \node[below right] (Oper2) at (ALUc.bbpin 2){OP};
 
 %connections
-%\draw (ANDa.out) |- (ORa.in 1);
+\draw (ALUa.bbpin 1) -| (ALUb.btpin 1);
+\draw (ALUb.bbpin 1) -| (ALUc.btpin 1);
 
 \end{tikzpicture}
 \end{document}
