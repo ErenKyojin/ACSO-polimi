@@ -27,6 +27,9 @@ logic ports/fill = darkgray,
 \draw (Q) -- (ORa.in 2);
 \draw (nQ) -- (ORb.in 1);
 
+%bistabile
+\node[flipflop SR] (FSR) at (5,0){bistabile SR};
+
 \end{tikzpicture}
 \end{document}
 ```
@@ -36,7 +39,13 @@ logic ports/fill = darkgray,
 >Hazard, ossia segnali non voluti casuali, possono cambiare i valori mantenuti nel bistabile, la soluzione è l'introduzione del'[[clock]], che ci  introduce il bistabile SR sincrono
 
 Abbiamo gli ingressi S (set) e R (reset) e 2 uscite $Q$ e $\overline{Q}$, che sono rispettivamente lo stato memorizzato ed il suo negato.
-Quindi se S = R = 0
+Quindi se S = R = 0, l'uscita Q ammette 2 stati stabili:
+- Se lo stato presente $Q_{T} = 1 \implies Q_{T+1} = 1$
+- Se lo stato presente $Q_{T} = 0\implies Q_{T+1} = 0$
+- Se S = 1, R = 0, $Q_{t+1}=1$ a prescindere
+- Se S = 0, R = 1, $Q_{t+1}=0$ a prescindere
+- Se S = 1, R = 1, il sistema non è definito, in teoria dovremmo avere $Q = 0$ e $\overline{Q} =0$
+
 ## Bistabile SR sincrono
 In questo tipo di bistabile c'è un terzo ingresso oltre ad S ed R, chiamato [[clock]], che se uguale a 0 "blocca" gli ingressi, questo fornisce un "intervallo" in cui è possibile cambiare i valori
 
