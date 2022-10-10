@@ -15,13 +15,16 @@ logic ports/fill = darkgray,
 
 %nodes
 \node[nor port] (NORa) at (2,0){};
-\node[generic]
+\node[genericshape,centered] (Tau) at (4,0){$\Delta\tau$};
 \node[left] (A) at (NORa.in 1){A};
 \node[left] (B) at (NORa.in 2){B};
 
 %connections
-%\draw (ANDa.out) |- (ORa.in 1);
+\draw (NORa.out) |- (Tau);
 
 \end{tikzpicture}
 \end{document}
 ```
+
+Risulta in
+![[Pasted image 20221010181712.png|300]]
