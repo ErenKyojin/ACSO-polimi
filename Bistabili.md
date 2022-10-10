@@ -1,6 +1,8 @@
 # Bistabili
 
-Elementi di memoria fondamentali, sono caratterizzati da due stati stabili, rappresentati con $0$ e $1$, i bistabili mantengono lo stato memorizzato finche uno o più segnali d'ingresso non ne modificano lo stato
+Elementi di memoria fondamentali, sono caratterizzati da due stati stabili, rappresentati con $0$ e $1$, i bistabili mantengono lo stato memorizzato finche uno o più segnali d'ingresso non ne modificano lo stato.
+
+I bistabili soffrono di [[ritardo di propagazione]]
 ## Bistabile SR asincrono
 
 ```tikz
