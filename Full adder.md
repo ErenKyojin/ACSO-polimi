@@ -35,25 +35,27 @@ logic ports/fill = darkgray,
 \node (C) at (3, 1){C};
 \node (Acr) at (1.5,-1){};
 \node (Bcr) at (2.5,-1){};
-\node[left] (Cout) at (ANDa.out){Cout};
+\node[above left] (Cout) at (ANDa.out){Cout};
 \node[below] (Sum) at (ORa.out){Sum};
 
 %secondo half hadder
 %nodes
 \node[and port, xscale=-1] (ANDb) at (-2,-7){};
 \node[xor port, rotate=270] (ORb) at (2.5,-10){};
-\node[left] (Coutb) at (ANDb.out){Cout};
+\node[above left] (Coutb) at (ANDb.out){Cout};
 \node[below] (Sumb) at (ORb.out){Sum};
-
+\node[or port, rotate=270] (OR) at (-3, -10){};
 \node(Abcr) at (2, -6.5){};
 \node(Ccr) at (3,-7.5){};
+\node(Cfin) at (OR.out){Carry out};
 
 %connections
 \draw (ORa.out) |- (ORb.in 2);
 \draw (C) |- (ORb.in 1);
 \draw (Abcr) |- (ANDb.in 1);
 \draw (Ccr) |- (ANDb.in 2);
-
+\draw (ANDa.out) -| (OR.in 2);
+\draw (ANDb.out) -| (OR.in 1);
 
 %connections
 \draw (A) |- (ORa.in 2);
