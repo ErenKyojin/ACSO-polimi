@@ -32,17 +32,17 @@ logic ports/fill = darkgray,
 \node[xor port, rotate=270] (ORa) at (2,-4){};
 \node (A) at (1.5,1){A};
 \node (B) at (2.5,1){B};
-\node (C) at (3, 1){C};
+\node (C) at (3, 1){Cin};
 \node (Acr) at (1.5,-1){};
 \node (Bcr) at (2.5,-1){};
-\node[above left] (Cout) at (ANDa.out){Cout};
-\node[below] (Sum) at (ORa.out){Sum};
+\node[above left] (Cout) at (ANDa.out){AB};
+\node[below left] (Sum) at (ORa.out){A xor B};
 
 %secondo half hadder
 %nodes
 \node[and port, xscale=-1] (ANDb) at (-2,-7){};
 \node[xor port, rotate=270] (ORb) at (2.5,-10){};
-\node[above left] (Coutb) at (ANDb.out){Cout};
+\node[above] (Coutb) at (ANDb.out){C(A xor B)};
 \node[below] (Sumb) at (ORb.out){Sum};
 \node[or port, rotate=270] (OR) at (-3, -10){};
 \node(Abcr) at (2, -6.5){};

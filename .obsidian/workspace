@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Full adder.md",
+            "file": "Architettura/Unità aritmetico logica.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Full adder.md",
+            "file": "Architettura/Unità aritmetico logica.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Full adder.md",
+                "file": "Architettura/Unità aritmetico logica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Full adder.md",
+                "file": "Architettura/Unità aritmetico logica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Full adder.md"
+                "file": "Architettura/Unità aritmetico logica.md"
               }
             }
           },
@@ -152,9 +152,9 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
+    "Full adder.md",
     "Half Adder.md",
     "impedenza.md",
-    "Full adder.md",
     "flipflop D master-slave.md",
     "esempi di conversione.md",
     "Bistabile D sincrono.md",
