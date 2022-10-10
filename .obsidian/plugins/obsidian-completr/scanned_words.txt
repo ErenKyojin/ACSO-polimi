@@ -290,6 +290,7 @@ stato
 state
 seleziona
 sta
+semplicemente
 che
 convertire
 codice
@@ -646,6 +647,7 @@ filtra
 flop
 fila
 funzionali
+foto
 esecuzione
 eseguire
 elementi

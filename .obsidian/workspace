@@ -153,6 +153,7 @@
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
     "Full adder.md",
+    "Architettura/Unità aritmetico logica.md",
     "Half Adder.md",
     "impedenza.md",
     "flipflop D master-slave.md",
@@ -160,7 +161,6 @@
     "Bistabile D sincrono.md",
     "Bistabile SR asincrono.md",
     "Bistabile SR sincrono.md",
-    "Blocchi sequenziali.md",
-    "Shifter.md"
+    "Blocchi sequenziali.md"
   ]
 }
