@@ -59,3 +59,7 @@ logic ports/fill = darkgray,
 \end{tikzpicture}
 \end{document}
 ```
+
+
+
+![[Pasted image 20221010170633.png]]
