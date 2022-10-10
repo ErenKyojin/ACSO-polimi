@@ -20,8 +20,7 @@ logic ports/fill = darkgray,
 
 
 %nodes
-\node[and port] (ANDa) at (0,0){};
-\node[muxdemux] (ORa) at (2,0){};
+\node[muxdemux] (ORa) at (2,0){M};
 
 %connections
 
@@ -29,3 +28,17 @@ logic ports/fill = darkgray,
 \end{tikzpicture}
 \end{document}
 ```
+A sinistra abbiamo $2^n$ ingressi, a destra l'uscita e lateralmente $n$ selettori, la tabella di un MUX sarebbe:
+
+SEL | I0 | I1 | U
+--- | --- | --- | ---
+ 0 | 0 | 0 | 0
+ 0 | 0 | 1 | 0
+ 0 |1 | 0 | 1
+ 0 | 1 | 1 | 1
+ 1 | 0 | 0 | 0
+ 1 | 0 | 1 | 1
+ 1 | 1 |0 | 0
+ 1 | 1 | 1 | 1
+
+Il selettore dice quale ingresso mandare in uscita
