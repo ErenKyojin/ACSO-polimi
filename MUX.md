@@ -28,7 +28,7 @@ logic ports/fill = darkgray,
 \end{tikzpicture}
 \end{document}
 ```
-A sinistra abbiamo $2^n$ ingressi, a destra l'uscita e lateralmente $n$ selettori, la tabella di un MUX sarebbe:
+A sinistra abbiamo $2^n$ ingressi, a destra l'uscita e lateralmente $n$ selettori, la tabella di un MUX 2:1 sarebbe:
 
 SEL | I0 | I1 | U
 --- | --- | --- | ---
@@ -42,3 +42,5 @@ SEL | I0 | I1 | U
  1 | 1 | 1 | 1
 
 Il selettore dice quale ingresso mandare in uscita
+
+Il contrario di un mux è un [[DEMUX]]
