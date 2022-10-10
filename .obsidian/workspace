@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Architettura/Unità aritmetico logica.md",
+            "file": "Circuiti sequenziali.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Architettura/Unità aritmetico logica.md",
+            "file": "Circuiti sequenziali.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura/Unità aritmetico logica.md",
+                "file": "Circuiti sequenziali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura/Unità aritmetico logica.md",
+                "file": "Circuiti sequenziali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura/Unità aritmetico logica.md"
+                "file": "Circuiti sequenziali.md"
               }
             }
           },
@@ -152,15 +152,15 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
-    "Full adder.md",
+    "Bistabile SR sincrono.md",
+    "Bistabile SR asincrono.md",
     "Architettura/Unità aritmetico logica.md",
+    "Full adder.md",
     "Half Adder.md",
     "impedenza.md",
     "flipflop D master-slave.md",
     "esempi di conversione.md",
     "Bistabile D sincrono.md",
-    "Bistabile SR asincrono.md",
-    "Bistabile SR sincrono.md",
     "Blocchi sequenziali.md"
   ]
 }
