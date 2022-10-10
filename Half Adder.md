@@ -27,9 +27,15 @@ logic ports/fill = darkgray,
 \node (B) at (2.5,1){B};
 \node (Acr) at (1.5,-1){};
 \node (Bcr) at (2.5,-1){};
+\node[left] (Cout) at (ANDa.out){Cout};
+\node[below] (Sum) at (ORa.out){Sum};
+
 %connections
 \draw (A) |- (ORa.in 2);
 \draw (B) |- (ORa.in 1);
+\draw (Acr) |- (ANDa.in 1);
+\draw (Bcr) |- (ANDa.in 2);
+
 
 \end{tikzpicture}
 \end{document}

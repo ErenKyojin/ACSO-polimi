@@ -152,15 +152,15 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
+    "Bistabile D sincrono.md",
+    "Bistabile SR asincrono.md",
+    "Bistabile SR sincrono.md",
+    "Blocchi sequenziali.md",
+    "Half Adder.md",
     "Shifter.md",
     "Confrontatore.md",
     "Decoder.md",
     "DEMUX.md",
-    "MUX.md",
-    "Architettura/Istruzioni di trasferimento dati IO.md",
-    "Modalità di indirizzamente.md",
-    "AND.md",
-    "Architettura/formato delle istruzioni.md",
-    "buffer tri-state.md"
+    "MUX.md"
   ]
 }

@@ -178,6 +178,7 @@ Circuito
 Combinazione
 Compiliamo
 Conflict
+Cout
 Linguaggio
 Le
 Load
@@ -288,6 +289,7 @@ segnale
 stato
 state
 seleziona
+sta
 che
 convertire
 codice
@@ -381,6 +383,7 @@ collegamento
 condivise
 connesso
 componente
+carry
 utilizza
 un
 utile
@@ -730,6 +733,7 @@ riferita
 rilocato
 regole
 resolve
+resto
 Per
 Pseudo
 Prima
@@ -843,6 +847,7 @@ AB
 AR
 Avendo
 Assemblaggio
+Adder
 trasferimento
 tp
 thread
@@ -973,6 +978,7 @@ Simbolo
 Sappiamo
 SR
 Slave
+Sum
 Non
 Nop
 Not
