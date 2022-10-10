@@ -1,7 +1,34 @@
 # Bistabili
+
+Elementi di memoria fondamentali, sono caratterizzati da due stati stabili, rappresentati con $0$ e $1$, i bistabili mantengono lo stato memorizzato finche uno o più segnali d'ingresso non ne modificano lo stato
 ## Bistabile SR asincrono
 
-#TODO 
+```tikz
+\usepackage{circuitikz}
+\usetikzlibrary{calc}
+
+\begin{document}
+\begin{tikzpicture}
+
+\ctikzset{
+logic ports/scale = 1,
+logic ports/fill = darkgray,
+}
+
+%nodes
+\node[nor port] (ORa) at (0,1){};
+\node[nor port] (ORb) at (0,-1){};
+\node[left](S) at (ORa.in 1) {S};
+\node[left](R) at (ORb.in 2) {R};
+\node[right](nQ) at (ORa.out){$\bar{Q}$};
+\node[right](Q) at (ORb.out){$Q$};
+%connections
+%\draw (ANDa.out) |- (ORa.in 1);
+\draw (Q) -- (ORa.in 1);
+
+\end{tikzpicture}
+\end{document}
+```
 
 
 >[!error] Problema
