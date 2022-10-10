@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Half Adder.md",
+            "file": "Full adder.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Half Adder.md",
+            "file": "Full adder.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Half Adder.md",
+                "file": "Full adder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Half Adder.md",
+                "file": "Full adder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Half Adder.md"
+                "file": "Full adder.md"
               }
             }
           },
@@ -152,11 +152,11 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
+    "Half Adder.md",
     "Bistabile D sincrono.md",
     "Bistabile SR asincrono.md",
     "Bistabile SR sincrono.md",
     "Blocchi sequenziali.md",
-    "Half Adder.md",
     "Shifter.md",
     "Confrontatore.md",
     "Decoder.md",
