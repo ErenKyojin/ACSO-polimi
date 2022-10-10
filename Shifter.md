@@ -22,3 +22,8 @@
 >>--- | --- | --- | --- | ---
 >>0| 0 | 1 | 0 | <s> -0-</s> 
 
+Lo shift left equivale a moltiplicare per 2, e lo shift right equivale a dividere per 2
+
+![[Pasted image 20221010123451.png]]
+
+
