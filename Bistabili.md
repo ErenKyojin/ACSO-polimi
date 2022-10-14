@@ -128,16 +128,24 @@ logic ports/fill = darkgray,
 
 %nodes
 \node[and port] (ANDa) at (0,0.28){};
+\node[and port] (ANDb) at (0,-2.28){};
 \node[nor port] (NORa) at (2,0){};
+\node[nor port] (NORb) at (2,-2){};
 \node (D) at (-3,0.56){D};
 \node (CLK) at (-3,0){CLK};
-\node[not port,rotate=270] at (-2.5,-2){};
+\node[not port,rotate=270](NOTa) at (-3,-1){};
 
+\node[flipflop D] at (6,-1){};
 %connections
 \draw (ANDa.out) |- (NORa.in 1);
 \draw (D) |- (ANDa.in 1);
 \draw (CLK) |- (ANDa.in 2);
-
+\draw (D) |- (NOTa.in);
+\draw (NOTa.out) |- (ANDb.in 2);
+\draw (CLK) -| (ANDb.in 1);
+\draw (NORb.out) -- (NORa.in 2);
+\draw (NORa.out) -- (NORb.in 1);
+\draw (ANDb.out) |- (NORb.in 2);
 
 \end{tikzpicture}
 \end{document}
