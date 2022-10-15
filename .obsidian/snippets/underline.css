@@ -97,7 +97,7 @@ ol
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px -2px 4px #000000;
     transition: 0.5s;
     
 }
@@ -123,5 +123,5 @@ ol
 {
     color: #62cff4;
     text-shadow: 2px 2px 20px var(--tc);
-    transition: 1s;
+    transition: .5s;
 }
