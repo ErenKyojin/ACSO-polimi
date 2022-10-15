@@ -7,3 +7,24 @@ In stato di bassa impedenza ha:
 - stato di alta [[impedenza]] (Z) che isola l'uscita elettricamente
 
 Viene gestita
+
+```tikz
+\usepackage{circuitikz}
+\usetikzlibrary{calc}
+
+\begin{document}
+\begin{tikzpicture}
+
+\ctikzset{
+logic ports/scale = 1,
+logic ports/fill = darkgray,
+}
+
+%nodes
+\node[buffer port] (ANDa) at (0,0){};
+
+%connections
+
+\end{tikzpicture}
+\end{document}
+```
