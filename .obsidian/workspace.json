@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DEMUX.md",
+                "file": "Registro parallelo.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DEMUX.md",
+                "file": "Registro parallelo.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "flip flop edge triggered.md",
+                "file": "Registro parallelo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "flip flop edge triggered.md",
+                "file": "Registro parallelo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "flip flop edge triggered.md"
+                "file": "Registro parallelo.md"
               }
             }
           },
@@ -169,15 +169,15 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
-    "fronte attivo.md",
-    "porte logiche.md",
-    "OR.md",
+    "Rete combinatoria.md",
+    "Modalità di indirizzamente.md",
+    "impedenza.md",
     "Allocazione.md",
     "AND.md",
-    "Registro parallelo.md",
-    "Registro a scorrimento.md",
-    "flip flop edge triggered.md",
-    "flipflop D master-slave.md",
-    "Full adder.md"
+    "Bistabili.md",
+    "Blocchi sequenziali.md",
+    "buffer tri-state.md",
+    "Bus.md",
+    "clock.md"
   ]
 }
