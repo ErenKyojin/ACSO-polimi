@@ -76,7 +76,7 @@ Realizzato da
 - $n \geq 1$ uscite parallele $Q_{0},\dots,Q_{n}$
 - L'ingresso del clock
 
->[!esempio] Registro parallelo a 4 bit
+>[!esempio] Registro a scorrimento a 4 bit
 >Composto da 4 [[flipflop D master-slave]]
 >
 >```tikz
@@ -93,7 +93,7 @@ Realizzato da
 >
 >%nodes
 >\node(CLK) at (-3,-2){CLK};
->\node (D3) at (-1.5,3){D3};
+>\node (S) at (-1.5,3){S};
 >\node(Q3) at (1.5,2){Q3};
 >\node(Q2) at (4.5,2){Q2};
 >\node(Q1) at (7.5,2){Q1};
@@ -108,11 +108,7 @@ Realizzato da
 >\node at (FFDd.bpin 3)[ocirc, left]{};
 >
 >%connections
->\draw (D3) -| (FFDa.pin 1);
->\draw (D2) -| (FFDb.pin 1);
->\draw (D1) -| (FFDc.pin 1);
->\draw (D0) -| (FFDd.pin 1);
->
+>\draw (S) -| (FFDa.pin 1);
 >\draw (CLK) -| (FFDa.pin 3);
 >\draw (CLK) -| (FFDb.pin 3);
 >\draw (CLK) -| (FFDc.pin 3);
@@ -122,6 +118,20 @@ Realizzato da
 >\draw (FFDb.pin 6) |- (Q2);
 >\draw (FFDc.pin 6) |- (Q1);
 >\draw[->] (FFDd.pin 6) |- (Q0);  
+>
+>\draw(FFDa.pin 6) |- (FFDb.pin 1);
+>\draw(FFDb.pin 6) |- (FFDc.pin 1);
+>\draw(FFDc.pin 6) |- (FFDd.pin 1);
+>%\draw(FFDd.pin 6) |- (FFDb.pin 1);
 >\end{tikzpicture}
 >\end{document}
 >```
+
+
+## Altri registri:
+- Registro a scorrimento a sinistra
+- Registro a scorrimento universaleRegistro a scorrimento con funzione di caricamento
+- Registro parallelo / a scorrimento universale
+- Registro IN seriale / OUT seriale
+- Registro IN parallelo / OUT seriale
+- Registro IN parallelo / seriale OUT parallelo / seriale
