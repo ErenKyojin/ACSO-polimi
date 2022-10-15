@@ -38,4 +38,10 @@ Lo slave campione l'ingresso D durante l'intervallo basso del clock e lo emette 
 
 Per quanto riguarda la trasparenza:
 - Nell'intervallo alto del clock il master è in trasparenza
-- Nell'intervallo basso del clock lo slave è in trasparenza, l'
+- Nell'intervallo basso del clock lo slave è in trasparenza
+
+Visto che l0uscita del master non cambia nell'intervallo basso del clock, non si verifica la trasparenza sulle uscite.
+
+
+>[!convenzione]
+>
