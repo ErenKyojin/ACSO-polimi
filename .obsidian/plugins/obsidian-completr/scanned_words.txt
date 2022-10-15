@@ -189,6 +189,7 @@ almeno
 aggiornate
 abc
 ac
+avremmo
 Con
 CPU
 Ci
@@ -352,6 +353,8 @@ sincronismo
 shift
 semplicit
 seriale
+selettore
+sceglie
 che
 convertire
 codice
@@ -466,6 +469,11 @@ campionati
 corrispondenza
 chiamati
 consumo
+comportamento
+corretto
+caricamento
+cascata
+contatto
 utilizza
 un
 utile
@@ -490,6 +498,8 @@ uguale
 usiamo
 uguaglianza
 usando
+usassimo
+universaleRegistro
 per
 programma
 prima
@@ -559,6 +569,8 @@ periodico
 problema
 presentati
 parallele
+potremmo
+posizioni
 il
 in
 inoltre
@@ -619,6 +631,8 @@ istanti
 idempotenza
 inverso
 implica
+ignorata
+impedenza
 macchina
 mnemonici
 memoria
@@ -662,6 +676,7 @@ mandare
 memorizzati
 memorizzazione
 moltiplicare
+modellabile
 ossia
 ogni
 occupa
@@ -715,6 +730,8 @@ bistabili
 basata
 bc
 bisogno
+banco
+bassa
 Un
 Utilizzo
 Una
@@ -736,6 +753,7 @@ questa
 qualsiasi
 quando
 questi
+quello
 fasi
 forma
 funzionano
@@ -775,6 +793,7 @@ fenomeno
 flip
 flipflop
 frequenza
+far
 esecuzione
 eseguire
 elementi
@@ -822,6 +841,9 @@ emette
 edge
 evoluzione
 equivale
+espansione
+elementare
+elettricamente
 riferimento
 registri
 ra
@@ -878,6 +900,7 @@ ritardo
 relazione
 right
 riduzione
+register
 Per
 Pseudo
 Prima
@@ -927,6 +950,7 @@ vale
 visto
 voluti
 varia
+varie
 neumann
 nome
 non
@@ -979,6 +1003,8 @@ IND
 ISTR
 Ipotizziamo
 Ingresso
+IN
+Isola
 ALU
 Architettura
 ABI
@@ -999,6 +1025,8 @@ Adder
 Abbiamo
 Alias
 Applichiamo
+Altrimenti
+Altri
 trasferimento
 tp
 thread
@@ -1074,6 +1102,7 @@ Rete
 Ricaviamo
 Risolve
 RESERVED
+Realizzato
 gli
 generali
 gp
@@ -1149,6 +1178,7 @@ Sum
 Seleziona
 Shifter
 Shift
+Sincroni
 Non
 Nop
 Not
@@ -1179,6 +1209,7 @@ Ou
 OOb
 Or
 Ora
+OUT
 word
 wY
 will

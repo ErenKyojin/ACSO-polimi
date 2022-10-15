@@ -8,61 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c1c5c2dc04e35a46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Registro parallelo.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "eb3f71d541b3ecee"
-          },
-          {
-            "id": "7312c27c1f152bee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Register file.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "37d646394f51eaa4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linee di uscita.md",
+                "file": "buffer tri-state.md",
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "c3253def61113375"
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
-        "id": "5095a632b009e5df",
+        "id": "0b8cf9871f4e19b5",
         "type": "tabs",
         "children": [
           {
-            "id": "96d922cec6a0ca91",
+            "id": "c22fae6814b547d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Registro parallelo.md",
+                "file": "buffer tri-state.md",
                 "mode": "preview",
                 "source": false
               }
             },
-            "group": "eb3f71d541b3ecee"
+            "group": "c3253def61113375"
           }
         ]
       }
@@ -130,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linee di uscita.md",
+                "file": "buffer tri-state.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linee di uscita.md",
+                "file": "buffer tri-state.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linee di uscita.md"
+                "file": "buffer tri-state.md"
               }
             }
           },
@@ -194,15 +169,15 @@
   },
   "active": "37d646394f51eaa4",
   "lastOpenFiles": [
+    "Blocchi sequenziali.md",
+    "Bistabili.md",
+    "buffer tri-state.md",
+    "Bus.md",
+    "Circuiti sequenziali.md",
+    "circuito ad albero.md",
+    "AND.md",
     "Register file.md",
     "Registro parallelo.md",
-    "Rete combinatoria.md",
-    "Modalità di indirizzamente.md",
-    "impedenza.md",
-    "Allocazione.md",
-    "AND.md",
-    "Bistabili.md",
-    "Blocchi sequenziali.md",
-    "buffer tri-state.md"
+    "relazione stato uscita.md"
   ]
 }

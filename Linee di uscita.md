@@ -1,1 +1,2 @@
-L'organizzazione delle
+L'organizzazione della [[memoria]] e del [[Register file]] prevede che le uscite di due o più componenti possano essere collegate allo stesso [[Bus]], dobbiamo quindi sviluppare particolari elementi funzionali che proteggano i segnali (non facendoli interferire).
+Questi elementi funzionali sono detti [[buffer tri-state]]
