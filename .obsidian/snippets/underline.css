@@ -97,11 +97,31 @@ ol
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
-    text-shadow: 0 0 0 0 #000000;
+    text-shadow: 2px 2px 4px #000000;
     
+}
+
+.inline-title::before
+{
+    content: " ";
+    display: block;
+    height: 1em;
+    margin-top: -1em;
+    visibility: hidden;
+    transition: 1s;
+    transform: scale(0.5);
+}
+
+.inline-title:hover::before
+{
+    transform: scale(1.1);
+    text-shadow: #000000;
+    transition: 1s;
 }
 
 .inline-title:hover
 {
-    text-shadow: 0px 2px 4px  #000000;
+    color: #62cff4;
+    text-shadow: 2px 2px 4px var(--tc);
+    transition: 1s;
 }
