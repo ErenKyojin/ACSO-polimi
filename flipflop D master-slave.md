@@ -32,4 +32,5 @@ logic ports/fill = darkgray,
 \end{tikzpicture}
 \end{document}
 ```
-Il master campiona l'ingresso durante l'intervallo alto del clock, lo emette su $Q$ e lo manda all'ingresso D dello slave
+Il master campiona l'ingresso durante l'intervallo alto del clock, lo emette su $Q$ e lo manda all'ingresso D dello slave.
+Lo slave campione l'ingresso D durante l'intervallo basso del clock e lo emette su $Q_{S}$
