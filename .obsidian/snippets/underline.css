@@ -102,6 +102,8 @@ ol
     
 }
 
+
+
 .inline-title::before
 {
     content: " ";
@@ -123,5 +125,6 @@ ol
 {
     color: #b168d5;
     text-shadow: 2px 2px 20px var(--tc);
+    font-size: 40px;
     transition: .5s;
 }
