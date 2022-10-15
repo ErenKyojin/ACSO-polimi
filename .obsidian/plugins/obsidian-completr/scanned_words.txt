@@ -30,6 +30,8 @@ livello
 linea
 latch
 limitano
+lunghezza
+left
 di
 degli
 due
@@ -107,6 +109,7 @@ degl
 dicono
 demultiplexer
 dover
+distributiva
 astrazione
 assembler
 assemblatore
@@ -181,6 +184,11 @@ attivo
 aperto
 avvenire
 andamento
+agisce
+almeno
+aggiornate
+abc
+ac
 Con
 CPU
 Ci
@@ -207,6 +215,9 @@ Circuiti
 Confrontatore
 Confronta
 Commutazione
+Considerati
+Composto
+Cos
 Linguaggio
 Le
 Load
@@ -336,6 +347,11 @@ salita
 seconda
 sincroni
 scandisce
+setup
+sincronismo
+shift
+semplicit
+seriale
 che
 convertire
 codice
@@ -445,6 +461,11 @@ chiama
 contrario
 complicata
 controllata
+campionamento
+campionati
+corrispondenza
+chiamati
+consumo
 utilizza
 un
 utile
@@ -468,6 +489,7 @@ unione
 uguale
 usiamo
 uguaglianza
+usando
 per
 programma
 prima
@@ -535,6 +557,8 @@ prende
 presentano
 periodico
 problema
+presentati
+parallele
 il
 in
 inoltre
@@ -592,6 +616,9 @@ inefficace
 indica
 introducono
 istanti
+idempotenza
+inverso
+implica
 macchina
 mnemonici
 memoria
@@ -632,6 +659,9 @@ minoranza
 manda
 modifica
 mandare
+memorizzati
+memorizzazione
+moltiplicare
 ossia
 ogni
 occupa
@@ -683,6 +713,8 @@ basso
 bus
 bistabili
 basata
+bc
+bisogno
 Un
 Utilizzo
 Una
@@ -789,6 +821,7 @@ esima
 emette
 edge
 evoluzione
+equivale
 riferimento
 registri
 ra
@@ -843,6 +876,8 @@ reset
 rispettivamente
 ritardo
 relazione
+right
+riduzione
 Per
 Pseudo
 Prima
@@ -963,6 +998,7 @@ Assemblaggio
 Adder
 Abbiamo
 Alias
+Applichiamo
 trasferimento
 tp
 thread
@@ -1005,6 +1041,8 @@ teoria
 tutto
 triggered
 transizioni
+trovato
+traduce
 Da
 DELLE
 Dimensioni
@@ -1021,6 +1059,7 @@ Data
 Decoder
 Durante
 DEMUX
+Dato
 Registro
 Registri
 RISC
@@ -1108,6 +1147,8 @@ SR
 Slave
 Sum
 Seleziona
+Shifter
+Shift
 Non
 Nop
 Not
@@ -1127,6 +1168,7 @@ Tipo
 Tabella
 This
 TODO
+Trasformazione
 OP
 Ossia
 Ogni
