@@ -29,6 +29,7 @@ luscita
 livello
 linea
 latch
+limitano
 di
 degli
 due
@@ -103,6 +104,9 @@ decoder
 dello
 discesa
 degl
+dicono
+demultiplexer
+dover
 astrazione
 assembler
 assemblatore
@@ -174,6 +178,9 @@ ammette
 analogo
 attiva
 attivo
+aperto
+avvenire
+andamento
 Con
 CPU
 Ci
@@ -214,6 +221,8 @@ LO
 Linker
 Label
 Linee
+Latch
+Livello
 simbolico
 su
 sostituisce
@@ -326,6 +335,7 @@ sul
 salita
 seconda
 sincroni
+scandisce
 che
 convertire
 codice
@@ -431,6 +441,9 @@ campione
 controlla
 ciclo
 cambiamento
+chiama
+contrario
+complicata
 utilizza
 un
 utile
@@ -519,6 +532,8 @@ prossimo
 prescindere
 prende
 presentano
+periodico
+problema
 il
 in
 inoltre
@@ -575,6 +590,7 @@ istante
 inefficace
 indica
 introducono
+istanti
 macchina
 mnemonici
 memoria
@@ -614,6 +630,7 @@ memorizza
 minoranza
 manda
 modifica
+mandare
 ossia
 ogni
 occupa
@@ -642,6 +659,7 @@ oltre
 origin
 opportuni
 opaco
+organizzate
 basato
 binari
 binaria
@@ -721,6 +739,9 @@ funzionamento
 fronte
 flipflip
 fenomeno
+flip
+flipflop
+frequenza
 esecuzione
 eseguire
 elementi
@@ -765,6 +786,7 @@ efficaci
 efficace
 esima
 emette
+edge
 riferimento
 registri
 ra
@@ -979,6 +1001,8 @@ tri
 tengono
 teoria
 tutto
+triggered
+transizioni
 Da
 DELLE
 Dimensioni
@@ -994,6 +1018,7 @@ DT
 Data
 Decoder
 Durante
+DEMUX
 Registro
 Registri
 RISC
@@ -1058,6 +1083,8 @@ FJKK
 Forma
 Flip
 Full
+Flipflops
+FF
 Set
 Semplificare
 Scorrimento
@@ -1078,6 +1105,7 @@ Sappiamo
 SR
 Slave
 Sum
+Seleziona
 Non
 Nop
 Not
@@ -1140,6 +1168,7 @@ HI
 Hazard
 HEAD
 Ha
+Hanno
 XOR
 XNOR
 Xl

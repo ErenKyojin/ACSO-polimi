@@ -158,4 +158,15 @@ logic ports/fill = darkgray,
 >Ossia durante ogni ciclo di clock se gli ingressi si modificano anche le uscite possono cambiare, per questo si introducono i [[flipflop D master-slave]]
 
 
-## Flipflops
+# Flipflops
+
+## [[flipflop D master-slave]]
+
+## [[flip flop edge triggered]]
+
+>[!tldr]
+>
+|         | Livello         | fronte                   |
+| ------- | --------------- | ------------------------ |
+| fronte  |                 | flip-flop edge triggered |
+| livello | latch con clock | flipflop master slave                         |

@@ -1,0 +1,1 @@
+Hanno una struttura più complicata rispetto ai master slave, limitano il problema di dover mantenere stabili gli ingressi al flipflop per tutto il tempo in cui il livello del clock è alto, l'evoluzione del flip flop è controllata dal fronte del clock: detto [[fronte attivo]], che
