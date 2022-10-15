@@ -12,6 +12,7 @@ logic ports/fill = darkgray,
 
 %nodes
 \node[latch] (Dms) at (0,0){};
+\node[Master](master) at (Dms.north){};
 \node[latch] (Dsl) at (4,0){};
 \node[circle] (clock) at (-3,-0.85){CLK};
 
