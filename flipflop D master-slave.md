@@ -11,11 +11,12 @@ logic ports/fill = darkgray,
 }
 
 %nodes
-\node[latch] (ANDa) at (0,0){};
-\node[latch] (ORa) at (4,0){};
+\node[latch] (Dms) at (0,0){};
+\node[latch] (Dsl) at (4,0){};
 
 %connections
 %\draw (ANDa.out) |- (ORa.in 1);
+\draw(Dms.pin 6) |- (Dsl.pin 1);
 
 \end{tikzpicture}
 \end{document}
