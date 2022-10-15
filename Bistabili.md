@@ -1,8 +1,9 @@
-# Bistabili
 
 Elementi di memoria fondamentali, sono caratterizzati da due stati stabili, rappresentati con $0$ e $1$, i bistabili mantengono lo stato memorizzato finche uno o più segnali d'ingresso non ne modificano lo stato.
 
 I bistabili soffrono di [[ritardo di propagazione]]
+# Latch
+
 ## Bistabile SR asincrono
 
 ```tikz
@@ -153,6 +154,8 @@ logic ports/fill = darkgray,
 
 
 >[!oss]
->I latch (ossia i bistabili) sincroni, presentano durante l'intervallo di tempo in cui il clock è attivo, un fenomeno detto "trasparenza delle uscite".
+>I [[latch]] (ossia i bistabili con [[relazione stato uscita]] basata sul livello del clock) sincroni, presentano durante l'intervallo di tempo in cui il clock è attivo, un fenomeno detto "trasparenza delle uscite".
 >Ossia durante ogni ciclo di clock se gli ingressi si modificano anche le uscite possono cambiare, per questo si introducono i [[flipflop D master-slave]]
->
+
+
+## Flipflops

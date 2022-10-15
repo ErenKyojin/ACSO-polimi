@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "flipflop D master-slave.md",
+                "file": "relazione stato uscita.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "flipflop D master-slave.md",
+                "file": "relazione stato uscita.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "flipflop D master-slave.md",
+                "file": "relazione stato uscita.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "flipflop D master-slave.md",
+                "file": "relazione stato uscita.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "flipflop D master-slave.md"
+                "file": "relazione stato uscita.md"
               }
             }
           },
@@ -170,14 +170,14 @@
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
     "Bistabili.md",
+    "latch.md",
+    "flipflop D master-slave.md",
+    "relazione stato uscita.md",
     "Allocazione.md",
     "Bistabile D sincrono.md",
     "Blocchi sequenziali.md",
     "buffer tri-state.md",
     "circuito ad albero.md",
-    "Confrontatore.md",
-    "Decoder.md",
-    "esempi di conversione.md",
-    "flipflop D master-slave.md"
+    "Confrontatore.md"
   ]
 }

@@ -58,8 +58,8 @@ Visto che l0uscita del master non cambia nell'intervallo basso del clock, non si
 >
 >%nodes
 >\node[flipflop D,dot on notQ] (FFDa) at (-2,0){};
->\node[flipflop D,dot on notQ] (F) at (2,0){};
->\node at (FFDb)
+>\node[flipflop D,dot on notQ] (FFDb) at (2,0){};
+>\node at (FFDb.bpin 3)[ocirc, left]{};
 >
 >%connections
 >%\draw (ANDa.out) |- (ORa.in 1);
@@ -67,4 +67,7 @@ Visto che l0uscita del master non cambia nell'intervallo basso del clock, non si
 >\end{tikzpicture}
 >\end{document}
 >```
->
+>Con la prima si indica che il clock controlla sul fronte di salita, con la seconda sul fronte di discesa?
+
+
+Il flipflip D ci fornisce una nuova relazione [[relazione stato uscita]]

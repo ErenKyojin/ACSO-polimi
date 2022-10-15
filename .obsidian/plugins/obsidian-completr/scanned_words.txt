@@ -100,6 +100,9 @@ dallo
 definito
 dovremmo
 decoder
+dello
+discesa
+degl
 astrazione
 assembler
 assemblatore
@@ -170,6 +173,7 @@ alcuni
 ammette
 analogo
 attiva
+attivo
 Con
 CPU
 Ci
@@ -195,6 +199,7 @@ Cout
 Circuiti
 Confrontatore
 Confronta
+Commutazione
 Linguaggio
 Le
 Load
@@ -316,6 +321,11 @@ suo
 sincronizzazione
 sull
 sugli
+sulle
+sul
+salita
+seconda
+sincroni
 che
 convertire
 codice
@@ -416,6 +426,11 @@ chiusi
 corrente
 comparatore
 corrispondente
+campiona
+campione
+controlla
+ciclo
+cambiamento
 utilizza
 un
 utile
@@ -503,6 +518,7 @@ presente
 prossimo
 prescindere
 prende
+presentano
 il
 in
 inoltre
@@ -557,6 +573,8 @@ interferenza
 impegnato
 istante
 inefficace
+indica
+introducono
 macchina
 mnemonici
 memoria
@@ -594,6 +612,8 @@ modificano
 mantiene
 memorizza
 minoranza
+manda
+modifica
 ossia
 ogni
 occupa
@@ -643,6 +663,7 @@ blocca
 basso
 bus
 bistabili
+basata
 Un
 Utilizzo
 Una
@@ -697,6 +718,9 @@ funzionali
 foto
 finche
 funzionamento
+fronte
+flipflip
+fenomeno
 esecuzione
 eseguire
 elementi
@@ -740,6 +764,7 @@ elementari
 efficaci
 efficace
 esima
+emette
 riferimento
 registri
 ra
@@ -793,6 +818,7 @@ rappresentati
 reset
 rispettivamente
 ritardo
+relazione
 Per
 Pseudo
 Prima
@@ -841,6 +867,7 @@ verit
 vale
 visto
 voluti
+varia
 neumann
 nome
 non
@@ -951,6 +978,7 @@ trasporto
 tri
 tengono
 teoria
+tutto
 Da
 DELLE
 Dimensioni
@@ -965,6 +993,7 @@ DE
 DT
 Data
 Decoder
+Durante
 Registro
 Registri
 RISC
