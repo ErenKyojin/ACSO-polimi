@@ -1,34 +1,45 @@
-.cm-header-2
-{
-    text-decoration: underline;
-    text-decoration-color: #ffb480;
+:root {
+
+    --tc: #2E6FCC;
+    --h1c: #67D120;
+    --h2c: #F5EC50;
+    --h3c: #F38F1D;
+    --h4c: #C32C57;
+    --h5c: #62275D;
 }
+
 
 .cm-header-1
 {
     text-decoration: underline;
-    text-decoration-color: #42d6a4;
+    text-decoration-color: var(--h1c);
+}
+
+.cm-header-2
+{
+    text-decoration: underline;
+    text-decoration-color: var(--h2c);
 }
 
 .cm-header-3
 {
 
     text-decoration: underline;
-    text-decoration-color: #59adf6;
+    text-decoration-color: var(--h3c);
 
 }
 
 .cm-header-4
 {
     text-decoration: underline;
-    text-decoration-color: #9d94ff;
+    text-decoration-color: var(--h4c);
 }
 
 .cm-header-5
 {
 
     text-decoration: underline;
-    text-decoration-color: #c780e8;
+    text-decoration-color: var(--h5c);
 
 }
 
@@ -37,34 +48,34 @@
 h1
 {
     text-decoration: underline;
-    text-decoration-color: #67D120;
+    text-decoration-color: var(--h1c);
 }
 
 h2
 {
     text-decoration: underline;
-    text-decoration-color: 	#42d6a4;
+    text-decoration-color: 	var(--h2c);
 }
 
 h3
 {
 
     text-decoration: underline;
-    text-decoration-color: #59adf6;
+    text-decoration-color: var(--h3c);
 
 }
 
 h4
 {
     text-decoration: underline;
-    text-decoration-color: #9d94ff;
+    text-decoration-color: var(--h4c);
 }
 
 h5
 {
 
     text-decoration: underline;
-    text-decoration-color: #c780e8	;
+    text-decoration-color: var(--h5c);
 
 }
 
@@ -81,5 +92,8 @@ ol
 
 .inline-title
 {
-    color: #2E6FCC;
+    color: var(--tc);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
 }
