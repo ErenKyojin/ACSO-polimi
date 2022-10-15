@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fronte attivo.md",
+                "file": "flip flop edge triggered.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fronte attivo.md",
+                "file": "flip flop edge triggered.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fronte attivo.md",
+                "file": "flip flop edge triggered.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fronte attivo.md",
+                "file": "flip flop edge triggered.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fronte attivo.md"
+                "file": "flip flop edge triggered.md"
               }
             }
           },
@@ -169,6 +169,7 @@
   },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
+    "fronte attivo.md",
     "flip flop edge triggered.md",
     "flipflop D master-slave.md",
     "esempi di conversione.md",
@@ -177,7 +178,6 @@
     "De morgan.md",
     "Compilazione.md",
     "clock.md",
-    "circuito ad albero.md",
-    "circuito a cascata.md"
+    "circuito ad albero.md"
   ]
 }

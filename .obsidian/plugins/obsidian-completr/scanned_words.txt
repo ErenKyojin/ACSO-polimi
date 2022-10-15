@@ -444,6 +444,7 @@ cambiamento
 chiama
 contrario
 complicata
+controllata
 utilizza
 un
 utile
@@ -787,6 +788,7 @@ efficace
 esima
 emette
 edge
+evoluzione
 riferimento
 registri
 ra
