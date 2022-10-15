@@ -110,6 +110,7 @@ dicono
 demultiplexer
 dover
 distributiva
+destinazione
 astrazione
 assembler
 assemblatore
@@ -190,6 +191,8 @@ aggiornate
 abc
 ac
 avremmo
+acquisiti
+avvengono
 Con
 CPU
 Ci
@@ -235,6 +238,7 @@ Label
 Linee
 Latch
 Livello
+Lettura
 simbolico
 su
 sostituisce
@@ -355,6 +359,9 @@ semplicit
 seriale
 selettore
 sceglie
+sui
+singoli
+scrittura
 che
 convertire
 codice
@@ -474,6 +481,7 @@ corretto
 caricamento
 cascata
 contatto
+ciascuno
 utilizza
 un
 utile
@@ -571,6 +579,8 @@ presentati
 parallele
 potremmo
 posizioni
+possibili
+porta
 il
 in
 inoltre
@@ -633,6 +643,9 @@ inverso
 implica
 ignorata
 impedenza
+identificato
+inidirizzato
+indirizzato
 macchina
 mnemonici
 memoria
@@ -706,6 +719,7 @@ origin
 opportuni
 opaco
 organizzate
+organizzati
 basato
 binari
 binaria
@@ -901,6 +915,7 @@ relazione
 right
 riduzione
 register
+risc
 Per
 Pseudo
 Prima
@@ -1179,6 +1194,7 @@ Seleziona
 Shifter
 Shift
 Sincroni
+Scrittura
 Non
 Nop
 Not
@@ -1232,6 +1248,7 @@ jT
 Quindi
 Questo
 Quando
+Queste
 Half
 HW
 HIGH
