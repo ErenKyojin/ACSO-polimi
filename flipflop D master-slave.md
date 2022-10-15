@@ -12,12 +12,15 @@ logic ports/fill = darkgray,
 
 %nodes
 \node[latch] (Dms) at (0,0){};
-\node[Master](master) at (Dms.north){};
+\node[above](master) at (Dms.north){Master};
 \node[latch] (Dsl) at (4,0){};
+\node[above](slave) at (Dsl.north){Slave};
 \node[circle] (clock) at (-3,-0.85){CLK};
 
 \node[flipflop D] at (8,0){};
 \path (2,-3) coordinate (mid){};
+
+\node[not](NOTa) at (10,-3){};
 
 %connections
 %\draw (ANDa.out) |- (ORa.in 1);
@@ -29,7 +32,4 @@ logic ports/fill = darkgray,
 \end{tikzpicture}
 \end{document}
 ```
-Slave trasparente su clock basso
-
-
-Quindi $Q_{M}$ non cambia nell'intervallo basso del clock (Quando slave è in trasparenza)
+Il master campiona l'ingresso durante l'intervallo alto del clock, lo emette su $Q$ e lo manda all'ingresso D dello slave
