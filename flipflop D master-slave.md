@@ -44,4 +44,27 @@ Visto che l0uscita del master non cambia nell'intervallo basso del clock, non si
 
 
 >[!convenzione]
+> ```tikz
+\usepackage{circuitikz}
+\usetikzlibrary{calc}
+>
+>\begin{document}
+>\begin{tikzpicture}
+>
+>\ctikzset{
+>logic ports/scale = 1,
+>logic ports/fill = darkgray,
+>}
+>
+>%nodes
+>\node[flipflop D,dot on notQ] (FFDa) at (-2,0){};
+>\node[flipflop D,dot on notQ] (F) at (2,0){};
+>\node at (FFDb)
+>
+>%connections
+>%\draw (ANDa.out) |- (ORa.in 1);
+>
+>\end{tikzpicture}
+>\end{document}
+>```
 >
