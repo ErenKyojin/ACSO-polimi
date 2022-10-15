@@ -20,14 +20,14 @@ logic ports/fill = darkgray,
 \node[flipflop D] at (8,0){};
 \path (2,-3) coordinate (mid){};
 
-\node[not](NOTa) at (10,-3){};
+\node[not port](NOTa) at (2,-3){};
 
 %connections
 %\draw (ANDa.out) |- (ORa.in 1);
 \draw(Dms.pin 6) |- (Dsl.pin 1);
 \draw (clock) to[short, -*] coordinate (A) (Dms.pin 3);
-\draw (A) |- (mid);
-\draw (mid) -| (Dsl.pin 3);
+\draw (A) |- (NOTa.in);
+\draw (NOTa.out) -| (Dsl.pin 3);
 
 \end{tikzpicture}
 \end{document}
