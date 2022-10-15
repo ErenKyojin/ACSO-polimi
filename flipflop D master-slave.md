@@ -11,11 +11,11 @@ logic ports/fill = darkgray,
 }
 
 %nodes
-\node[and port] (ANDa) at (0,0){};
-\node[or port] (ORa) at (2,0){};
+\node[latch] (ANDa) at (0,0){};
+\node[latch] (ORa) at (4,0){};
 
 %connections
-\draw (ANDa.out) |- (ORa.in 1);
+%\draw (ANDa.out) |- (ORa.in 1);
 
 \end{tikzpicture}
 \end{document}

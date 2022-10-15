@@ -112,7 +112,7 @@ Se il clock vale 0, gli ingressi sono chiusi (opaco), ed il bistabile mantiene l
 
 Se il clock vale $0$ l'ingresso $D$ è inefficace (Il latch D è opaco)
 Se il clock vale uno l'ingresso $D$ è efficace e il bistabile memorizza il valore presente sull'ingresso $D$
-[[flipflop D master-slave]]
+
 
 ```tikz
 \usepackage{circuitikz}
@@ -135,7 +135,7 @@ logic ports/fill = darkgray,
 \node (CLK) at (-3,0){CLK};
 \node[not port,rotate=270](NOTa) at (-3,-1){};
 
-\node[flipflop D] at (6,-1){};
+\node[latch] at (6,-1){};
 %connections
 \draw (ANDa.out) |- (NORa.in 1);
 \draw (D) |- (ANDa.in 1);
@@ -151,3 +151,8 @@ logic ports/fill = darkgray,
 \end{document}
 ```
 
+
+>[!oss]
+>I latch (ossia i bistabili) sincroni, presentano durante l'intervallo di tempo in cui il clock è attivo, un fenomeno detto "trasparenza delle uscite".
+>Ossia durante ogni ciclo di clock se gli ingressi si modificano anche le uscite possono cambiare, per questo si introducono i [[flipflop D master-slave]]
+>

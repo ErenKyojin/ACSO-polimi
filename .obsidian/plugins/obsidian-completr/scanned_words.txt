@@ -99,6 +99,7 @@ dagli
 dallo
 definito
 dovremmo
+decoder
 astrazione
 assembler
 assemblatore
@@ -168,6 +169,7 @@ alias
 alcuni
 ammette
 analogo
+attiva
 Con
 CPU
 Ci
@@ -191,6 +193,8 @@ Compiliamo
 Conflict
 Cout
 Circuiti
+Confrontatore
+Confronta
 Linguaggio
 Le
 Load
@@ -311,6 +315,7 @@ soffrono
 suo
 sincronizzazione
 sull
+sugli
 che
 convertire
 codice
@@ -409,6 +414,8 @@ circuiti
 caratterizzati
 chiusi
 corrente
+comparatore
+corrispondente
 utilizza
 un
 utile
@@ -431,6 +438,7 @@ uqanto
 unione
 uguale
 usiamo
+uguaglianza
 per
 programma
 prima
@@ -494,6 +502,7 @@ passati
 presente
 prossimo
 prescindere
+prende
 il
 in
 inoltre
@@ -584,6 +593,7 @@ memorizzato
 modificano
 mantiene
 memorizza
+minoranza
 ossia
 ogni
 occupa
@@ -729,6 +739,7 @@ entrambi
 elementari
 efficaci
 efficace
+esima
 riferimento
 registri
 ra
@@ -855,6 +866,7 @@ nS
 nuova
 nodo
 negato
+numero
 Idealizzazione
 Il
 Instruction
@@ -899,6 +911,7 @@ Avendo
 Assemblaggio
 Adder
 Abbiamo
+Alias
 trasferimento
 tp
 thread
@@ -951,6 +964,7 @@ DD
 DE
 DT
 Data
+Decoder
 Registro
 Registri
 RISC
@@ -981,6 +995,7 @@ genera
 gestiti
 garantire
 generano
+guarda
 zero
 Gli
 Globali
@@ -1095,6 +1110,7 @@ HD
 HI
 Hazard
 HEAD
+Ha
 XOR
 XNOR
 Xl

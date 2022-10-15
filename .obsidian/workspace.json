@@ -170,14 +170,14 @@
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
     "Bistabili.md",
-    "latch.md",
+    "Allocazione.md",
     "Bistabile D sincrono.md",
-    "clock.md",
-    "ritardo di propagazione.md",
-    "Circuiti sequenziali.md",
-    "porte logiche.md",
     "Blocchi sequenziali.md",
-    "Bistabile SR sincrono.md",
-    "Bistabile SR asincrono.md"
+    "buffer tri-state.md",
+    "circuito ad albero.md",
+    "Confrontatore.md",
+    "Decoder.md",
+    "esempi di conversione.md",
+    "flipflop D master-slave.md"
   ]
 }
