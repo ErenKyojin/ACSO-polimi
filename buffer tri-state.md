@@ -24,7 +24,10 @@ logic ports/fill = darkgray,
 \node[buffer port] (ANDa) at (0,0){};
 
 %connections
+\draw (0,-1) -- (0,-0.33);
 
 \end{tikzpicture}
 \end{document}
 ```
+
+Se l'input della linea inferiore è 1, allora è un cortocircuito, se l'input della linea inferiore è zero, funziona come un circuito aperto.
