@@ -33,4 +33,9 @@ logic ports/fill = darkgray,
 \end{document}
 ```
 Il master campiona l'ingresso durante l'intervallo alto del clock, lo emette su $Q$ e lo manda all'ingresso D dello slave.
-Lo slave campione l'ingresso D durante l'intervallo basso del clock e lo emette su $Q_{S}$
+Lo slave campione l'ingresso D durante l'intervallo basso del clock e lo emette su $Q$ che varia solo durante il fronte di discesa del [[clock]]
+
+
+Per quanto riguarda la trasparenza:
+- Nell'intervallo alto del clock il master è in trasparenza
+- Nell'intervallo basso del clock i
