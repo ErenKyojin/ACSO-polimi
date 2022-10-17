@@ -169,15 +169,15 @@
   },
   "active": "37d646394f51eaa4",
   "lastOpenFiles": [
+    "porta di scrittura.md",
+    "Register file.md",
+    "porta di lettura.md",
     "buffer tri-state.md",
     "Blocchi sequenziali.md",
     "Bistabili.md",
     "Bus.md",
     "Circuiti sequenziali.md",
     "circuito ad albero.md",
-    "AND.md",
-    "Register file.md",
-    "Registro parallelo.md",
-    "relazione stato uscita.md"
+    "AND.md"
   ]
 }

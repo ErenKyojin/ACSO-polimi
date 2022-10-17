@@ -6,5 +6,7 @@ Ogni registro identificato da un indirizzo di 5 bit, le operazioni possibili sui
 - Lettura: i 64 bit memorizzati nel  register file nel registro inidirizzato vengono presentati in uscita
 - Scrittura: i 64 bit acquisiti in ingresso nel register file all'registro indirizzato come destinazione
 
-Queste operazioni avvengono attraverso le porte di lettura e scrittura, nel risc-V ci sono due porte di lettura e una porta di scrittura.
+Queste operazioni avvengono attraverso le porte di lettura e scrittura, nel risc-V ci sono due [[porta di lettura|porte di lettura]] e una [[porta di scrittura]].
 
+
+L'indirizzo del registro viene elaborato da un [[Decoder]] 5:32, con una linea di registro in uscita 

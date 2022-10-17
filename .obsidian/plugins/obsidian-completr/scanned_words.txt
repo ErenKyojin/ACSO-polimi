@@ -858,6 +858,7 @@ equivale
 espansione
 elementare
 elettricamente
+elaborato
 riferimento
 registri
 ra
