@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "porta di scrittura.md",
+                "file": "porta di lettura.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,8 +32,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "porta di scrittura.md",
-                "mode": "preview",
+                "file": "porta di lettura.md",
+                "mode": "source",
                 "source": false
               }
             },
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "porta di scrittura.md",
+                "file": "porta di lettura.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "porta di scrittura.md",
+                "file": "porta di lettura.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "porta di scrittura.md"
+                "file": "porta di lettura.md"
               }
             }
           },
@@ -169,15 +169,15 @@
   },
   "active": "37d646394f51eaa4",
   "lastOpenFiles": [
-    "Register file.md",
-    "porta di scrittura.md",
+    "Allegati/Pasted image 20221017171228.png",
+    "Allegati/Pasted image 20221017170106.png",
     "porta di lettura.md",
+    "porta di scrittura.md",
+    "Register file.md",
     "buffer tri-state.md",
     "Blocchi sequenziali.md",
     "Bistabili.md",
     "Bus.md",
-    "Circuiti sequenziali.md",
-    "circuito ad albero.md",
-    "AND.md"
+    "Circuiti sequenziali.md"
   ]
 }
