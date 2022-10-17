@@ -9,4 +9,3 @@ Ogni registro identificato da un indirizzo di 5 bit, le operazioni possibili sui
 Queste operazioni avvengono attraverso le porte di lettura e scrittura, nel risc-V ci sono due [[porta di lettura|porte di lettura]] e una [[porta di scrittura]].
 
 
-L'indirizzo del registro viene elaborato da un [[Decoder]] 5:32, con una linea di registro in uscita 

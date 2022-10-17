@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Register file.md",
+                "file": "porta di scrittura.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Register file.md",
+                "file": "porta di scrittura.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Register file.md",
+                "file": "porta di scrittura.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Register file.md",
+                "file": "porta di scrittura.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Register file.md"
+                "file": "porta di scrittura.md"
               }
             }
           },
@@ -169,8 +169,8 @@
   },
   "active": "37d646394f51eaa4",
   "lastOpenFiles": [
-    "porta di scrittura.md",
     "Register file.md",
+    "porta di scrittura.md",
     "porta di lettura.md",
     "buffer tri-state.md",
     "Blocchi sequenziali.md",
