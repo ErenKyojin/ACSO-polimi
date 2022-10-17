@@ -134,5 +134,22 @@ Il contenuto è letto e scritto una parola per ciclo di [[clock]] e vi si accede
 
 Gli ingressi di indirizzo codificano l'indirizzo della parola su cui scrivere o leggere, mentre le uscite o ingressi di dato servono per leggere o scrivere una parola.
 
-Per le linee di dato e gli ingressi di indirizzo vanno rispettati i tempi di set up e di hold, segnali che vengono forniti in modo da essere stabili mentre le linee di comando sono attive
+Per le linee di dato e gli ingressi di indirizzo vanno rispettati i tempi di set up e di hold, segnali che vengono forniti in modo da essere stabili mentre le linee di comando sono attive.
 
+- Il comando di scrittura **write enable (WE)** è attivo a livello 1
+- il comando di abilitazione delle uscite dati **Output enable (OE)**
+	- Se OE = 1 le uscite sono abilitate
+	- Se OE = 0 le uscite sono isolate
+- il comando di abilitazione del componente **chip select (CS)**
+	- Se CS = 1 chip attivo e quindi si può accedere al contenuto
+	- Se CS = 0 chip inattivo
+
+
+
+>[!multi-column]
+>
+>>[!esempio] Ciclo di lettura
+>> - Indirizzo della parola da leggere
+>> - Comando di lettura 
+>
+>>[!esempio] Ciclo di scrittura
