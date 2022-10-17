@@ -44,6 +44,7 @@ ls
 ll
 lX
 ljj
+leggere
 di
 degli
 due
@@ -741,6 +742,7 @@ iDDDDZ
 iDDD
 izz
 iDD
+indipendenti
 macchina
 mnemonici
 memoria
