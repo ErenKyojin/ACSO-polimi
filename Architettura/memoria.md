@@ -116,3 +116,11 @@ VAR | SIZE
  `long int`|8 Byte o una double word
 
 
+# Memoria come [[Blocchi sequenziali|blocco sequenziale]]
+
+- Memoria volatile, permette l'accesso in lettura e scrittura, ed ha una struttura a matrice le cui righe sono le parole di memoria a 32 bit con accesso direttiio
+
+
+Un chip di memoria si caratterizza da:
+- capacità: numero di byte memorizzabili = numero di parole per 4
+- 
