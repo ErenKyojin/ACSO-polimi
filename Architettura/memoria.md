@@ -150,6 +150,24 @@ Per le linee di dato e gli ingressi di indirizzo vanno rispettati i tempi di set
 >
 >>[!esempio] Ciclo di lettura
 >> - Indirizzo della parola da leggere
->> - Comando di lettura 
+>> - Comando di lettura (WE = 0)
+>> - Non isolare le uscite dati (OE = 1)
+>> - Abilitare il componente (CS = 1)
+>> - Conenuto della parola disponibile sulle uscite con ritardo di lettura $8/20$ ns
 >
 >>[!esempio] Ciclo di scrittura
+>>- indirizzo della parola da scrivere
+>>- dato da scrivere in ingresso
+>>- comando di scrittura (WE = 1)
+>>- Isolare le uscite dati (OE = 0)
+>>- Abilitare il componente (CS = 1)
+>>Ritardo di scrittura $8/20$ ns
+
+
+# DRAM
+Ram dinamica, il singolo bit è memorizzato nella carica di un condesatore a cui si accede attraverso un transistor che legge o scrive il suo valore. Ha un singolo transistor per cella contro i 6 transistor per cella di una SRAM, ha un costo per bit inferiore rispetto alla RAM, però ha tempi di accesso maggiori ed è necessario un segnale di refresh perchè il condensatore non perda carica. (Operazione che occupa il 2% dei cicli)
+
+
+# SRAM
+
+Memoria RAM statica: ogni bit memorizzato usa 6 transistor, ha una capacità medio piccola ed un tempo di accesso molto breve, senza alimentazione il contenuto è perso
