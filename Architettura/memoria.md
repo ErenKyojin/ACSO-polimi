@@ -122,5 +122,10 @@ VAR | SIZE
 
 
 Un chip di memoria si caratterizza da:
-- capacità: numero di byte memorizzabili = numero di parole per 4
-- 
+- Capacità: numero di byte memorizzabili = numero di parole per 4 (ogni parola ha 4 byte)
+- Funzioni: lettura e scrittura, solo lettura
+- Numero di porte di accesso
+- Tempo di accesso
+
+
+Il contenuto è letto e scritto una parola per ciclo di [[clock]] e vi si accede attraverso un indirizzo fornito alla porta di accesso alla memoria, solitamente sia in scrittura che in lettura
