@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "pop",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -169,6 +170,8 @@
   },
   "active": "37d646394f51eaa4",
   "lastOpenFiles": [
+    "Architettura/memoria.md",
+    "Sottoprogrammi.md",
     "fronte attivo.md",
     "flipflop D master-slave.md",
     "flip flop edge triggered.md",
@@ -176,8 +179,6 @@
     "Direttive.md",
     "DEMUX.md",
     "Decoder.md",
-    "Compilazione.md",
-    "clock.md",
-    "Circuiti sequenziali.md"
+    "Compilazione.md"
   ]
 }
