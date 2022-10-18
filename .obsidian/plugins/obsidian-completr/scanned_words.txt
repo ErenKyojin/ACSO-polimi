@@ -48,6 +48,7 @@ leggere
 letto
 linee
 legge
+lateralmente
 di
 degli
 due
@@ -233,6 +234,7 @@ abilitazione
 abilitate
 accedere
 alimentazione
+allora
 Con
 CPU
 Ci
@@ -437,6 +439,8 @@ servono
 select
 senza
 statica
+selettori
+sarebbe
 che
 convertire
 codice
@@ -586,6 +590,8 @@ condensatore
 cicli
 capacit
 cancellabile
+cortocircuito
+comunicazione
 utilizza
 un
 utile
@@ -795,6 +801,7 @@ indipendenti
 isolate
 inattivo
 isolare
+isola
 macchina
 mnemonici
 memoria
@@ -970,6 +977,7 @@ qcG
 quE
 ql
 qC
+quale
 fasi
 forma
 funzionano
@@ -1161,6 +1169,8 @@ rispettati
 refresh
 rimane
 raggi
+ritardi
+rappresentare
 Per
 Pseudo
 Prima
@@ -1444,6 +1454,7 @@ Ram
 RAM
 ROM
 Read
+Risulta
 gli
 generali
 gp
@@ -1472,6 +1483,7 @@ gr
 gN
 gAC
 grande
+gestita
 zero
 zq
 zu
@@ -1600,6 +1612,7 @@ SpP
 SRAM
 Simili
 Simile
+SEL
 Non
 Nop
 Not

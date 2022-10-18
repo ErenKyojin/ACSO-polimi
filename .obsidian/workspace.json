@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architettura/memoria.md",
+                "file": "Sottoprogrammi.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architettura/memoria.md",
+                "file": "Sottoprogrammi.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura/memoria.md",
+                "file": "Sottoprogrammi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura/memoria.md",
+                "file": "Sottoprogrammi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura/memoria.md"
+                "file": "Sottoprogrammi.md"
               }
             }
           },
@@ -169,15 +169,15 @@
   },
   "active": "37d646394f51eaa4",
   "lastOpenFiles": [
-    "porta di lettura.md",
-    "Register file.md",
-    "Allegati/Pasted image 20221017171228.png",
-    "Allegati/Pasted image 20221017170106.png",
-    "porta di scrittura.md",
-    "buffer tri-state.md",
-    "Blocchi sequenziali.md",
-    "Bistabili.md",
-    "Bus.md",
+    "fronte attivo.md",
+    "flipflop D master-slave.md",
+    "flip flop edge triggered.md",
+    "esempi di conversione.md",
+    "Direttive.md",
+    "DEMUX.md",
+    "Decoder.md",
+    "Compilazione.md",
+    "clock.md",
     "Circuiti sequenziali.md"
   ]
 }
