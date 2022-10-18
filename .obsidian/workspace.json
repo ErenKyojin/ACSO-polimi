@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sottoprogrammi.md",
+                "file": "Architettura/memoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sottoprogrammi.md",
+                "file": "Architettura/memoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sottoprogrammi.md",
+                "file": "Architettura/memoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sottoprogrammi.md",
+                "file": "Architettura/memoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sottoprogrammi.md"
+                "file": "Architettura/memoria.md"
               }
             }
           },
@@ -170,8 +170,8 @@
   },
   "active": "37d646394f51eaa4",
   "lastOpenFiles": [
-    "Architettura/memoria.md",
     "Sottoprogrammi.md",
+    "Architettura/memoria.md",
     "fronte attivo.md",
     "flipflop D master-slave.md",
     "flip flop edge triggered.md",
