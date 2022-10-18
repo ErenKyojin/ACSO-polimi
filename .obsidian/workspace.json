@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architettura/memoria.md",
+                "file": "funzione combinatoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architettura/memoria.md",
+                "file": "funzione combinatoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura/memoria.md",
+                "file": "funzione combinatoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura/memoria.md",
+                "file": "funzione combinatoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura/memoria.md"
+                "file": "funzione combinatoria.md"
               }
             }
           },
@@ -167,17 +167,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "f9ca7fff584983c1",
+  "active": "37d646394f51eaa4",
   "lastOpenFiles": [
-    "Sottoprogrammi.md",
-    "Architettura/memoria.md",
     "fronte attivo.md",
+    "esempi di conversione.md",
+    "Bus.md",
+    "Architettura/memoria.md",
+    "Sottoprogrammi.md",
     "flipflop D master-slave.md",
     "flip flop edge triggered.md",
-    "esempi di conversione.md",
     "Direttive.md",
     "DEMUX.md",
-    "Decoder.md",
-    "Compilazione.md"
+    "Decoder.md"
   ]
 }
