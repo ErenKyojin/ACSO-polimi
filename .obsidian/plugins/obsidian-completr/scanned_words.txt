@@ -45,6 +45,9 @@ ll
 lX
 ljj
 leggere
+letto
+linee
+legge
 di
 degli
 due
@@ -128,6 +131,10 @@ dT
 dIhjj
 dA
 dk
+direttiio
+disponibile
+dinamica
+dram
 astrazione
 assembler
 assemblatore
@@ -219,6 +226,13 @@ alb
 aii
 aC
 aH
+accesso
+accede
+attive
+abilitazione
+abilitate
+accedere
+alimentazione
 Con
 CPU
 Ci
@@ -255,6 +269,12 @@ CF
 CJ
 CZ
 CC
+Capacit
+CS
+Ciclo
+Comando
+Conenuto
+Cache
 Linguaggio
 Le
 Load
@@ -410,6 +430,13 @@ szb
 sgq
 ss
 sz
+scritto
+sia
+scrivere
+servono
+select
+senza
+statica
 che
 convertire
 codice
@@ -548,6 +575,17 @@ cbl
 coo
 cF
 ct
+chip
+caratterizza
+codificano
+condesatore
+cella
+contro
+costo
+condensatore
+cicli
+capacit
+cancellabile
 utilizza
 un
 utile
@@ -585,6 +623,9 @@ uQ
 uj
 uN
 usuE
+up
+utilizzata
+usa
 per
 programma
 prima
@@ -668,6 +709,14 @@ ps
 pE
 pn
 prrB
+perda
+perde
+piccola
+perso
+persistente
+programmi
+permanenti
+programmabile
 il
 in
 inoltre
@@ -743,6 +792,9 @@ iDDD
 izz
 iDD
 indipendenti
+isolate
+inattivo
+isolare
 macchina
 mnemonici
 memoria
@@ -794,6 +846,12 @@ mmm
 me
 mxyy
 mdX
+matrice
+memorizzabili
+medio
+molto
+memory
+modificabili
 ossia
 ogni
 occupa
@@ -829,6 +887,7 @@ oZ
 oo
 oaH
 oF
+only
 basato
 binari
 binaria
@@ -860,6 +919,7 @@ bMZ
 by
 bO
 bH
+breve
 Un
 Utilizzo
 Una
@@ -873,6 +933,7 @@ UZO
 UD
 UU
 UE
+UV
 ha
 hanno
 hardware
@@ -889,6 +950,7 @@ hYSj
 hY
 hQe
 hf
+hold
 quindi
 quanto
 questo
@@ -957,6 +1019,8 @@ fA
 fi
 fM
 fffr
+fornito
+forniti
 esecuzione
 eseguire
 elementi
@@ -1025,6 +1089,7 @@ eJTW
 eh
 eB
 eD
+enable
 riferimento
 registri
 ra
@@ -1091,6 +1156,11 @@ rN
 re
 rBXX
 rDn
+righe
+rispettati
+refresh
+rimane
+raggi
 Per
 Pseudo
 Prima
@@ -1119,6 +1189,7 @@ PL
 Pl
 PoK
 Porta
+PROM
 Macchina
 Memoria
 Move
@@ -1167,6 +1238,9 @@ vm
 vw
 vaH
 vQKI
+volatile
+vi
+volta
 neumann
 nome
 non
@@ -1202,6 +1276,8 @@ nW
 nB
 nsGGG
 nC
+ns
+necessario
 Idealizzazione
 Il
 Instruction
@@ -1235,6 +1311,7 @@ Ic
 IQQ
 ISp
 IEND
+Isolare
 ALU
 Architettura
 ABI
@@ -1262,6 +1339,7 @@ AO
 ADqF
 Ay
 AN
+Abilitare
 trasferimento
 tp
 thread
@@ -1315,6 +1393,7 @@ tP
 ts
 tu
 tVN
+transistor
 Da
 DELLE
 Dimensioni
@@ -1337,6 +1416,7 @@ Dt
 DQ
 DnZ
 DDD
+DRAM
 Registro
 Registri
 RISC
@@ -1359,6 +1439,11 @@ RFS
 RJ
 RDD
 Rt
+Ritardo
+Ram
+RAM
+ROM
+Read
 gli
 generali
 gp
@@ -1386,6 +1471,7 @@ gQ
 gr
 gN
 gAC
+grande
 zero
 zq
 zu
@@ -1451,6 +1537,8 @@ VM
 Vkk
 Vj
 Vk
+Volatile
+Viene
 Fa
 Formato
 FORMATO
@@ -1475,6 +1563,8 @@ FL
 Fne
 FDDD
 FDDq
+Funzioni
+FLASH
 Set
 Semplificare
 Scorrimento
@@ -1507,6 +1597,9 @@ SSSv
 SS
 SSS
 SpP
+SRAM
+Simili
+Simile
 Non
 Nop
 Not
@@ -1528,6 +1621,7 @@ Nn
 NNNX
 Nf
 NN
+Numero
 Tra
 Trasferisce
 Tuttavia
@@ -1541,6 +1635,7 @@ TI
 TY
 TpH
 Tw
+Tempo
 OP
 Ossia
 Ogni
@@ -1559,6 +1654,9 @@ OO
 Od
 On
 Ob
+Output
+OE
+Operazione
 word
 wY
 will
@@ -1572,6 +1670,7 @@ www
 wX
 wd
 wl
+write
 Jump
 JALR
 Jl
@@ -1602,6 +1701,8 @@ Ekx
 EtL
 Ei
 EK
+EPROM
+EEPROM
 xor
 xori
 xx
@@ -1693,6 +1794,7 @@ Wk
 Wr
 WL
 WO
+WE
 ZF
 ZP
 ZD

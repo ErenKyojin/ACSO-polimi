@@ -165,9 +165,24 @@ Per le linee di dato e gli ingressi di indirizzo vanno rispettati i tempi di set
 
 
 # DRAM
-Ram dinamica, il singolo bit è memorizzato nella carica di un condesatore a cui si accede attraverso un transistor che legge o scrive il suo valore. Ha un singolo transistor per cella contro i 6 transistor per cella di una SRAM, ha un costo per bit inferiore rispetto alla RAM, però ha tempi di accesso maggiori ed è necessario un segnale di refresh perchè il condensatore non perda carica. (Operazione che occupa il 2% dei cicli)
+Ram dinamica, il singolo bit è memorizzato nella carica di un condesatore a cui si accede attraverso un transistor che legge o scrive il suo valore. Ha un singolo transistor per cella contro i 6 transistor per cella di una SRAM, ha un costo per bit inferiore rispetto alla RAM, però ha tempi di accesso maggiori ed è necessario un segnale di refresh perchè il condensatore non perda carica. (Operazione che occupa il 2% dei cicli).
+Volatile, perde il contenuto se rimane senza alimentazione.
+Viene utilizzata come la memoria
 
 
 # SRAM
 
-Memoria RAM statica: ogni bit memorizzato usa 6 transistor, ha una capacità medio piccola ed un tempo di accesso molto breve, senza alimentazione il contenuto è perso
+Memoria RAM statica: ogni bit memorizzato usa 6 transistor, ha una capacità medio piccola ed un tempo di accesso molto breve, senza alimentazione il contenuto è perso, ossia è volatile. Viene utilizzata come memoria Cache
+
+# ROM
+Read only memory, è una matrice di transistor, ha una grande capacità ed un tempo di accesso medio, è persistente, ossia non perde il contenuto, e funziona solo in lettura, si usa per programmi permanenti e non modificabili.
+
+### PROM, EPROM, EEPROM
+Simili alla ROM:
+- PROM programmabile una sola volta
+- EPROM: cancellabile con raggi UV
+- EEPROM: cancellabile elettricamente
+
+
+# Memoria FLASH
+Simile alla dram, ma persistente
