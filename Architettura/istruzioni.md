@@ -223,7 +223,9 @@ Registro dopo LUI:
 
 # Esecuzione delle istruzioni e struttura base del processore [[RISC-V]]
 
-## Fase 1
+## Fasi generiche
+
+### Fase 1
 Inviare il contenuto del [[program counter]] ad una memoria che contiene le istruzioni [[memoria istruzioni]] per prelevare l'istruzione e preparare l'indirizzo dell'istruzione successiva (PC + 4)
 
 ![[Pasted image 20221020174837.png]]
@@ -232,27 +234,39 @@ Add incrementa il program counter.
 È la fase di lettura dell'istruzione da 32 bit dalla memoria istruzioni.
 
 
-## Fase 2
+### Fase 2
 Leggere uno o due registri dal [[Register file]] decodificando i campi dell'istruzione per selezionare indirizzi e registri a quale accedere.
 
 
 Le fasi successive dipendono dalla singola istruzione:
 
-## Fase 3
+### Fase 3
 Esecuzione dell'istruzione utilizzando l'ALU per:
 - Per eseguire l'istruzione aritmetico logica
 - Per il calcolo dell'indirizzo di memoria dati per istruzione di load o store
 - Per il confronto tra due registri nelle istruzioni di salto condizionato
 
 
-## Fase 4 (esclusiva della Load)
+### Fase 4 (esclusiva della Load)
 Lettura del dato dalla memoria dati, solo nel caso di istruzione di load
 
-## Fase 5
+### Fase 5
 Scrittura del risultato nel registro destinazione del register file oppure nella memoria dati o modifica del program counter in base all'esito del salto condizionato
 
 
 ![[Pasted image 20221020181634.png]]
 
 
+
+
+
+
+## Esecuzioni
+Di seguito le esecuzioni di ogni tipo:
+### Tipo R
+
+Op
+
+Prelievo istruzioni, incremento PC | Lettura rs1, rs2 | OP ALU sui dati | scrittura nel registro destinazione rd
+--- | --- | --- | ---
 
