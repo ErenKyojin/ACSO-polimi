@@ -290,6 +290,15 @@ prelievo istruzioni, incremento PC | Lettura rs1 | OP ALU (rs1 + off) | Prelievo
 4. Prelievo del dato nella memoria dati utilizzando come indirizzo di lettura il risultato dell'ALU
 5. Scrittura del dato proveniente dalla memoria nel registro destinazione rd indirizzato dai bit [11-7] 
 
+>[!oss] 
+>Esecuzione più lunga
+
+>[!Esecuzione delle istruzioni di load:]
+>
+Si usa il register file per accedere al registro base e per scrivere nel registro destinazione, usiamo il modulo estensione segno per generare l'offset su 64 bit estendendo quello a 32.
+A questo punto l'ALU a 64 bit calcola l'indirizzo di memoria sommando il valore del registro base all'offset esteso in segno.
+Memoria dati da cui legge con segnali di controllo memRead.
+
 ### Tipo S
 
 sd rs2, offset12(rs1)
@@ -301,3 +310,9 @@ prelievo istruzioni, incremento PC | lettura registri rs1 e rs2 | OP ALU (rs1 + 
 2. Lettura del registro base (rs1) dai bit [19-15] e del registro sorgente rs2 dai bit [24-20] dal banco dei registri
 3. Operazione dell'ALU per calcolare la somma del valore letto dal registro base e dell'offset esteso in segno da 12 bit a 64 bit
 4. Scrittura del dato proveniente dal registro sorgente rs2 nella memoria dati utilizzando come indirizzo di scrittura il risultato dell'ALU
+
+>[!Esecuzione delle istruzioni di store:]
+>
+Si usa il register file per accedere al registro base e per scrivere nel registro destinazione, usiamo il modulo estensione segno per generare l'offset su 64 bit estendendo quello a 32.
+A questo punto l'ALU a 64 bit calcola l'indirizzo di memoria sommando il valore del registro base all'offset esteso in segno.
+Memoria dati da cui legge con segnali di controllo memRead.
