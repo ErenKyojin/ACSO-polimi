@@ -252,4 +252,7 @@ Lettura del dato dalla memoria dati, solo nel caso di istruzione di load
 Scrittura del risultato nel registro destinazione del register file oppure nella memoria dati o modifica del program counter in base all'esito del salto condizionato
 
 
+![[Pasted image 20221020181634.png]]
+
+
 
