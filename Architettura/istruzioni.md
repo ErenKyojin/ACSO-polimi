@@ -265,8 +265,13 @@ Scrittura del risultato nel registro destinazione del register file oppure nella
 Di seguito le esecuzioni di ogni tipo:
 ### Tipo R
 
-Op
+Op rd, rs1, rs2
 
 Prelievo istruzioni, incremento PC | Lettura rs1, rs2 | OP ALU sui dati | scrittura nel registro destinazione rd
 --- | --- | --- | ---
 
+Esecuzione dell'istruzione in 4 passi:
+1. Prelievo istruzione della memoria istruzione e ingremento del PC
+2. Lettura dei 2 registri sorgente rs1 e rs2 dal register file tramite i bit [19-15], [24-20]
+3. Operazione dell'[[Unità aritmetico logica]] con operandi letti dal register file utilzzando i campi funct3 e funct7 per decodificare la funzione
+4. Scrittura del risultato nel banco dei registri utilizzando i bit [11-7] dell'istruzione per selezionare il registro destinazione
