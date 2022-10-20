@@ -228,4 +228,8 @@ Inviare il contenuto del [[program counter]] ad una memoria che contiene le istr
 
 ![[Pasted image 20221020174837.png]]
 
-Add incrementa il program counter
+Add incrementa il program counter. 
+È la fase di lettura dell'istruzione da 32 bit dalla memoria istruzioni.
+
+
+## Fase 2
