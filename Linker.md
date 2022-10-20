@@ -50,11 +50,11 @@ Per questo passo introduciamo una nuova terminologia:
 - %pcrel (S) = delta_VS = VS - PC, cioè delta indirizzo effettivo dell'istruzione a cui si riferisce rispetto al [[program counter]].
 
 Ora, in questo passo vanno applicate regole diverse in base al tipo di istruzioni:
-- ISTR è in [[formato delle istruzioni#Formato J]]: inserire %pcrel (S)/2 su 20 bit, quindi $(VS-PC)/2$
-- ISTR è in [[formato delle istruzioni#Formato B]]: inserire %pcrel (S)/2 su 12 bit, cioè $(VS-PC)/2$
-- ISTR è in [[formato delle istruzioni#formato U]]:
+- ISTR è in [[istruzioni#Formato J]]: inserire %pcrel (S)/2 su 20 bit, quindi $(VS-PC)/2$
+- ISTR è in [[istruzioni#Formato B]]: inserire %pcrel (S)/2 su 12 bit, cioè $(VS-PC)/2$
+- ISTR è in [[istruzioni#formato U]]:
 	- Se `auipc` da espansione di `la` inserire: %pcrel_hi(S)
 	- Se `lui` da espansione di `la` inserire: %hi(S)
-- ISTR è in  [[formato delle istruzioni#Formato I]]
+- ISTR è in  [[istruzioni#Formato I]]
 	- Se `addi` da espansione di `la` inserire: %pcrel_lo(S)
 	- Se `addi` da espansione di `li` inserire: %lo(s)

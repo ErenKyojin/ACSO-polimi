@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "funzione combinatoria.md",
+                "file": "Architettura/istruzioni.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "funzione combinatoria.md",
+                "file": "Architettura/istruzioni.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "funzione combinatoria.md",
+                "file": "Architettura/istruzioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "funzione combinatoria.md",
+                "file": "Architettura/istruzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "funzione combinatoria.md"
+                "file": "Architettura/istruzioni.md"
               }
             }
           },
@@ -169,15 +169,15 @@
   },
   "active": "37d646394f51eaa4",
   "lastOpenFiles": [
+    "memoria istruzioni.md",
+    "Architettura/istruzioni.md",
+    "Architettura/architettura.md",
+    "Architettura/Istruzioni aritmetico logiche.md",
+    "funzione combinatoria.md",
     "fronte attivo.md",
     "esempi di conversione.md",
     "Bus.md",
     "Architettura/memoria.md",
-    "Sottoprogrammi.md",
-    "flipflop D master-slave.md",
-    "flip flop edge triggered.md",
-    "Direttive.md",
-    "DEMUX.md",
-    "Decoder.md"
+    "Sottoprogrammi.md"
   ]
 }

@@ -12,7 +12,7 @@ Essendo [[RISC-V]] un architettura little endian, le istruzioni vanno lette dal 
 | J o UJ  | jal, jalr                                                       |
 
 
-# Formato R
+## Formato R
 | funct7  | rs2   | rs1   | funct3 | rd    | OPCODE  |
 | ------- | ----- | ----- | ------ | ----- | ------- |
 | 0000000 | 00000 | 00000 | 000    | 00000 | 0000000 |
@@ -52,7 +52,7 @@ rd, rs1, rs2 distinguono i [[registro|registri]].
 
 
 
-# Formato I
+## Formato I
 Ossia i formati che coinvolgono costanti positive a 12 bit, per costanti positive maggiori vedremo in futuro il formato.
 
 | imm          | rs1   | funct3 | rd    | OPCODE  |
@@ -84,7 +84,7 @@ Ossia i formati che coinvolgono costanti positive a 12 bit, per costanti positiv
 
 
 
-# Formato S
+## Formato S
 Formato delle istruzioni store per trasferire informazioni da un registro alla memoria: (sd, sw, sh,sb)
 Il formato S, all'apparenza può sembrare particolare:
 
@@ -117,7 +117,7 @@ con:
 >
 
 
-# [[ISTRUZIONI DI FLUSSO]]
+## [[ISTRUZIONI DI FLUSSO]]
 
 >[!tldr]-
 | FORMATO | ISTRUZIONE                                                         |
@@ -129,7 +129,7 @@ con:
 Istruzioni che ci permettono di "saltare" attraverso il codice.
 
 
-# Formato B
+## Formato B
 | imm(12)(10:5) | rs2   | rs1   | funct3 | imm (4:1)(11) | OPCODE |
 | ------------- | ----- | ----- | ------ | ------------- | ------ |
 | 7 bit         | 5 bit | 5 bit | 3 bit  | 5 bit         | 7 bit  | 
@@ -155,7 +155,7 @@ Istruzioni che ci permettono di "saltare" attraverso il codice.
 >
 
 
-# Formato J
+## Formato J
 Formato per Imm da 20 bit:
 
 | imm[20] | imm[10:1] | imm[11] | imm[10:12] | rd    | OPCODE |
@@ -169,7 +169,7 @@ imm[12] | rs1 | funct3 | rd | OPCODE
 12 bit | 5 bit | 3 bit | 5 bit | 7 bit
 
 
-# Costanti su 32 bit
+## Costanti su 32 bit
 
 Dividiamo la costante in 20 bit e 12 bit
 
@@ -193,7 +193,7 @@ addi rd, rd %lo(cost32)
 >[!LUI]
 > load upper immediate, carica il primo immediato da 20 bit nei 20 bit più significativo della metà inferiore di un registro da 64, un tipo di istruzione U
 
-# formato U
+## formato U
 
 imm[31:12] | rd | OPCDOE
 --- | --- | ---
@@ -221,3 +221,11 @@ Registro dopo LUI:
 0111 1110 0001 1101 1111 | 1000 0111 0111
 
 
+# Esecuzione delle istruzioni e struttura base del processore [[RISC-V]]
+
+## Fase 1
+Inviare il contenuto del [[program counter]] ad una memoria che contiene le istruzioni [[memoria istruzioni]] per prelevare l'istruzione e preparare l'indirizzo dell'istruzione successiva (PC + 4)
+
+![[Pasted image 20221020174837.png]]
+
+Add incrementa il program counter

@@ -441,6 +441,7 @@ senza
 statica
 selettori
 sarebbe
+successiva
 che
 convertire
 codice
@@ -723,6 +724,9 @@ persistente
 programmi
 permanenti
 programmabile
+processore
+prelevare
+preparare
 il
 in
 inoltre
@@ -1322,6 +1326,7 @@ IQQ
 ISp
 IEND
 Isolare
+Inviare
 ALU
 Architettura
 ABI
@@ -1577,6 +1582,7 @@ FDDD
 FDDq
 Funzioni
 FLASH
+Fase
 Set
 Semplificare
 Scorrimento
@@ -1716,6 +1722,7 @@ Ei
 EK
 EPROM
 EEPROM
+Esecuzione
 xor
 xori
 xx

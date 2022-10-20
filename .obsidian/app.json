@@ -1,4 +1,5 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "Allegati"
+  "attachmentFolderPath": "Allegati",
+  "alwaysUpdateLinks": true
 }

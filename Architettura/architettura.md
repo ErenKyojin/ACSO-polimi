@@ -3,7 +3,7 @@ L'Architettura di un sistema è il proprio set di istruzioni (Instruction set ar
 
 
 
-Si possono distinguere diverse istruzioni, con [[formato delle istruzioni|formati delle istruzioni]] diversi
+Si possono distinguere diverse istruzioni, con [[istruzioni|formati delle istruzioni]] diversi
 1. [[Istruzioni aritmetico logiche]]
 2. [[Istruzioni di tasferimento]]
 3. [[Istruzioni di flusso|Istruzioni per modificare il flusso di esecuzioni]]
