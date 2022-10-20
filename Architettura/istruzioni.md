@@ -275,3 +275,16 @@ Esecuzione dell'istruzione in 4 passi:
 2. Lettura dei 2 registri sorgente rs1 e rs2 dal register file tramite i bit [19-15], [24-20]
 3. Operazione dell'[[Unità aritmetico logica]] con operandi letti dal register file utilzzando i campi funct3 e funct7 per decodificare la funzione
 4. Scrittura del risultato nel banco dei registri utilizzando i bit [11-7] dell'istruzione per selezionare il registro destinazione
+
+
+
+### Tipo I
+ld rd, offset12(rs1)
+
+prelievo istruzioni, incremento PC | Lettura rs1 | OP ALU (rs1 + off) | Prelievo dati M(rs1+off) | Scrittura in rd
+--- | --- | --- | - | --- 
+
+1. Prelievo di istruzione dalla memoria istruzioni e incremento PC
+2. Lettura del registro base rs1 dal banco dei registri
+3. Operazione dell'alu per calcolare la somma del valore letto dal registro base e dell'off
+
