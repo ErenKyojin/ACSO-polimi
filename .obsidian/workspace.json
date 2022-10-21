@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "area di attivazione",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,8 +85,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -168,7 +167,7 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "37d646394f51eaa4",
+  "active": "f9ca7fff584983c1",
   "lastOpenFiles": [
     "Architettura/memoria.md",
     "Compilazione.md",
