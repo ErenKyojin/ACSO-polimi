@@ -142,6 +142,8 @@ decodificando
 decodificare
 didestinazione
 decidere
+dobbiamo
+detti
 astrazione
 assembler
 assemblatore
@@ -241,6 +243,8 @@ abilitate
 accedere
 alimentazione
 allora
+avviene
+attivano
 Con
 CPU
 Ci
@@ -458,6 +462,7 @@ sorgenti
 sottrazione
 sommato
 shiftato
+sviluppare
 che
 convertire
 codice
@@ -612,6 +617,8 @@ comunicazione
 campi
 calcolare
 calcola
+considerata
+collegate
 utilizza
 un
 utile
@@ -655,6 +662,7 @@ usa
 utilizzando
 utilzzando
 usata
+usate
 per
 programma
 prima
@@ -751,6 +759,11 @@ prelevare
 preparare
 prelievo
 proveniente
+precedente
+prevede
+possano
+particolari
+proteggano
 il
 in
 inoltre
@@ -833,6 +846,7 @@ isola
 incrementa
 incremento
 ingremento
+interferire
 macchina
 mnemonici
 memoria
@@ -929,6 +943,7 @@ oaH
 oF
 only
 oppure
+organizzazione
 basato
 binari
 binaria
@@ -961,6 +976,7 @@ by
 bO
 bH
 breve
+buffer
 Un
 Utilizzo
 Una
@@ -1063,6 +1079,7 @@ fM
 fffr
 fornito
 forniti
+facendoli
 esecuzione
 eseguire
 elementi
@@ -1243,6 +1260,7 @@ PoK
 Porta
 PROM
 Prelievo
+Porte
 Macchina
 Memoria
 Move
@@ -1700,6 +1718,7 @@ TY
 TpH
 Tw
 Tempo
+Tutte
 OP
 Ossia
 Ogni
@@ -1807,6 +1826,7 @@ QW
 Ql
 Qk
 QK
+Questi
 Half
 HW
 HIGH

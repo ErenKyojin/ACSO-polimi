@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architettura/istruzioni.md",
+                "file": "Architettura/memoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architettura/istruzioni.md",
+                "file": "Architettura/memoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura/istruzioni.md",
+                "file": "Architettura/memoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura/istruzioni.md",
+                "file": "Architettura/memoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura/istruzioni.md"
+                "file": "Architettura/memoria.md"
               }
             }
           },
@@ -169,15 +169,15 @@
   },
   "active": "37d646394f51eaa4",
   "lastOpenFiles": [
-    "memoria istruzioni.md",
-    "Architettura/istruzioni.md",
-    "Architettura/architettura.md",
+    "Compilazione.md",
     "Architettura/Istruzioni aritmetico logiche.md",
+    "Architettura/istruzioni.md",
+    "Architettura/codice binario.md",
+    "Architettura/assembler.md",
+    "Architettura/architettura.md",
+    "Full adder.md",
     "funzione combinatoria.md",
-    "fronte attivo.md",
-    "esempi di conversione.md",
-    "Bus.md",
-    "Architettura/memoria.md",
-    "Sottoprogrammi.md"
+    "funzione logica.md",
+    "Half Adder.md"
   ]
 }
