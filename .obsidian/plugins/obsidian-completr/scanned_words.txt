@@ -49,6 +49,8 @@ letto
 linee
 legge
 lateralmente
+letti
+lunga
 di
 degli
 due
@@ -136,6 +138,10 @@ direttiio
 disponibile
 dinamica
 dram
+decodificando
+decodificare
+didestinazione
+decidere
 astrazione
 assembler
 assemblatore
@@ -300,6 +306,7 @@ LnOn
 LFF
 LMM
 Lj
+Leggere
 simbolico
 su
 sostituisce
@@ -442,6 +449,15 @@ statica
 selettori
 sarebbe
 successiva
+selezionare
+successive
+singola
+seguito
+sommando
+sorgenti
+sottrazione
+sommato
+shiftato
 che
 convertire
 codice
@@ -593,6 +609,9 @@ capacit
 cancellabile
 cortocircuito
 comunicazione
+campi
+calcolare
+calcola
 utilizza
 un
 utile
@@ -633,6 +652,9 @@ usuE
 up
 utilizzata
 usa
+utilizzando
+utilzzando
+usata
 per
 programma
 prima
@@ -727,6 +749,8 @@ programmabile
 processore
 prelevare
 preparare
+prelievo
+proveniente
 il
 in
 inoltre
@@ -806,6 +830,9 @@ isolate
 inattivo
 isolare
 isola
+incrementa
+incremento
+ingremento
 macchina
 mnemonici
 memoria
@@ -863,6 +890,8 @@ medio
 molto
 memory
 modificabili
+memRead
+memWrite
 ossia
 ogni
 occupa
@@ -899,6 +928,7 @@ oo
 oaH
 oF
 only
+oppure
 basato
 binari
 binaria
@@ -1102,6 +1132,13 @@ eh
 eB
 eD
 enable
+esclusiva
+esito
+esecuzioni
+esteso
+estensione
+estendendo
+effettuare
 riferimento
 registri
 ra
@@ -1175,6 +1212,7 @@ rimane
 raggi
 ritardi
 rappresentare
+riportarlo
 Per
 Pseudo
 Prima
@@ -1204,6 +1242,7 @@ Pl
 PoK
 Porta
 PROM
+Prelievo
 Macchina
 Memoria
 Move
@@ -1355,6 +1394,7 @@ ADqF
 Ay
 AN
 Abilitare
+Add
 trasferimento
 tp
 thread
@@ -1432,6 +1472,7 @@ DQ
 DnZ
 DDD
 DRAM
+Di
 Registro
 Registri
 RISC
@@ -1460,6 +1501,7 @@ RAM
 ROM
 Read
 Risulta
+Rappresenta
 gli
 generali
 gp
@@ -1489,6 +1531,8 @@ gN
 gAC
 grande
 gestita
+generiche
+generare
 zero
 zq
 zu
@@ -1583,6 +1627,7 @@ FDDq
 Funzioni
 FLASH
 Fase
+Fasi
 Set
 Semplificare
 Scorrimento
@@ -1676,6 +1721,7 @@ Ob
 Output
 OE
 Operazione
+Op
 word
 wY
 will
@@ -1723,6 +1769,7 @@ EK
 EPROM
 EEPROM
 Esecuzione
+Esecuzioni
 xor
 xori
 xx

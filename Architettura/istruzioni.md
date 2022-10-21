@@ -313,6 +313,19 @@ prelievo istruzioni, incremento PC | lettura registri rs1 e rs2 | OP ALU (rs1 + 
 
 >[!Esecuzione delle istruzioni di store:]
 >
-Si usa il register file per accedere al registro base e per scrivere nel registro destinazione, usiamo il modulo estensione segno per generare l'offset su 64 bit estendendo quello a 32.
+Si usa il register file per accedere al registro base e al registro sorgente, usiamo il modulo estensione segno per generare l'offset su 64 bit estendendo quello a 32.
 A questo punto l'ALU a 64 bit calcola l'indirizzo di memoria sommando il valore del registro base all'offset esteso in segno.
-Memoria dati da cui legge con segnali di controllo memRead.
+Memoria dati da cui scrive con memWrite
+
+
+### Tipo B
+beq rs1, rs2, offset12
+
+Prelievo istruzione, incremento PC | Lettura registri rs1, rs2 | OP ALU (rs1- rs2), (PC + off) | Scrittura nel PC
+--- | --- | --- | ---
+
+1. prelievo istruzione dalla memoria istruzioni e incremento del program counter
+2. Lettura dei registri sorgenti rs1 ed rs2 dal register file usando [19-15] e [24-20]
+3. Operazione dell'ALU per effettuare la sottrazione tra i valori letti dal register file. Il valore del PC iniziale viene sommato all'offset su 64 bit (estensione a segno dell'offset a 12 bit). L'offset ext deve essere shiftato a sinistra di una posizione per riportarlo al byte essendo espresso in half word.
+   Rappresenta l'indirizzo didestinazione del salto
+4. L'uscita zero dell'ALU è usata per decidere il valore da scrivere nel PC: PC + 4 o PC + offset_ext
