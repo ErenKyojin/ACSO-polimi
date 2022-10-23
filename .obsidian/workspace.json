@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "auipc",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -150,15 +149,15 @@
   },
   "active": "37d646394f51eaa4",
   "lastOpenFiles": [
+    "Architettura/Istruzioni aritmetico logiche.md",
+    "Architettura/Istruzioni di tasferimento.md",
+    "Architettura/pseudo istruzioni.md",
+    "Architettura/istruzioni.md",
     "Architettura/assembler.md",
     "Sottoprogrammi.md",
     "Architettura/memoria.md",
     "Compilazione.md",
-    "Architettura/Istruzioni aritmetico logiche.md",
-    "Architettura/istruzioni.md",
     "Architettura/codice binario.md",
-    "Architettura/architettura.md",
-    "Full adder.md",
-    "funzione combinatoria.md"
+    "Architettura/architettura.md"
   ]
 }
