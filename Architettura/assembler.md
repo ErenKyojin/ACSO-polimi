@@ -59,7 +59,7 @@ Simbolo | Indirizzo | Tipo di segmento
 >>Y | 0 | D
 >
 
-Sappiamo come risovlere Il load immediate finale in uqanto coinvolge solamente la costante, load adress invece è impossibile da risolvere, non sappiamo ancora come saranno gestiti gli indirizzi dal [[Linker]].
+Sappiamo come risovlere Il load immediate finale in quanto coinvolge solamente la costante, load adress invece è impossibile da risolvere, non sappiamo ancora come saranno gestiti gli indirizzi dal [[Linker]].
 
 >[!error]
 >per l'istruzione `bne`, il simbolo viene risolto come 
