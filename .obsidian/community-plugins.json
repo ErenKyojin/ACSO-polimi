@@ -1,10 +1,9 @@
 [
   "table-editor-obsidian",
-  "calendar",
   "obsidian-discordrpc",
-  "obsidian-completr",
   "templater-obsidian",
   "obsidian-git",
   "obsidian-tikzjax",
-  "obsidian-latex-suite"
+  "obsidian-latex-suite",
+  "calendar"
 ]
