@@ -11,8 +11,12 @@
             "id": "5acbeaa7f5616b2d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "pipelining.md",
+                "mode": "source",
+                "source": false
+              }
             },
             "group": "4c8d47864b623d17"
           }
@@ -101,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pipelining.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "pipelining.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +144,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "pipelining.md"
+              }
             }
           },
           {
@@ -161,8 +169,8 @@
   },
   "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
-    "pipelining.md",
     "Processore.md",
+    "pipelining.md",
     "Architettura/RISC-V.md",
     "throughput.md",
     "unità di controllo.md",
