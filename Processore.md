@@ -15,4 +15,6 @@ Inoltre per l'[[istruzioni#Esecuzioni#Tipo B|esecuzione di istruzioni di tipo B]
 - PC + 4
 - PC + offset_ext, indirizzo di destinazione del salto o BTA(branch target address)
 
-Il segnale per controllare questo mux 
+Il segnale per controllare questo mux <font color=> lo otteniamo facendo un [[AND]] l'uscita zero dell'ALU e il Branch
+
+![[Pasted image 20221025171849.png|650]]
