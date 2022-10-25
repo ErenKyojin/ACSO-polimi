@@ -169,15 +169,15 @@
   },
   "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
-    "Processore.md",
+    "throughput.md",
     "pipelining.md",
+    "Processore.md",
     "unità di controllo.md",
     "Architettura/Unità aritmetico logica.md",
     "Architettura/RISC-V.md",
     "Architettura/Istruzioni aritmetico logiche.md",
     "Architettura/istruzioni.md",
     "Architettura/istruzioni di confronto.md",
-    "Architettura/Istruzioni di flusso.md",
-    "Architettura/Istruzioni di tasferimento.md"
+    "Architettura/Istruzioni di flusso.md"
   ]
 }

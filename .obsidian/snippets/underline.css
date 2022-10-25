@@ -128,9 +128,3 @@ ol
     font-size: 40px;
     transition: .5s;
 }
-
-:focus
-{
-    color: red;
-    transition: .5s;
-}
