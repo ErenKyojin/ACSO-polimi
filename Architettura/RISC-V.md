@@ -10,4 +10,3 @@ $$31\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad7$$|$6\qquad\qquad\qqu
 ---|---
 immediato/indirizzi di registro/codici operativi ausiliari| Codice operativo(OP COde)
 
-
