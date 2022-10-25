@@ -144,6 +144,7 @@ didestinazione
 decidere
 dobbiamo
 detti
+diverso
 astrazione
 assembler
 assemblatore
@@ -463,6 +464,12 @@ sottrazione
 sommato
 shiftato
 sviluppare
+separata
+shifta
+sapere
+secondo
+scegliere
+selezione
 che
 convertire
 codice
@@ -619,6 +626,7 @@ calcolare
 calcola
 considerata
 collegate
+color
 utilizza
 un
 utile
@@ -944,6 +952,7 @@ oF
 only
 oppure
 organizzazione
+operando
 basato
 binari
 binaria
@@ -977,6 +986,7 @@ bO
 bH
 breve
 buffer
+banchi
 Un
 Utilizzo
 Una
@@ -1080,6 +1090,7 @@ fffr
 fornito
 forniti
 facendoli
+font
 esecuzione
 eseguire
 elementi
@@ -1156,6 +1167,8 @@ esteso
 estensione
 estendendo
 effettuare
+estendere
+eseguendo
 riferimento
 registri
 ra
@@ -1230,6 +1243,7 @@ raggi
 ritardi
 rappresentare
 riportarlo
+ricostruite
 Per
 Pseudo
 Prima
@@ -1276,6 +1290,7 @@ MB
 MnX
 MQ
 Mx
+MemToReg
 von
 valori
 variabili
@@ -1349,6 +1364,7 @@ nsGGG
 nC
 ns
 necessario
+necessit
 Idealizzazione
 Il
 Instruction
@@ -1413,6 +1429,9 @@ Ay
 AN
 Abilitare
 Add
+Alcune
+Aggiungiamo
+ALUSrc
 trasferimento
 tp
 thread
@@ -1467,6 +1486,8 @@ ts
 tu
 tVN
 transistor
+tutta
+teal
 Da
 DELLE
 Dimensioni
@@ -1491,6 +1512,7 @@ DnZ
 DDD
 DRAM
 Di
+Due
 Registro
 Registri
 RISC
@@ -1682,6 +1704,7 @@ SRAM
 Simili
 Simile
 SEL
+Struttura
 Non
 Nop
 Not

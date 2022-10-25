@@ -170,14 +170,14 @@
   "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
     "Architettura/RISC-V.md",
-    "Architettura/istruzioni.md",
     "Architettura/Istruzioni aritmetico logiche.md",
+    "Architettura/istruzioni.md",
+    "Architettura/istruzioni di confronto.md",
+    "Architettura/Istruzioni di flusso.md",
+    "Processore.md",
     "Architettura/Istruzioni di tasferimento.md",
     "Architettura/pseudo istruzioni.md",
     "Architettura/assembler.md",
-    "Sottoprogrammi.md",
-    "Architettura/memoria.md",
-    "Compilazione.md",
-    "Architettura/codice binario.md"
+    "Sottoprogrammi.md"
   ]
 }

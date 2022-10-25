@@ -10,3 +10,7 @@ Aggiungiamo poi:
 - un [[MUX]] (mux A) al secondo ingresso dell'alu per scegliere se il secondo input sia un secondo operando o l'offset esteso con <font color="teal">**segnale di selezione ALUSrc**</font>
 - un [[MUX]] (mux C) all'ingresso della ingresso del register file per scegliere se il risultato da scrivere nel registro destinazione è l'uscita dell'ALU o il dato letto dalla memoria dati (in caso di load) con <font color=teal>**segnale di selezione MemToReg**</font>
 ![[Pasted image 20221025162636.png|600]]
+
+Inoltre per l'[[istruzioni#Esecuzioni#Tipo B|esecuzione di istruzioni di tipo B]] ossia salto condizionato, dobbiamo aggiungere un MUX (mux B) per decidere il valore da scrivere nel program counter:
+- PC + 4
+- PC + offset_ext
