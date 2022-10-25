@@ -170,14 +170,14 @@
   "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
     "Processore.md",
+    "Architettura/Unità aritmetico logica.md",
+    "unità di controllo.md",
     "Architettura/RISC-V.md",
     "Architettura/Istruzioni aritmetico logiche.md",
     "Architettura/istruzioni.md",
     "Architettura/istruzioni di confronto.md",
     "Architettura/Istruzioni di flusso.md",
     "Architettura/Istruzioni di tasferimento.md",
-    "Architettura/pseudo istruzioni.md",
-    "Architettura/assembler.md",
-    "Sottoprogrammi.md"
+    "Architettura/pseudo istruzioni.md"
   ]
 }
