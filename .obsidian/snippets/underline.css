@@ -129,7 +129,9 @@ ol
     transition: .5s;
 }
 
-h4.data-callout
+.callout-title h1, .callout-title h2,.callout-title h3,.callout-title h4, .callout-title h5
 {
-    margin: 0%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
 }

@@ -12,4 +12,4 @@ Il lavoro svolto in una CPU pipeline per eseguire un'[[istruzioni|istruzione]] �
 Il tempo necessario per far avanzare un'istruzione di uno stadio di pipeline è idealmente un ciclo di [[clock]] in modo sincrono, con una durata di 200ps, ossia la durata dello stadio più lento (A cui si devono adattare tutte le istruzioni). Grazie alla pipeline abbiamo un'accelerazione equivalente al numero di stadi, ossia 5 volte tanto rispetto ad un processore senza pipeline.
 
 # Pipelining in [[RISC-V]]
-RISC-V usa una pipeline a 5 stadi in quanto la load, che come abbiamo visto nle
+RISC-V usa una pipeline a 5 stadi in quanto la load, che come abbiamo visto nel [[Processore|processore]] è la più lenta, ha bisogno di tutti e 5 gli stadi. Quindi abbiamo un **architettura pipeline a 5 stadi da 200 ps**

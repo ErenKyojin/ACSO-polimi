@@ -11,12 +11,8 @@
             "id": "5acbeaa7f5616b2d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Processore.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             },
             "group": "4c8d47864b623d17"
           }
@@ -32,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Processore.md",
+                "file": "pipelining.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Processore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +117,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Processore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Processore.md"
-              }
+              "state": {}
             }
           },
           {
@@ -170,11 +162,11 @@
   "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
     "pipelining.md",
-    "throughput.md",
     "Processore.md",
+    "Architettura/RISC-V.md",
+    "throughput.md",
     "unità di controllo.md",
     "Architettura/Unità aritmetico logica.md",
-    "Architettura/RISC-V.md",
     "Architettura/Istruzioni aritmetico logiche.md",
     "Architettura/istruzioni.md",
     "Architettura/istruzioni di confronto.md",
