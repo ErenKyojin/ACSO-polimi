@@ -22,24 +22,39 @@ Notiamo che in realtà sul singolo ciclo perdiamo, la load che è la più lunga 
 vediamo di seguito l'esecuzione di alcune istruzioni:
 ### - Aritmetico logice `op rd, rs1, rs2`
 
-Prelievo istruzione, incremento PC | Lettura rs1, rs2 | OP ALU (rs1 op rs2) | scrittura in rd
---- | --- |--- | ---
+Prelievo istruzione, incremento PC | Lettura rs1, rs2 | OP ALU (rs1 op rs2)|$\mspace{ 70mu }$ | scrittura in rd
+--- | --- |--- | --- | ---
 
 ### - Load `ld rd, offset12(rs1)`
 
 Prelievo istruzione, incremento PC | lettura registro rs1 | OP ALU (rs1 + off_ext) | prelievo M(rs1+off_ext) | Scrittura in rd
---- | --- | --- | --- | --- |
+--- | --- | --- | --- | --- 
 ### - Store `sd rs2, offset12(rs1)`
-Prelievo istruzione, incremento PC | lettura rs1, rs2 (sorgente) | OP ALU (rs1+off_ext) | Scrittura dato M(rs1+off_ext)
---- | --- | --- | ---
+Prelievo istruzione, incremento PC | lettura rs1, rs2 (sorgente) | OP ALU (rs1+off_ext) | Scrittura dato M(rs1+off_ext) | $\mspace{ 70mu }$|
+--- | --- | --- | --- | ---
 
 ### - Salto condizionato `beq rs1, rs2, off12`
-prelievo istruzione, incremento PC | lettura rs1, rs2 | OP ALU (rs1-rs2) & (PC + off_ext) | scrittura nel PC
---- | --- | --- | --- 
+prelievo istruzione, incremento PC | lettura rs1, rs2 | OP ALU (rs1-rs2) & (PC + off_ext) | scrittura nel PC | $\mspace{ 70mu }$|
+--- | --- | --- | --- | ---
 
 
 Le fasi di esecuzione sono
 
-1. (**IF**) Instruction Fetch, prelievo ist
-2. (**ID**) Instruction Decode
-3. (**EX**) Execution
+1. (**IF**): Instruction Fetch, prelievo istruzione
+2. (**ID**): Instruction Decode, decodifica istruzione e lettura registri
+3. (**EX**): Execution, esecuzione
+4. (**MEM**): Memory access, acesso alla memoria dati
+5. (**WB**): Write back, riscrittura registri
+
+Notiamo come abbiamo 5 fasi di esecuzione, ma alcune istruzioni ne usino solo 4, per questo gli spazi vuoti nelle istruzioni sopra.
+
+
+## Fasi di esecuzione nel processore
+
+Vogliamo scomporre il processori in 5 stadi di esecuzione, ognuno che corrisponde ad una fase, è necessario quindi introdurre i registri di pipeline che separano i diversi stadi essendo in esecuzione ad ogni ciclo 5 istruzioni diverse
+
+>[!oss]- Registri di pipeline
+>
+>![[Pasted image 20221025193607.png]]
+>
+>![[Pasted image 20221025193739.png]]

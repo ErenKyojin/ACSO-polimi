@@ -136,3 +136,7 @@ ol
     text-align: center;
 }
 
+ol strong
+{
+    color: #ff6961;
+}
