@@ -20,3 +20,13 @@ Il segnale per controllare questo mux <font color=> lo otteniamo facendo un [[AN
 ![[Pasted image 20221025171849.png|650]]
 
 Ora, come controlliamo l'ALU? la risposta è l'[[unità di controllo]]
+
+
+
+>[!oss] Tempo di esecuzione delle istruzioni
+>![[Pasted image 20221025175406.png]]
+>Se eseguiamo una istruzione per ciclo di clock, allora il ciclo di clock non può durare meno della più lunga istruzione da eseguire, detta percorso critico, ossia 800 ps in [[RISC-V]]
+>
+
+Nel caso di implementazione a monociclo eseguiamo una istruzione singola per ciclo di clock, che va iniziata e completata entro la fine di questo ciclo, tuttavia non è una strategia efficace dal punto di vista delle risorse, ci basti pensare che così facendo, considerando un ciclo di clock di durata $T=800\ ps$ avremo una frequenza $f =\frac{1}{T} = 1,250\ Ghz$. Ma, basta una veloce riflessione sui processori di mercato, per sapere che è almeno un terzo della performance media. Inoltre non sfruttiamo il fatto che alcune istruzioni possono richiedere quasi metà del tempo del percorso critico.
+Come soluzione a questo problema introduciamo il [[pipelining]]
