@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Processore.md",
+                "file": "pipelining.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Processore.md",
+                "file": "pipelining.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Processore.md",
+                "file": "pipelining.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Processore.md",
+                "file": "pipelining.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Processore.md"
+                "file": "pipelining.md"
               }
             }
           },
@@ -169,8 +169,8 @@
   },
   "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
-    "pipeline.md",
     "Processore.md",
+    "pipelining.md",
     "unità di controllo.md",
     "Architettura/Unità aritmetico logica.md",
     "Architettura/RISC-V.md",
