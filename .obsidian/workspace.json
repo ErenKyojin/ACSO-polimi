@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Processore.md",
+                "file": "unità di controllo.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Processore.md",
+                "file": "unità di controllo.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Processore.md",
+                "file": "unità di controllo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Processore.md",
+                "file": "unità di controllo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Processore.md"
+                "file": "unità di controllo.md"
               }
             }
           },
@@ -169,12 +169,12 @@
   },
   "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
+    "Processore.md",
     "Architettura/RISC-V.md",
     "Architettura/Istruzioni aritmetico logiche.md",
     "Architettura/istruzioni.md",
     "Architettura/istruzioni di confronto.md",
     "Architettura/Istruzioni di flusso.md",
-    "Processore.md",
     "Architettura/Istruzioni di tasferimento.md",
     "Architettura/pseudo istruzioni.md",
     "Architettura/assembler.md",

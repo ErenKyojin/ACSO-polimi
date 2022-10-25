@@ -18,3 +18,5 @@ Inoltre per l'[[istruzioni#Esecuzioni#Tipo B|esecuzione di istruzioni di tipo B]
 Il segnale per controllare questo mux <font color=> lo otteniamo facendo un [[AND]] l'uscita zero dell'ALU e il Branch
 
 ![[Pasted image 20221025171849.png|650]]
+
+Ora, come controlliamo l'ALU? la risposta è l'[[unità di controllo]]
