@@ -16,3 +16,7 @@ RISC-V usa una pipeline a 5 stadi in quanto la load, che come abbiamo visto nel 
 Notiamo che in realtà sul singolo ciclo perdiamo, la load che è la più lunga passa da 800ps a 1000ps (5 stadi da 200ps) tuttavia il troughput milgiora di 4 volte:
 - in monociclo: 1 istruzione di load ogni 800ps
 - in pipeline: 1 istruzione di load ogni 200ps
+
+## Fasi di esecuzione delle istruzioni
+
+###
