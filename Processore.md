@@ -13,4 +13,6 @@ Aggiungiamo poi:
 
 Inoltre per l'[[istruzioni#Esecuzioni#Tipo B|esecuzione di istruzioni di tipo B]] ossia salto condizionato, dobbiamo aggiungere un MUX (mux B) per decidere il valore da scrivere nel program counter:
 - PC + 4
-- PC + offset_ext
+- PC + offset_ext, indirizzo di destinazione del salto o BTA(branch target address)
+
+Il segnale per controllare questo mux 
