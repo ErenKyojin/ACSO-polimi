@@ -23,7 +23,7 @@ Ora, come controlliamo l'ALU? la risposta è l'[[unità di controllo]]
 
 
 
->[!oss] Tempo di esecuzione delle istruzioni
+>[!oss] #### Tempo di esecuzione delle istruzioni
 >![[Pasted image 20221025175406.png]]
 >Se eseguiamo una istruzione per ciclo di clock, allora il ciclo di clock non può durare meno della più lunga istruzione da eseguire, detta percorso critico, ossia 800 ps in [[RISC-V]]
 >
