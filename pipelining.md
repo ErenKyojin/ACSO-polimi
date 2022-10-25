@@ -19,4 +19,27 @@ Notiamo che in realtà sul singolo ciclo perdiamo, la load che è la più lunga 
 
 ## Fasi di esecuzione delle istruzioni
 
-###
+vediamo di seguito l'esecuzione di alcune istruzioni:
+### - Aritmetico logice `op rd, rs1, rs2`
+
+Prelievo istruzione, incremento PC | Lettura rs1, rs2 | OP ALU (rs1 op rs2) | scrittura in rd
+--- | --- |--- | ---
+
+### - Load `ld rd, offset12(rs1)`
+
+Prelievo istruzione, incremento PC | lettura registro rs1 | OP ALU (rs1 + off_ext) | prelievo M(rs1+off_ext) | Scrittura in rd
+--- | --- | --- | --- | --- |
+### - Store `sd rs2, offset12(rs1)`
+Prelievo istruzione, incremento PC | lettura rs1, rs2 (sorgente) | OP ALU (rs1+off_ext) | Scrittura dato M(rs1+off_ext)
+--- | --- | --- | ---
+
+### - Salto condizionato `beq rs1, rs2, off12`
+prelievo istruzione, incremento PC | lettura rs1, rs2 | OP ALU (rs1-rs2) & (PC + off_ext) | scrittura nel PC
+--- | --- | --- | --- 
+
+
+Le fasi di esecuzione sono
+
+1. (**IF**) Instruction Fetch, prelievo ist
+2. (**ID**) Instruction Decode
+3. (**EX**) Execution
