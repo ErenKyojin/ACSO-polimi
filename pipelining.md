@@ -58,3 +58,9 @@ Vogliamo scomporre il processori in 5 stadi di esecuzione, ognuno che corrispond
 >![[Pasted image 20221025193607.png]]
 >
 >![[Pasted image 20221025193739.png]]
+
+Questi registri sono detti [[registri interstadio]] e propagano i dati necessari attraverso  gli stadi.
+
+
+[[Conflitti]]
+
