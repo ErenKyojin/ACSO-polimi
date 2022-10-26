@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "abe83e0cbd1d319d",
+    "type": "split",
+    "children": [
+      {
+        "id": "952e2cb33e311e43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1c5c2dc04e35a46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bistabili.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "eb3f71d541b3ecee"
+          }
+        ]
+      },
+      {
+        "id": "d1134c23c2c99b38",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96d922cec6a0ca91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bistabili.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "eb3f71d541b3ecee"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1ddb39a80f17ebd3",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "58dac6fdac1eb52e",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "d795205b4f099e7c",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "1727a7dae7f248fd",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "8a5bd4495de0735c",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "d205280b48e6ff5e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "c263ea475a68b65d",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "f574d78bbfb7d462",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Bistabili.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "6efb8a4a694237f3",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Bistabili.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "1de02eb28a70f490",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Bistabili.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "c1c5c2dc04e35a46",
+  "lastOpenFiles": [
+    "latch.md",
+    "Bistabili.md",
+    "Bistabile D sincrono.md",
+    "clock.md",
+    "ritardo di propagazione.md",
+    "Circuiti sequenziali.md",
+    "porte logiche.md",
+    "Blocchi sequenziali.md",
+    "Bistabile SR sincrono.md",
+    "Bistabile SR asincrono.md"
+  ]
+}
