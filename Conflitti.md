@@ -144,12 +144,14 @@ Il rilevamento avviene durante la fase EX, se c'è richiesta di un registro che 
 A occuparsi di questi controlli è l'[[unità di propagazione]] che è contenuta nella fase EX
 
 
-# Conflitti
+# Conflitti di controllo
 
 Questi conflitti vengono dalle istruzioni di salto condizionato: `beq rs1, rs2, offset12`
-
 
 Prelievo istruzione, incremento PC | Lettura rs1, rs2 | OP ALU e PC + off | scrittura nel PC | $\qquad$ |
 --- | --- | --- | --- |---
 
 
+La pipeline per andare avanti richiede che venga prelevata un'istruzione ad ogni ciclo di clock per iniziare ad eseguirla, ma non possiamo sapere quale sarà la prossima istruzione fino a quando il salto condizionato non è presa fino allo stadio MEM.
+
+La condiz
