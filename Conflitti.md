@@ -189,5 +189,14 @@ Aggiungiamo delle nuove funzioni alla pipeline che possono accelerare le decisio
 	  - Il calcolo dell'indirizzo di destinazione
 	  - La valutazione del confronto dei registri
 
-- a
-1.
+#### Anticipazione calcolo indirizzo
+Il PC e l'offset sono disponibili già dal primo interstadio IF/ID, quindi possiamo anticipare l'addizione allo stadio ID (prima era nel successivo stadio EX).
+
+#### Anticipazione condizione sul salto
+Necessario confrontare il contenuto dei registri letto nello stadio ID attraverso uno [[XNOR]] bit a bit nello stadio ID
+
+>[!oss] Pipeline ottimizzata
+>![[Pasted image 20221027153545.png]]
+
+
+La soluzione più efficiente è però avere un misto delle ultime due, pipeline ottimizzata e predizione, infatti con la pipeline ottimizzata comunque perderemmo un ciclo di clock, mettiamo l'untaken branch nella fase IF così da caricare già un'eventuale prossima istruzione per poi scartarla.

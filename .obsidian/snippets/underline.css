@@ -93,10 +93,6 @@ ol::before{
     color: red;
 }
 
-::marker
-{
-    content: null;
-}
 
 .inline-title
 {
