@@ -166,3 +166,6 @@ Con la pipeline attuale abbiamo due opzioni:
 >[!esempio]-
 >![[Pasted image 20221027142619.png]]
 
+
+### Predizione
+Oppure implementiamo la **predizione**. Si predice che il salto non venga eseguito e si procede con il prelievo della prossima istruzione
