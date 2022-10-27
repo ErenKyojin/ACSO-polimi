@@ -163,3 +163,6 @@ Con la pipeline attuale abbiamo due opzioni:
 * #### via hardware:
 	3 stalli di stadio IF
 
+>[!esempio]-
+>![[Pasted image 20221027142619.png]]
+
