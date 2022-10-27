@@ -1,3 +1,6 @@
-.list-bullet {
-    list-style-type: square;
+li::marker
+{
+
+    font-variant-numeric: tabular-nums;
+
 }

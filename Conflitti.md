@@ -189,3 +189,4 @@ Aggiungiamo delle nuove funzioni alla pipeline che possono accelerare le decisio
 	  - Il calcolo dell'indirizzo di destinazione
 	  - La valutazione del confronto dei registri
 
+- a
