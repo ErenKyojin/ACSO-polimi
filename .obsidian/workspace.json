@@ -19,19 +19,8 @@
               }
             },
             "group": "4c8d47864b623d17"
-          },
-          {
-            "id": "e47390f5806039e0",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "41e07e8da664381a",
@@ -175,7 +164,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e47390f5806039e0",
+  "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
     "Architettura/program counter.md",
     "Bus.md",
