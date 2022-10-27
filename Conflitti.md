@@ -157,6 +157,8 @@ La pipeline per andare avanti richiede che venga prelevata un'istruzione ad ogni
 La condizione e l'indirizzo di destinazione del salto vengono calcolati nello stadio EX, la logica di controllo del salto nello stadio MEM, e viene aggiornato il [[program counter]] con l'indirizzo di destinazione del salto o PC + 4 in base al risultato dell'ALU sul fronte di salita del clock di MEM/WB, c'è quindi un ritardo di 3 cicli di [[clock]].
 
 ## Soluzioni
+
+### Standard
 Con la pipeline attuale abbiamo due opzioni:
 * ####  via software:
 	3 NOP
@@ -168,4 +170,20 @@ Con la pipeline attuale abbiamo due opzioni:
 
 
 ### Predizione
-Oppure implementiamo la **predizione**. Si predice che il salto non venga eseguito e si procede con il prelievo della prossima istruzione
+Oppure implementiamo la **predizione**. Si predice che il salto non venga eseguito e si procede con il prelievo della prossima istruzione (untaken branch) e si procede con il prelievo della prossima istruzione sequenziale, arrivati al caso MEM ci sono due possibili strade:
+
+>[!multi-column]
+>
+>>[!success] Predizione corretta (untaken branch)
+>>L'esecuzione già svolta era corretta, non sprechiamo nessun ciclo di clock
+>>
+>
+>>[!failure] Predizione scorretta (taken branch)
+>>Bisognava eseguire il salto, si procede quindi con il flushing delle 3 istruzioni già in pipeline (che altrimenti verrebbero eseguite)
+
+
+### Pipeline ottimizzata
+Aggiungiamo delle nuove funzioni alla pipeline che possono accelerare le decisioni, vogliamo in particolare:
+- **Accelerare la decisione del salto nella pipeline**
+	Passiamo dal prenderla allo stadio MEM allo stadio ID, che consiste nell'anticipare:
+	  - Il calcolo dell'indirizzo di destinazione
