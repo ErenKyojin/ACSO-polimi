@@ -89,12 +89,14 @@ ol
     list-style-type: upper-roman;
 }
 
-ul ul
-{
-    color: #C32C57;
+ol::before{
+    color: red;
 }
 
-
+::marker
+{
+    content: null;
+}
 
 .inline-title
 {

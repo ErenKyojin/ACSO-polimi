@@ -190,3 +190,4 @@ Aggiungiamo delle nuove funzioni alla pipeline che possono accelerare le decisio
 	  - La valutazione del confronto dei registri
 
 - a
+1.
