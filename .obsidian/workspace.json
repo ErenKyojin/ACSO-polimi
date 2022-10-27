@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pipelining.md",
+                "file": "Conflitti.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pipelining.md",
+                "file": "Conflitti.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pipelining.md",
+                "file": "Conflitti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pipelining.md",
+                "file": "Conflitti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pipelining.md"
+                "file": "Conflitti.md"
               }
             }
           },
@@ -169,15 +169,15 @@
   },
   "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
-    "Processore.md",
     "pipelining.md",
-    "Architettura/RISC-V.md",
-    "throughput.md",
-    "unità di controllo.md",
-    "Architettura/Unità aritmetico logica.md",
-    "Architettura/Istruzioni aritmetico logiche.md",
-    "Architettura/istruzioni.md",
-    "Architettura/istruzioni di confronto.md",
-    "Architettura/Istruzioni di flusso.md"
+    "Processore.md",
+    "registri interstadio.md",
+    "clock.md",
+    "circuito ad albero.md",
+    "circuito a cascata.md",
+    "Circuiti sequenziali.md",
+    "Bus.md",
+    "Segnale binario.md",
+    "Senza nome.md"
   ]
 }

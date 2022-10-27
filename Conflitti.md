@@ -9,7 +9,7 @@ Nonostante l'efficienza della [[pipelining|pipeline]] l'esecuzione in parallelo 
 
 Questo problema in [[RISC-V]] non esiste, in primis la [[memoria]] istruzioni è separata dalla memoria dati, inoltre il banco dei registri è usato nello stesso clock sia in scrittura che in lettura con la temporizzazione. Non c'è mai una sovrapposizione delle risorse
 
-# Conflitto dati (o data hazard)
+# Conflitti dati (o data hazard)
 
 Se le istruzioni nella pipeline hanno dipendenze sui dati possono nascere problemi di conflitto sui dati.
 
@@ -144,3 +144,12 @@ Il rilevamento avviene durante la fase EX, se c'è richiesta di un registro che 
 A occuparsi di questi controlli è l'[[unità di propagazione]] che è contenuta nella fase EX
 
 
+# Conflitti
+
+Questi conflitti vengono dalle istruzioni di salto condizionato: `beq rs1, rs2, offset12`
+
+
+Prelievo istruzione, incremento PC | Lettura rs1, rs2 | OP ALU e PC + off | scrittura nel PC | $\qquad$ |
+--- | --- | --- | --- |---
+
+d
