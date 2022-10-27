@@ -152,4 +152,4 @@ Questi conflitti vengono dalle istruzioni di salto condizionato: `beq rs1, rs2, 
 Prelievo istruzione, incremento PC | Lettura rs1, rs2 | OP ALU e PC + off | scrittura nel PC | $\qquad$ |
 --- | --- | --- | --- |---
 
-d
+
