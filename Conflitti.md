@@ -154,4 +154,12 @@ Prelievo istruzione, incremento PC | Lettura rs1, rs2 | OP ALU e PC + off | scri
 
 La pipeline per andare avanti richiede che venga prelevata un'istruzione ad ogni ciclo di clock per iniziare ad eseguirla, ma non possiamo sapere quale sarà la prossima istruzione fino a quando il salto condizionato non è presa fino allo stadio MEM.
 
-La condiz
+La condizione e l'indirizzo di destinazione del salto vengono calcolati nello stadio EX, la logica di controllo del salto nello stadio MEM, e viene aggiornato il [[program counter]] con l'indirizzo di destinazione del salto o PC + 4 in base al risultato dell'ALU sul fronte di salita del clock di MEM/WB, c'è quindi un ritardo di 3 cicli di [[clock]].
+
+## Soluzioni
+Con la pipeline attuale abbiamo due opzioni:
+* ####  via software:
+	3 NOP
+* #### via hardware:
+	3 stalli di stadio IF
+
