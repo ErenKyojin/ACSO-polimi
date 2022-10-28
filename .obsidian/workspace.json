@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architettura/memoria.md",
+                "file": "porte logiche.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architettura/memoria.md",
+                "file": "porte logiche.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura/memoria.md",
+                "file": "porte logiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura/memoria.md",
+                "file": "porte logiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura/memoria.md"
+                "file": "porte logiche.md"
               }
             }
           },
@@ -166,15 +166,15 @@
   },
   "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
-    "Architettura/program counter.md",
-    "Bus.md",
-    "buffer tri-state.md",
-    "Blocchi sequenziali.md",
-    "Bistabili.md",
-    "Architettura/Istruzioni di trasferimento dati IO.md",
-    "Architettura/Istruzioni di tasferimento.md",
-    "Confrontatore.md",
-    "De morgan.md",
-    "Decoder.md"
+    "Processore.md",
+    "Register file.md",
+    "registri interstadio.md",
+    "Registro a scorrimento.md",
+    "relazione stato uscita.md",
+    "unità di propagazione.md",
+    "trasformazioni.md",
+    "Sottoprogrammi.md",
+    "Shifter.md",
+    "Segnale binario.md"
   ]
 }
