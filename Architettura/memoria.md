@@ -116,6 +116,12 @@ VAR | SIZE
  `long int`|8 Byte o una double word
 
 
+# Indirizzo di memoria
+Un'indirizzo di memoria è l'indirizzo che indica uno specifico blocco di memoria, un indirizzo di memoria di N bit è diviso in campi:
+- Spiazzamento (offset) del byte nel blocco individua quale byte stiamo cercando
+- Indice (index) identifica l'indirizzo del blocco in cache
+- etichetta (tag) per confrontare il contenuto del campo etichetta del blocco di [[cache]] selezionate dall'indice
+
 # Memoria come [[Blocchi sequenziali|blocco sequenziale]]
 
 - Memoria volatile, permette l'accesso in lettura e scrittura, ed ha una struttura a matrice le cui righe sono le parole di memoria a 32 bit con accesso direttiio

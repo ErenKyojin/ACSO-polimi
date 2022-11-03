@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conflitti.md",
-                "mode": "preview",
+                "file": "Cache.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Conflitti.md",
+            "file": "Cache.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Conflitti.md",
+            "file": "Cache.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,27 +122,24 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Conflitti.md"
+            "file": "Cache.md"
           }
         }
       }
     ],
     "currentTab": 0
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
   "active": "c1c5c2dc04e35a46",
   "lastOpenFiles": [
-    "pipelining.md",
-    "registri interstadio.md",
-    "unità di controllo.md",
-    "Conflitti.md",
+    "Architettura/memoria.md",
+    "Cache.md",
     "unità di propagazione.md",
-    "DEMUX.md",
-    "Bistabili.md",
-    "latch.md",
-    "Bistabile D sincrono.md",
-    "clock.md"
+    "indirizzo di memoria.md",
+    "blocco.md",
+    "gerarchia di memoria.md",
+    "principio di località.md",
+    "Conflitti.md",
+    "pipelining.md",
+    "registri interstadio.md"
   ]
 }
