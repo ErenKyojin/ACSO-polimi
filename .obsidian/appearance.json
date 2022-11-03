@@ -1,10 +1,11 @@
 {
   "enabledCssSnippets": [
-    "test",
     "MCL Multi Column",
     "Assembly",
-    "underline",
-    "centerImg"
+    "centerImg",
+    "list",
+    "test",
+    "underline"
   ],
   "baseFontSize": 15,
   "accentColor": ""

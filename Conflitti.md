@@ -9,7 +9,7 @@ Nonostante l'efficienza della [[pipelining|pipeline]] l'esecuzione in parallelo 
 
 Questo problema in [[RISC-V]] non esiste, in primis la [[memoria]] istruzioni è separata dalla memoria dati, inoltre il banco dei registri è usato nello stesso clock sia in scrittura che in lettura con la temporizzazione. Non c'è mai una sovrapposizione delle risorse
 
-# Conflitto dati (o data hazard)
+# Conflitti dati (o data hazard)
 
 Se le istruzioni nella pipeline hanno dipendenze sui dati possono nascere problemi di conflitto sui dati.
 
@@ -144,3 +144,59 @@ Il rilevamento avviene durante la fase EX, se c'è richiesta di un registro che 
 A occuparsi di questi controlli è l'[[unità di propagazione]] che è contenuta nella fase EX
 
 
+# Conflitti di controllo
+
+Questi conflitti vengono dalle istruzioni di salto condizionato: `beq rs1, rs2, offset12`
+
+Prelievo istruzione, incremento PC | Lettura rs1, rs2 | OP ALU e PC + off | scrittura nel PC | $\qquad$ |
+--- | --- | --- | --- |---
+
+
+La pipeline per andare avanti richiede che venga prelevata un'istruzione ad ogni ciclo di clock per iniziare ad eseguirla, ma non possiamo sapere quale sarà la prossima istruzione fino a quando il salto condizionato non è presa fino allo stadio MEM.
+
+La condizione e l'indirizzo di destinazione del salto vengono calcolati nello stadio EX, la logica di controllo del salto nello stadio MEM, e viene aggiornato il [[program counter]] con l'indirizzo di destinazione del salto o PC + 4 in base al risultato dell'ALU sul fronte di salita del clock di MEM/WB, c'è quindi un ritardo di 3 cicli di [[clock]].
+
+## Soluzioni
+
+### Standard
+Con la pipeline attuale abbiamo due opzioni:
+* ####  via software:
+	3 NOP
+* #### via hardware:
+	3 stalli di stadio IF
+
+>[!esempio]-
+>![[Pasted image 20221027142619.png]]
+
+
+### Predizione
+Oppure implementiamo la **predizione**. Si predice che il salto non venga eseguito e si procede con il prelievo della prossima istruzione (untaken branch) e si procede con il prelievo della prossima istruzione sequenziale, arrivati al caso MEM ci sono due possibili strade:
+
+>[!multi-column]
+>
+>>[!success] Predizione corretta (untaken branch)
+>>L'esecuzione già svolta era corretta, non sprechiamo nessun ciclo di clock
+>>
+>
+>>[!failure] Predizione scorretta (taken branch)
+>>Bisognava eseguire il salto, si procede quindi con il flushing delle 3 istruzioni già in pipeline (che altrimenti verrebbero eseguite)
+
+
+### Pipeline ottimizzata
+Aggiungiamo delle nuove funzioni alla pipeline che possono accelerare le decisioni, vogliamo in particolare:
+- **Accelerare la decisione del salto nella pipeline**
+	Passiamo dal prenderla allo stadio MEM allo stadio ID, ossia vogliamo anticipare:
+	  - Il calcolo dell'indirizzo di destinazione
+	  - La valutazione del confronto dei registri
+
+#### Anticipazione calcolo indirizzo
+Il PC e l'offset sono disponibili già dal primo interstadio IF/ID, quindi possiamo anticipare l'addizione allo stadio ID (prima era nel successivo stadio EX).
+
+#### Anticipazione condizione sul salto
+Necessario confrontare il contenuto dei registri letto nello stadio ID attraverso uno [[XNOR]] bit a bit nello stadio ID
+
+>[!oss] Pipeline ottimizzata
+>![[Pasted image 20221027153545.png]]
+
+
+La soluzione più efficiente è però avere un misto delle ultime due, pipeline ottimizzata e predizione, infatti con la pipeline ottimizzata comunque perderemmo un ciclo di clock, mettiamo l'untaken branch nella fase IF così da caricare già un'eventuale prossima istruzione per poi scartarla.

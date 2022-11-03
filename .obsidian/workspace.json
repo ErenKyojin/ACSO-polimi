@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pipelining.md",
+                "file": "Operatori.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pipelining.md",
+                "file": "Operatori.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pipelining.md",
+                "file": "Operatori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pipelining.md",
+                "file": "Operatori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pipelining.md"
+                "file": "Operatori.md"
               }
             }
           },
@@ -164,20 +164,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
   "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
-    "Processore.md",
-    "pipelining.md",
-    "Architettura/RISC-V.md",
-    "throughput.md",
-    "unità di controllo.md",
-    "Architettura/Unità aritmetico logica.md",
-    "Architettura/Istruzioni aritmetico logiche.md",
-    "Architettura/istruzioni.md",
-    "Architettura/istruzioni di confronto.md",
-    "Architettura/Istruzioni di flusso.md"
+    "De morgan.md",
+    "Operatori.md",
+    "trasformazioni.md",
+    "funzione combinatoria.md",
+    "funzione logica.md",
+    "buffer tri-state.md",
+    "Bus.md",
+    "Rete combinatoria.md",
+    "relazione stato uscita.md",
+    "Registro parallelo.md"
   ]
 }
