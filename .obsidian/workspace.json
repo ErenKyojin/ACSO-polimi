@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operatori.md",
+                "file": "Cache.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operatori.md",
+                "file": "Cache.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operatori.md",
+                "file": "Cache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operatori.md",
+                "file": "Cache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operatori.md"
+                "file": "Cache.md"
               }
             }
           },
@@ -166,15 +166,15 @@
   },
   "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
-    "De morgan.md",
+    "blocco.md",
+    "Cache.md",
     "Operatori.md",
+    "De morgan.md",
     "trasformazioni.md",
     "funzione combinatoria.md",
     "funzione logica.md",
     "buffer tri-state.md",
     "Bus.md",
-    "Rete combinatoria.md",
-    "relazione stato uscita.md",
-    "Registro parallelo.md"
+    "Rete combinatoria.md"
   ]
 }
