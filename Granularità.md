@@ -1,0 +1,1 @@
+Quantità di istruzioni assegnata ad un thread

@@ -8,16 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c1c5c2dc04e35a46",
+            "id": "2c20b2ec91038775",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cache.md",
+                "file": "Esecuzione concorrente.md",
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "df7c4e1b04e65190"
+          }
+        ]
+      },
+      {
+        "id": "b6601631eec4ebbe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "948cae444197de4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Esecuzione concorrente.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "df7c4e1b04e65190"
           }
         ]
       }
@@ -93,7 +113,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Cache.md",
+            "file": "Esecuzione concorrente.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +130,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Cache.md",
+            "file": "Esecuzione concorrente.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,24 +142,24 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Cache.md"
+            "file": "Esecuzione concorrente.md"
           }
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "c1c5c2dc04e35a46",
+  "active": "948cae444197de4c",
   "lastOpenFiles": [
-    "Architettura/memoria.md",
-    "Cache.md",
-    "unità di propagazione.md",
-    "indirizzo di memoria.md",
-    "blocco.md",
-    "gerarchia di memoria.md",
-    "principio di località.md",
-    "Conflitti.md",
-    "pipelining.md",
-    "registri interstadio.md"
+    "Esecuzione concorrente.md",
+    "thread group.md",
+    "Granularità.md",
+    "Thread.md",
+    "Esecuzione sequenziale.md",
+    "system call.md",
+    "processo.md",
+    "segmenti.md",
+    "parallelismo.md",
+    "sistema operativo.md"
   ]
 }

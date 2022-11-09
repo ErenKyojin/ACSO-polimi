@@ -1,0 +1,1 @@
+Date due task A e B in un programma sono sequenziali se possiamo sapere a priori che A verrà svolta prima di B o vice versa
