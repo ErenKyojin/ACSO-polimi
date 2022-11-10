@@ -1,0 +1,2 @@
+Istruzioni indivisibili e singole
+

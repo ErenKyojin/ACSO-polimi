@@ -2,3 +2,4 @@ Detti [[processo|processi]] leggeri, permettono l'esecuzione concorrente pur ess
 
 Un thread è comunque interno ad un processo, può essere svolto in parallelo con altri thread nello stesso processo, i thread sfruttano solo il [[segmenti|segmento]] di stack, mentre codice e dati saranno condivisi con altri thread e processi.
 
+Se vogliamo sincronizzare i due thread usiamo i [[semafori]]

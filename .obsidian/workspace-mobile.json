@@ -4,25 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "952e2cb33e311e43",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2c20b2ec91038775",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Esecuzione concorrente.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "df7c4e1b04e65190"
-          }
-        ]
-      },
-      {
         "id": "b6601631eec4ebbe",
         "type": "tabs",
         "children": [
@@ -32,12 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Esecuzione concorrente.md",
+                "file": "semafori.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "df7c4e1b04e65190"
+            "group": "2ee268debfefdfd9"
+          }
+        ]
+      },
+      {
+        "id": "18d6e36ae96e5f55",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45a5fe816414261e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "semafori.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "2ee268debfefdfd9"
           }
         ]
       }
@@ -113,7 +113,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Esecuzione concorrente.md",
+            "file": "semafori.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Esecuzione concorrente.md",
+            "file": "semafori.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -142,7 +142,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Esecuzione concorrente.md"
+            "file": "semafori.md"
           }
         }
       }
@@ -151,15 +151,15 @@
   },
   "active": "948cae444197de4c",
   "lastOpenFiles": [
+    "Thread.md",
+    "sequenze critiche.md",
+    "mutex.md",
+    "Deadlock.md",
+    "istruzioni atomiche.md",
     "Esecuzione concorrente.md",
     "thread group.md",
     "Granularità.md",
-    "Thread.md",
     "Esecuzione sequenziale.md",
-    "system call.md",
-    "processo.md",
-    "segmenti.md",
-    "parallelismo.md",
-    "sistema operativo.md"
+    "system call.md"
   ]
 }

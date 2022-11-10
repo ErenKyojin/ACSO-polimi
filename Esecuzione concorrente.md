@@ -83,5 +83,15 @@ Terminazione di un `pthread_join` simile a `waitid()`
 - Condivisione dei dati tra thread molto più semplice, tra processi è complicata
 
 
+>[!failure]
+>Impossibile determinare quale istruzione viene eseguita prima, ossia non è deterministico
+
+
+
+
+>[!esempio] slide 5 (1.3)
+
+
+[[sequenze critiche]]
 
 
