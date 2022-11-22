@@ -193,4 +193,3 @@ Inoltre passa i parametri `argc` e `argv`.
 
 
 
-S

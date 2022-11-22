@@ -170,3 +170,4 @@ logic ports/fill = darkgray,
 | ------- | --------------- | ------------------------ |
 | fronte  |                 | flip-flop edge triggered |
 | livello | latch con clock | flipflop master slave                         |
+

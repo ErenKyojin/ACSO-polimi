@@ -87,3 +87,6 @@ Data una forma booleana esistono una ed una sola forma canonica SoP ed una e una
 >```
 
 
+
+
+
