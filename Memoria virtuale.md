@@ -26,7 +26,7 @@ Esiste una tabella delle pagine per ogni processo in esecuzione e contiene una r
 >
 >>[!memoria virtuale]
 >>
->> ## P:
+>> ## P
 >>numero di pagina | contenuto delle pagine
 >>--- | ---
 >>0x00000 | AAAA
@@ -34,17 +34,33 @@ Esiste una tabella delle pagine per ogni processo in esecuzione e contiene una r
 >>0x00002 | CCCC
 >>0x00003 | DDDD 
 >>
->> ## Q:
+>> ## Q
+>> numero di pagina | contenuto delle pagine
+>> --- | ---
+>> 0x00000 | RRRR
+>> 0x00001 | SSSS
+>> 0x00002 | TTTT
+>> 0x00003 | UUUU
+>> 0x00004 | VVVV
 >
->>[!tabellla Pagine di P]
+>>[!tabellle Pagine]
 >>
->>NPV | NPF
+>>## P
+>>NPV </br> -------------| NPF </br> -------------
 >>--- | ---
 >>0x00000 | 0x00004
 >>0x00001 | 0x00005
 >>0x00002 | 0x00006
 >>0x00003 | 0x00007
 >>
+>> ## Q
+>> NPV </br> - | NPV </br> -
+>> ---|----
+>> 0x00000 | 0x00008
+>> 0x00001 | 0x00009
+>> 0x00002 | 0x0000A
+>> 0x00003 | 0x0000B
+>> 0x00004 | 0x0000C
 >
 >>[!memoria fisica]
 >>numero di pagina | contenuto delle pagine
@@ -68,3 +84,4 @@ Esiste una tabella delle pagine per ogni processo in esecuzione e contiene una r
 >>.... | ....
 >
 
+Le tabelle sono allocate in memoria alla creazione del processo
