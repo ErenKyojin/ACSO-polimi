@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "translation lookaside buffer.md",
+                "file": "Memoria virtuale.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "translation lookaside buffer.md",
+                "file": "Memoria virtuale.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "translation lookaside buffer.md",
+                "file": "Memoria virtuale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "translation lookaside buffer.md",
+                "file": "Memoria virtuale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "translation lookaside buffer.md"
+                "file": "Memoria virtuale.md"
               }
             }
           },
@@ -166,15 +166,15 @@
   },
   "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
-    "Memoria virtuale.md",
     "pagina.md",
+    "Memoria virtuale.md",
+    "translation lookaside buffer.md",
     "Architettura/memoria.md",
     "Cache.md",
     "memory mapping.md",
     "blocco.md",
     "Operatori.md",
     "De morgan.md",
-    "trasformazioni.md",
-    "funzione combinatoria.md"
+    "trasformazioni.md"
   ]
 }

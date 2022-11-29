@@ -93,3 +93,20 @@ La tabella delle pagine è una struttura dati del [[sistema operativo]] resident
 2. Accesso all'indirizzo fisico del dato
 
 Per ottimizzare il processo sfruttiamo, per mantenere in memoria le tabelle NPV to NPF, una cache (**[[translation lookaside buffer]]** o TLB)  in un meccanismo hardware detto **memory managment unit** o MMU.
+
+
+# Gestione delle pagine virtuali non residenti in memoria
+
+
+## On demand
+Il metodo di paginazione su richiesta (oppure **on demand paging**) carica le pagine in memroia fisica solo quando necessario.
+
+Nel caso di esecuzione di un nuovo processo:
+- La tabella delle pagine del processo ha tutti i valid bit a $0$, quindi nessuna pagina si trova in memoria, ed anche il TLB ha tutti i valid bit a 0
+- Quando la CPU prova ad accedere alla prima istruzione si verifica un **page fault** e la prima pagina di codice viene portata in memoria e registrata nella tabella delle pagine e nel TLB
+- Ogni volta che si identifica un indirizzo in un pagina non ancora in memoria si verifica un **page fault**
+
+
+
+## Working set di ordine $k$
+Basato sulla località degli accessi, consiste nell'insieme delle pagine refernziate durante gli ultimi $k$ accdessi in memoria, se $k$ è abbastanza grande, per il principio di località il set di un programma varia molto lentamente.
