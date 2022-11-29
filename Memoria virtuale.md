@@ -85,3 +85,11 @@ Esiste una tabella delle pagine per ogni processo in esecuzione e contiene una r
 >
 
 Le tabelle sono allocate in memoria alla creazione del processo
+
+
+# Memory managment unit
+La tabella delle pagine è una struttura dati del [[sistema operativo]] residente in memoria che può assumere grandi dimensioni, inoltre ogni accesso a memoria è in realtà eseguito tramite due accessi:
+1. Accesso alla tabella della pagine per tradurre l'indirizzo virtuale in indirizzo fisico
+2. Accesso all'indirizzo fisico del dato
+
+Per ottimizzare il processo sfruttiamo, per mantenere in memoria le tabelle NPV to NPF, una cache (**translation lookaside buffer** o TLB)  in un meccanismo hardware detto **memory managment unit** o MMU.

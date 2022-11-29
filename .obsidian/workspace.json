@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pagina.md",
+                "file": "Memoria virtuale.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pagina.md",
+                "file": "Memoria virtuale.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pagina.md",
+                "file": "Memoria virtuale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pagina.md",
+                "file": "Memoria virtuale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pagina.md"
+                "file": "Memoria virtuale.md"
               }
             }
           },
@@ -164,10 +164,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3ceca53ea6aa8342",
+  "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
-    "Memoria virtuale.md",
     "pagina.md",
+    "Memoria virtuale.md",
     "Architettura/memoria.md",
     "Cache.md",
     "memory mapping.md",
