@@ -7,3 +7,13 @@ La memoria principale è detta memoria fisica ed i suoi indirizzi sono detti ind
 
 
 ![[Pasted image 20221129084453.png|500]]
+
+
+## Paginazione
+
+0 0 0 0 1 1 1 | 1 0 0 0 1 0 0 0 0
+--- | ---
+numero pagina virtuale (NPV) | spiazzamento nella pagina
+
+In questo esempio abbiamo 64 kB / 512 Byte = $2^7$ = 128 pagine virtuali e quindi 7 bit per il VPN e 9 per l'offset
+
