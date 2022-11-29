@@ -110,3 +110,30 @@ Nel caso di esecuzione di un nuovo processo:
 
 ## Working set di ordine $k$
 Basato sulla località degli accessi, consiste nell'insieme delle pagine refernziate durante gli ultimi $k$ accdessi in memoria, se $k$ è abbastanza grande, per il principio di località il set di un programma varia molto lentamente.
+Quindi mantenendo in memoria le pagine a cui abbiamo avuto accesso più di recente diminuiamo, per il principio di località, le possibilità di un page fault.
+
+Il numero di pagine $R$ residenti in memoria di ogni processo viene ottenuto da una stima del working set in configurazione con l'obiettivo di bilanciare page fault e numero di processi attivi:
+ - R grande $\implies$ pochi page fault, pochi processi
+ - R piccolo $\implies$ più page fault, più processi
+A partire dall'inizio di esecuzione di un programma si carica il working set dopo R page fault
+
+
+## Politica di sostituzione delle pagine
+
+### - Casuale
+...
+
+### - LRU (least recently used)
+Sostituiamo la pagine meno utile nel prossimo futuro, ossia quella usata meno di recente (principio di località)
+
+
+### FIFO (first in first out)
+Si sostituisce sempre la pagine caricata meno di recente
+
+
+- Bit di accesso
+- Bit di modifica
+
+## Dimensionamento delle pagine (frammentazione)
+
+Ad ogni programma viene sempre assegnato un numero intero di pagine, rimangono aree di memoria assegnate ma non occupate
