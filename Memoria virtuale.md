@@ -92,4 +92,4 @@ La tabella delle pagine è una struttura dati del [[sistema operativo]] resident
 1. Accesso alla tabella della pagine per tradurre l'indirizzo virtuale in indirizzo fisico
 2. Accesso all'indirizzo fisico del dato
 
-Per ottimizzare il processo sfruttiamo, per mantenere in memoria le tabelle NPV to NPF, una cache (**translation lookaside buffer** o TLB)  in un meccanismo hardware detto **memory managment unit** o MMU.
+Per ottimizzare il processo sfruttiamo, per mantenere in memoria le tabelle NPV to NPF, una cache (**[[translation lookaside buffer]]** o TLB)  in un meccanismo hardware detto **memory managment unit** o MMU.

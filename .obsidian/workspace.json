@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memoria virtuale.md",
+                "file": "translation lookaside buffer.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memoria virtuale.md",
+                "file": "translation lookaside buffer.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memoria virtuale.md",
+                "file": "translation lookaside buffer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Memoria virtuale.md",
+                "file": "translation lookaside buffer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memoria virtuale.md"
+                "file": "translation lookaside buffer.md"
               }
             }
           },
@@ -166,8 +166,8 @@
   },
   "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
-    "pagina.md",
     "Memoria virtuale.md",
+    "pagina.md",
     "Architettura/memoria.md",
     "Cache.md",
     "memory mapping.md",
