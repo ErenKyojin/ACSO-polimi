@@ -13,27 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cache.md",
+                "file": "Memoria virtuale.md",
                 "mode": "source",
                 "source": false
               }
             },
             "group": "4c8d47864b623d17"
-          },
-          {
-            "id": "3dac61140b2e45fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memoria virtuale.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "41e07e8da664381a",
@@ -45,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cache.md",
+                "file": "Memoria virtuale.md",
                 "mode": "preview",
                 "source": false
               }
@@ -177,17 +164,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3dac61140b2e45fe",
+  "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
+    "Architettura/memoria.md",
     "Cache.md",
+    "memory mapping.md",
+    "Memoria virtuale.md",
+    "pagina.md",
     "blocco.md",
     "Operatori.md",
     "De morgan.md",
     "trasformazioni.md",
-    "funzione combinatoria.md",
-    "funzione logica.md",
-    "buffer tri-state.md",
-    "Bus.md",
-    "Rete combinatoria.md"
+    "funzione combinatoria.md"
   ]
 }

@@ -1,0 +1,1 @@
+4 Kb di memoria, quindi 12 bit di offset
