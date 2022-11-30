@@ -137,3 +137,98 @@ Si sostituisce sempre la pagine caricata meno di recente
 ## Dimensionamento delle pagine (frammentazione)
 
 Ad ogni programma viene sempre assegnato un numero intero di pagine, rimangono aree di memoria assegnate ma non occupate
+
+
+# VMA
+La memoria virtuale di un processo non viene considerato un'unico spazio di indirizzamento lineare ad uso differenziato, viene diviso in **aree di memoria virtuale (VMA)** che permettono di distinguere i diritti d'accesso delle aree, permettono che solo alcune aree crescano in modo dinamico e gestiscono un area condivisa
+
+| 0000 0000 0000 0000       | C            |
+| ------------------------- | ------------ |
+| 0000 0000 0040 0000       | K            |
+| 0000 0000 0060 0000       | S            |
+| Aree virtuali di processo | BSS          |
+| ...                       | D            |
+| ...                       | $\downarrow$ |
+| ...                       | M            |
+| ...                       |              |
+| 0000 7FFF F77F FFFF       | T            |
+|                           |              |
+| 0000 7FFF FFFF FFFF       | P            |
+
+
+Ogni area è definita con una structure 
+
+## Codice: C
+
+
+### Costanti per la rilocazione dinamica: K
+
+
+### Dati statici: S
+
+
+### Dati dinamici: D
+
+
+### Aree per memory mapped files: M
+
+
+### Pila dei thread: T
+
+
+### Pila: P
+---
+
+>[!esempio] Mappa di memoria di un processo in esecuzione
+> 
+> | start-end | perm | offset | device | i-node | file name |
+> | --- | --- | --- | --- | --- | --- | 
+> | 00400 - 00401 | r-xp | 000000 | 08:01 | 394275 | .../user.exe  |
+> |.... |
+
+---
+## Meccanismo generale
+Esistono due criteri per classificare le VMA:
+- Mappate su file o anonime
+- Private o condivise
+
+Anche se il caso anonime e condivise non esiste, abbiamo quind tre casi effettivi:
+- MAP_SHARED
+- MAP_PRIVATE
+- MAP_ANONIMOUS
+
+
+
+#### Aree mappate su file - sola lettura
+Un file linux è una sequenza di byte, un file diviso in pagine è un modo di indirizzare le posizioni del byte all'interno della pagina
+
+---
+## Creazione di VMA
+
+>[!def]
+>```C
+>#include <sys/map.h>
+>void *map(void *addr, size_t length, int port, int flags, int fd, off_t offset)
+>```
+>
+>- addr: suggerisce l'indirizzo virtuale iniziale
+>- length: dimensione dell'area
+>- prot: protezione, PROT_READ, PROT_WRITE, PROT_EXEC
+>- flags: con 3 opzioni, MAP_SHARED, MAP_PRIVATE, MAP__ANONIMOUS
+>- fd: descrittore del file da mappare
+>- offsett; la prima pagine dell'area all'interno del file
+
+
+
+>[!esempio]
+>Uso mmap per  creazion di VMA v1 di un processo P mappato su file F
+>
+>```c
+>#include <sys/map.h>
+>#define PAGESIZE 1024*4
+>char * base;
+>fd = open("./F, O_RDWR"); //apre il file F
+>base = mmap(NULL, PAGESIZE * 3, PROT_READ, MAP_SHARED, fd, PAGESIZE);
+>```
+
+Per evitare che un processo rilegga da disco una pagina già caricata si usa la [[page cache]]
