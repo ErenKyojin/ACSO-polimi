@@ -1,4 +1,4 @@
-# Senza pesi
+## Senza pesi
 
 - **NRT**: **n**ume**r**o di **t**ask in runqueue
 - **PER**: **Per**iodo di schedule = max(*LT*, *NRT* * *GRT*)
@@ -8,7 +8,7 @@
 - **GR**: **Gr**anularita (0,75 ms)
 
 
-# Con pesi (LOAD)
+## Con pesi (LOAD)
 
 >In questo caso ogni task ha un peso diverso, e quindi ogni task ha proprietà diverse che indichiamo con t.PROPRIETÀ
 
@@ -17,7 +17,7 @@
 - **t.Q**: quanto della task t = *Per* * *t.LC* = *PER/RQL* * *t.load*
 
 
-# con tempo virtuale
+## con tempo virtuale
 
 - **VRT**: **V**irtual**R**un**t**ime, misura del tempo consumato da un processo, corrisponde al tempo reale modificato da alcuni coefficienti ed è utile a scegliere il prossimo processo come quello con il VRT minimo
 - **RB**: ordinata in ordine di VRT
@@ -26,10 +26,18 @@
 - **SUM**: tempo di esecuzione, *SUM* = *SUM* + *DELTA*
 - **t.VRTC**: **VRT**_**C**oefficient = 1 / *t.LOAD*
 - **t.VRT**: *t.VRT* + *DELTA* ** *t.VRTC*
-- **VMIN**: min(*curr.VRT*, *LFT.vrt*)
+- **VMIN**: minimo *VRT* tra tutte le task nella runqueue: tmin(*curr.VRT*, *LFT.vrt*)
 
 
 >[!tldr] #### TLDR
 >1. Il primo task della coda *RB* viene estratto e posto uguale a CURR
 >2. CURR eseguito fino a quando no scade il suo quanto Q
 >3.  CURR sospeso e posto in fondo a *RB*
+
+
+# Gestione di eventi
+
+## wakeup di un processo `tw`
+Quando un processo viene risvegliato potrebbe avere o un VRT basso se in attesa da molto tempo o abbastanza alto (se in attesa da poco)
+Il nuovo VRT è:
+`tw.VRT = MAX(tw.VRT, (VMIN - LT/2))`
