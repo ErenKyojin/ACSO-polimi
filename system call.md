@@ -193,3 +193,8 @@ Inoltre passa i parametri `argc` e `argv`.
 
 
 
+```c
+fork();
+if pid == 0
+	exec(...);
+```

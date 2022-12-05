@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "processo.md",
+                "file": "system call.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "processo.md",
+                "file": "system call.md",
                 "mode": "preview",
                 "source": false
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "exec",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "processo.md",
+                "file": "system call.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "processo.md",
+                "file": "system call.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "processo.md"
+                "file": "system call.md"
               }
             }
           },
@@ -167,15 +167,15 @@
   },
   "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
-    "PID.md",
     "processo.md",
-    "Esecuzione concorrente.md",
+    "system call.md",
+    "pipelining.md",
     "Memoria virtuale.md",
+    "Esecuzione concorrente.md",
+    "PID.md",
     "pagina.md",
     "translation lookaside buffer.md",
     "Architettura/memoria.md",
-    "Cache.md",
-    "memory mapping.md",
-    "blocco.md"
+    "Cache.md"
   ]
 }
