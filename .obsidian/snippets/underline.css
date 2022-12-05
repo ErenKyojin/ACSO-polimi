@@ -137,7 +137,16 @@ ol
     text-align: center;
 }
 
-ol strong
+
+ol strong, ul strong
 {
     color: #ff6961;
+}
+
+ol em, ul em
+{
+
+    color: rgb(155, 80, 155);
+    text-decoration: underline;
+
 }
