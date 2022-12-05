@@ -26,7 +26,7 @@
 - **SUM**: tempo di esecuzione, *SUM* = *SUM* + *DELTA*
 - **t.VRTC**: **VRT**_**C**oefficient = 1 / *t.LOAD*
 - **t.VRT**: *t.VRT* + *DELTA* ** *t.VRTC*
-- **VMIN**: minimo *VRT* tra tutte le task nella runqueue: tmin(*curr.VRT*, *LFT.vrt*) ^[1]
+- **VMIN**: minimo *VRT* tra tutte le task nella runqueue: tmin(*curr.VRT*, *LFT.vrt*) [^1]
 
 
 >[!tldr] #### TLDR
@@ -41,6 +41,13 @@
 Quando un processo viene risvegliato potrebbe avere o un VRT basso se in attesa da molto tempo o abbastanza alto (se in attesa da poco)
 Il nuovo VRT è:
 `tw.VRT = MAX(tw.VRT, (VMIN - LT/2))`
+Quindi il processo risvegliato ha un valore VRT che lo rende un buon candidato senza distruggere il sistema, inoltre, potendo avere VRT minore della formula di VMIN vista in precedenza[^1]
+`VMIN = MAX(VMIN, MIN(CURR.VRT, LFT.VRT))`
 
+wakeup invece richiede rescheduling solo se il processo svegliato appartiene ad una classe di scheduling superiore.
+Se il
 
-^[1]: dfd
+## Wait
+Richiede sempre un rescheduling
+
+[^1]: Non adatto per la gestione di eventi, 
