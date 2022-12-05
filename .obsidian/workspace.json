@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scheduler.md",
+                "file": "classe di scheduling.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scheduler.md",
+                "file": "classe di scheduling.md",
                 "mode": "preview",
                 "source": false
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "context",
+                "query": "Scheduler",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "scheduler.md",
+                "file": "classe di scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "scheduler.md",
+                "file": "classe di scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "scheduler.md"
+                "file": "classe di scheduling.md"
               }
             }
           },
@@ -157,25 +157,33 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "c3406bcda9ac03d3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "3f174685e415d9e2",
+  "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
-    "system call.md",
     "processo.md",
+    "scheduler.md",
+    "system call.md",
     "pipelining.md",
     "Memoria virtuale.md",
     "Esecuzione concorrente.md",
     "PID.md",
     "pagina.md",
     "translation lookaside buffer.md",
-    "Architettura/memoria.md",
-    "Cache.md"
+    "Architettura/memoria.md"
   ]
 }

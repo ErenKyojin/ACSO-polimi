@@ -83,7 +83,7 @@ Quindi il descrittore di un processo P conterrà due campi:
 
 Quando P è in esecuzione in modo U, la sPila di P è vuota, ssp contiene l'indirizzo base della sPila di P preso dal campo sp0 del descrittore di P, quando la CPU passa al modo S è necessario eseguire subito la commutazione da uPila a sPila
 
-## Gestione del context switch, salvataggio di contesto
+## Gestione del /context switch, salvataggio di contesto
 
 Se durante l'esecuzione di un processo in modo S viene eseguita una commutazione di contesto linux esegue il [[salvataggio di contesto]]
 - Salva il RA system call in esecuzione sulla sPila di P
