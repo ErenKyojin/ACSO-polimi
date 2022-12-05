@@ -45,9 +45,25 @@ Quindi il processo risvegliato ha un valore VRT che lo rende un buon candidato s
 `VMIN = MAX(VMIN, MIN(CURR.VRT, LFT.VRT))`
 
 wakeup invece richiede rescheduling solo se il processo svegliato appartiene ad una classe di scheduling superiore.
-Se il
+Se il suo VRT è inferiore al VRT del processo corrente, quindi:
+`if((tw -> schedule_class == classe con diritto > NORMAL) or ((tw -> vrt + WGR * tw -> load_coefficient) < CURR -> vrt )) resched();`
+Con
+- **WGR** **W**akeup**G**ranula**r**ity parametro di configurazione SYSCTLY con valore di default 1ms
 
 ## Wait
 Richiede sempre un rescheduling
 
 [^1]: Non adatto per la gestione di eventi, 
+
+## Exit
+
+Richiede sempre un rescheduling
+
+## clone
+Bisogna determinare un VRT da assegnare al processo e poi valutare la necessità di rescheduling
+
+``
+
+
+
+`tnew.VRT = VMIN + tnew.Q * tnew.VRTC`
