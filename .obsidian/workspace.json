@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "scheduler",
+                "query": "context",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -165,7 +165,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5acbeaa7f5616b2d",
+  "active": "3f174685e415d9e2",
   "lastOpenFiles": [
     "system call.md",
     "processo.md",
