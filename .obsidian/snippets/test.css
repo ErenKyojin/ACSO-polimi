@@ -52,3 +52,10 @@
 
 }
 
+.callout > h4
+{
+
+    display: grid;
+    place-items: center;
+
+}

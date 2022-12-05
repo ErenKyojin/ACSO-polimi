@@ -22,4 +22,10 @@
 - **VRT**: **V**irtual**R**un**t**ime, misura del tempo consumato da un processo, corrisponde al tempo reale modificato da alcuni coefficienti ed è utile a scegliere il prossimo processo come quello con il VRT minimo
 - **RB**: ordinata in ordine di VRT
 - **LFT**: **L**e**ft**most, primo elemento della RB
-- **t.VRTC**: **VRT**_**C**oefficient = *1* / *t.LOAD*
+- **t.VRTC**: **VRT**_**C**oefficient = 1 / *t.LOAD*
+- **t.VRT**: *t.VRT* + DELTA + *t.VRTC*
+- **VMIN**: min(*curr.VRT*, *LFT.vrt*)
+
+
+>[!tldr] #### TLDR
+1. Il primo task della coda
