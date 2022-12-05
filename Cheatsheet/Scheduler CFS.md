@@ -10,8 +10,16 @@
 
 # Con pesi (LOAD)
 
->
+>In questo caso ogni task ha un peso diverso, e quindi ogni task ha proprietà diverse che indichiamo con t.PROPRIETÀ
 
 - **RQL**: **R**un**Q**ueue**L**oad, la somma dei pesi della runqueue
 - **LC**: **L**oad**C**oefficient = *t.LOAD* / *RQL*
-- **t.Q**: quanto della task *t*
+- **t.Q**: quanto della task t = *Per* * *t.LC* = *PER/RQL* * *t.load*
+
+
+# con tempo virtuale
+
+- **VRT**: **V**irtual**R**un**t**ime, misura del tempo consumato da un processo, corrisponde al tempo reale modificato da alcuni coefficienti ed è utile a scegliere il prossimo processo come quello con il VRT minimo
+- **RB**: ordinata in ordine di VRT
+- **LFT**: **L**e**ft**most, primo elemento della RB
+- **t.VRTC**: **VRT**_**C**oefficient = *1* / *t.LOAD*
