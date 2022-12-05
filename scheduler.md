@@ -45,4 +45,8 @@ In particolare interviene:
 
 
 
-
+>[!tldr] Diritto di esecuzione
+> Lo scheduler effettua una scelta:
+>- Quando un processo si autosospende
+>- Quando un processo viene risvegliato (ed avrà quindi un diritto di esecuzione superiore a quello attuale, che verrà quindi sostituito)
+>- Quando si esaurisce il quanto di tempo (in round robin)
