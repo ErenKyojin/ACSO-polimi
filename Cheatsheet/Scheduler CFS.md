@@ -61,9 +61,6 @@ Richiede sempre un rescheduling
 
 ## clone
 Bisogna determinare un VRT da assegnare al processo e poi valutare la necessità di rescheduling
-
-``
-
-
-
 `tnew.VRT = VMIN + tnew.Q * tnew.VRTC`
+
+`if((tnew -> schedule_class == classe con diritto > normal) || ((tnew -> vrt + WGR * tnew -> load_coeff*)< CURR -> vrt)) resched()`
