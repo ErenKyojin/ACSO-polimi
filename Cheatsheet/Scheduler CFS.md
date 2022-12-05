@@ -26,7 +26,7 @@
 - **SUM**: tempo di esecuzione, *SUM* = *SUM* + *DELTA*
 - **t.VRTC**: **VRT**_**C**oefficient = 1 / *t.LOAD*
 - **t.VRT**: *t.VRT* + *DELTA* ** *t.VRTC*
-- **VMIN**: minimo *VRT* tra tutte le task nella runqueue: tmin(*curr.VRT*, *LFT.vrt*)
+- **VMIN**: minimo *VRT* tra tutte le task nella runqueue: tmin(*curr.VRT*, *LFT.vrt*) ^[1]
 
 
 >[!tldr] #### TLDR
@@ -41,3 +41,6 @@
 Quando un processo viene risvegliato potrebbe avere o un VRT basso se in attesa da molto tempo o abbastanza alto (se in attesa da poco)
 Il nuovo VRT è:
 `tw.VRT = MAX(tw.VRT, (VMIN - LT/2))`
+
+
+^[1]: dfd
