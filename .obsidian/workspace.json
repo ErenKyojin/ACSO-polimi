@@ -167,6 +167,8 @@
   },
   "active": "5acbeaa7f5616b2d",
   "lastOpenFiles": [
+    "PID.md",
+    "processo.md",
     "Esecuzione concorrente.md",
     "Memoria virtuale.md",
     "pagina.md",
@@ -174,8 +176,6 @@
     "Architettura/memoria.md",
     "Cache.md",
     "memory mapping.md",
-    "blocco.md",
-    "Operatori.md",
-    "De morgan.md"
+    "blocco.md"
   ]
 }
