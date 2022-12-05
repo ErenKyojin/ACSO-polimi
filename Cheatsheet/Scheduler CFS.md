@@ -8,4 +8,10 @@
 - **GR**: **Gr**anularita (0,75 ms)
 
 
-# Con pesi
+# Con pesi (LOAD)
+
+>
+
+- **RQL**: **R**un**Q**ueue**L**oad, la somma dei pesi della runqueue
+- **LC**: **L**oad**C**oefficient = *t.LOAD* / *RQL*
+- **t.Q**: quanto della task *t*
