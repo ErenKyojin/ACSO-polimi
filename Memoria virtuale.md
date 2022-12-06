@@ -235,3 +235,46 @@ Per evitare che un processo rilegga da disco una pagina già caricata si usa la 
 
 
 # [[mappa di memoria]]
+
+# [[NPV]]
+
+# [[translation lookaside buffer]]
+
+_________
+
+
+>[!esempio] Read("Pk0", "Ps0, "Pd0", "Pd1", Write("Pp1", "Pp2", "pp3")
+>Processo: P
+>VMA:
+>
+> | | | | | | | |
+| --- | ---       | --- | --- | --- | --- | ---    |
+| --- | --------- | --- | --- | --- | --- | ------ |
+| C   | 000000400 | 2   | R   | P   | M   | <X,0>  |
+| K   | 000000600 | 1   | R   | P   | M   | <X,2>  |
+| S   | 000000601 | 1   | W   | P   | M   | <X,3>  |
+| D   | 000000602 | 2   | W   | P   | A   | <-1,0> |
+| P   | 7FFFFFFFC | 3   | W   | P  | A   | <-1,0>       |
+>
+>PT:
+>
+|     |     |
+| --- | --- |
+| c0  |     |
+| c1  | 1 R |
+| k0  |     |
+| s0  |     |
+| d0  |     |
+| d1  |     |
+| p0  | 2 W |
+| p1  |     |
+| p2  |     |
+>
+>NPV di PC e SP: c1 e p0
+>
+>-------
+>Memoria fisica (9 pagine libere):
+>
+ |     |     |     |
+ | --- | --- | --- |
+ |     |     |     |

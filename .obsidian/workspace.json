@@ -29,7 +29,8 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "6e8c26f1590856e9"
           },
           {
             "id": "10234d6f3c9934ab",
@@ -49,32 +50,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TLB.md",
+                "file": "translation lookaside buffer.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "873b306ff87c7800"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
-        "id": "32f0c2844487a3c7",
+        "id": "b827d7524a21a074",
         "type": "tabs",
         "children": [
           {
-            "id": "57d3e0388447328c",
+            "id": "5fbef659f8ce4eb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TLB.md",
+                "file": "Memoria virtuale.md",
                 "mode": "preview",
                 "source": false
               }
             },
-            "group": "873b306ff87c7800"
+            "group": "6e8c26f1590856e9"
           }
         ]
       }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TLB.md",
+                "file": "Memoria virtuale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TLB.md",
+                "file": "Memoria virtuale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TLB.md"
+                "file": "Memoria virtuale.md"
               }
             }
           },
@@ -209,17 +209,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "05c6f06d709698de",
+  "active": "5fbef659f8ce4eb6",
   "lastOpenFiles": [
+    "translation lookaside buffer.md",
     "NPV.md",
+    "Memoria virtuale.md",
+    "Architettura/istruzioni di confronto.md",
     "TLB.md",
     "Tabella delle pagine fisiche e descrittori.md",
-    "Memoria virtuale.md",
     "mappa di memoria.md",
-    "Architettura/istruzioni di confronto.md",
     "Spazio virtuale.md",
     "Kernel space.md",
-    "sequenze critiche.md",
-    "Shifter.md"
+    "sequenze critiche.md"
   ]
 }
