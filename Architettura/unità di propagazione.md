@@ -9,7 +9,7 @@ Se riscontra conflitti attiva uno o entrambi i segnali in uscita, chiamati:
 >
 >Output | sorgente | effetto
 > --- | --- | ---
-> PropA = 00 | ID/EX | Rs1 dal [[register file]]
+> PropA = 00 | ID/EX | Rs1 dal [[Register file]]
 > PropA = 10 | EX/MEM | Rs1 dal ciclo precedente
 > PropA = 01 | MEM/WB | Rs1 da due cicli precedenti
 > PropB = 00 | ID/EX |Rs2 dal register file

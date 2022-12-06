@@ -12,7 +12,7 @@ Le funzioni elementari per i circuiti sequenziali sono i
 
 
 Un circuito digitale sequenziale è formato da:
-- [[bistabili]], ossia le funzioni elementari per i circuiti sequenziali, che tengono uno stato in memoria
+- [[Bistabili]], ossia le funzioni elementari per i circuiti sequenziali, che tengono uno stato in memoria
 - [[porte logiche]], organizzate in [[Rete combinatoria|reti combinatorie]] che hanno funzioni di elaborazione in informazioni
 
 ![[Pasted image 20221010173203.png|600]]

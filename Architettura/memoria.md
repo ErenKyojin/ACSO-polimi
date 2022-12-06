@@ -120,7 +120,7 @@ VAR | SIZE
 Un'indirizzo di memoria è l'indirizzo che indica uno specifico blocco di memoria, un indirizzo di memoria di N bit è diviso in campi:
 - Spiazzamento (offset) del byte nel blocco individua quale byte stiamo cercando
 - Indice (index) identifica l'indirizzo del blocco in cache
-- etichetta (tag) per confrontare il contenuto del campo etichetta del blocco di [[cache]] selezionate dall'indice
+- etichetta (tag) per confrontare il contenuto del campo etichetta del blocco di [[Cache]] selezionate dall'indice
 
 # Memoria come [[Blocchi sequenziali|blocco sequenziale]]
 

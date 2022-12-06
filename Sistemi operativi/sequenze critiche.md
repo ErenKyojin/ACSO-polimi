@@ -1,4 +1,4 @@
-Definiamo una sequenza, che è un'insieme di istruzioni eseguite da un [[thread]]
+Definiamo una sequenza, che è un'insieme di istruzioni eseguite da un [[Thread]]
 $$
 ti_{j}
 $$

@@ -24,7 +24,7 @@ R | 10 | or | $0^7$ |$110$ | OR | 0001
 
 Nome | effetto se non asserito | Effetto se asserito
 --- | --- | ---
-RegWrite | Nullo | Dato scritto nel [[register file]], nel registro individuato dal numero del registro in lettura
+RegWrite | Nullo | Dato scritto nel [[Register file]], nel registro individuato dal numero del registro in lettura
 ALUSrc | Il secondo operando ALU proviene dalla seconda uscita del Register File (RS2) | Il secondo operando dell'ALU è l'estensione dei 12 bit dell'immediato
 PCSrc | [[program counter\|PC]] = PC + 4 | PC = PC + off
 MemRead | Nullo |  Il dato della [[memoria]] nella posizione puntata dall'indirzzo diventa il dato sostituito con il presente sulla linea "dato scritto" 

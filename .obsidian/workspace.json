@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Allocazione.md",
+                "file": "Sistemi operativi/classe di scheduling.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,31 +33,31 @@
             "group": "6e8c26f1590856e9"
           },
           {
-            "id": "10234d6f3c9934ab",
+            "id": "d66f1037c5326287",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NPV.md",
+                "file": "Sistemi operativi/Deadlock.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "05c6f06d709698de",
+            "id": "4a610130a895932e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "translation lookaside buffer.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "b827d7524a21a074",
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Allocazione.md",
+                "file": "Sistemi operativi/classe di scheduling.md",
                 "mode": "preview",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Allocazione.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Allocazione.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Allocazione.md"
+                "file": "README.md"
               }
             }
           },
@@ -209,17 +209,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "7fa77ab5ba4034c2",
+  "active": "4a610130a895932e",
   "lastOpenFiles": [
-    "AND.md",
-    "Allocazione.md",
-    "Memoria virtuale.md",
-    "translation lookaside buffer.md",
-    "NPV.md",
-    "Architettura/istruzioni di confronto.md",
-    "TLB.md",
-    "Tabella delle pagine fisiche e descrittori.md",
-    "mappa di memoria.md",
-    "Spazio virtuale.md"
+    "Sistemi operativi/Deadlock.md",
+    "Sistemi operativi/NPV.md",
+    "Architettura/Modalità di indirizzamente.md",
+    "Architettura/Conflitti.md",
+    "Architettura/De morgan.md",
+    "Sistemi operativi/classe di scheduling.md",
+    "Architettura/Allocazione.md",
+    "Architettura/AND.md",
+    "Sistemi operativi/Memoria virtuale.md",
+    "Sistemi operativi/translation lookaside buffer.md"
   ]
 }

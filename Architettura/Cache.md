@@ -1,4 +1,4 @@
-La [[memoria]] DRAM rallenta il [[processore]] in quanto l'accesso ai dati impiega più tempo dell'esecuzione delle istruzioni, vogliamo migliorare l'architettura implementando una memoria che appaia più veloce ma con dimensioni uguali.
+La [[memoria]] DRAM rallenta il [[Processore]] in quanto l'accesso ai dati impiega più tempo dell'esecuzione delle istruzioni, vogliamo migliorare l'architettura implementando una memoria che appaia più veloce ma con dimensioni uguali.
 Questo attraverso il [[principio di località]], la soluzione a questo problema è una [[gerarchia di memoria]]
 
 

@@ -1,4 +1,4 @@
-Quando un [[thread]] $1$ attende l'azione di un altro thread $2$ e contemporaneamente il thread $2$ aspetta l'azione del thread $1$ per proseguire si ha un deadlock, o attesa circolare, che non ha via d'uscita.
+Quando un [[Thread]] $1$ attende l'azione di un altro thread $2$ e contemporaneamente il thread $2$ aspetta l'azione del thread $1$ per proseguire si ha un deadlock, o attesa circolare, che non ha via d'uscita.
 La soluzione al deadlock è il [[mutex#thread favorito]]
 
 In particolare si genera un deadlock quando due thread devono bloccare due risorse A e B con due mutex diversi ma le bloccano in ordine inverso

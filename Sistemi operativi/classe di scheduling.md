@@ -6,7 +6,7 @@ SCHED_FIFO | first in first out | massima
 SCHED_RR | round robin | media
 SCHED_NORMAL | completely fair scheduler | minima
 
-Il [[Sistema operativo]] gestisce le task secondo la politica della classe di appartenenza:
+Il [[sistema operativo]] gestisce le task secondo la politica della classe di appartenenza:
 - FIFO task eseguite per intero non appena selezionati
 - RR task eseguiti a turno in modo strettamente circolare
 - NORMAL task gestiti con preemption e priorità dinamica in base al tempo virtuale

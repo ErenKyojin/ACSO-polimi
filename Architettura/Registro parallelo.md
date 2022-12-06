@@ -57,7 +57,7 @@
 Sincroni sul fronte di discesa del [[clock]]
 
 >[!oss]
->Se usassimo dei [[bistabili]] D avremmo il problema della trasparenza, non potremmo garantire il comportamento corretto
+>Se usassimo dei [[Bistabili]] D avremmo il problema della trasparenza, non potremmo garantire il comportamento corretto
 
 ## Registro parallelo con load
 

@@ -6,10 +6,10 @@ L'opposto è [[Esecuzione sequenziale]]
 
 
 ## Simulata
-Se ci si trova su un ambiente mono [[processore]] con [[processo|processi]] eseguiti "a turni"
+Se ci si trova su un ambiente mono [[Processore]] con [[processo|processi]] eseguiti "a turni"
 
 ## Reale
-Se in un sistema multi processore i processi o i [[thread]] sono in esecuzione contemporaneamente su processori diversi
+Se in un sistema multi processore i processi o i [[Thread]] sono in esecuzione contemporaneamente su processori diversi
 
 
 A prescindere i processi e i thread sono concorrenti, ed anche nel caso di esecuzione concorrente reale è possibile sfruttare anche il simulato.

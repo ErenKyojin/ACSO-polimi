@@ -1,0 +1,1 @@
+I latch sono i [[Bistabili]] con una [[relazione stato uscita]] basata sul livello del segnale di controllo, un cambiamento degli ingressi mentre il segnale di controllo è alto implica un cambiamento delle uscite,
