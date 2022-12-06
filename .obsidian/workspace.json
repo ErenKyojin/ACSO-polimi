@@ -25,12 +25,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mappa di memoria.md",
+                "file": "Memoria virtuale.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "47a80b27c268812a"
+            }
           },
           {
             "id": "10234d6f3c9934ab",
@@ -38,31 +37,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tabella delle pagine fisiche e descrittori.md",
+                "file": "NPV.md",
                 "mode": "source",
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "09d61888e8144523",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "991de734e8ec87f4",
+            "id": "05c6f06d709698de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mappa di memoria.md",
+                "file": "TLB.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "873b306ff87c7800"
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "32f0c2844487a3c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57d3e0388447328c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TLB.md",
                 "mode": "preview",
                 "source": false
               }
             },
-            "group": "47a80b27c268812a"
+            "group": "873b306ff87c7800"
           }
         ]
       }
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tabella delle pagine fisiche e descrittori.md",
+                "file": "TLB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tabella delle pagine fisiche e descrittori.md",
+                "file": "TLB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tabella delle pagine fisiche e descrittori.md"
+                "file": "TLB.md"
               }
             }
           },
@@ -197,17 +209,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "10234d6f3c9934ab",
+  "active": "05c6f06d709698de",
   "lastOpenFiles": [
-    "mappa di memoria.md",
+    "NPV.md",
+    "TLB.md",
+    "Tabella delle pagine fisiche e descrittori.md",
     "Memoria virtuale.md",
+    "mappa di memoria.md",
     "Architettura/istruzioni di confronto.md",
     "Spazio virtuale.md",
     "Kernel space.md",
     "sequenze critiche.md",
-    "Shifter.md",
-    "sistema operativo.md",
-    "Sottoprogrammi.md",
-    "SYSCALL.md"
+    "Shifter.md"
   ]
 }
