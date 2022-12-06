@@ -211,6 +211,8 @@
   },
   "active": "4a610130a895932e",
   "lastOpenFiles": [
+    "Cheatsheet/Scheduler CFS.md",
+    "README.md",
     "Sistemi operativi/Deadlock.md",
     "Sistemi operativi/NPV.md",
     "Architettura/Modalità di indirizzamente.md",
@@ -218,8 +220,6 @@
     "Architettura/De morgan.md",
     "Sistemi operativi/classe di scheduling.md",
     "Architettura/Allocazione.md",
-    "Architettura/AND.md",
-    "Sistemi operativi/Memoria virtuale.md",
-    "Sistemi operativi/translation lookaside buffer.md"
+    "Architettura/AND.md"
   ]
 }
