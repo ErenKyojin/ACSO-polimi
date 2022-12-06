@@ -1,4 +1,4 @@
-Repository degli appunti del corso di archietattura e sistemi operativi per usare con [Obsidian](https://obsidian.md/) 
+Repository degli appunti del corso di archietattura e sistemi operativi da usare con [Obsidian](https://obsidian.md/) 
 # Cartelle
 
 ## ./architettura

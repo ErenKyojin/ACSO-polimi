@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/classe di scheduling.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/classe di scheduling.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/classe di scheduling.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/classe di scheduling.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/classe di scheduling.md"
+                "file": "README.md"
               }
             }
           },
@@ -199,8 +199,8 @@
   },
   "active": "7fa77ab5ba4034c2",
   "lastOpenFiles": [
-    "README.md",
     "Sistemi operativi/classe di scheduling.md",
+    "README.md",
     "Sistemi operativi/Deadlock.md",
     "Cheatsheet/Scheduler CFS.md",
     "Sistemi operativi/NPV.md",
