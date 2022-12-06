@@ -33,18 +33,6 @@
             "group": "6e8c26f1590856e9"
           },
           {
-            "id": "d66f1037c5326287",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemi operativi/Deadlock.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4a610130a895932e",
             "type": "leaf",
             "state": {
@@ -57,7 +45,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "b827d7524a21a074",
@@ -142,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Sistemi operativi/classe di scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Sistemi operativi/classe di scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Sistemi operativi/classe di scheduling.md"
               }
             }
           },
@@ -209,16 +197,16 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "4a610130a895932e",
+  "active": "7fa77ab5ba4034c2",
   "lastOpenFiles": [
-    "Cheatsheet/Scheduler CFS.md",
     "README.md",
+    "Sistemi operativi/classe di scheduling.md",
     "Sistemi operativi/Deadlock.md",
+    "Cheatsheet/Scheduler CFS.md",
     "Sistemi operativi/NPV.md",
     "Architettura/Modalità di indirizzamente.md",
     "Architettura/Conflitti.md",
     "Architettura/De morgan.md",
-    "Sistemi operativi/classe di scheduling.md",
     "Architettura/Allocazione.md",
     "Architettura/AND.md"
   ]

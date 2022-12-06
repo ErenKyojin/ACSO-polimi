@@ -12,3 +12,18 @@ Cartella dei file relativi a linux, alla programmazione in parallelo, processi, 
 ## ./cheatsheet
 File da tenere sottomano per gli esercizi
 
+---
+
+# Customizzazione 
+
+## Snippets CSS
+- multicolumn
+- test
+- underline
+- centerimg
+- assembly
+
+## Plugins
+Fondamentale [artisticat1/obsidian-tikzjax](https://github.com/artisticat1/obsidian-tikzjax)
+
+---
