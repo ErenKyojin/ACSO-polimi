@@ -25,32 +25,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheet/Scheduler CFS.md",
+                "file": "mappa di memoria.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "6c113b8628bd77d0"
+            "group": "47a80b27c268812a"
           }
         ],
         "currentTab": 1
       },
       {
-        "id": "e1500a7a5ab64e25",
+        "id": "09d61888e8144523",
         "type": "tabs",
         "children": [
           {
-            "id": "890a9d073230f705",
+            "id": "991de734e8ec87f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheet/Scheduler CFS.md",
+                "file": "mappa di memoria.md",
                 "mode": "preview",
                 "source": false
               }
             },
-            "group": "6c113b8628bd77d0"
+            "group": "47a80b27c268812a"
           }
         ]
       }
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "VMA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheatsheet/Scheduler CFS.md",
+                "file": "mappa di memoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheatsheet/Scheduler CFS.md",
+                "file": "mappa di memoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheet/Scheduler CFS.md"
+                "file": "mappa di memoria.md"
               }
             }
           },
@@ -187,15 +188,15 @@
   },
   "active": "7fa77ab5ba4034c2",
   "lastOpenFiles": [
-    "Architettura/istruzioni di confronto.md",
-    "classe di scheduling.md",
-    "Cheatsheet/Scheduler CFS.md",
-    "processo.md",
-    "scheduler.md",
-    "system call.md",
-    "pipelining.md",
     "Memoria virtuale.md",
-    "Esecuzione concorrente.md",
-    "PID.md"
+    "Spazio virtuale.md",
+    "Kernel space.md",
+    "sequenze critiche.md",
+    "Shifter.md",
+    "sistema operativo.md",
+    "Sottoprogrammi.md",
+    "SYSCALL.md",
+    "SYSRET.md",
+    "system call.md"
   ]
 }

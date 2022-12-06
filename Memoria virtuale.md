@@ -232,3 +232,6 @@ Un file linux è una sequenza di byte, un file diviso in pagine è un modo di in
 >```
 
 Per evitare che un processo rilegga da disco una pagina già caricata si usa la [[page cache]]
+
+
+[[mappa di memoria]]
