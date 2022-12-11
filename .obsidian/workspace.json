@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheet/Scheduler CFS.md",
+                "file": "Architettura/AND.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheet/Scheduler CFS.md",
+                "file": "Architettura/AND.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheatsheet/Scheduler CFS.md",
+                "file": "Architettura/AND.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheatsheet/Scheduler CFS.md",
+                "file": "Architettura/AND.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheet/Scheduler CFS.md"
+                "file": "Architettura/AND.md"
               }
             }
           },
@@ -199,10 +199,10 @@
   },
   "active": "7fa77ab5ba4034c2",
   "lastOpenFiles": [
+    "Cheatsheet/Scheduler CFS.md",
     "README.md",
     "Sistemi operativi/classe di scheduling.md",
     "Sistemi operativi/Deadlock.md",
-    "Cheatsheet/Scheduler CFS.md",
     "Sistemi operativi/NPV.md",
     "Architettura/Modalità di indirizzamente.md",
     "Architettura/Conflitti.md",
