@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/Interrupt.md",
+                "file": "Sistemi operativi/system call.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stack pointer",
+                "query": "exec",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/Interrupt.md",
+                "file": "Sistemi operativi/system call.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/Interrupt.md",
+                "file": "Sistemi operativi/system call.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/Interrupt.md"
+                "file": "Sistemi operativi/system call.md"
               }
             }
           },
@@ -155,6 +155,7 @@
   },
   "active": "d134f732341c3b4d",
   "lastOpenFiles": [
+    "Sistemi operativi/Interrupt.md",
     "Commutazione di pila.md",
     "Sistemi operativi/x64.md",
     "Architettura/registro.md",
@@ -163,7 +164,6 @@
     "Sistemi operativi/Memoria virtuale.md",
     "Sistemi operativi/classe di scheduling.md",
     "Sistemi operativi/Esecuzione sequenziale.md",
-    "Sistemi operativi/Esecuzione concorrente.md",
-    "Architettura/Rete combinatoria.md"
+    "Sistemi operativi/Esecuzione concorrente.md"
   ]
 }
