@@ -30,7 +30,7 @@ SYSCALL:
 
 SYSRET:
 - Carica in PSR il PSR(u) presente in sPila (torna ad essere modo U) <font COLOR = #D81B60 SIZE = 2> | pop </font>
-- Carica in PC il valore dell'RA su sPila  <font COLOR = #00ACC1 SIZE = 2> | cambio pila </font> 
+- Carica in PC il valore dell'RA su sPila  <font COLOR = #D81B60 SIZE = 2> | pop </font>
 - Carica in SP il valore presente in USP (sp punta ad uPila) <font COLOR = #00ACC1 SIZE = 2> | cambio pila </font> 
 
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Commutazione di pila.md",
+                "file": "Sistemi operativi/Interrupt.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Commutazione di pila.md",
+                "file": "Sistemi operativi/Interrupt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Commutazione di pila.md",
+                "file": "Sistemi operativi/Interrupt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Commutazione di pila.md"
+                "file": "Sistemi operativi/Interrupt.md"
               }
             }
           },
@@ -155,9 +155,9 @@
   },
   "active": "d134f732341c3b4d",
   "lastOpenFiles": [
+    "Commutazione di pila.md",
     "Sistemi operativi/x64.md",
     "Architettura/registro.md",
-    "Commutazione di pila.md",
     "modo.md",
     "Sistemi operativi/Linux.md",
     "Sistemi operativi/Memoria virtuale.md",
