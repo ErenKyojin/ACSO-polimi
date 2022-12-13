@@ -29,8 +29,20 @@
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "8ac882bd46bb5ee3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi/PFRA.md",
+                "mode": "source",
+                "source": false
+              }
             },
-            "group": "6e8c26f1590856e9"
+            "group": "d60b51b54c23c520"
           },
           {
             "id": "4a610130a895932e",
@@ -45,24 +57,24 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
-        "id": "b827d7524a21a074",
+        "id": "1ec7331d3821fc6e",
         "type": "tabs",
         "children": [
           {
-            "id": "5fbef659f8ce4eb6",
+            "id": "d134f732341c3b4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architettura/AND.md",
+                "file": "Sistemi operativi/PFRA.md",
                 "mode": "preview",
                 "source": false
               }
             },
-            "group": "6e8c26f1590856e9"
+            "group": "d60b51b54c23c520"
           }
         ]
       }
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architettura/AND.md",
+                "file": "Sistemi operativi/PFRA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architettura/AND.md",
+                "file": "Sistemi operativi/PFRA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architettura/AND.md"
+                "file": "Sistemi operativi/PFRA.md"
               }
             }
           },
@@ -197,17 +209,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "7fa77ab5ba4034c2",
+  "active": "8ac882bd46bb5ee3",
   "lastOpenFiles": [
+    "kernel swap daemon.md",
+    "Sistemi operativi/PFRA.md",
+    "Architettura/AND.md",
     "Cheatsheet/Scheduler CFS.md",
     "README.md",
     "Sistemi operativi/classe di scheduling.md",
     "Sistemi operativi/Deadlock.md",
     "Sistemi operativi/NPV.md",
     "Architettura/Modalità di indirizzamente.md",
-    "Architettura/Conflitti.md",
-    "Architettura/De morgan.md",
-    "Architettura/Allocazione.md",
-    "Architettura/AND.md"
+    "Architettura/Conflitti.md"
   ]
 }
