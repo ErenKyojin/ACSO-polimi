@@ -35,3 +35,16 @@ Se non è sufficiente, l'algoritmo utilizzato da PFRA si basa su principio LRU (
 Per gestire queste informazioni usiamo due liste:
 - **active list**: contiene tutte le pagine accedute di recente e queste non posso essere deallocate
 - **inactive list** pagine inattive da molto tempo che sono candidate per essere deallocate
+
+### Spostare pagine tra le liste
+
+
+[[x64]] non tiene traccia del numero di accessi alla memoria, quindi linux approssima questo dato con il bit di accesso A alla pagine nel TLB:
+- **A** posto ad 1 ogni volta che si accede alla pagine
+- **A** azzerato periodicamente
+
+Ad ogni pagine viene associato il flag **ref** che serve per raddioppiare il numero di accessi necessari per spostarla da una lista all'altra
+
+Inoltre definiamo una funzione Controlla_lista (attivata da kswapd) che esegue una scansione di entrambe le liste:
+1. scansiona **active list** e sposta alcune pagine inattive
+2. **scansione inactive list** partendo dalla testa
