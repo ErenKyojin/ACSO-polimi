@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/x64.md",
-                "mode": "preview",
+                "file": "modo.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.5
+    "width": 222.5
   },
   "right": {
     "id": "ecd6fd3e765648c3",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/x64.md",
+                "file": "modo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/x64.md",
+                "file": "modo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/x64.md"
+                "file": "modo.md"
               }
             }
           },
@@ -154,15 +154,15 @@
   },
   "active": "d134f732341c3b4d",
   "lastOpenFiles": [
-    "Architettura/istruzioni di confronto.md",
-    "Architettura/AND.md",
-    "Sistemi operativi/x64.md",
-    "Sistemi operativi/preemption.md",
-    "Sistemi operativi/PFRA.md",
-    "kernel swap daemon.md",
-    "Cheatsheet/Scheduler CFS.md",
-    "README.md",
     "Sistemi operativi/classe di scheduling.md",
-    "Sistemi operativi/Deadlock.md"
+    "Sistemi operativi/Esecuzione sequenziale.md",
+    "Sistemi operativi/Esecuzione concorrente.md",
+    "Architettura/Rete combinatoria.md",
+    "Sistemi operativi/Process status register.md",
+    "Sistemi operativi/processo.md",
+    "Sistemi operativi/runqueue.md",
+    "Sistemi operativi/scheduler.md",
+    "Sistemi operativi/segmenti.md",
+    "Sistemi operativi/sequenze critiche.md"
   ]
 }

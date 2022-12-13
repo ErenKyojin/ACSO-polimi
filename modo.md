@@ -1,0 +1,1 @@
+Quando il processore è in modo U non può accedere alle zone di memoria riservat al sistema operativo

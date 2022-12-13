@@ -7,3 +7,11 @@ Syscall esegue:
 
 
 Per ritornare dalla SYSCAL si utilizza [[SYSRET]]
+
+
+
+```mermaid
+graph LR
+	U(U) --->|SYSCALL| S(S)
+	S --->|SYSRET| U
+```
