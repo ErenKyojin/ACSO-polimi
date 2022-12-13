@@ -1,1 +1,8 @@
-Quando il processore è in modo U non può accedere alle zone di memoria riservat al sistema operativo
+Il modo di esecuzione di un processo indica il privilegio di accesso alla memoria.
+
+- **modo U** modo di esecuzione per l'utente, non può accedere al [[kernel]]
+- **modo S** modo di esecuzione per il sistema operativo, ha accesso sia al kernel space che all'user space
+
+
+# Cambio di modo
+Un processo in modo U può accedere a dati di modo S attraverso la [[Commutazione di pila]]
