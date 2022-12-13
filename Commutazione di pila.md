@@ -2,9 +2,12 @@ Affinchè il sistema operativo funzioni la pila usata durante il funzionamento d
 
 
 ## sPila e uPila
-Rispettivamente pila del modo S e del modo U, e lo stack pointer deve essere cambiato adeguatamente al modo attivo
+Rispettivamente pila del modo S e del modo U, e lo stack pointer deve essere cambiato adeguatamente al modo attivo, quindi esistono due stack pointer, USP e SSP.
 
 ---
+ 
+ 
+## U -> S
 
 Nel cambio da modo U a modo S dobbiamo commutare la pila **prima** del salvataggio di informazioni:
 - L'indirizzo di ritorno a modo U deve essere salvato su sPila
@@ -18,8 +21,8 @@ User stack pointer e System stack pointer due strutture dati ad accesso hardware
 
 ## Commutazione di pila con [[SYSCALL]] e [[SYSRET]]
 SYSCALL:
-- Salva SP corrente in USP
-- Salva SSP in SP
+- Salva SP corrente in USP <font COLOR = #00ACC1> cambio  pila </font> 
+- Salva SSP in SP 
 - Salva RA in sPila
 - Salva PSR del chiamante (in modo U) su sPila
 - Carica in PC e PSR i valori del [[vettore di syscall]]

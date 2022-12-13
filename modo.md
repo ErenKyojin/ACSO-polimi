@@ -5,4 +5,4 @@ Il modo di esecuzione di un processo indica il privilegio di accesso alla memori
 
 
 # Cambio di modo
-Un processo in modo U può accedere a dati di modo S attraverso la [[Commutazione di pila]]
+Un processo può cambiare modalità di esecuzione attraverso la [[Commutazione di pila]]
