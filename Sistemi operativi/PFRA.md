@@ -43,8 +43,20 @@ Per gestire queste informazioni usiamo due liste:
 - **A** posto ad 1 ogni volta che si accede alla pagine
 - **A** azzerato periodicamente
 
-Ad ogni pagine viene associato il flag **ref** che serve per raddioppiare il numero di accessi necessari per spostarla da una lista all'altra
+Ad ogni pagine viene associato il flag **ref** che serve per raddioppiare il numero di accessi necessari per spostarla da una lista all'altra.
 
+
+#### Controlla_lista
 Inoltre definiamo una funzione Controlla_lista (attivata da kswapd) che esegue una scansione di entrambe le liste:
-1. scansiona **active list** e sposta alcune pagine inattive
-2. **scansione inactive list** partendo dalla testa
+1. scansiona **active list**  partendo dalla coda ed eventualmente sposta alcune pagine inattive.
+2. scansione **inactive list** partendo dalla testa spostando eventualmente alcune pagine alla active (non scansiona quelle appena spostate).
+
+La pagina viene scansionata solo utilizzando **A** e **ref**
+
+#### Allocare nuove pagine
+Funzioni che allocano nuove pagine:
+- richieste da un processo, poste nella lista active con ref = 1
+- richieste da un processo figlio appena creato e poste nella lista active o inactive nello stesso ordine o con lo stesso ref del processo padre
+
+#### Eliminazione delle pagine dalle liste
+Funzioni che eliminano dalle liste le pagine swapped out o deallocate definitivamente per la terminazione di un processo
