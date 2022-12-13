@@ -21,17 +21,17 @@ User stack pointer e System stack pointer due strutture dati ad accesso hardware
 
 ## Commutazione di pila con [[SYSCALL]] e [[SYSRET]]
 SYSCALL:
-- Salva SP corrente in USP <font COLOR = #00ACC1> cambio  pila </font> 
-- Salva SSP in SP 
-- Salva RA in sPila
-- Salva PSR del chiamante (in modo U) su sPila
+- Salva SP corrente in USP <font COLOR = #00ACC1 SIZE = 2>| cambio pila </font> 
+- Salva SSP in SP <font COLOR = #00ACC1 SIZE = 2> | cambio pila </font> 
+- Salva RA in sPila <font COLOR = #D81B60 SIZE = 2> | push </font> 
+- Salva PSR del chiamante (in modo U) su sPila <font COLOR = #D81B60 SIZE = 2>| push </font>
 - Carica in PC e PSR i valori del [[vettore di syscall]]
 
 
 SYSRET:
-- Carica in PSR il PSR(u) presente in sPila (torna ad essere modo U)
-- Carica in PC il valore dell'RA su sPila
-- Carica in SP il valore presente in USP (sp punta ad uPila)
+- Carica in PSR il PSR(u) presente in sPila (torna ad essere modo U) <font COLOR = #D81B60 SIZE = 2> | pop </font>
+- Carica in PC il valore dell'RA su sPila  <font COLOR = #00ACC1 SIZE = 2> | cambio pila </font> 
+- Carica in SP il valore presente in USP (sp punta ad uPila) <font COLOR = #00ACC1 SIZE = 2> | cambio pila </font> 
 
 
 # [[Interrupt]] ed [[IRET]]
