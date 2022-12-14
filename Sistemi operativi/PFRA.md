@@ -78,3 +78,7 @@ Funzioni che allocano nuove pagine:
 
 #### Eliminazione delle pagine dalle liste
 Funzioni che eliminano dalle liste le pagine swapped out o deallocate definitivamente per la terminazione di un processo
+
+### Deallocazione delle pagine in inactive
+
+Per deallocare pagine virtuali della list
