@@ -81,4 +81,4 @@ Funzioni che eliminano dalle liste le pagine swapped out o deallocate definitiva
 
 ### Deallocazione delle pagine in inactive
 
-Per deallocare pagine virtuali della list
+Per deallocare pagine virtuali della lista inactive, bisogna prima considerare se sia adatta
