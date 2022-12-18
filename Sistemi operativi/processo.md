@@ -13,7 +13,7 @@ Per gestire i processi usiamo le [[system call]]
 Ogni progesso ha: 
 1. **text segment** che coniente il codice eseguibile del programma
 2. **user data segment** che contiene i dati del programma (dati statici e dati dinamici a loro volta divisini in dati dinamici in pila e dati dinamici in heap)
-
+3. **system data segment** che contiene dati gestiti dal sistema operativo (ad esempio le tabelle della pagine)
 
 
 # Contesto di un processo
