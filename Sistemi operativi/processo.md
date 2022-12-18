@@ -9,6 +9,12 @@ La [[memoria]] di ogni processo è divisa in [[segmenti]], questo non dipende st
 
 Per gestire i processi usiamo le [[system call]]
 
+## Carateteristiche di un processo
+Ogni progesso ha: 
+1. **text segment** che coniente il codice eseguibile del programma
+2. **user data segment** che contiene i dati del programma (dati statici e dati dinamici a loro volta divisini in dati dinamici in pila e dati dinamici in heap)
+
+
 
 # Contesto di un processo
 Normalmente un processo è in esecuzione in modo U, se il processo corrente richiede un servizio di sistema viene attivata tramite [[SYSCALL]] una funzione del [[sistema operativo]] che esegue il servizio per il processo chiamante.
