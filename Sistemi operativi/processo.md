@@ -1,3 +1,5 @@
+Un processo è un "calcolatore virtuale", ossia calcolatori realizzati attraverso il sistema operativo.
+
 >[!def]
 >Un istanza di un programma in esecuzione, identifiicato da un [[PID]] (process ID)
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/PFRA.md",
+                "file": "Sistemi operativi/processo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/PFRA.md",
+                "file": "Sistemi operativi/processo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/PFRA.md",
+                "file": "Sistemi operativi/processo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/PFRA.md"
+                "file": "Sistemi operativi/processo.md"
               }
             }
           },
@@ -154,15 +154,15 @@
   },
   "active": "d134f732341c3b4d",
   "lastOpenFiles": [
+    "Sistemi operativi/Process status register.md",
+    "Sistemi operativi/PID.md",
+    "Sistemi operativi/pagina.md",
+    "Sistemi operativi/PFRA.md",
     "Sistemi operativi/processo.md",
     "Sistemi operativi/runqueue.md",
     "Sistemi operativi/scheduler.md",
     "Sistemi operativi/segmenti.md",
     "Sistemi operativi/semafori.md",
-    "Sistemi operativi/sequenze critiche.md",
-    "Sistemi operativi/sistema operativo.md",
-    "Sistemi operativi/Spazio virtuale.md",
-    "Sistemi operativi/SYSCALL.md",
-    "Sistemi operativi/SYSRET.md"
+    "Sistemi operativi/sequenze critiche.md"
   ]
 }
