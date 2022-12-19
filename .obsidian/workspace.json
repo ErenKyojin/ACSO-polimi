@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/IRET.md",
+                "file": "Sistemi operativi/SYSCALL.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/IRET.md",
+                "file": "Sistemi operativi/SYSCALL.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/IRET.md",
+                "file": "Sistemi operativi/SYSCALL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/IRET.md",
+                "file": "Sistemi operativi/SYSCALL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/IRET.md"
+                "file": "Sistemi operativi/SYSCALL.md"
               }
             }
           },
@@ -172,8 +172,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "d134f732341c3b4d",
+  "active": "a1b730b0c6aa06e6",
   "lastOpenFiles": [
+    "Sistemi operativi/classe di scheduling.md",
+    "Sistemi operativi/IRET.md",
     "Sistemi operativi/processo.md",
     "Sistemi operativi/Process status register.md",
     "Sistemi operativi/PID.md",
@@ -181,8 +183,6 @@
     "Sistemi operativi/PFRA.md",
     "Sistemi operativi/runqueue.md",
     "Sistemi operativi/scheduler.md",
-    "Sistemi operativi/segmenti.md",
-    "Sistemi operativi/semafori.md",
-    "Sistemi operativi/sequenze critiche.md"
+    "Sistemi operativi/segmenti.md"
   ]
 }
