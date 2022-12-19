@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/semafori.md",
+                "file": "Sistemi operativi/Esecuzione concorrente.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "exec",
+                "query": "join",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/semafori.md",
+                "file": "Sistemi operativi/Esecuzione concorrente.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/semafori.md",
+                "file": "Sistemi operativi/Esecuzione concorrente.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/semafori.md"
+                "file": "Sistemi operativi/Esecuzione concorrente.md"
               }
             }
           },
@@ -187,6 +188,7 @@
   },
   "active": "0b554322e01635c4",
   "lastOpenFiles": [
+    "Sistemi operativi/semafori.md",
     "Cheatsheet/Temi d'esame.md",
     "Sistemi operativi/system call.md",
     "Sistemi operativi/SYSCALL.md",
@@ -195,7 +197,6 @@
     "Sistemi operativi/processo.md",
     "Sistemi operativi/Process status register.md",
     "Sistemi operativi/PID.md",
-    "Sistemi operativi/pagina.md",
-    "Sistemi operativi/PFRA.md"
+    "Sistemi operativi/pagina.md"
   ]
 }
