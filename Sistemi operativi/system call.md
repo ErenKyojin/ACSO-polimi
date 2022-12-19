@@ -90,12 +90,12 @@ Ottiene il proprio PID (getpid) o il PID del parent (getppid)
 >>		exit();
 >>	}
 >>}
->>```
+>>``` 
 
 
 
 # Wait e waitpid
-sospende l'esecuzione del processo e attende che termini qualsiasi figlio, se un figlio termina prima che il padre esegue la wait, la wait è istantanea
+sospende l'esecuzione del processo e attende che termini qualsiasi figlio, se un figlio termina prima che il padre esegue la wait,f la wait è istantanea
 
 >[!c]
 >`pid_t wait (int*)`
