@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/processo.md",
+                "file": "Sistemi operativi/IRET.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/processo.md",
+                "file": "Sistemi operativi/IRET.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/processo.md",
+                "file": "Sistemi operativi/IRET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/processo.md",
+                "file": "Sistemi operativi/IRET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/processo.md"
+                "file": "Sistemi operativi/IRET.md"
               }
             }
           },
@@ -174,11 +174,11 @@
   },
   "active": "d134f732341c3b4d",
   "lastOpenFiles": [
+    "Sistemi operativi/processo.md",
     "Sistemi operativi/Process status register.md",
     "Sistemi operativi/PID.md",
     "Sistemi operativi/pagina.md",
     "Sistemi operativi/PFRA.md",
-    "Sistemi operativi/processo.md",
     "Sistemi operativi/runqueue.md",
     "Sistemi operativi/scheduler.md",
     "Sistemi operativi/segmenti.md",
