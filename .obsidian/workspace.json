@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/system call.md",
+                "file": "Sistemi operativi/mutex.md",
                 "mode": "source",
                 "source": false
               }
@@ -42,7 +42,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/system call.md",
+                "file": "Sistemi operativi/mutex.md",
                 "mode": "preview",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/system call.md",
+                "file": "Sistemi operativi/mutex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/system call.md",
+                "file": "Sistemi operativi/mutex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/system call.md"
+                "file": "Sistemi operativi/mutex.md"
               }
             }
           },
@@ -197,12 +197,12 @@
   },
   "active": "d134f732341c3b4d",
   "lastOpenFiles": [
+    "Sistemi operativi/system call.md",
     "Senza nome.canvas",
     "Sistemi operativi/mutex.md",
     "Sistemi operativi/Esecuzione concorrente.md",
     "Sistemi operativi/semafori.md",
     "Cheatsheet/Temi d'esame.md",
-    "Sistemi operativi/system call.md",
     "Sistemi operativi/SYSCALL.md",
     "Sistemi operativi/classe di scheduling.md",
     "Sistemi operativi/IRET.md",
