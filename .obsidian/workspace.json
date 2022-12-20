@@ -11,24 +11,18 @@
             "id": "d134f732341c3b4d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Sistemi operativi/mutex.md",
-                "mode": "source",
-                "source": false
+                "file": "Senza nome 1.canvas",
+                "viewState": {
+                  "x": 313.29385322406074,
+                  "y": 471.7940547418038,
+                  "zoom": -2,
+                  "snapToGrid": false
+                }
               }
             },
             "group": "92528dbd0a73306d"
-          },
-          {
-            "id": "49222428f64130d6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.8"
-              }
-            }
           }
         ]
       },
@@ -40,11 +34,15 @@
             "id": "a1b730b0c6aa06e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Sistemi operativi/mutex.md",
-                "mode": "preview",
-                "source": false
+                "file": "Senza nome 1.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0,
+                  "snapToGrid": false
+                }
               }
             },
             "group": "92528dbd0a73306d"
@@ -78,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mutex",
+                "query": "TGID",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -116,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/mutex.md",
+                "file": "Sistemi operativi/processo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/mutex.md",
+                "file": "Sistemi operativi/processo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/mutex.md"
+                "file": "Sistemi operativi/processo.md"
               }
             }
           },
@@ -197,15 +195,15 @@
   },
   "active": "d134f732341c3b4d",
   "lastOpenFiles": [
+    "Sistemi operativi/thread group.md",
+    "Sistemi operativi/PID.md",
+    "Sistemi operativi/mutex.md",
     "Sistemi operativi/system call.md",
     "Senza nome.canvas",
-    "Sistemi operativi/mutex.md",
     "Sistemi operativi/Esecuzione concorrente.md",
     "Sistemi operativi/semafori.md",
     "Cheatsheet/Temi d'esame.md",
     "Sistemi operativi/SYSCALL.md",
-    "Sistemi operativi/classe di scheduling.md",
-    "Sistemi operativi/IRET.md",
-    "Sistemi operativi/processo.md"
+    "Sistemi operativi/classe di scheduling.md"
   ]
 }

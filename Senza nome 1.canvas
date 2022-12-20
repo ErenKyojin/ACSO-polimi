@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"1a5a8f78a00ec001","x":853,"y":-207,"width":400,"height":400,"type":"file","file":"Sistemi operativi/Thread.md"},
+		{"id":"a2dc7049fc256308","x":-420,"y":-207,"width":400,"height":400,"type":"file","file":"Sistemi operativi/processo.md"}
+	],
+	"edges":[]
+}
