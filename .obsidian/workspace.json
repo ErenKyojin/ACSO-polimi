@@ -11,15 +11,11 @@
             "id": "d134f732341c3b4d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Senza nome 1.canvas",
-                "viewState": {
-                  "x": 313.29385322406074,
-                  "y": 471.7940547418038,
-                  "zoom": -2,
-                  "snapToGrid": false
-                }
+                "file": "Sistemi operativi/vettore di syscall.md",
+                "mode": "source",
+                "source": false
               }
             },
             "group": "92528dbd0a73306d"
@@ -34,15 +30,11 @@
             "id": "a1b730b0c6aa06e6",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Senza nome 1.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0,
-                  "snapToGrid": false
-                }
+                "file": "Sistemi operativi/vettore di syscall.md",
+                "mode": "source",
+                "source": false
               }
             },
             "group": "92528dbd0a73306d"
@@ -76,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "TGID",
+                "query": "write",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -114,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/processo.md",
+                "file": "Sistemi operativi/vettore di syscall.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/processo.md",
+                "file": "Sistemi operativi/vettore di syscall.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/processo.md"
+                "file": "Sistemi operativi/vettore di syscall.md"
               }
             }
           },
@@ -195,15 +187,15 @@
   },
   "active": "d134f732341c3b4d",
   "lastOpenFiles": [
-    "Sistemi operativi/thread group.md",
-    "Sistemi operativi/PID.md",
-    "Sistemi operativi/mutex.md",
-    "Sistemi operativi/system call.md",
-    "Senza nome.canvas",
-    "Sistemi operativi/Esecuzione concorrente.md",
-    "Sistemi operativi/semafori.md",
-    "Cheatsheet/Temi d'esame.md",
-    "Sistemi operativi/SYSCALL.md",
-    "Sistemi operativi/classe di scheduling.md"
+    "Architettura/unità di controllo.md",
+    "Sistemi operativi/page cache.md",
+    "Sistemi operativi/Memoria virtuale.md",
+    "Architettura/memoria.md",
+    "Sistemi operativi/mappa di memoria.md",
+    "Architettura/istruzioni.md",
+    "Architettura/Conflitti.md",
+    "Architettura/porta di scrittura.md",
+    "Architettura/registri interstadio.md",
+    "Sistemi operativi/vettore di syscall.md"
   ]
 }
