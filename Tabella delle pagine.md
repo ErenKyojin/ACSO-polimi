@@ -82,5 +82,6 @@ Essendo lo [[Spazio virtuale]] così grande dividiamo i 48 bit di indirizzo in 1
 - **PGD**, Page global directory
 - **Registro CR3** indica la base della page global directory
 
-[[Page walk.canvas|page walk]]
+>![[Page walk.canvas|page walk]]
 
+Quindi il processore che genera un indirizzo virtuale deve attraversare tutta la gerarchia per arrivare all'indirizzo della pagina fisica, quindi servono **5 accessi** in memoria fisica (includendo quello dell'offs)

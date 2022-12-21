@@ -1,17 +1,6 @@
 {
 	"nodes":[
 		{"id":"8135a71150a66e56","x":-674,"y":-666,"width":1934,"height":617,"type":"group","label":"Page walk"},
-		{"id":"6cdfeb5a56a200d1","x":16,"y":447,"width":250,"height":60,"type":"text","text":"PMD TABLE\n"},
-		{"id":"22a6102a05719a89","x":454,"y":282,"width":250,"height":60,"type":"text","text":"PT"},
-		{"id":"348371ef3bb69333","x":449,"y":447,"width":250,"height":60,"type":"text","text":"..."},
-		{"id":"3b66390303932b07","x":-390,"y":615,"width":250,"height":60,"type":"text","text":"PUD TABLE 511"},
-		{"id":"a7de796020b5b6cd","x":23,"y":614,"width":250,"height":60,"type":"text","text":"...\n"},
-		{"id":"93d85010bed22bff","x":454,"y":615,"width":250,"height":60,"type":"text","text":"PT"},
-		{"id":"889c919c8c3db929","x":-735,"y":751,"width":250,"height":60,"type":"text","text":"PGD TABLE"},
-		{"id":"124e0f71ccfaf8f7","x":-390,"y":929,"width":250,"height":60,"type":"text","text":"PUD TABLE 0\n"},
-		{"id":"0a3cc3524092656f","x":-390,"y":751,"width":250,"height":60,"type":"text","text":"...\n"},
-		{"id":"2b7f583602e85017","x":16,"y":751,"width":250,"height":60,"type":"text","text":"PMD TABLE\n"},
-		{"id":"ee726a88d3c6ec17","x":816,"y":130,"width":250,"height":60,"type":"text","text":"OFF\n"},
 		{"id":"1b554ed793e40c74","x":-642,"y":-153,"width":64,"height":50,"color":"5","type":"text","text":"cr3"},
 		{"id":"e77ba292aa50fd8d","x":-956,"y":89,"width":455,"height":82,"type":"text","text":"CR3 indica l'inizio dello spazio di indirizzamento, che è 512 * 0.5 TB = 256 TB"},
 		{"id":"5cc79c2eafef6de4","x":-632,"y":-2,"width":297,"height":65,"color":"4","type":"text","text":"\nLa metà inferiore  (128 TB) accede allo [[user space]]\n"},
@@ -40,7 +29,19 @@
 		{"id":"37da897f4c6f668e","x":940,"y":-518,"width":250,"height":60,"color":"5","type":"text","text":"..."},
 		{"id":"fd41ff2b77387566","x":941,"y":-577,"width":250,"height":60,"color":"5","type":"text","text":"Byte4K"},
 		{"id":"5e24c22529c4c268","x":941,"y":-458,"width":250,"height":60,"color":"5","type":"text","text":"Byte1"},
-		{"id":"b11a5a91b5c10989","x":941,"y":-397,"width":250,"height":60,"color":"5","type":"text","text":"Byte0"}
+		{"id":"b11a5a91b5c10989","x":941,"y":-397,"width":250,"height":60,"color":"5","type":"text","text":"Byte0"},
+		{"id":"22a6102a05719a89","x":594,"y":472,"width":250,"height":60,"type":"text","text":"PT"},
+		{"id":"348371ef3bb69333","x":589,"y":637,"width":250,"height":60,"type":"text","text":"..."},
+		{"id":"a7de796020b5b6cd","x":163,"y":804,"width":250,"height":60,"type":"text","text":"...\n"},
+		{"id":"93d85010bed22bff","x":594,"y":805,"width":250,"height":60,"type":"text","text":"PT"},
+		{"id":"2b7f583602e85017","x":156,"y":941,"width":250,"height":60,"type":"text","text":"PMD TABLE\n"},
+		{"id":"6cdfeb5a56a200d1","x":156,"y":647,"width":250,"height":50,"type":"text","text":"PMD TABLE\n"},
+		{"id":"889c919c8c3db929","x":-595,"y":941,"width":250,"height":60,"type":"text","text":"PGD TABLE"},
+		{"id":"3b66390303932b07","x":-250,"y":805,"width":250,"height":60,"type":"text","text":"PUD TABLE 511"},
+		{"id":"0a3cc3524092656f","x":-250,"y":941,"width":250,"height":60,"type":"text","text":"...\n"},
+		{"id":"124e0f71ccfaf8f7","x":-250,"y":1119,"width":250,"height":60,"type":"text","text":"PUD TABLE 0\n"},
+		{"id":"ee726a88d3c6ec17","x":956,"y":320,"width":250,"height":60,"type":"text","text":"OFF\n"},
+		{"id":"886623072d53d517","x":-615,"y":300,"width":1841,"height":899,"type":"group","label":"Page walk alternative"}
 	],
 	"edges":[
 		{"id":"57bc0da532cab7f5","fromNode":"1b554ed793e40c74","fromSide":"right","toNode":"4be8818c5fa1b500","toSide":"left"},

@@ -11,15 +11,11 @@
             "id": "351f15daf2076bf7",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Canvas/Page walk.canvas",
-                "viewState": {
-                  "x": 312.7220350603631,
-                  "y": -332.4309306416389,
-                  "zoom": -0.29281735066999603,
-                  "snapToGrid": true
-                }
+                "file": "Tabella delle pagine.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -89,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Canvas/Page walk.canvas",
+                "file": "Tabella delle pagine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Canvas/Page walk.canvas",
+                "file": "Tabella delle pagine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Canvas/Page walk.canvas"
+                "file": "Tabella delle pagine.md"
               }
             }
           },
@@ -171,8 +167,8 @@
   },
   "active": "351f15daf2076bf7",
   "lastOpenFiles": [
-    "user space.md",
     "Canvas/Page walk.canvas",
+    "user space.md",
     "Tabella delle pagine.md",
     "Rappresentazione inode.canvas",
     "README.md",
