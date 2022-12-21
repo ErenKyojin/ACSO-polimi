@@ -15,9 +15,9 @@
               "state": {
                 "file": "Esempio strutture dati filesystem (1).canvas",
                 "viewState": {
-                  "x": -160.3935462156569,
-                  "y": 588.17849392059,
-                  "zoom": -1,
+                  "x": 42.065104011267806,
+                  "y": 1334.3676541316702,
+                  "zoom": -0.5,
                   "snapToGrid": true
                 }
               }
@@ -154,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
