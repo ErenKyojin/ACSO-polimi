@@ -77,9 +77,9 @@ Essendo lo [[Spazio virtuale]] così grande dividiamo i 48 bit di indirizzo in 1
 |     |     |     |     |        |
 
 - **Offset** ci indirizza all'interno della pagina
-- **PT** Indirizza una pagina specifica
-- **Page upper directory**
-- **Page global directory**
+- **PT, page table** Indirizza una pagina specifica
+- **PUD**, Page upper directory
+- **PGD**, Page global directory
 - **Registro CR3** indica la base della page global directory
 
 [[Page walk.canvas|page walk]]
