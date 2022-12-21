@@ -25,7 +25,7 @@ Esiste una tabella per ogni [[processo]] attivo nel sistema. Indice dell tabella
 >3 | ...
 >4 | ...
 
-
+-------
 
 
 ## Tabella globale dei file aperti
@@ -35,6 +35,7 @@ Tabella globale del sistema operativo con una riga per ogni file aperto nel sist
 - Numero di riferimenti: Da parte dei processi a questo file se dovesse essere condiviso (esempio: fork )
 - Puntatore corrispondente: i-node nella tabella degli i-node
 
+-------
 
 ## Tabella degli i-node (detta in-core i-node)
 Tabella globale del sistema che contiene una copia in memoria degli i-node relativi al volume.
@@ -44,4 +45,7 @@ Ogni entry della tabella contiene il contatore al numero di riferimenti che indi
 
 Oltre alla copia delle informazioni presenti nel corrispondente i-node statico sono presenti informazioni riguardanti lo stato dell'i-node
 
+-----
 
+
+![[Esempio strutture dati filesystem (1).canvas]]

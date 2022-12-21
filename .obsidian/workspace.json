@@ -15,9 +15,9 @@
               "state": {
                 "file": "Esempio strutture dati filesystem (1).canvas",
                 "viewState": {
-                  "x": -219.25,
-                  "y": 0,
-                  "zoom": 0,
+                  "x": 355.2384832267088,
+                  "y": -12.084952260212816,
+                  "zoom": -1,
                   "snapToGrid": false
                 }
               }
@@ -171,6 +171,7 @@
   "active": "d1ec1b8c883f0ee9",
   "lastOpenFiles": [
     "File System.md",
+    "Esempio strutture dati filesystem (1).canvas",
     "volumi.md",
     "Rappresentazione inode.canvas",
     "i-node.md",
@@ -178,7 +179,6 @@
     "Canvas/Page walk.canvas",
     "Canvas/Senza nome 2.canvas",
     "Architettura/blocco.md",
-    "file.md",
-    "Tabella delle pagine.md"
+    "file.md"
   ]
 }
