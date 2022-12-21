@@ -8,6 +8,13 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "path:\"Sistemi operativi/Primitive per la gestione dei file\"",
+      "color": {
+        "a": 1,
+        "rgb": 1376239
+      }
+    },
+    {
       "query": "tag:#todo",
       "color": {
         "a": 1,
@@ -27,13 +34,6 @@
         "a": 1,
         "rgb": 14725458
       }
-    },
-    {
-      "query": "path:\"\"",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
-      }
     }
   ],
   "collapse-display": false,
@@ -46,6 +46,6 @@
   "repelStrength": 20,
   "linkStrength": 0.25,
   "linkDistance": 500,
-  "scale": 0.021528718442430275,
+  "scale": 0.05932617187499999,
   "close": false
 }

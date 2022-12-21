@@ -11,8 +11,12 @@
             "id": "685c280a12758cc9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi/Primitive per la gestione dei file/unlink().md",
+                "mode": "source",
+                "source": false
+              }
             },
             "group": "2ebde9e49e98ada2"
           }
@@ -28,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/Primitive per la gestione dei file/link().md",
+                "file": "Sistemi operativi/Primitive per la gestione dei file/unlink().md",
                 "mode": "preview",
                 "source": false
               }
@@ -101,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Sistemi operativi/Primitive per la gestione dei file/unlink().md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Sistemi operativi/Primitive per la gestione dei file/unlink().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +144,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Sistemi operativi/Primitive per la gestione dei file/unlink().md"
+              }
             }
           },
           {
@@ -180,12 +188,12 @@
   "active": "685c280a12758cc9",
   "lastOpenFiles": [
     "Sistemi operativi/Primitive per la gestione dei file/link().md",
+    "Sistemi operativi/Primitive per la gestione dei file/write().md",
     "Sistemi operativi/Primitive per la gestione dei file/close().md",
     "Sistemi operativi/Primitive per la gestione dei file/creat().md",
     "Sistemi operativi/Primitive per la gestione dei file/dup().md",
     "Sistemi operativi/Primitive per la gestione dei file/lseek().md",
     "Sistemi operativi/Primitive per la gestione dei file/read().md",
-    "Sistemi operativi/Primitive per la gestione dei file/write().md",
     "Sistemi operativi/Primitive per la gestione dei file/open().md",
     "Sistemi operativi/Primitive per la gestione dei file/unlink().md",
     "Architettura/variabili.md"
