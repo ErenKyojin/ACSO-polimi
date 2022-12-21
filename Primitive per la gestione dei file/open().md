@@ -12,4 +12,9 @@ int open(const char *file_name, int flags mode_t mode);
 	- O_RDWR lettura e scrittura
 
 - mode gestisci i permessi di accesso
-- 
+
+### Utilizzo
+
+```c
+fd = open(file_name, O_RDONLY | O_WRONLY | O_RDWR, mode);
+```

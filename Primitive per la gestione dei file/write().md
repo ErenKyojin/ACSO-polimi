@@ -1,5 +1,5 @@
 
-Aggiunge dati ad un file già creato/aperto, è necessario fornire descrittore ottenuto tramite open() ed un puntatore ai dati da scrivere. Restituisce il numero di caratteri effettivamente scritti alla fine dell'esecuzione della primitiva
+Aggiunge dati ad un file già creato/aperto, è necessario fornire descrittore ottenuto tramite [[open()]] o [[creat()]] ed un puntatore ai dati da scrivere. Restituisce il numero di caratteri effettivamente scritti alla fine dell'esecuzione della primitiva
 
 
 ```C
@@ -15,7 +15,7 @@ Byte_scritti = write(fd, buf, num_byte)
 - num_byte: numero di byte da scrivere
 
 
-Il [[File System]] mantiene un indicatore all aposizione nel file in cui deve essere effettuata la lettura/scrittura successiva
+Il [[File System]] mantiene un indicatore alla posizione nel file in cui deve essere effettuata la lettura/scrittura successiva
 
 
 
