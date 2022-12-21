@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"4f3b026ef1aed417","x":-272,"y":-216,"width":250,"height":60,"type":"text","text":""},
+		{"id":"08a463933c7f6923","x":-272,"y":-156,"width":250,"height":60,"type":"text","text":""},
+		{"id":"f959e596531d56af","x":-272,"y":-96,"width":250,"height":60,"type":"text","text":""},
+		{"id":"ebc141e768e6d319","x":-272,"y":-36,"width":250,"height":60,"type":"text","text":""},
+		{"id":"93fb5872004832ff","x":-272,"y":24,"width":250,"height":60,"type":"text","text":""},
+		{"id":"da51eefd57edbe1a","x":257,"y":-73,"width":250,"height":60,"type":"text","text":""},
+		{"id":"8922ff153384f06d","x":257,"y":-133,"width":250,"height":60,"type":"text","text":""},
+		{"id":"e25afb31f9920175","x":257,"y":-15,"width":250,"height":60,"type":"text","text":""},
+		{"id":"8431055b6f93d76e","x":257,"y":45,"width":250,"height":60,"type":"text","text":""},
+		{"id":"4648c9ea6f43e977","x":257,"y":105,"width":250,"height":60,"type":"text","text":""},
+		{"id":"65cc3d74a3ac11ae","x":-581,"y":-236,"width":579,"height":371,"type":"group","label":"Tabella dei descrittori di file aperti per processo"}
+	],
+	"edges":[
+		{"id":"c728243a10ee55e0","fromNode":"08a463933c7f6923","fromSide":"right","toNode":"da51eefd57edbe1a","toSide":"left"}
+	]
+}

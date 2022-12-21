@@ -11,11 +11,15 @@
             "id": "d1ec1b8c883f0ee9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "File System.md",
-                "mode": "source",
-                "source": false
+                "file": "Esempio strutture dati filesystem (1).canvas",
+                "viewState": {
+                  "x": -219.25,
+                  "y": 0,
+                  "zoom": 0,
+                  "snapToGrid": false
+                }
               }
             }
           }
@@ -85,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "File System.md",
+                "file": "Esempio strutture dati filesystem (1).canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "File System.md",
+                "file": "Esempio strutture dati filesystem (1).canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "File System.md"
+                "file": "Esempio strutture dati filesystem (1).canvas"
               }
             }
           },
@@ -166,6 +170,7 @@
   },
   "active": "d1ec1b8c883f0ee9",
   "lastOpenFiles": [
+    "File System.md",
     "volumi.md",
     "Rappresentazione inode.canvas",
     "i-node.md",
@@ -173,7 +178,6 @@
     "Canvas/Page walk.canvas",
     "Canvas/Senza nome 2.canvas",
     "Architettura/blocco.md",
-    "File System.md",
     "file.md",
     "Tabella delle pagine.md"
   ]
