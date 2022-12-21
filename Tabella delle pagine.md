@@ -84,4 +84,17 @@ Essendo lo [[Spazio virtuale]] così grande dividiamo i 48 bit di indirizzo in 1
 
 >![[Page walk.canvas|page walk]]
 
-Quindi il processore che genera un indirizzo virtuale deve attraversare tutta la gerarchia per arrivare all'indirizzo della pagina fisica, quindi servono **5 accessi** in memoria fisica (includendo quello dell'offs)
+Quindi il processore che genera un indirizzo virtuale deve attraversare tutta la gerarchia per arrivare all'indirizzo della pagina fisica, quindi servono **5 accessi** in memoria fisica (includendo quello per l'offset), per velocizzare il processo si usa il [[translation lookaside buffer|TLB]]
+
+
+
+>[!esempio] ### Decomposizione di un indirizzo virtuale
+>
+><p style = "text-align:center">0x0000 <font COLOR = gree>7FFF B0D4 2<font COLOR = red>118 </font></font></p>
+>
+>- **OFFSET**: <font COLOR = red>0x118</font>, binario 0001 0001 1000 = 280
+>- **NPV**: <font COLOR = gree> 0x7FFF B0D4 2 </font>
+> - Indice **PT** i 9 bit meno significativi, quindi 1 0100 0010 = 322
+> - Indipce **PMD** i 9 bit successivi. Quindi 11 0000 110 = 390
+> - Indice **PUD** i 9 bit successivi. Quindi 111 1111 10 = 510
+> - indice **PGD** 0111 1111 1 = 255
