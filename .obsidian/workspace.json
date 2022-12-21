@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "File System.md",
+                "file": "volumi.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "File System.md",
+                "file": "volumi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "File System.md",
+                "file": "volumi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "File System.md"
+                "file": "volumi.md"
               }
             }
           },
@@ -183,15 +183,15 @@
   },
   "active": "b5a3ae4d582662a9",
   "lastOpenFiles": [
+    "Architettura/blocco.md",
+    "i-node.md",
+    "File System.md",
     "Page walk.canvas",
+    "file.md",
+    "volumi.md",
     "Tabella delle pagine.md",
     "Sistemi operativi/Memoria virtuale.md",
     "Sistemi operativi/Tabella delle pagine fisiche e descrittori.md",
-    "Senza nome 2.canvas",
-    "Sistemi operativi/page cache.md",
-    "Sistemi operativi/vettore di syscall.md",
-    "Architettura/unità di controllo.md",
-    "Architettura/memoria.md",
-    "Sistemi operativi/mappa di memoria.md"
+    "Senza nome 2.canvas"
   ]
 }

@@ -1,0 +1,1 @@
+La tecnica di i-node permette di mappare [[blocco#Blocchi logici]] e [[blocco#Blocco nel volume]] mediante una lista
