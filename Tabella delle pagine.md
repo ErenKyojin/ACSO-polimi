@@ -1,0 +1,80 @@
+Esiste una tabella delle pagine per ogni processo in esecuzione e contiene una riga per ogni pagina virtuale del processo, in queste tabeille il numero di pagina virtuale (NPV) si può utilizzare come indirizzo nella tabella delle pagine del processo, alternativamente la tabella può essere associativa sul contenuto di NPV (o sulla coppia (PID, NPV)) associato al corrispondente NPV 
+
+In [[x64]] esiste il registro CR3 che contiene l'indirizzo del punto di partenza della tabella delle pagine in memoria.
+
+>[!multi-column]
+>
+>>[!memoria virtuale]
+>>
+>> ## P
+>>numero di pagina | contenuto delle pagine
+>>--- | ---
+>>0x00000 | AAAA
+>>0x00001 | BBBB
+>>0x00002 | CCCC
+>>0x00003 | DDDD 
+>>
+>> ## Q
+>> numero di pagina | contenuto delle pagine
+>> --- | ---
+>> 0x00000 | RRRR
+>> 0x00001 | SSSS
+>> 0x00002 | TTTT
+>> 0x00003 | UUUU
+>> 0x00004 | VVVV
+>
+>>[!tabellle Pagine]
+>>
+>>## P
+>>NPV </br> -------------| NPF </br> -------------
+>>--- | ---
+>>0x00000 | 0x00004
+>>0x00001 | 0x00005
+>>0x00002 | 0x00006
+>>0x00003 | 0x00007
+>>
+>> ## Q
+>> NPV </br> - | NPV </br> -
+>> ---|----
+>> 0x00000 | 0x00008
+>> 0x00001 | 0x00009
+>> 0x00002 | 0x0000A
+>> 0x00003 | 0x0000B
+>> 0x00004 | 0x0000C
+>
+>>[!memoria fisica]
+>>numero di pagina | contenuto delle pagine
+>>--- | ---
+>>0x00000 | SO
+>>0x00001 | SO
+>>0x00002 | SO
+>>0x00003 | SO
+>>0x00004 | AAAA
+>>0x00005 | BBBB
+>>0x00006 | CCCC
+>>0x00007 | DDDD
+>>0x00008 | RRRR
+>>0x00009 | SSSS
+>>0x0000A | TTTT
+>>0x0000B | UUUU
+>>0x0000C | VVVV
+>>0x0000D | N/D
+>>0x0000E | N/D
+>>0x0000F | N/D
+>>.... | ....
+>
+
+Le tabelle sono allocate in memoria alla creazione del processo
+
+
+
+# Implementazione in [[x64]]
+
+Essendo lo [[Spazio virtuale]] così grande dividiamo i 48 bit di indirizzo in 12 bit di offset e 36 bit di NPV a loro volta divisi in 4 gruppi da 9 bit.
+
+| PGD | PUD | PMD | PT  | Offset |
+| --- | --- | --- | --- | ------ |
+|     |     |     |     |        |
+
+- **Offset** ci indirizza all'interno della pagina
+- **PT** Indirizza u
