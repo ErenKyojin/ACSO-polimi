@@ -11,11 +11,15 @@
             "id": "351f15daf2076bf7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Sistemi operativi/gestore della memoria.md",
-                "mode": "source",
-                "source": false
+                "file": "Canvas/Page walk.canvas",
+                "viewState": {
+                  "x": 165,
+                  "y": -370.9103773584907,
+                  "zoom": -0.9322735694390036,
+                  "snapToGrid": false
+                }
               }
             }
           }
@@ -85,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/gestore della memoria.md",
+                "file": "Canvas/Page walk.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/gestore della memoria.md",
+                "file": "Canvas/Page walk.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/gestore della memoria.md"
+                "file": "Canvas/Page walk.canvas"
               }
             }
           },
@@ -167,15 +171,15 @@
   },
   "active": "351f15daf2076bf7",
   "lastOpenFiles": [
+    "Commutazione di pila.md",
+    "Esempio strutture dati filesystem (1).canvas",
+    "File System.md",
+    "file.md",
     "Sistemi operativi/Primitive per la gestione dei file/Primitive per la gestione.canvas",
-    "Sistemi operativi/Primitive per la gestione dei file/close().md",
     "Sistemi operativi/Primitive per la gestione dei file/open().md",
+    "Sistemi operativi/gestore della memoria.md",
+    "Sistemi operativi/Primitive per la gestione dei file/close().md",
     "Sistemi operativi/Primitive per la gestione dei file/lseek().md",
-    "Sistemi operativi/Primitive per la gestione dei file/unlink().md",
-    "Sistemi operativi/Primitive per la gestione dei file/link().md",
-    "Sistemi operativi/Primitive per la gestione dei file/write().md",
-    "Sistemi operativi/Primitive per la gestione dei file/creat().md",
-    "Sistemi operativi/Primitive per la gestione dei file/dup().md",
-    "Sistemi operativi/Primitive per la gestione dei file/read().md"
+    "Sistemi operativi/Primitive per la gestione dei file/unlink().md"
   ]
 }
