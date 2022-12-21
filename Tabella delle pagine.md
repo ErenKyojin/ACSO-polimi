@@ -98,3 +98,5 @@ Quindi il processore che genera un indirizzo virtuale deve attraversare tutta la
 > - Indipce **PMD** i 9 bit successivi. Quindi 11 0000 110 = 390
 > - Indice **PUD** i 9 bit successivi. Quindi 111 1111 10 = 510
 > - indice **PGD** 0111 1111 1 = 255
+> 
+> Con la notazione PGD : PUD : PMD : PT l'indirizzo è -> 255 : 510 : 390 : 322
