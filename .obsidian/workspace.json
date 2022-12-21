@@ -4,40 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "eaeb5d223a553bd7",
+        "id": "0c39763c6f4d68e0",
         "type": "tabs",
         "children": [
           {
-            "id": "685c280a12758cc9",
+            "id": "351f15daf2076bf7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/Primitive per la gestione dei file/unlink().md",
+                "file": "Sistemi operativi/gestore della memoria.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "2ebde9e49e98ada2"
-          }
-        ]
-      },
-      {
-        "id": "d84dcd00a8d8ca01",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c4b4d0ed7d661886",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemi operativi/Primitive per la gestione dei file/unlink().md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "2ebde9e49e98ada2"
+            }
           }
         ]
       }
@@ -105,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/Primitive per la gestione dei file/unlink().md",
+                "file": "Sistemi operativi/gestore della memoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/Primitive per la gestione dei file/unlink().md",
+                "file": "Sistemi operativi/gestore della memoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/Primitive per la gestione dei file/unlink().md"
+                "file": "Sistemi operativi/gestore della memoria.md"
               }
             }
           },
@@ -185,17 +165,17 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "685c280a12758cc9",
+  "active": "351f15daf2076bf7",
   "lastOpenFiles": [
+    "Sistemi operativi/Primitive per la gestione dei file/Primitive per la gestione.canvas",
+    "Sistemi operativi/Primitive per la gestione dei file/close().md",
+    "Sistemi operativi/Primitive per la gestione dei file/open().md",
+    "Sistemi operativi/Primitive per la gestione dei file/lseek().md",
+    "Sistemi operativi/Primitive per la gestione dei file/unlink().md",
     "Sistemi operativi/Primitive per la gestione dei file/link().md",
     "Sistemi operativi/Primitive per la gestione dei file/write().md",
-    "Sistemi operativi/Primitive per la gestione dei file/close().md",
     "Sistemi operativi/Primitive per la gestione dei file/creat().md",
     "Sistemi operativi/Primitive per la gestione dei file/dup().md",
-    "Sistemi operativi/Primitive per la gestione dei file/lseek().md",
-    "Sistemi operativi/Primitive per la gestione dei file/read().md",
-    "Sistemi operativi/Primitive per la gestione dei file/open().md",
-    "Sistemi operativi/Primitive per la gestione dei file/unlink().md",
-    "Architettura/variabili.md"
+    "Sistemi operativi/Primitive per la gestione dei file/read().md"
   ]
 }
