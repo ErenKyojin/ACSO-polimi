@@ -15,10 +15,10 @@
               "state": {
                 "file": "Canvas/Page walk.canvas",
                 "viewState": {
-                  "x": -206.41798466253275,
-                  "y": -355.7741325101345,
+                  "x": 657.1546946483488,
+                  "y": -369.81920218276764,
                   "zoom": -0.29281735066999603,
-                  "snapToGrid": false
+                  "snapToGrid": true
                 }
               }
             },
@@ -38,10 +38,10 @@
               "state": {
                 "file": "Canvas/Page walk.canvas",
                 "viewState": {
-                  "x": 165,
-                  "y": 161.5,
-                  "zoom": -1.292817350669996,
-                  "snapToGrid": false
+                  "x": -158.68780010149135,
+                  "y": -281.76863590906044,
+                  "zoom": -0.29281735066999603,
+                  "snapToGrid": true
                 }
               }
             },
@@ -195,6 +195,8 @@
   },
   "active": "351f15daf2076bf7",
   "lastOpenFiles": [
+    "user space.md",
+    "Canvas/Page walk.canvas",
     "Tabella delle pagine.md",
     "Rappresentazione inode.canvas",
     "README.md",
@@ -202,8 +204,6 @@
     "Commutazione di pila.md",
     "file.md",
     "File System.md",
-    "Esempio strutture dati filesystem (1).canvas",
-    "i-node.md",
-    "kernel swap daemon.md"
+    "Esempio strutture dati filesystem (1).canvas"
   ]
 }
