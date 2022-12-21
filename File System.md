@@ -1,0 +1,1 @@
+Linux gestisce i file system a livello logico attraverso dispositivi logici detti [[volumi]]
