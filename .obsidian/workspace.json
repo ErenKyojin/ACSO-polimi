@@ -11,33 +11,17 @@
             "id": "4d8711dfb2957294",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Tabella delle pagine.md",
-                "mode": "source",
-                "source": false
+                "file": "Page walk.canvas",
+                "viewState": {
+                  "x": 251.55922326000467,
+                  "y": 307.0702292913279,
+                  "zoom": 0,
+                  "snapToGrid": false
+                }
               }
-            },
-            "group": "6ff70e00ee80e0df"
-          }
-        ]
-      },
-      {
-        "id": "49b0311084bb1eb1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b753ebe2a2836bd7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tabella delle pagine.md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "6ff70e00ee80e0df"
+            }
           }
         ]
       }
@@ -68,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tabella delle pagine",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tabella delle pagine.md",
+                "file": "Page walk.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tabella delle pagine.md",
+                "file": "Page walk.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tabella delle pagine.md"
+                "file": "Page walk.canvas"
               }
             }
           },
@@ -185,8 +168,10 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "b753ebe2a2836bd7",
+  "active": "4d8711dfb2957294",
   "lastOpenFiles": [
+    "Tabella delle pagine.md",
+    "Page walk.canvas",
     "Sistemi operativi/Memoria virtuale.md",
     "Sistemi operativi/Tabella delle pagine fisiche e descrittori.md",
     "Senza nome 2.canvas",
@@ -194,8 +179,6 @@
     "Sistemi operativi/vettore di syscall.md",
     "Architettura/unità di controllo.md",
     "Architettura/memoria.md",
-    "Sistemi operativi/mappa di memoria.md",
-    "Architettura/istruzioni.md",
-    "Architettura/Conflitti.md"
+    "Sistemi operativi/mappa di memoria.md"
   ]
 }
