@@ -1,9 +1,6 @@
 {
 	"nodes":[
 		{"id":"8135a71150a66e56","x":-674,"y":-666,"width":1760,"height":617,"type":"group","label":"Page walk"},
-		{"id":"5cc79c2eafef6de4","x":-501,"y":0,"width":297,"height":65,"color":"4","type":"text","text":"\nLa metà inferiore  (128 TB) accede allo [[user space]]\n"},
-		{"id":"9a7e57bc8d7c5e78","x":-192,"y":0,"width":250,"height":60,"color":"1","type":"text","text":"Metà superiore (128 TB) [[Kernel space]]"},
-		{"id":"e77ba292aa50fd8d","x":-840,"y":100,"width":455,"height":82,"type":"text","text":"CR3 indica l'inizio dello spazio di indirizzamento, che è 512 * 0.5 TB = 256 TB"},
 		{"id":"6cdfeb5a56a200d1","x":16,"y":447,"width":250,"height":60,"type":"text","text":"PMD TABLE\n"},
 		{"id":"22a6102a05719a89","x":454,"y":282,"width":250,"height":60,"type":"text","text":"PT"},
 		{"id":"348371ef3bb69333","x":449,"y":447,"width":250,"height":60,"type":"text","text":"..."},
@@ -35,7 +32,10 @@
 		{"id":"e0819e5efaa442ea","x":680,"y":-511,"width":250,"height":60,"color":"5","type":"text","text":"...\n"},
 		{"id":"d46b91cfd3227a7b","x":680,"y":-449,"width":250,"height":60,"color":"5","type":"text","text":"PT1\n"},
 		{"id":"1bbbb257cb437888","x":680,"y":-390,"width":250,"height":60,"color":"5","type":"text","text":"PT0\n"},
-		{"id":"e73576300b466de3","x":680,"y":-571,"width":250,"height":60,"color":"5","type":"text","text":"PT511"}
+		{"id":"e73576300b466de3","x":680,"y":-571,"width":250,"height":60,"color":"5","type":"text","text":"PT511"},
+		{"id":"e77ba292aa50fd8d","x":-956,"y":89,"width":455,"height":82,"type":"text","text":"CR3 indica l'inizio dello spazio di indirizzamento, che è 512 * 0.5 TB = 256 TB"},
+		{"id":"5cc79c2eafef6de4","x":-632,"y":-2,"width":297,"height":65,"color":"4","type":"text","text":"\nLa metà inferiore  (128 TB) accede allo [[user space]]\n"},
+		{"id":"9a7e57bc8d7c5e78","x":-316,"y":-2,"width":250,"height":60,"color":"1","type":"text","text":"Metà superiore (128 TB) [[Kernel space]]"}
 	],
 	"edges":[
 		{"id":"57bc0da532cab7f5","fromNode":"1b554ed793e40c74","fromSide":"right","toNode":"4be8818c5fa1b500","toSide":"left"},

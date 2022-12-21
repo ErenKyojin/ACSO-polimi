@@ -15,37 +15,13 @@
               "state": {
                 "file": "Canvas/Page walk.canvas",
                 "viewState": {
-                  "x": 675.6718851556743,
-                  "y": -712.3360334285211,
+                  "x": 206.48530716292936,
+                  "y": -341.00614224986134,
                   "zoom": -0.29281735066999603,
                   "snapToGrid": true
                 }
               }
-            },
-            "group": "ec003ee08bedca05"
-          }
-        ]
-      },
-      {
-        "id": "184277f16ec85fc7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bca8e91519597858",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Canvas/Page walk.canvas",
-                "viewState": {
-                  "x": -158.68780010149135,
-                  "y": -281.76863590906044,
-                  "zoom": -0.29281735066999603,
-                  "snapToGrid": true
-                }
-              }
-            },
-            "group": "ec003ee08bedca05"
+            }
           }
         ]
       }
