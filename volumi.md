@@ -23,3 +23,15 @@ L'indirizzamento dei dati nel volume si basa sul conetto di Logical Block Addres
 | -------------- | ------------ | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ----------------------------- | ------------------------------ |
 |                |              |                                                                                       |                                                                                     |                               |                                |
 
+
+
+## Superblock
+Il superblocco contiene le informazioni necessarie a creare o eliminare un file, ad aggiungere o togliere blocchi ad un file esistente:
+- Dimensione del volume
+- Numero di blocchi liberi nel volume
+- Lista dei blocchi liberi (free-list)
+- Numero di elementi della lista dei blocchi liberi
+- Numero di elementi della lista degli i-node
+- numero di i-node liberi
+- lista degli i-node liberi
+- #todo 
