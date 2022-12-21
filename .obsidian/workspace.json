@@ -8,49 +8,32 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7473c1f0a13475a",
+            "id": "685c280a12758cc9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Primitive per la gestione dei file/read().md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b3e51ec29864fee1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Primitive per la gestione dei file/lseek().md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             },
-            "group": "bdebd9eddba1e09a"
+            "group": "2ebde9e49e98ada2"
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "2b01b02f13cb4480",
+        "id": "d84dcd00a8d8ca01",
         "type": "tabs",
         "children": [
           {
-            "id": "45e53f4d3cb8b212",
+            "id": "c4b4d0ed7d661886",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Primitive per la gestione dei file/lseek().md",
+                "file": "Sistemi operativi/Primitive per la gestione dei file/link().md",
                 "mode": "preview",
                 "source": false
               }
             },
-            "group": "bdebd9eddba1e09a"
+            "group": "2ebde9e49e98ada2"
           }
         ]
       }
@@ -118,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Primitive per la gestione dei file/lseek().md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +117,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Primitive per la gestione dei file/lseek().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Primitive per la gestione dei file/lseek().md"
-              }
+              "state": {}
             }
           },
           {
@@ -198,17 +177,17 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "b3e51ec29864fee1",
+  "active": "685c280a12758cc9",
   "lastOpenFiles": [
-    "Primitive per la gestione dei file/read().md",
-    "Primitive per la gestione dei file/write().md",
-    "Primitive per la gestione dei file/open().md",
-    "Primitive per la gestione dei file/unlink().md",
-    "Primitive per la gestione dei file/creat().md",
-    "Architettura/variabili.md",
-    "Canvas/Esempio directory.canvas",
-    "Architettura/funzione combinatoria.md",
-    "Architettura/flipflop D master-slave.md",
-    "Cheatsheet/Temi d'esame.md"
+    "Sistemi operativi/Primitive per la gestione dei file/link().md",
+    "Sistemi operativi/Primitive per la gestione dei file/close().md",
+    "Sistemi operativi/Primitive per la gestione dei file/creat().md",
+    "Sistemi operativi/Primitive per la gestione dei file/dup().md",
+    "Sistemi operativi/Primitive per la gestione dei file/lseek().md",
+    "Sistemi operativi/Primitive per la gestione dei file/read().md",
+    "Sistemi operativi/Primitive per la gestione dei file/write().md",
+    "Sistemi operativi/Primitive per la gestione dei file/open().md",
+    "Sistemi operativi/Primitive per la gestione dei file/unlink().md",
+    "Architettura/variabili.md"
   ]
 }

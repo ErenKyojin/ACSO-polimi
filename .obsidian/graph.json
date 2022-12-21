@@ -27,6 +27,13 @@
         "a": 1,
         "rgb": 14725458
       }
+    },
+    {
+      "query": "path:\"\"",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
     }
   ],
   "collapse-display": false,
