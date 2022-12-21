@@ -18,6 +18,8 @@ L'indirizzamento dei dati nel volume si basa sul conetto di Logical Block Addres
 - **Blocchi di dati**: blocchi che contengono il contenuto dei file e dei direttori nel caso di una directory, il corrispondente blocco contiene una tabella con la lista di file / direttori nel vettore <nome file/nome_dir, i_node>
 
 ![[Esempio directory.canvas]]
-| blocco di boot | Super blocco | i-node 6:  ... \| 800 \|... \|... </br>  i-node 10: ... \| 910 \|1040 \| ... | blk 800:</br> .\| 6 </br> .. \| 1 </br> f1 \| 10 </br> f2 \| 20 </br> sub_dir \| 40 |
-| -------------- | ------------ | ------------------------------------- | ----------------------------------------------------------------------------------- |
-|                |              |                                       |                                                                                     |
+
+| blocco di boot | Super blocco | i-node 6:  ... \| 800 \|... \|... </br>  i-node 10: \#rif=2\|... \| 910 \|1040 \| ... | blk 800:</br> .\| 6 </br> .. \| 1 </br> f1 \| 10 </br> f2 \| 20 </br> sub_dir \| 40 </br> new_f1 \| 10 | blk 910 </br> contenuto B0 f1 | blk 1040 </br> <font COLOR = green>contenuto B1 f1 </font> |
+| -------------- | ------------ | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ----------------------------- | ------------------------------ |
+|                |              |                                                                                       |                                                                                     |                               |                                |
+

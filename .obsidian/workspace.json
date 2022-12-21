@@ -4,40 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "b1819deeb90415f1",
+        "id": "774711f477cb5587",
         "type": "tabs",
         "children": [
           {
-            "id": "4d8711dfb2957294",
+            "id": "d1ec1b8c883f0ee9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "volumi.md",
+                "file": "i-node.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "9b6b6104a93d561e"
+            "group": "27f772530cb9a9b7"
           }
         ]
       },
       {
-        "id": "3917c1d007069c0e",
+        "id": "f5374b0edfa65eb9",
         "type": "tabs",
         "children": [
           {
-            "id": "79e4888f1d1af840",
+            "id": "63cd04d36915d900",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "volumi.md",
-                "mode": "source",
+                "file": "i-node.md",
+                "mode": "preview",
                 "source": false
               }
             },
-            "group": "9b6b6104a93d561e"
+            "group": "27f772530cb9a9b7"
           }
         ]
       }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "volumi.md",
+                "file": "i-node.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "volumi.md",
+                "file": "i-node.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "volumi.md"
+                "file": "i-node.md"
               }
             }
           },
@@ -184,17 +184,17 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "4d8711dfb2957294",
+  "active": "63cd04d36915d900",
   "lastOpenFiles": [
-    "Canvas/Esempio directory.canvas",
+    "Rappresentazione inode.canvas",
+    "i-node.md",
     "volumi.md",
+    "Canvas/Esempio directory.canvas",
     "Canvas/Page walk.canvas",
     "Canvas/Senza nome 2.canvas",
     "Architettura/blocco.md",
-    "i-node.md",
     "File System.md",
     "file.md",
-    "Tabella delle pagine.md",
-    "Sistemi operativi/Memoria virtuale.md"
+    "Tabella delle pagine.md"
   ]
 }
