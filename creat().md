@@ -1,1 +1,0 @@
-Creazione di un file ordinario, aggiunge un nuovo file al [[File System]], e restituisce un intero che rappresenta il desc

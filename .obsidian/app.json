@@ -1,5 +1,6 @@
 {
   "promptDelete": false,
   "attachmentFolderPath": "Allegati",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current"
 }
