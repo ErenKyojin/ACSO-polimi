@@ -11,19 +11,76 @@
             "id": "d1ec1b8c883f0ee9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Esempio strutture dati filesystem (1).canvas",
-                "viewState": {
-                  "x": 42.065104011267806,
-                  "y": 1334.3676541316702,
-                  "zoom": -0.5,
-                  "snapToGrid": true
-                }
+                "file": "File System.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0f5524fa31d3e3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Primitive per la gestione dei file/write().md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc8e46de42b758fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Primitive per la gestione dei file/unlink().md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72f1a0f046296239",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Primitive per la gestione dei file/link().md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f3596f31997dc21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Primitive per la gestione dei file/link().md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "21d4d19a417e9e41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "creat().md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -89,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Esempio strutture dati filesystem (1).canvas",
+                "file": "creat().md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Esempio strutture dati filesystem (1).canvas",
+                "file": "creat().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Esempio strutture dati filesystem (1).canvas"
+                "file": "creat().md"
               }
             }
           },
@@ -169,17 +226,17 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "d1ec1b8c883f0ee9",
+  "active": "21d4d19a417e9e41",
   "lastOpenFiles": [
+    "Primitive per la gestione dei file/link().md",
+    "Primitive per la gestione dei file/write().md",
+    "Primitive per la gestione dei file/unlink().md",
+    "Tabella delle pagine.md",
     "File System.md",
     "Esempio strutture dati filesystem (1).canvas",
     "volumi.md",
     "Rappresentazione inode.canvas",
     "i-node.md",
-    "Canvas/Esempio directory.canvas",
-    "Canvas/Page walk.canvas",
-    "Canvas/Senza nome 2.canvas",
-    "Architettura/blocco.md",
-    "file.md"
+    "Canvas/Esempio directory.canvas"
   ]
 }
