@@ -100,3 +100,11 @@ Quindi il processore che genera un indirizzo virtuale deve attraversare tutta la
 > - indice **PGD** 0111 1111 1 = 255
 > 
 > Con la notazione PGD : PUD : PMD : PT l'indirizzo è -> 255 : 510 : 390 : 322
+
+
+Possiamo così tradurre indirizzi iniziali:
+
+- Indirizzo iniziale **codice** -> 0:0:2:0
+- Indirizzo iniziale **dati** -> 0:0:3:0
+- Indirizzo iniziale della **pila del primo thread T0** -> 0000 7FFF F77F F000
+- Indirizzo iniziale della **pila del processo** -> 0000 7FFF FFFF E000
