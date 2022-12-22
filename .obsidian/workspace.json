@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheet/Temi d'esame.md",
+                "file": "Cheatsheet/Scheduler CFS.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheet/Temi d'esame.md",
+                "file": "Cheatsheet/Scheduler CFS.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheatsheet/Temi d'esame.md",
+                "file": "Cheatsheet/Scheduler CFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheatsheet/Temi d'esame.md",
+                "file": "Cheatsheet/Scheduler CFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheet/Temi d'esame.md"
+                "file": "Cheatsheet/Scheduler CFS.md"
               }
             }
           },
@@ -186,6 +186,7 @@
   },
   "active": "351f15daf2076bf7",
   "lastOpenFiles": [
+    "Cheatsheet/Temi d'esame.md",
     "Cheatsheet/Scheduler CFS.md",
     "Sistemi operativi/Esecuzione concorrente.md",
     "Tabella delle pagine.md",
@@ -194,7 +195,6 @@
     "Rappresentazione inode.canvas",
     "README.md",
     "volumi.md",
-    "Commutazione di pila.md",
-    "file.md"
+    "Commutazione di pila.md"
   ]
 }
