@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/Esecuzione concorrente.md",
+                "file": "Cheatsheet/Temi d'esame.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/Esecuzione concorrente.md",
+                "file": "Cheatsheet/Temi d'esame.md",
                 "mode": "preview",
                 "source": false
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "join",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,8 +85,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/Esecuzione concorrente.md",
+                "file": "Cheatsheet/Temi d'esame.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/Esecuzione concorrente.md",
+                "file": "Cheatsheet/Temi d'esame.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/Esecuzione concorrente.md"
+                "file": "Cheatsheet/Temi d'esame.md"
               }
             }
           },
@@ -171,8 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,6 +186,8 @@
   },
   "active": "351f15daf2076bf7",
   "lastOpenFiles": [
+    "Cheatsheet/Scheduler CFS.md",
+    "Sistemi operativi/Esecuzione concorrente.md",
     "Tabella delle pagine.md",
     "Canvas/Page walk.canvas",
     "user space.md",
@@ -195,8 +195,6 @@
     "README.md",
     "volumi.md",
     "Commutazione di pila.md",
-    "file.md",
-    "File System.md",
-    "Esempio strutture dati filesystem (1).canvas"
+    "file.md"
   ]
 }
