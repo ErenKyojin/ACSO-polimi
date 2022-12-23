@@ -151,7 +151,13 @@ Per mantenere queste politiche è necessario avere
 
 ## Dimensionamento delle pagine (frammentazione)
 
-Ad ogni programma viene sempre assegnato un numero intero di pagine, rimangono aree di memoria assegnate ma non occupate
+Ad ogni programma viene sempre assegnato un numero intero di pagine, rimangono aree di memoria assegnate ma non occupate,
+
+>[!esempio]
+>un programma ha bisogno di 6.34 pagine, gliene vengono assegnate 7, sprechiamo 2/3 di una pagina.
+>
+
+Si può ovviare in parte a questo problema scegliendo pagine più piccole, tuttavia più diminuisce la dimensione delle pagine, più dovranno essere grandi e complessi i sistemi di controllo della memoria (ossia il TLB e la tabella delle pagine), inoltre il tempo di ricerca di una pagina su disco è di due ordini di grandezza maggiore al tempo di trasferimento, quindi non conviene ridurre le dimensioni delle pagine
 
 
 # VMA
