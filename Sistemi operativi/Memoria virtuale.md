@@ -19,7 +19,7 @@ numero pagina virtuale (NPV) | spiazzamento nella pagina
 
 In questo esempio abbiamo 64 kB / 512 Byte = $2^7$ = 128 virtuali e quindi 7 bit per il VPN e 9 per l'offset.
 
-è analog
+è analogo l'indirizzo per pagine fisiche (NPF)
 
 
 ### [[Tabella delle pagine]]
