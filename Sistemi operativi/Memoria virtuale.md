@@ -102,12 +102,12 @@ La tabella delle pagine è una struttura dati del [[sistema operativo]] resident
 Per ottimizzare il processo sfruttiamo, per mantenere in memoria le tabelle NPV to NPF, una cache (**[[translation lookaside buffer]]** o TLB)  in un meccanismo hardware detto **memory managment unit** o MMU.
 
 
-# Gestione delle pagine virtuali non residenti in memoria
+# Gestione delle [[pagina#Pagine non reisdenti in memoria|pagine virtuali non residenti]] in memoria
 
 Come già detto il numero di pagine virtuali può eccedere la dimensione della memoria fisica, in questo caso cosa succede alle pagine escluse? Vengono salvate su disco
 ![[pagine non residenti.canvas]]
 
-La scelta di quali salvare su disco (più lento in accesso) è invece più complessa e ci sono varie possibilità.
+La scelta di quali salvare su disco (più lento in accesso) è invece più complessa e ci sono varie possibilità, vengono comunque salvate in un'area di memoria detta swap file e gli viene impostato il bit di validità a 0 (così da generare un interrupt di **page fault**)
 
 
 ## On demand

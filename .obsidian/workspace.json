@@ -11,15 +11,11 @@
             "id": "d134f732341c3b4d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Canvas/Page walk.canvas",
-                "viewState": {
-                  "x": 152,
-                  "y": 939.6404070981213,
-                  "zoom": -1.098581593156355,
-                  "snapToGrid": false
-                }
+                "file": "Sistemi operativi/Memoria virtuale.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -69,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -89,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Canvas/Page walk.canvas",
+                "file": "Sistemi operativi/Memoria virtuale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Canvas/Page walk.canvas",
+                "file": "Sistemi operativi/Memoria virtuale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Canvas/Page walk.canvas"
+                "file": "Sistemi operativi/Memoria virtuale.md"
               }
             }
           },
@@ -169,15 +166,15 @@
   },
   "active": "d134f732341c3b4d",
   "lastOpenFiles": [
-    "Canvas/Esempio directory.canvas",
-    "Architettura/Istruzioni di tasferimento.md",
-    "Architettura/Istruzioni di trasferimento dati IO.md",
-    "Architettura/latch.md",
+    "Sistemi operativi/pagina.md",
+    "Sistemi operativi/Memoria virtuale.md",
+    "File System.md",
+    "volumi.md",
+    "user space.md",
+    "Tabella delle pagine.md",
+    "README.md",
+    "Rappresentazione inode.canvas",
     "Architettura/Bistabili.md",
-    "Architettura/assembler.md",
-    "Architettura/architettura.md",
-    "Architettura/AND.md",
-    "Architettura/Allocazione.md",
-    "Sistemi operativi/Memoria virtuale.md"
+    "Architettura/latch.md"
   ]
 }
