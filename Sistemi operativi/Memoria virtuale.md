@@ -3,6 +3,8 @@ La [[memoria]] virtuale nasce per separare i concetti di
 - dimensione effettiva della memoria fisica: Numero di byte che costituiscono la memoria fisica $\leq$ spazio di indirizzamento
 La memoria principale è detta memoria fisica ed i suoi indirizzi sono detti indirizzi fisici. La memoria virtuale ineve la CPU genera un indirizzo virtuale che viene tradotto da una combinazione di elementi hardware e software in un indirizzo fisico. Inoltre è presente un meccanismo che traduce indirizzi virtuali in indirizzi fisici. Questo meccanismo è detto [[memory mapping]], ed il più usato è la rilocazione dinamica tramite paginazione, dove l'unità più piccola è la [[pagina]].
 
+Essenzialmente quindi la memoria virtuale permette di non doversi preoccupare di quali indirizzi assegnare ne al programmatore ne al linker, che possono ipotizzare di partire dall'indirizzo zero e avere tutta la memoria virtuale a disposizione. Sarà il sistema operativo ad occuparsi di tradurre da  memoria virtuale a memoria fisica
+
 
 
 
@@ -15,7 +17,9 @@ La memoria principale è detta memoria fisica ed i suoi indirizzi sono detti ind
 --- | ---
 numero pagina virtuale (NPV) | spiazzamento nella pagina
 
-In questo esempio abbiamo 64 kB / 512 Byte = $2^7$ = 128 virtuali e quindi 7 bit per il VPN e 9 per l'offset
+In questo esempio abbiamo 64 kB / 512 Byte = $2^7$ = 128 virtuali e quindi 7 bit per il VPN e 9 per l'offset.
+
+è analog
 
 
 ### [[Tabella delle pagine]]

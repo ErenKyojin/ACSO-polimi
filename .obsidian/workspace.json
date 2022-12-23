@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "File System.md",
+                "file": "Sistemi operativi/Memoria virtuale.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "exec",
+                "query": "memoria",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "File System.md",
+                "file": "Sistemi operativi/Memoria virtuale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "File System.md",
+                "file": "Sistemi operativi/Memoria virtuale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "File System.md"
+                "file": "Sistemi operativi/Memoria virtuale.md"
               }
             }
           },
@@ -165,6 +166,8 @@
   },
   "active": "d134f732341c3b4d",
   "lastOpenFiles": [
+    "modo.md",
+    "File System.md",
     "file.md",
     "Commutazione di pila.md",
     "conflict-files-obsidian-git.md",
@@ -172,8 +175,6 @@
     "Sistemi operativi/processo.md",
     "Sistemi operativi/runqueue.md",
     "Sistemi operativi/scheduler.md",
-    "Sistemi operativi/segmenti.md",
-    "Sistemi operativi/semafori.md",
-    "Sistemi operativi/sequenze critiche.md"
+    "Sistemi operativi/segmenti.md"
   ]
 }
