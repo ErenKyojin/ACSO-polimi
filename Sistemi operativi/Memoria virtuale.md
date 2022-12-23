@@ -104,6 +104,9 @@ Per ottimizzare il processo sfruttiamo, per mantenere in memoria le tabelle NPV 
 
 # Gestione delle pagine virtuali non residenti in memoria
 
+Come già detto il numero di pagine virtuali può eccedere la dimensione della memoria fisica, in questo caso cosa succede alle pagine escluse? In parte vengono salvate su disco:
+![[pagine non residenti.canvas]]
+
 
 ## On demand
 Il metodo di paginazione su richiesta (oppure **on demand paging**) carica le pagine in memroia fisica solo quando necessario.

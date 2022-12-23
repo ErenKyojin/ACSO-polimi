@@ -11,11 +11,15 @@
             "id": "d134f732341c3b4d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Sistemi operativi/pagina.md",
-                "mode": "source",
-                "source": false
+                "file": "Canvas/pagine non residenti.canvas",
+                "viewState": {
+                  "x": 489.4800000000001,
+                  "y": 610.560000000001,
+                  "zoom": 0,
+                  "snapToGrid": true
+                }
               }
             }
           }
@@ -85,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/pagina.md",
+                "file": "Canvas/pagine non residenti.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/pagina.md",
+                "file": "Canvas/pagine non residenti.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/pagina.md"
+                "file": "Canvas/pagine non residenti.canvas"
               }
             }
           },
@@ -166,14 +170,14 @@
   "active": "d134f732341c3b4d",
   "lastOpenFiles": [
     "Sistemi operativi/Memoria virtuale.md",
+    "Canvas/pagine non residenti.canvas",
+    "Sistemi operativi/pagine non residenti.canvas.md",
+    "Sistemi operativi/pagina.md",
     "modo.md",
     "File System.md",
     "file.md",
     "Commutazione di pila.md",
     "conflict-files-obsidian-git.md",
-    "Sistemi operativi/PFRA.md",
-    "Sistemi operativi/processo.md",
-    "Sistemi operativi/runqueue.md",
-    "Sistemi operativi/scheduler.md"
+    "Sistemi operativi/PFRA.md"
   ]
 }
