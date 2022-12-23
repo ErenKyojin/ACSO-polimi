@@ -5,7 +5,7 @@ Determina quando e quante pagine deallocare ed è invocato in:
 - Attivazione periodica tramite kswapd ([[kernel swap daemon]]), funzione che viene attivata regolarmente e che invoca PFRA se **freePages < maxFree*
 
 
-E dealloca toFree = maxFree - ...
+E dealloca toFree = maxFree - ...d
 
 
 # Quali pagine deallocare?
@@ -21,7 +21,7 @@ Per PFRA ci sono diversi tipi di pagine:
 	- pagine dati
 	- pagine della uPila
 	- pagine dello Heap
-- **Pagine mappate su file** (buffer/cache) 
+- **Pagine mappate su file** (buffer/cache) j
 
 
 Prima di tutto dealloca le pagine non utilizzate da nessun processo (ref_count = 1) in ordine di NPF
