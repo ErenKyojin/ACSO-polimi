@@ -9,3 +9,9 @@ Con off spiazzamento della parola rispetto al blocco
 
 Quindi il **Numero di blocchi in cache** $n$ si traduce come: 
 $$n = \frac{\text{dim cache}}{\text{dim blocco}}$$
+# Blocchi del [[volumi|volume]]
+Il blocco è 'unita di informazione trasferita con un solo accesso al disco'
+
+
+
+# Blocchi logici

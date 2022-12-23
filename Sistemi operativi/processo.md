@@ -1,3 +1,5 @@
+Un processo è un "calcolatore virtuale", ossia calcolatori realizzati attraverso il sistema operativo.
+
 >[!def]
 >Un istanza di un programma in esecuzione, identifiicato da un [[PID]] (process ID)
 
@@ -6,6 +8,12 @@ Tutti i processi sono creati da altri processi, allora tutti i processi hanno un
 La [[memoria]] di ogni processo è divisa in [[segmenti]], questo non dipende strettamente dal numero di processori utilizzati per il processo, in caso di un solo processore time sharing.
 
 Per gestire i processi usiamo le [[system call]]
+
+## Carateteristiche di un processo
+Ogni progesso ha: 
+1. **text segment** che coniente il codice eseguibile del programma
+2. **user data segment** che contiene i dati del programma (dati statici e dati dinamici a loro volta divisini in dati dinamici in pila e dati dinamici in heap)
+3. **system data segment** che contiene dati gestiti dal sistema operativo (ad esempio le tabelle della pagine)
 
 
 # Contesto di un processo

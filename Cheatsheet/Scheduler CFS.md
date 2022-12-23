@@ -50,10 +50,10 @@ Se il suo VRT è inferiore al VRT del processo corrente, quindi:
 Con
 - **WGR** **W**akeup**G**ranula**r**ity parametro di configurazione SYSCTLY con valore di default 1ms
 
+[^1]: Non adatto per la gestione di eventi, 
+
 ## Wait
 Richiede sempre un rescheduling
-
-[^1]: Non adatto per la gestione di eventi, 
 
 ## Exit
 

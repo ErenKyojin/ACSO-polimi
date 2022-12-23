@@ -18,7 +18,7 @@ numero pagina virtuale (NPV) | spiazzamento nella pagina
 In questo esempio abbiamo 64 kB / 512 Byte = $2^7$ = 128 virtuali e quindi 7 bit per il VPN e 9 per l'offset
 
 
-### Tabella delle pagine
+### [[Tabella delle pagine]]
 
 
 Esiste una tabella delle pagine per ogni processo in esecuzione e contiene una riga per ogni pagina virtuale del processo, in queste tabeille il numero di pagina virtuale (NPV) si può utilizzare come indirizzo nella tabella delle pagine del processo, alternativamente la tabella può essere associativa sul contenuto di NPV (o sulla coppia (PID, NPV)) associato al corrispondente NPV 

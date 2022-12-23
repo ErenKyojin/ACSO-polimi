@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9baa6b0f6039c897",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/PFRA.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/PFRA.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/PFRA.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -163,8 +176,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ceca53ea6aa8342",
+  "active": "9baa6b0f6039c897",
   "lastOpenFiles": [
+    "Sistemi operativi/PFRA.md",
+    "conflict-files-obsidian-git.md",
     "Sistemi operativi/processo.md",
     "Sistemi operativi/runqueue.md",
     "Sistemi operativi/scheduler.md",
@@ -172,8 +187,6 @@
     "Sistemi operativi/semafori.md",
     "Sistemi operativi/sequenze critiche.md",
     "Sistemi operativi/sistema operativo.md",
-    "Sistemi operativi/Spazio virtuale.md",
-    "Sistemi operativi/SYSCALL.md",
-    "Sistemi operativi/SYSRET.md"
+    "Sistemi operativi/Spazio virtuale.md"
   ]
 }
