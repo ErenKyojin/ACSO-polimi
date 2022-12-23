@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/Memoria virtuale.md",
+                "file": "Sistemi operativi/translation lookaside buffer.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/Memoria virtuale.md",
+                "file": "Sistemi operativi/translation lookaside buffer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/Memoria virtuale.md",
+                "file": "Sistemi operativi/translation lookaside buffer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/Memoria virtuale.md"
+                "file": "Sistemi operativi/translation lookaside buffer.md"
               }
             }
           },
@@ -166,8 +166,8 @@
   },
   "active": "d134f732341c3b4d",
   "lastOpenFiles": [
-    "Sistemi operativi/pagina.md",
     "Sistemi operativi/Memoria virtuale.md",
+    "Sistemi operativi/pagina.md",
     "File System.md",
     "volumi.md",
     "user space.md",

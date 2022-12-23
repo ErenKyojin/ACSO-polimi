@@ -1,3 +1,4 @@
+Questa memoria cache contiene le righe della [[Tabella delle pagine]] riferite agli accessi più recenti, oltre al PID del processo a cui la pagina fa riferimento.
 Una memoria cache che tiiene traccia delle traduzioni NPV ed NPF utilizzate di recente per la [[memory mapping]]. Quindi contiene:
 - Tag o etichetta: NPV
 - Dati: NPF
