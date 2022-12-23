@@ -25,8 +25,9 @@ Quando un processo deve traddure un NPV accede al TLB che:
 - Se ha un elemento della tabella corrispondente all'NPV e al PID del processo(**TLB HIT**):
 	- access bit = 1 e, se si tratta di una scrittura, anche access bit = 1
 
-- Se invece non esiste un elemento corrispondente  (**TLB MISS**)
-	1. 
+- Se invece non esiste un elemento corrispondente si hanno due casi (**TLB MISS**)
+	1. **PAGE FAULT**, (valid bit = 0) se la pagina non è in memoria si aspetta che venga caricata da disco
+	2. **TRUE TLB MISS**, (valid bit = 1) se la pagina è in memoria e quindi la pagina viene caricata dalla tabella
 
 
 
