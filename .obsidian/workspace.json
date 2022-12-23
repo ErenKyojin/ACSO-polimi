@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/translation lookaside buffer.md",
+                "file": "Sistemi operativi/Memoria virtuale.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/translation lookaside buffer.md",
+                "file": "Sistemi operativi/Memoria virtuale.md",
                 "mode": "preview",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/translation lookaside buffer.md",
+                "file": "Sistemi operativi/Memoria virtuale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/translation lookaside buffer.md",
+                "file": "Sistemi operativi/Memoria virtuale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/translation lookaside buffer.md"
+                "file": "Sistemi operativi/Memoria virtuale.md"
               }
             }
           },
@@ -184,8 +184,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b28141b2c4bc655b",
+  "active": "d134f732341c3b4d",
   "lastOpenFiles": [
+    "Sistemi operativi/translation lookaside buffer.md",
     "Sistemi operativi/Memoria virtuale.md",
     "Sistemi operativi/pagina.md",
     "File System.md",
@@ -194,7 +195,6 @@
     "Tabella delle pagine.md",
     "README.md",
     "Rappresentazione inode.canvas",
-    "Architettura/Bistabili.md",
-    "Architettura/latch.md"
+    "Architettura/Bistabili.md"
   ]
 }

@@ -111,17 +111,17 @@ La scelta di quali salvare su disco (più lento in accesso) è invece più compl
 
 
 ## On demand
-Il metodo di paginazione su richiesta (oppure **on demand paging**) carica le pagine in memroia fisica solo quando necessario.
+Il metodo di paginazione su richiesta (oppure **on demand paging**) carica le pagine in memoria fisica solo quando necessario.
 
 Nel caso di esecuzione di un nuovo processo:
-- La tabella delle pagine del processo ha tutti i valid bit a $0$, quindi nessuna pagina si trova in memoria, ed anche il TLB ha tutti i valid bit a 0
+- La tabella delle pagine del processo ha tutti i valid bit a 0, quindi nessuna pagina si trova in memoria, ed anche il TLB ha tutti i valid bit a 0
 - Quando la CPU prova ad accedere alla prima istruzione si verifica un **page fault** e la prima pagina di codice viene portata in memoria e registrata nella tabella delle pagine e nel TLB
 - Ogni volta che si identifica un indirizzo in un pagina non ancora in memoria si verifica un **page fault**
 
 
 
 ## Working set di ordine $k$
-Basato sulla località degli accessi, consiste nell'insieme delle pagine refernziate durante gli ultimi $k$ accdessi in memoria, se $k$ è abbastanza grande, per il principio di località il set di un programma varia molto lentamente.
+Basato sulla località degli accessi, consiste nell'insieme delle pagine refernziate durante gli ultimi $k$ accessi in memoria, se $k$ è abbastanza grande, per il principio di località il set di un programma varia molto lentamente.
 Quindi mantenendo in memoria le pagine a cui abbiamo avuto accesso più di recente diminuiamo, per il principio di località, le possibilità di un page fault.
 
 Il numero di pagine $R$ residenti in memoria di ogni processo viene ottenuto da una stima del working set in configurazione con l'obiettivo di bilanciare page fault e numero di processi attivi:
@@ -138,13 +138,16 @@ A partire dall'inizio di esecuzione di un programma si carica il working set dop
 ### - LRU (least recently used)
 Sostituiamo la pagine meno utile nel prossimo futuro, ossia quella usata meno di recente (principio di località)
 
+>[!oss]
+Può essere poco efficiente in caso di working set R leggermente maggiore delle pagine salvate in memoria
 
 ### FIFO (first in first out)
 Si sostituisce sempre la pagine caricata meno di recente
 
-
-- Bit di accesso
-- Bit di modifica
+------
+Per mantenere queste politiche è necessario avere
+- Bit di accesso: posto a 1 quando si accede ad una pagina e resettato a 0 in modo periodico dal sistema operativo
+- Bit di modifica: posto a 1 quando una pagina subisce un accesso in scrittura (questo indica quali pagine vanno salvate su disco in caso di deallocazione da memoria a disco)
 
 ## Dimensionamento delle pagine (frammentazione)
 
