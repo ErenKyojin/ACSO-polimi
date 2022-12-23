@@ -24,3 +24,9 @@ Se la pagina è su disco ha un bit di validità impostato a 0.
 | 0      | -> disc                            |
 | 1      | -> mem                             |
 
+
+## Protezione delle pagine
+
+La [[Memoria virtuale#Memory managment unit]] è in grado di riconoscere l'accesso da parte di un programma ad un'area di memoria a cui non dovrebbe poter accedere, questo viene fatto conforntando l'NPV incriminato con la tabella di tutte le pagine appartenenti al processo, se questo NPV non ne fa parte l'unità di memorià genera un [[Interrupt]] di violazione
+
+Inoltre ad ogni pagina virtuale sono associati dei bit di protezione che descrivono la 
