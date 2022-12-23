@@ -11,15 +11,11 @@
             "id": "d134f732341c3b4d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Canvas/pagine non residenti.canvas",
-                "viewState": {
-                  "x": 489.4800000000001,
-                  "y": 610.560000000001,
-                  "zoom": 0,
-                  "snapToGrid": true
-                }
+                "file": "Sistemi operativi/Memoria virtuale.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -89,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Canvas/pagine non residenti.canvas",
+                "file": "Sistemi operativi/Memoria virtuale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Canvas/pagine non residenti.canvas",
+                "file": "Sistemi operativi/Memoria virtuale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Canvas/pagine non residenti.canvas"
+                "file": "Sistemi operativi/Memoria virtuale.md"
               }
             }
           },
@@ -169,15 +165,15 @@
   },
   "active": "d134f732341c3b4d",
   "lastOpenFiles": [
-    "Sistemi operativi/Memoria virtuale.md",
     "Canvas/pagine non residenti.canvas",
+    "Allegati/hard disk.png",
+    "Sistemi operativi/Memoria virtuale.md",
     "Sistemi operativi/pagine non residenti.canvas.md",
     "Sistemi operativi/pagina.md",
     "modo.md",
     "File System.md",
     "file.md",
     "Commutazione di pila.md",
-    "conflict-files-obsidian-git.md",
-    "Sistemi operativi/PFRA.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
