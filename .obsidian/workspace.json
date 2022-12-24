@@ -4,25 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "1ec7331d3821fc6e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d134f732341c3b4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemi operativi/Memoria virtuale.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "8e8fee535962f4f0"
-          }
-        ]
-      },
-      {
         "id": "665584774819ee41",
         "type": "tabs",
         "children": [
@@ -30,16 +11,30 @@
             "id": "b28141b2c4bc655b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Sistemi operativi/Memoria virtuale.md",
-                "mode": "preview",
-                "source": false
+                "file": "Esempio strutture dati filesystem (1).canvas",
+                "viewState": {
+                  "x": 446.34454070981207,
+                  "y": 1073.575725469728,
+                  "zoom": -1.3596807940844347,
+                  "snapToGrid": false
+                }
               }
-            },
-            "group": "8e8fee535962f4f0"
+            }
+          },
+          {
+            "id": "9e8a7a6816c6e46b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.9"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,8 +80,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/Memoria virtuale.md",
+                "file": "Esempio strutture dati filesystem (1).canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/Memoria virtuale.md",
+                "file": "Esempio strutture dati filesystem (1).canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/Memoria virtuale.md"
+                "file": "Esempio strutture dati filesystem (1).canvas"
               }
             }
           },
@@ -184,17 +178,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d134f732341c3b4d",
+  "active": "9e8a7a6816c6e46b",
   "lastOpenFiles": [
-    "Sistemi operativi/translation lookaside buffer.md",
+    "Canvas/Esempio directory.canvas",
+    "Canvas/Page walk.canvas",
+    "Canvas/Senza nome 2.canvas",
+    "Canvas/pagine non residenti.canvas",
+    "Sistemi operativi/Untitled.canvas",
     "Sistemi operativi/Memoria virtuale.md",
+    "Sistemi operativi/translation lookaside buffer.md",
     "Sistemi operativi/pagina.md",
     "File System.md",
-    "volumi.md",
-    "user space.md",
-    "Tabella delle pagine.md",
-    "README.md",
-    "Rappresentazione inode.canvas",
-    "Architettura/Bistabili.md"
+    "volumi.md"
   ]
 }
