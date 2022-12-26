@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mappa di memoria di un processo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -87,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 222.5,
+    "collapsed": true
   },
   "right": {
     "id": "ecd6fd3e765648c3",

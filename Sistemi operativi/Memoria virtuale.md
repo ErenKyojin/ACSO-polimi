@@ -181,16 +181,7 @@ Ogni area è definita con una struct
 
 
 
----
 
->[!esempio] Mappa di memoria di un processo in esecuzione
-> 
-> | start-end | perm | offset | device | i-node | file name |
-> | --- | --- | --- | --- | --- | --- | 
-> | 00400 - 00401 | r-xp | 000000 | 08:01 | 394275 | .../user.exe  |
-> |.... |
-
----
 ## Meccanismo generale
 Esistono due criteri per classificare le VMA:
 - Mappate su file o anonime

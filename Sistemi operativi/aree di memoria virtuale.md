@@ -50,3 +50,26 @@ Una VMA si puó mappare su un file detto "backing store", definito in vm_area_st
 Nelle aree C, K ed S viene associato il file .exe come backing store con offset il punto dell'eseguibile in cui inizia il corrispondente segmento codice o dati
 
 
+---
+
+>[!esempio] Mappa di memoria di un processo in esecuzione (cat /proc/NN)
+>
+>| start-end page            | perm  | offset | device | i-node | file-name        |
+>| ------------------------- | ----- | ------ | ------ | ------ | ---------------- |
+>| 00400 - 00401             | r-xp  | 000000 | 08:01  | 394275 | .../user.exe     |
+>| 00600 - 00601             | r- -p | 000000 | 08:01  | 394275 | .../user.exe     |
+>| 00601 - 00602             | rw -p | 001000 | 08:01  | 394275 | .../user.exe     |
+>| 7fff f7a1 c - 7fff f7bd 0 | r-xp  | 000000 | 08:01  | 271666 | .../libc-2.15.so |
+>| 7fff f7bd 0 - 7fff f7dc f | ---p  | 1b4000 | 08:01  | 271666 | .../libc-2.15.so |
+>| 7fff f7dc f - 7fff f7dd 3 | r- -p | 1b3000 | 08:01  | 271666 | .../libc-2.15.so |
+>| 7fff f7dd 3 - 7fff f7dd 5 | rw-p  | 1b7000 | 08:01  | 271666 | .../libc-2.15.so |
+>| ...                       |       |        |        |        |                  |
+>| aree M                    |       |        |        |        |                  |
+>| ...                       |       |        |        |        |                  |
+>| 7fff fffd d - 7fff ffff e | rw-p  |        |        |        | [stack]                 |
+>
+>linux costruisce la struttura delle aree virtuali del processo in base alla struttura definita dall'eseguibile, possiamo vedere che
+>- L'area di pila é stata allocata con dimensione iniziale di 34 pagine
+>
+
+---
