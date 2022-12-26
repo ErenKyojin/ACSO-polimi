@@ -50,5 +50,3 @@ Una VMA si puó mappare su un file detto "backing store", definito in vm_area_st
 Nelle aree C, K ed S viene associato il file .exe come backing store con offset il punto dell'eseguibile in cui inizia il corrispondente segmento codice o dati
 
 
-Quando avviene un exec linux costruisce la struttura delle aree virtuali del processo in base alla struttura definita dall'eseguibile
-- l'area di pila é stata 
