@@ -42,9 +42,9 @@ che incrementa l'heap di un valore `incremento` e ritorna l'indirizzo iniziale d
 
 
 # VMA mappate su file
-Una VMA si puó mappare su un file detto "backing store", definito in vm_area_struct da
+Una VMA si puó mappare su un file detto "[[backing store]]", definito in vm_area_struct da
 
-- `Struct file * vm_file`: individua il file utilizzato come **baking store**
+- `Struct file * vm_file`: individua il file utilizzato come **backing store**
 - `unsigned long vm_pgoff`: page offset all'interno del file
 
 Nelle aree C, K ed S viene associato il file .exe come backing store con offset il punto dell'eseguibile in cui inizia il corrispondente segmento codice o dati

@@ -1,0 +1,1 @@
+Spazio sul disco dedicato a salvare le pagine VMA anonime senza file associati o [[aree di memoria virtuale|VMA]] private duplicate a causa di una scrittura per [[page fault#Gestione dei page fault con COW|COW]]
