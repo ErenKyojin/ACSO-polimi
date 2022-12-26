@@ -23,5 +23,13 @@ Ogni VMA è delimitata da un NPV iniziale ed un NPV finale ed è composta da un 
 - Costanti per la rilocazione dinamica (**K**): area che contiene parametri determinate dal [[Linker]] per il collegamento con librerie
 - Dati statici (**S**): Area destinata per dati inizializzati allocati durante tutta l'esecuzione del programma
 - Dati dinamici (**D**): Dati allocati dinamicamente su richiesta (malloc)
-- Aree per memory mapped files (**M**): Aree che p
+- Aree per memory mapped files (**M**): Aree che permottono di mappare file o librerie su una porzione di memoria virtuale
 - Librerie dinamiche e pila
+
+
+
+
+
+## Crescita delle aree dati dinamiche
+Mentre la **stack** cresce automaticamente quando necessario, l'heap cresce tramite inocazione esplicita di alcuni [[kernel#Servizi di sistema|servizi di sistema]], per incrementare l'heap su linux si utilizza la funzione
+*void sbrk (int incremento)

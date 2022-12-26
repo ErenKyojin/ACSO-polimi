@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "diritti",
+                "query": "servizi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -182,17 +182,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ceca53ea6aa8342",
+  "active": "3f174685e415d9e2",
   "lastOpenFiles": [
-    "Sistemi operativi/pagina.md",
+    "Sistemi operativi/Memoria virtuale.md",
     "Sistemi operativi/aree di memoria virtuale.md",
+    "Sistemi operativi/pagina.md",
     "Sistemi operativi/Spazio virtuale.md",
     "Sistemi operativi/Kernel space.md",
     "Sistemi operativi/Mappatura della memoria fisica.canvas",
     "Sistemi operativi/Linux.md",
     "Sistemi operativi/Kernelspace.md",
     "Sistemi operativi/kernel swap daemon.md",
-    "Sistemi operativi/Userspace.md",
-    "Sistemi operativi/user space.md"
+    "Sistemi operativi/Userspace.md"
   ]
 }

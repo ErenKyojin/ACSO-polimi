@@ -160,7 +160,7 @@ Ad ogni programma viene sempre assegnato un numero intero di pagine, rimangono a
 Si può ovviare in parte a questo problema scegliendo pagine più piccole, tuttavia più diminuisce la dimensione delle pagine, più dovranno essere grandi e complessi i sistemi di controllo della memoria (ossia il TLB e la tabella delle pagine), inoltre il tempo di ricerca di una pagina su disco è di due ordini di grandezza maggiore al tempo di trasferimento, quindi non conviene ridurre le dimensioni delle pagine
 
 
-# VMA
+# [[aree di memoria virtuale]]
 La memoria virtuale di un processo non viene considerato un'unico spazio di indirizzamento lineare ad uso differenziato, viene diviso in **aree di memoria virtuale (VMA)** che permettono di distinguere i diritti d'accesso delle aree, permettono che solo alcune aree crescano in modo dinamico e gestiscono un area condivisa
 
 | 0000 0000 0000 0000       | C            |
@@ -177,27 +177,10 @@ La memoria virtuale di un processo non viene considerato un'unico spazio di indi
 | 0000 7FFF FFFF FFFF       | P            |
 
 
-Ogni area è definita con una structure 
-
-## Codice: C
+Ogni area è definita con una struct
 
 
-### Costanti per la rilocazione dinamica: K
 
-
-### Dati statici: S
-
-
-### Dati dinamici: D
-
-
-### Aree per memory mapped files: M
-
-
-### Pila dei thread: T
-
-
-### Pila: P
 ---
 
 >[!esempio] Mappa di memoria di un processo in esecuzione
