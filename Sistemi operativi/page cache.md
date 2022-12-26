@@ -43,3 +43,5 @@ Meccanismo detto copy-on-write (COW) è necessario intercettare le scritture su 
 >```c
 >base = mmap(mapaddress1, PAGESIZE * 3, PROT_WRITE, MAP_PRIVATE, fd, PAGESIZE); //PROT_WRITE, MAP_PRIVATE
 >```
+
+

@@ -20,3 +20,5 @@ ALTRIMENTI SE invece NPV è allocata in pagina PFx ma viola le protezioni
 			ALLORA copia PFXin una pagina fisica privata PFz decrementando di ref_count PFx in page cache, assegnando NPV a PFz e scrivendo in PFz
 		ALTRIMENTI abilita NPV in scrittura
 	ALTRIMENTI il processo va in segmentation fault
+ALTRIMENTI SE l'accesso è legittimo ma NPV non è allocata in memoria
+	ALLORA invoca la routine che deve caricare in memoria la pagina virtuale NPV dal file

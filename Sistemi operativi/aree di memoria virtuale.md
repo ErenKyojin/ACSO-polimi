@@ -122,3 +122,4 @@ Nelle aree C, K ed S viene associato il file .exe come backing store con offset 
 Per evitare che un processo rilegga da disco una pagina già caricata si usa la [[page cache]]
 
 
+## VMA anonime
