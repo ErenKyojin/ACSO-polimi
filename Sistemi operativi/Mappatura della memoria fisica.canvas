@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"a1f70dc319dc9d13","x":-215,"y":-200,"width":250,"height":60,"color":"2","type":"text","text":"### MEMORIA VIRTUALE DEL SO"},
+		{"id":"6dce2ae60ca8e14e","x":-215,"y":-80,"width":250,"height":260,"type":"text","text":""},
+		{"id":"4699848226dcc494","x":-215,"y":-140,"width":250,"height":60,"type":"text","text":"NPV = (0+ PAGE_OFF)"},
+		{"id":"02f08947b9be275a","x":-215,"y":180,"width":250,"height":60,"type":"text","text":"NPV = ( K+ PAGE_OFF)"},
+		{"id":"2cac8bee33c5595c","x":300,"y":-140,"width":250,"height":60,"type":"text","text":"PAG0"},
+		{"id":"35763d62f29eed7e","x":300,"y":-80,"width":250,"height":260,"type":"text","text":"\n### MEMORIA FISICA"},
+		{"id":"9d2275c0529225b6","x":300,"y":180,"width":250,"height":60,"type":"text","text":"PAGK"},
+		{"id":"1cb3bb24b98bcaf6","x":-215,"y":240,"width":250,"height":200,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"867cb6de32948764","fromNode":"4699848226dcc494","fromSide":"right","toNode":"2cac8bee33c5595c","toSide":"left"},
+		{"id":"12510614d73d13fd","fromNode":"6dce2ae60ca8e14e","fromSide":"right","toNode":"35763d62f29eed7e","toSide":"left"},
+		{"id":"4ef5df5500380373","fromNode":"02f08947b9be275a","fromSide":"right","toNode":"9d2275c0529225b6","toSide":"left"}
+	]
+}

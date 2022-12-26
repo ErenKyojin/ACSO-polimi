@@ -27,15 +27,11 @@
             "id": "9e8a7a6816c6e46b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/Untitled 1.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0,
-                  "snapToGrid": false
-                }
+                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -106,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/Untitled 1.canvas",
+                "file": "Sistemi operativi/aree di memoria virtuale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/Untitled 1.canvas",
+                "file": "Sistemi operativi/aree di memoria virtuale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/Untitled 1.canvas"
+                "file": "Sistemi operativi/aree di memoria virtuale.md"
               }
             }
           },
@@ -170,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,15 +182,15 @@
   },
   "active": "9e8a7a6816c6e46b",
   "lastOpenFiles": [
-    "Sistemi operativi/Kernel space.md",
-    "Sistemi operativi/pagina.md",
     "Sistemi operativi/Spazio virtuale.md",
+    "Sistemi operativi/Kernel space.md",
+    "Sistemi operativi/Mappatura della memoria fisica.canvas",
+    "Sistemi operativi/pagina.md",
     "Sistemi operativi/Linux.md",
     "Sistemi operativi/Kernelspace.md",
     "Sistemi operativi/kernel swap daemon.md",
     "Sistemi operativi/Userspace.md",
     "Sistemi operativi/user space.md",
-    "Sistemi operativi/Granularità.md",
-    "Canvas/Rappresentazione inode.canvas"
+    "Sistemi operativi/Granularità.md"
   ]
 }
