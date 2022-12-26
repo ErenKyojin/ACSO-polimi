@@ -32,4 +32,11 @@ Ogni VMA è delimitata da un NPV iniziale ed un NPV finale ed è composta da un 
 
 ## Crescita delle aree dati dinamiche
 Mentre la **stack** cresce automaticamente quando necessario, l'heap cresce tramite inocazione esplicita di alcuni [[kernel#Servizi di sistema|servizi di sistema]], per incrementare l'heap su linux si utilizza la funzione
+```c
 *void sbrk (int incremento)
+```
+
+che incrementa l'heap di un valore `incremento` e ritorna l'indirizzo iniziale della nuova area e se `incremento` vale 0 
+
+
+e
