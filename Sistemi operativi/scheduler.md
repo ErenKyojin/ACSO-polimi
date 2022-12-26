@@ -2,7 +2,7 @@ Componente del [[sistema operativo]] che decide quale [[processo]] mettere in es
 - Determina quale processo deve essere messo in esecuzione quando e per quanto tempo, cioè realizza la politica di scheduling del sistema operativo
 - Esegue l'effettiva commutazione di contesto, cioè la sostituzione del processo corrente con un altro processo in stato di PRONTO
 
-Il context switch è svolto dalla funzione `schedule()` dello scheduler, per gestire i processi sfrutta la [[runqueue]]
+Il [[context switch]] è svolto dalla funzione `schedule()` dello scheduler, per gestire i processi sfrutta la [[runqueue]]
 
 Considerà i seguenti parametri:
 * priorità: task più importanti eseguiti prima dei meno importanti

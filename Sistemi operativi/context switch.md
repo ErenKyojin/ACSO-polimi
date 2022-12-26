@@ -1,0 +1,1 @@
+L'esecuzione di un context switch non ha effetti diretti sulla memoria ma scarica uno svuotamento del [[translation lookaside buffer]] in quanto rende tutte le pagine del processo attuale non utilizzabili nel futuro prossimo, bisogna quindi salvare lo stato dei dirty bit per le pagine che altrimenti andrebbero perse

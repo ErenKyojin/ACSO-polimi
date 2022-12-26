@@ -55,7 +55,7 @@ Cambia il valore restituito dalla fork:
 >>Dopo la fork i due processi padre e figlio proseguiranno in parallelo, eseguendo la stessa porzione di codice sullo stesso stdoutput, l'ordine delle print sarà casuale
 
 
-# Exit
+# [[Exit]]
 Termina il processo corrente (che può terminare anche senza la chiamata ad exit)
 
 >[!c]
