@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "file": "Sistemi operativi/page fault.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,7 +66,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -87,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5,
-    "collapsed": true
+    "width": 222.5
   },
   "right": {
     "id": "ecd6fd3e765648c3",
@@ -104,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "file": "Sistemi operativi/page fault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "file": "Sistemi operativi/page fault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md"
+                "file": "Sistemi operativi/page fault.md"
               }
             }
           },
@@ -164,7 +163,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -183,17 +183,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f174685e415d9e2",
+  "active": "9e8a7a6816c6e46b",
   "lastOpenFiles": [
     "Sistemi operativi/Memoria virtuale.md",
+    "Sistemi operativi/page fault.md",
+    "Sistemi operativi/Spazio virtuale.md",
     "Sistemi operativi/aree di memoria virtuale.md",
     "Sistemi operativi/pagina.md",
-    "Sistemi operativi/Spazio virtuale.md",
     "Sistemi operativi/Kernel space.md",
     "Sistemi operativi/Mappatura della memoria fisica.canvas",
     "Sistemi operativi/Linux.md",
     "Sistemi operativi/Kernelspace.md",
-    "Sistemi operativi/kernel swap daemon.md",
-    "Sistemi operativi/Userspace.md"
+    "Sistemi operativi/kernel swap daemon.md"
   ]
 }

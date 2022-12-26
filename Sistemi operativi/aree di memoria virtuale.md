@@ -71,8 +71,7 @@ Nelle aree C, K ed S viene associato il file .exe come backing store con offset 
 >linux costruisce la struttura delle aree virtuali del processo in base alla struttura definita dall'eseguibile, possiamo vedere che
 >- L'area di pila é stata allocata con dimensione iniziale di 34 pagine, é anonima, quindi non ha un file associato
 >- I file coinvolti sono sullo stesso dispositivo (08:01) l'eseguibile del programma e della libc sono diversi ed hanno quindi [[i-node]] differenti
->- L'area D 
+>- L'area D è assente, viene creata in presenza di dati statici non inizializzati nell'eseguibile
 >
 
 ---
-
