@@ -37,3 +37,15 @@ Inoltre ad ogni pagina virtuale sono associati dei bit di protezione che descriv
 - **X**, modalità di esecuzione (nel caso in cui la pagina contenga codice)
 
 Anche in questo caso, se i diritti d'acesso vengono violati si genera un iterrupt di violazione memoria
+
+
+# Pagine in [[x64]]
+
+In x64 tutta la memoria è paginata, anche la [[tabella delle pagine]] stessa, ogni pagina è 4K byte, ossia ha uno spiazzamento interno di 12 bit (offset), mentre il numero di pagina virtuale è $2^{48} / 2^{12} = 2^{36}$ bit per il NPV, quindi l'indirizzo è:
+
+NPV (36 bit) $\qquad\qquad$| offset (12 bit)
+--- | ---
+
+
+In particolare la tabella delle pagine deve contenere le informazioni di $2^{36}$ pagine, è residente in memoria fisica e mappa tutto lo spazio di indirizzamento ([[user space]] e [[Kernel space]])
+
