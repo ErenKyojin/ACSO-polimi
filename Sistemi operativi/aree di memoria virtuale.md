@@ -36,7 +36,11 @@ Mentre la **stack** cresce automaticamente quando necessario, l'heap cresce tram
 *void sbrk (int incremento)
 ```
 
-che incrementa l'heap di un valore `incremento` e ritorna l'indirizzo iniziale della nuova area e se `incremento` vale 0 
+che incrementa l'heap di un valore `incremento` e ritorna l'indirizzo iniziale della nuova area, se `incremento` vale 0 ritorna quindi il valore corrente della cima dell'heap 
 
 
-e
+
+
+# VMA mappate su file
+
+
