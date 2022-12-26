@@ -83,8 +83,12 @@ Nelle aree C, K ed S viene associato il file .exe come backing store con offset 
 >Tutte le combinazioni sono valide ma ANONYMOUS | SHARED
 >Quindi consideriamo:
 >- VMA **mappate su file**: o **private** o **shared**
->- VMA **anonime**: implicitamente 
-
+>- VMA **anonime**: implicitamente **private**
+>
+(che si traduco rispettivamente nei tipi)
+- **MAP_PRIVATE**
+- **MAP_SHARED**
+- **MAP_ANONIMOUS**
 
 
 ## Creazione di VMA
