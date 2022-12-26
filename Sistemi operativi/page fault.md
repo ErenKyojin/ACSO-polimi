@@ -22,3 +22,16 @@ ALTRIMENTI SE invece NPV è allocata in pagina PFx ma viola le protezioni
 	ALTRIMENTI il processo va in segmentation fault
 ALTRIMENTI SE l'accesso è legittimo ma NPV non è allocata in memoria
 	ALLORA invoca la routine che deve caricare in memoria la pagina virtuale NPV dal file
+
+## Gestione completa del page fault handler
+
+SE NPV non appartiene alla memoria virtuale del processo
+	ALLORA processo abortito e segnalato segmentation fault
+ALTRIMENTI SE NPV è allocata in una pagina fisica PFx ma viola le protezioni
+	SE (gestisci come COW)
+	ALTRIMENTI processo abortito e segnalato segmentation fault
+ALTRIMENTI SE Accesso legittimo ma NPV non allocato in memoria
+	SE la NPV è start address di una VMA con il flag di growsdown
+		ALLORA aggiuni una nuova paggina viruale NPV-1 al'area virtuale che diventa la nuova start address della VMA
+
+

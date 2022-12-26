@@ -29,14 +29,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/page fault.md",
+                "file": "Sistemi operativi/aree di memoria virtuale.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "a96318ac36c95a13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "e408d0c86a6b5a65"
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
+      },
+      {
+        "id": "75bc96d0db49bb83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "842cd98012488c2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "e408d0c86a6b5a65"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -65,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "COW",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -102,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/page fault.md",
+                "file": "Sistemi operativi/aree di memoria virtuale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/page fault.md",
+                "file": "Sistemi operativi/aree di memoria virtuale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/page fault.md"
+                "file": "Sistemi operativi/aree di memoria virtuale.md"
               }
             }
           },
@@ -182,17 +214,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9e8a7a6816c6e46b",
+  "active": "842cd98012488c2d",
   "lastOpenFiles": [
+    "Sistemi operativi/fork.md",
     "Sistemi operativi/aree di memoria virtuale.md",
+    "Sistemi operativi/page fault.md",
     "Architettura/Bistabili.md",
     "Architettura/assembler.md",
     "Architettura/architettura.md",
     "Architettura/AND.md",
     "Architettura/Allocazione.md",
     "Sistemi operativi/swap file.md",
-    "Sistemi operativi/pagina.md",
-    "Sistemi operativi/backing store.md",
-    "Sistemi operativi/page fault.md"
+    "Sistemi operativi/pagina.md"
   ]
 }

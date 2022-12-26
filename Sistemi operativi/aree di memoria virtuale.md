@@ -1,4 +1,7 @@
-CLe aree di memoria virtuale (o VMA) sono diverse aree in qui salvare diversi dati di un processo.
+---
+alias: VMA
+---
+Le aree di memoria virtuale (o VMA) sono diverse aree in qui salvare diversi dati di un processo.
 
 
 è un sistema che porta diversi vantaggi rispetto a salvare tutti i dati nella stessa area indiscriminatamente, ad esempio è possibile:
@@ -127,7 +130,7 @@ Le aree di tipo anonimo sono utilizzate dal sistema operativo per **pila** ed **
 - La lettura di una pagina trova la zeropage e non richiede l'allocazione di nessuna pagina fisica
 - La scrittura di una pagina innesca il meccaniscmo copy on write che richiede l'allocazione di una nuova pagina fisica (come per le VMA private)
 
-## VMA mappate sull'eseguibile
+## VMA mappate sull'eseguibile (C,K,S)
 C, K ed S sono mappate sull'eseguibile e sono tutte VMA PRIVATE
 - **C** e **K** non sono scrivibili e rimangono condivise
 - Le pagine dei dati statici **S** devibi essere di tipo PRIVATE perchè le scritture non devono modificare ovviamente l'eseguibile e non devono essere osservabili se più processi sfruttano lo stesso programma.
@@ -149,3 +152,6 @@ Il linker utilizza le VMA per realizzare la condivisione delle pagine fisiche de
 
 Le pagine vengono allocate in base alle richieste d'accesso, quindi con un sistema on demand, la prima pagina non è mai allocata, anche quando viene riempita. Esiste un meccanismo di crescita automatica delle VMA di pila ma non di decrescita (le pagine rimangono allocate quando la pila decresce e veranno semplicemente sostituite tramite sovrascrittura da una futura ricrescita)
 
+## VMA dati dinamici (D)
+L'area cresce grazie al servizio `brk()`
+- `malloc` deve richiedere al sistema operativo di allocare nuovo spazio tramite l'invocazione del servizio di sistema `brk()` o `sbrk()` che sono funzioni di libreria che invocano lo stesso servizio

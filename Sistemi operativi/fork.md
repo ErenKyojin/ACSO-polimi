@@ -1,0 +1,1 @@
+L'esecuzioen di una fork() crea lo spazio virtuale della VMA di Q ma le pagine virtuali presenti in memoria fisica sono tutte condivise tra i due processi, allora
