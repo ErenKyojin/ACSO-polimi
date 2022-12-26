@@ -127,4 +127,11 @@ Le aree di tipo anonimo sono utilizzate dal sistema operativo per **pila** ed **
 - La lettura di una pagina trova la zeropage e non richiede l'allocazione di nessuna pagina fisica
 - La scrittura di una pagina innesca il meccaniscmo copy on write che richiede l'allocazione di una nuova pagina fisica (come per le VMA private)
 
+# VMA mappate sull'eseguibile
+C, K ed S sono mappate sull'eseguibile e sono tutte VMA PRIVATE
+- **C** e **K** non sono scrivibili e rimangono condivise
+- Le pagine dei dati statici **S** devibi essere di tipo PRIVATE perchè le scritture non devono modificare ovviamente l'eseguibile e non devono essere osservabili se più processi sfruttano lo stesso programma.
+  Saranno duplicate al momento della scrittura tramite copy on write
 
+>[!oss]
+>Se due processi eseguono lo stesso programma contemporaneamente le pagine di codice (C) saranno condivise, il secondo processo trover
