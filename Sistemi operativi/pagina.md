@@ -49,3 +49,5 @@ NPV (36 bit) $\qquad\qquad$| offset (12 bit)
 
 In particolare la tabella delle pagine deve contenere le informazioni di $2^{36}$ pagine, è residente in memoria fisica e mappa tutto lo spazio di indirizzamento ([[user space]] e [[Kernel space]])
 
+# ZeroPage
+Pagina fisica inizializzata a zero
