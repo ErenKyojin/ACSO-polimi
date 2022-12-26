@@ -135,7 +135,7 @@ Se il figlio termina e il padre non ha ancora chiamato la wait si parla di proce
 
 
 
-# Exec o Execl
+# [[Exec]] o Execl
 
 Sostituisce il programma in esecuzione, spesso è in combinazione con la fork (fork exec), non cambia il pid ma non esegue più il codice del padre ma un altro codice (dobbiamo dirgli quale funzione eseguire). Commutazione del codice, sostituisce il segmento del codice ed il segmento dati del processo corrente con codice e dati specificati da un eseguibile.
 Il segmento di sistema non viene sostituito, **il processo rimane lo stesso**, quindi mantiene il pid.

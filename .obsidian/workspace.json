@@ -202,6 +202,8 @@
   },
   "active": "1ec7978018ef046c",
   "lastOpenFiles": [
+    "Sistemi operativi/processo.md",
+    "Sistemi operativi/exec.md",
     "Sistemi operativi/aree di memoria virtuale.md",
     "Sistemi operativi/fork.md",
     "Sistemi operativi/swap file.md",
@@ -209,8 +211,6 @@
     "Sistemi operativi/page cache.md",
     "Sistemi operativi/system call.md",
     "Architettura/Bistabili.md",
-    "Architettura/assembler.md",
-    "Architettura/architettura.md",
-    "Architettura/AND.md"
+    "Architettura/assembler.md"
   ]
 }

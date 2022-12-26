@@ -79,7 +79,7 @@ Terminazione di un `pthread_join` simile a `waitid()`
 # Thread o Processi
 - Thread usano meno risorse $\implies$ più efficiente del processo
 - Thread può danneggiare con errori altri thread $\implies$ processi più protetti
-- Processi più flessibili (tramite exec)
+- Processi più flessibili (tramite [[exec]])
 - Condivisione dei dati tra thread molto più semplice, tra processi è complicata
 
 
