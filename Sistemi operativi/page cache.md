@@ -9,7 +9,7 @@ Quando un processo vuole accedere ad una pagina virtuale mappata su un file il s
 1. Determina il descrittore (F, 1) con:
 	- **F** file nella VMA
 	- **1** Page offset, somma dell' offsets della VMA rispetto al file e dell'offerta dell'indirizzo di pagina richiesto rispetto all'indirizzo della VMA 
-2. Se la pagina è indicizzata nella page cache $\implies$ la laguna virtuale viene mappata sulla pagina fisica, aggiornando **ref count** del page cache index e la **PT** del processo
+2. Se la pagina è indicizzata nella page cache $\implies$ la pagina virtuale viene mappata sulla pagina fisica, aggiornando **ref count** del page cache index e la **PT** del processo
 3. Se la pagina non è indicizzata alloca una pagina fisica in memoria e vi ci carica la pagina leggendola dal file, aggiorna la page cache index, il ref_count e la PT del processo
 
 
@@ -28,7 +28,7 @@ I dati vengono scritti sulla pagina fisica condivisa tramite la page cache quind
 
 
 ### in VMA PRIVATE
-Meccanismo detto copy-on-write (COW) è necessario intercettare ke scritture su pagine di VMA PRIVATE
+Meccanismo detto copy-on-write (COW) è necessario intercettare le scritture su pagine di VMA PRIVATE
 1. Inizialmente bisogna porre la protezione delle pagine come **read (R)**, questo in modo da generare un [[page fault]] per violazione i protezione
 2. Il gestore di page fault scoprirà questa situazione che richiederà l'allocazione di una nuova pagina fisica
 3. La scrittura in una pagina virtuale di una VMA di tipo PRIVATE allocata in una pagina fisica PFx si basa sul meccanismo COW:
