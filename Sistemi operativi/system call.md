@@ -1,6 +1,6 @@
 Per gestire i processi usiamo le system call (o primitive)
 
-# Fork
+# [[Fork]]
 Genera una gerarchia (o albero genealogico) dei processi a partire da #init, aggiungendo processi figli ai processi detti "padri"
 
 ```mermaid
