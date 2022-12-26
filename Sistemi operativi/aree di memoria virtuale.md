@@ -1,4 +1,4 @@
-Le aree di memoria virtuale (o VMA) sono diverse aree in qui salvare diversi dati di un processo.
+CLe aree di memoria virtuale (o VMA) sono diverse aree in qui salvare diversi dati di un processo.
 
 
 è un sistema che porta diversi vantaggi rispetto a salvare tutti i dati nella stessa area indiscriminatamente, ad esempio è possibile:
@@ -127,11 +127,17 @@ Le aree di tipo anonimo sono utilizzate dal sistema operativo per **pila** ed **
 - La lettura di una pagina trova la zeropage e non richiede l'allocazione di nessuna pagina fisica
 - La scrittura di una pagina innesca il meccaniscmo copy on write che richiede l'allocazione di una nuova pagina fisica (come per le VMA private)
 
-# VMA mappate sull'eseguibile
+## VMA mappate sull'eseguibile
 C, K ed S sono mappate sull'eseguibile e sono tutte VMA PRIVATE
 - **C** e **K** non sono scrivibili e rimangono condivise
 - Le pagine dei dati statici **S** devibi essere di tipo PRIVATE perchè le scritture non devono modificare ovviamente l'eseguibile e non devono essere osservabili se più processi sfruttano lo stesso programma.
   Saranno duplicate al momento della scrittura tramite copy on write
 
 >[!oss]
->Se due processi eseguono lo stesso programma contemporaneamente le pagine di codice (C) saranno condivise, il secondo processo trover
+>Se due processi eseguono lo stesso programma contemporaneamente le pagine di codice (C) saranno condivise, il secondo processo troverà tali pagine già lette e presenti nella PageCache, ed è addirittura possibile risalire al codice della pagecache
+
+
+## VMA per memory mapped files (M)
+Il linker utilizza le VMA per realizzare la condivisione delle pagine fisiche delle librerie condivise (come glibc) e lo fa utilizzando il tipo MAP_PRIVATE
+- Il coice che non viene mai scritto rimane sempre condiviso
+- Le pagine sulle quali un processo scrive sono riallocate al processo tramite il meccanismo di copy on write e non più condivise con gli altri processi e file
