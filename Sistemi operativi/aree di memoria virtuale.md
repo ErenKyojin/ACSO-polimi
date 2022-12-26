@@ -138,6 +138,14 @@ C, K ed S sono mappate sull'eseguibile e sono tutte VMA PRIVATE
 
 
 ## VMA per memory mapped files (M)
-Il linker utilizza le VMA per realizzare la condivisione delle pagine fisiche delle librerie condivise (come glibc) e lo fa utilizzando il tipo MAP_PRIVATE
-- Il coice che non viene mai scritto rimane sempre condiviso
+Il linker utilizza le VMA per realizzare la condivisione delle pagine fisiche delle librerie condivise (come glibc) e lo fa utilizzando il tipo MAP_PRIVATE, così:
+- Il codice che non viene mai scritto e rimane sempre condiviso
 - Le pagine sulle quali un processo scrive sono riallocate al processo tramite il meccanismo di copy on write e non più condivise con gli altri processi e file
+
+## VMA di pila
+- VMA anonime
+- Dimensionamento iniziale
+- un flag GROWSDOWN attivo che significa che la pila cresce automaticamente verso il basso quando viene acceduta la pagina di growsdown, ossia l'ultima pagina disponibile.
+
+Le pagine vengono allocate in base alle richieste d'accesso, quindi con un sistema on demand, la prima pagina non è mai allocata, anche quando viene riempita. Esiste un meccanismo di crescita automatica delle VMA di pila ma non di decrescita (le pagine rimangono allocate quando la pila decresce e veranno semplicemente sostituite tramite sovrascrittura da una futura ricrescita)
+

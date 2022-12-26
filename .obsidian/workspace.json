@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "file": "Sistemi operativi/page fault.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "file": "Sistemi operativi/page fault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "file": "Sistemi operativi/page fault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md"
+                "file": "Sistemi operativi/page fault.md"
               }
             }
           },
@@ -184,12 +184,12 @@
   },
   "active": "9e8a7a6816c6e46b",
   "lastOpenFiles": [
+    "Sistemi operativi/aree di memoria virtuale.md",
     "Architettura/Bistabili.md",
     "Architettura/assembler.md",
     "Architettura/architettura.md",
     "Architettura/AND.md",
     "Architettura/Allocazione.md",
-    "Sistemi operativi/aree di memoria virtuale.md",
     "Sistemi operativi/swap file.md",
     "Sistemi operativi/pagina.md",
     "Sistemi operativi/backing store.md",
