@@ -52,7 +52,7 @@ Nelle aree C, K ed S viene associato il file .exe come backing store con offset 
 
 ---
 
->[!esempio] Mappa di memoria di un processo in esecuzione (cat /proc/NN)
+>[!esempio] Mappa di memoria di un processo in esecuzione (cat /proc/NN/maps)
 >
 >| start-end page            | perm  | offset | device | i-node | file-name        |
 >| ------------------------- | ----- | ------ | ------ | ------ | ---------------- |
@@ -69,7 +69,10 @@ Nelle aree C, K ed S viene associato il file .exe come backing store con offset 
 >| 7fff fffd d - 7fff ffff e | rw-p  |        |        |        | [stack]                 |
 >
 >linux costruisce la struttura delle aree virtuali del processo in base alla struttura definita dall'eseguibile, possiamo vedere che
->- L'area di pila é stata allocata con dimensione iniziale di 34 pagine
+>- L'area di pila é stata allocata con dimensione iniziale di 34 pagine, é anonima, quindi non ha un file associato
+>- I file coinvolti sono sullo stesso dispositivo (08:01) l'eseguibile del programma e della libc sono diversi ed hanno quindi [[i-node]] differenti
+>- L'area D 
 >
 
 ---
+
