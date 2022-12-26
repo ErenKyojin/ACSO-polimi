@@ -1,5 +1,5 @@
 La page cache evita che un processo rilegga da disco una pagina che già è stata caricata in memoria fisica.
-Il meccanismo su cui si basa si chiama page cache index, che ricerca una pagina in base al descrittore che contiene la coppia (identificatore file, offset) su cui è mappata ed altre informazioni come il ref_count (uguale al numero di processi che mappano la pagina + 1)
+Il meccanismo su cui si basa si chiama page cache index, che ricerca una pagina in base al descrittore che contiene la coppia <identificatore file, offset> su cui è mappata ed altre informazioni come il ref_count (uguale al numero di processi che mappano la pagina + 1)
 
 ## Creazione
 

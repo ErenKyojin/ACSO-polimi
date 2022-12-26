@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "file": "Sistemi operativi/page cache.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "page cache",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "file": "Sistemi operativi/page cache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "file": "Sistemi operativi/page cache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md"
+                "file": "Sistemi operativi/page cache.md"
               }
             }
           },
@@ -186,9 +186,9 @@
   "active": "9e8a7a6816c6e46b",
   "lastOpenFiles": [
     "Sistemi operativi/Memoria virtuale.md",
+    "Sistemi operativi/aree di memoria virtuale.md",
     "Sistemi operativi/page fault.md",
     "Sistemi operativi/Spazio virtuale.md",
-    "Sistemi operativi/aree di memoria virtuale.md",
     "Sistemi operativi/pagina.md",
     "Sistemi operativi/Kernel space.md",
     "Sistemi operativi/Mappatura della memoria fisica.canvas",
