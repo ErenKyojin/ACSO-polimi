@@ -167,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,7 +182,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9e8a7a6816c6e46b",
+  "active": "3ceca53ea6aa8342",
   "lastOpenFiles": [
     "Sistemi operativi/pagina.md",
     "Sistemi operativi/aree di memoria virtuale.md",
