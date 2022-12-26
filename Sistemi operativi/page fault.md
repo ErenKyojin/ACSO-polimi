@@ -14,9 +14,9 @@ Quando la [[Memoria virtuale|MMU]] genera un page fault si attiva una routine de
 
 SE NPV non appartiene alla memoria virtuale del processo 
 	ALLORA segmentation fault
-SE invece NPV è allocata in pagina PFx ma viola le protezioni
+ALTRIMENTI SE invece NPV è allocata in pagina PFx ma viola le protezioni
 	SE si tratta di una violazione di accesso in scrittura a pagina con protezione di tipo R di una VMA scrivibile
 		SE(PFx.ref_count > 1)
 			ALLORA copia PFXin una pagina fisica privata PFz decrementando di ref_count PFx in page cache, assegnando NPV a PFz e scrivendo in PFz
 		ALTRIMENTI abilita NPV in scrittura
-	ALTRIMENTI 
+	ALTRIMENTI il processo va in segmentation fault
