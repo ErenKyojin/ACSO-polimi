@@ -75,3 +75,46 @@ Nelle aree C, K ed S viene associato il file .exe come backing store con offset 
 >
 
 ---
+## Classificazione di VMA
+- Le VMA possono essere mappate su file o anonime
+- Le VMA possono essere shared o private
+
+>[!oss]
+>Tutte le combinazioni sono valide ma ANONYMOUS | SHARED
+>Quindi consideriamo:
+>- VMA **mappate su file**: o **private** o **shared**
+>- VMA **anonime**: implicitamente 
+
+
+
+## Creazione di VMA
+
+>[!def]
+>```C
+>#include <sys/map.h>
+>void *map(void *addr, size_t length, int port, int flags, int fd, off_t offset)
+>```
+>
+>- addr: suggerisce l'indirizzo virtuale iniziale
+>- length: dimensione dell'area
+>- prot: protezione, PROT_READ, PROT_WRITE, PROT_EXEC
+>- flags: con 3 opzioni, MAP_SHARED, MAP_PRIVATE, MAP__ANONIMOUS
+>- fd: descrittore del file da mappare
+>- offsett; la prima pagine dell'area all'interno del file
+
+
+
+>[!esempio]
+>Uso mmap per  creazion di VMA v1 di un processo P mappato su file F
+>
+>```c
+>#include <sys/map.h>
+>#define PAGESIZE 1024*4
+>char * base;
+>fd = open("./F, O_RDWR"); //apre il file F
+>base = mmap(NULL, PAGESIZE * 3, PROT_READ, MAP_SHARED, fd, PAGESIZE);
+>```
+
+Per evitare che un processo rilegga da disco una pagina già caricata si usa la [[page cache]]
+
+

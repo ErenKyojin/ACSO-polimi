@@ -198,35 +198,7 @@ Anche se il caso anonime e condivise non esiste, abbiamo quind tre casi effettiv
 Un file linux è una sequenza di byte, un file diviso in pagine è un modo di indirizzare le posizioni del byte all'interno della pagina
 
 ---
-## Creazione di VMA
 
->[!def]
->```C
->#include <sys/map.h>
->void *map(void *addr, size_t length, int port, int flags, int fd, off_t offset)
->```
->
->- addr: suggerisce l'indirizzo virtuale iniziale
->- length: dimensione dell'area
->- prot: protezione, PROT_READ, PROT_WRITE, PROT_EXEC
->- flags: con 3 opzioni, MAP_SHARED, MAP_PRIVATE, MAP__ANONIMOUS
->- fd: descrittore del file da mappare
->- offsett; la prima pagine dell'area all'interno del file
-
-
-
->[!esempio]
->Uso mmap per  creazion di VMA v1 di un processo P mappato su file F
->
->```c
->#include <sys/map.h>
->#define PAGESIZE 1024*4
->char * base;
->fd = open("./F, O_RDWR"); //apre il file F
->base = mmap(NULL, PAGESIZE * 3, PROT_READ, MAP_SHARED, fd, PAGESIZE);
->```
-
-Per evitare che un processo rilegga da disco una pagina già caricata si usa la [[page cache]]
 
 
 # [[mappa di memoria]]

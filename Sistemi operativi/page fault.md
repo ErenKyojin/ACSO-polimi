@@ -8,3 +8,5 @@ Quando la [[Memoria virtuale|MMU]] genera un page fault si attiva una routine de
 - Se (NPV non appartiene alla memoria virtuale del processo) allora -> segmentetion fault
 - Altrimenti se (NPV appartiene alla memoria virtuale del processo ma l'accesso non è protetto) allora -> segmentation fault
 - Altrimenti se (l'accesso è leggittimo ma NPV non in memoria fisica) allora viene invocata la routine che carica in memoria fisica la pagina virtuale dal file di backing store (demand paging)
+
+
