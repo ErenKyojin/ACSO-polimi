@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"a1f70dc319dc9d13","x":-215,"y":-145,"width":250,"height":60,"type":"text","text":"### MEMORIA VIRTUALE DEL SO"},
+		{"id":"4699848226dcc494","x":-221,"y":-78,"width":250,"height":60,"type":"text","text":"NPV = (0+ PA)"}
+	],
+	"edges":[]
+}
