@@ -77,7 +77,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/Deallocazione della memoria fisica.md",
+                "file": "Sistemi operativi/dirty bit.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/Deallocazione della memoria fisica.md",
+                "file": "Sistemi operativi/dirty bit.md",
                 "mode": "preview",
                 "source": false
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/Deallocazione della memoria fisica.md",
+                "file": "Sistemi operativi/dirty bit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/Deallocazione della memoria fisica.md",
+                "file": "Sistemi operativi/dirty bit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/Deallocazione della memoria fisica.md"
+                "file": "Sistemi operativi/dirty bit.md"
               }
             }
           },
@@ -242,7 +242,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -256,17 +257,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "79b854901a65457f",
+  "active": "45f334397c85a538",
   "lastOpenFiles": [
+    "Sistemi operativi/Deallocazione della memoria fisica.md",
+    "Sistemi operativi/PFRA.md",
+    "Sistemi operativi/minFree.md",
+    "Sistemi operativi/maxFree.md",
     "Sistemi operativi/Buddy system.md",
     "Sistemi operativi/exit.md",
     "Sistemi operativi/context switch.md",
     "Sistemi operativi/processo.md",
     "Sistemi operativi/scheduler.md",
-    "Sistemi operativi/Thread.md",
-    "Sistemi operativi/exec.md",
-    "Sistemi operativi/aree di memoria virtuale.md",
-    "Sistemi operativi/fork.md",
-    "Sistemi operativi/swap file.md"
+    "Sistemi operativi/Thread.md"
   ]
 }

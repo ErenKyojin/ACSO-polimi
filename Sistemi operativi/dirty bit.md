@@ -1,0 +1,1 @@
+Bit che indica se un elemento in una memoria pi
