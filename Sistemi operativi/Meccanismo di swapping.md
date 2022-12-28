@@ -23,4 +23,35 @@ Quando [[PFRA]] chiede di deallocare una pagina fisica (swap_out):
 Negli esercizi lo SWPN delle pagine swappate è indicato nella TP preceduto da una **S** per distinguerlo da un normale NPF
 
 >[!esempio]
->Un processo swappa d0 nel page slot 1, nella TP ci sarà 
+>Un processo swappa d0 nel page slot 1, nella TP ci sarà <d0:s1>
+
+
+### swap_in
+Quando un processo accede ad una pagina virtuale precedentemente swappata
+- Genera un [[page fault]]
+- Il gestore del [[page fault]] attiva l'allocazione (**swap_in**)
+- Una pagina viene allocata in [[memoria]] fisica
+- Il page slot viene copiato da disco nella pagina fisica
+- La PTE viene aggiornata inserendo l'NPF della pagina fisica al posto del SWPN identificatore del page slot
+
+## Altra ottimizzazione dello swapping
+Spesso dopo uno swap_in è necessario deallocare di nuovo la pagina, per limitare quindi i trasferimenti tra disco e memoria fisica linux non cencella immeadiatamente la pagina dalla swap area dopo lo swap_in, così in caso di swap_out se la pagina non è stata modificata non è necessaria scriverla su disco (perchè la abbiamo lasciata presente)
+
+
+### swap cache
+Introduciamo quindi una swap cache che è:
+- l'insieme delle pagine rilette da swap file e non modificate
+- Alcune strutture ausiliare (swap_cache_index) per gestirla come se tali pagine fossero sulla swap area 
+
+Una pagina appartiene alla swap cache se è 
+- registrata nel swap_cache_index 
+- presente sia in memoria sia su swap_area 
+
+Consideriamo una pagina swappata nella swap area:
+- Se la pagina viene letta si deve eseguire uno swap_in, la pagina viene copiata dallo swap file in memoria fisica ma la copia nella swap area non viene eliminata
+	- La pagina letta viene marcata in sola lattura R
+	- Nel swap_cache_index viene inserito un descrittore che contiene i riferimenti alla pagina fisica PFx che al page slot SWPNx
+	- Finchè la pagina viene solamente letta la situazione non cambia e se la pagina viene deallocata non è necessaria riscriverla su disco
+- Se la pagina viene scritta si verifica un [[page fault]] che causa:
+	- La pagina diventa privata (viene allocata una nuova pagina fisica)
+	- La protezione diventa W
