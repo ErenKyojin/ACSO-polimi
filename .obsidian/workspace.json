@@ -72,6 +72,19 @@
             }
           },
           {
+            "id": "45f334397c85a538",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi/Deallocazione della memoria fisica.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "36d5e99581bc2471"
+          },
+          {
             "id": "a96318ac36c95a13",
             "type": "leaf",
             "state": {
@@ -80,7 +93,26 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
+      },
+      {
+        "id": "336ace4072374f4a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79b854901a65457f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi/Deallocazione della memoria fisica.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "36d5e99581bc2471"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/Buddy system.md",
+                "file": "Sistemi operativi/Deallocazione della memoria fisica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/Buddy system.md",
+                "file": "Sistemi operativi/Deallocazione della memoria fisica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/Buddy system.md"
+                "file": "Sistemi operativi/Deallocazione della memoria fisica.md"
               }
             }
           },
@@ -224,8 +256,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "023bcf38250d1958",
+  "active": "79b854901a65457f",
   "lastOpenFiles": [
+    "Sistemi operativi/Buddy system.md",
     "Sistemi operativi/exit.md",
     "Sistemi operativi/context switch.md",
     "Sistemi operativi/processo.md",
@@ -234,7 +267,6 @@
     "Sistemi operativi/exec.md",
     "Sistemi operativi/aree di memoria virtuale.md",
     "Sistemi operativi/fork.md",
-    "Sistemi operativi/swap file.md",
-    "Sistemi operativi/page fault.md"
+    "Sistemi operativi/swap file.md"
   ]
 }
