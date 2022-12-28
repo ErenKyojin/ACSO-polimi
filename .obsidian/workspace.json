@@ -17,8 +17,7 @@
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "5e3a3610ff1d1a70"
+            }
           },
           {
             "id": "cc010d761cbfb292",
@@ -26,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/PFRA.md",
+                "file": "Sistemi operativi/Gestione della memoria fisica.md",
                 "mode": "source",
                 "source": false
               }
@@ -46,31 +45,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/PFRA.md",
+                "file": "Sistemi operativi/Gestione della memoria fisica.md",
                 "mode": "preview",
                 "source": false
               }
             },
             "group": "228101cabc8ad73e"
-          }
-        ]
-      },
-      {
-        "id": "d52b5ae44a9e4e0f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a9363a3e5b037b51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemi operativi/PFRA.md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "5e3a3610ff1d1a70"
           }
         ]
       }
@@ -139,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/PFRA.md",
+                "file": "Sistemi operativi/Gestione della memoria fisica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/PFRA.md",
+                "file": "Sistemi operativi/Gestione della memoria fisica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/PFRA.md"
+                "file": "Sistemi operativi/Gestione della memoria fisica.md"
               }
             }
           },
@@ -221,8 +201,8 @@
   "active": "cc010d761cbfb292",
   "lastOpenFiles": [
     "Architettura/memoria.md",
-    "Sistemi operativi/Gestione della memoria fisica.md",
     "Sistemi operativi/PFRA.md",
+    "Sistemi operativi/Gestione della memoria fisica.md",
     "Sistemi operativi/maxFree.md",
     "Sistemi operativi/Meccanismo di swapping.md",
     "Sistemi operativi/swap area.md",

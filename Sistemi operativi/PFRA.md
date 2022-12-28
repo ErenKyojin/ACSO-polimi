@@ -90,4 +90,9 @@ Per deallocare pagine virtuali della lista inactive, bisogna prima considerare s
 
 # OOMK
 In sistemi carichi il PFRA può non risolvere la situazione, in tal caso invoca il OOMK (out of memory killer) che eselzione un processo e lo limina
-Viene invocato quando la memoria libera è estremamente poca e PFRA non ha migliorato la situazione, in particolar modo ha una funzione `select_bad_process()` che fa u
+Viene invocato quando la memoria libera è estremamente poca e PFRA non ha migliorato la situazione, in particolar modo ha una funzione `select_bad_process()` che fa una scelta inteligente del processo:
+- Processo con molte pagine occupate
+- Poco lavoro svolto
+- Poca priorità
+- Nessun privilegio di root
+- Non gestisca componenti hardware
