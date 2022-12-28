@@ -5,7 +5,13 @@ Determina quando e quante pagine deallocare ed è invocato in:
 - Attivazione periodica tramite kswapd ([[kernel swap daemon]]), funzione che viene attivata regolarmente e che invoca PFRA se **freePages < maxFree*
 
 
-E dealloca toFree = maxFree - ...d
+E dealloca toFree = maxFree - freePages + requiredPages
+
+## Parametri
+- **freePages** numero di pagine libere in memoria fisica
+- **requiredPages** numero di pagine che vengono richieste per una certa attività da parte di un processo o del SO
+- **minFree** numero minimo di pagine libere sotto il quale non si vorrebe scendere *livello critico*
+- **maxFree** numero di pagine libere al quale PFRA tenta di riportare freePages *livello obiettivo*
 
 
 # Quali pagine deallocare?
@@ -21,12 +27,10 @@ Per PFRA ci sono diversi tipi di pagine:
 	- pagine dati
 	- pagine della uPila
 	- pagine dello Heap
-- **Pagine mappate su file** (buffer/cache) j
+- **Pagine mappate su file** (buffer/cache) appartenenti ai buffer/cache
 
-
+## Processo decisionale
 Prima di tutto dealloca le pagine non utilizzate da nessun processo (ref_count = 1) in ordine di NPF
-
-## Meccanismi chiave
 
 Se non è sufficiente, l'algoritmo utilizzato da PFRA si basa su principio LRU (least recently used), quindi dobbiamo:
 1. mantenere informazioni relative all'accesso delle pagine
@@ -39,11 +43,11 @@ Per gestire queste informazioni usiamo due liste:
 ### Spostare pagine tra le liste
 
 
-[[x64]] non tiene traccia del numero di accessi alla memoria, quindi linux approssima questo dato con il bit di accesso A alla pagine nel TLB:
+[[x64]] non tiene traccia del numero di accessi alla memoria, quindi linux approssima questo dato con il **bit di accesso A** alla pagine nel TLB:
 - **A** posto ad 1 ogni volta che si accede alla pagine
 - **A** azzerato periodicamente
 
-Ad ogni pagine viene associato il flag **ref** che serve per raddioppiare il numero di accessi necessari per spostarla da una lista all'altra.
+Ad ogni pagina viene associato il flag **ref** che serve per raddioppiare il numero di accessi necessari per spostarla da una lista all'altra (negli esercizi il ref si indicherà sinteticamente scrivendo le pagine con lettere maiuscole se = 1 e con lettere minuscole se = 0 )
 
 
 #### Controlla_lista

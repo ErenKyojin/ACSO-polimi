@@ -1,1 +1,1 @@
-Bit che indica se un elemento in una memoria pi
+Bit utilizzato nelle strutture di memoria che indica se un elemento in una memoria più rapida (come una cache rispetto ad una RAM, o una RAM rispetto al disco)  è stato modificato rispetto alla sua controparte sulla memoria più lenta.
