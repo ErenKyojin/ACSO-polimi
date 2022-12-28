@@ -13,12 +13,45 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/Meccanismo di swapping.md",
+                "file": "Sistemi operativi/PFRA.md",
                 "mode": "source",
                 "source": false
               }
             },
             "group": "5e3a3610ff1d1a70"
+          },
+          {
+            "id": "cc010d761cbfb292",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi/PFRA.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "228101cabc8ad73e"
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "669c4b03d9da5ed6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35d124cb53a97627",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi/PFRA.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "228101cabc8ad73e"
           }
         ]
       },
@@ -32,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/Meccanismo di swapping.md",
+                "file": "Sistemi operativi/PFRA.md",
                 "mode": "preview",
                 "source": false
               }
@@ -68,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "swap",
+                "query": "PFRA",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,7 +118,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -105,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/Meccanismo di swapping.md",
+                "file": "Sistemi operativi/PFRA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/Meccanismo di swapping.md",
+                "file": "Sistemi operativi/PFRA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/Meccanismo di swapping.md"
+                "file": "Sistemi operativi/PFRA.md"
               }
             }
           },
@@ -184,17 +218,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a9ae59cb2c2b0059",
+  "active": "cc010d761cbfb292",
   "lastOpenFiles": [
-    "Sistemi operativi/swap area.md",
+    "Architettura/memoria.md",
+    "Sistemi operativi/Gestione della memoria fisica.md",
+    "Sistemi operativi/PFRA.md",
+    "Sistemi operativi/maxFree.md",
     "Sistemi operativi/Meccanismo di swapping.md",
+    "Sistemi operativi/swap area.md",
     "Sistemi operativi/swap file.md",
     "Sistemi operativi/Buddy system.md",
     "Sistemi operativi/exit.md",
-    "Sistemi operativi/Copy on write.md",
-    "Sistemi operativi/translation lookaside buffer.md",
-    "Sistemi operativi/PFRA.md",
-    "Sistemi operativi/Deallocazione della memoria fisica.md",
-    "Sistemi operativi/dirty bit.md"
+    "Sistemi operativi/Copy on write.md"
   ]
 }

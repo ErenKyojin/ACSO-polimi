@@ -34,6 +34,12 @@ Quando un processo accede ad una pagina virtuale precedentemente swappata
 - Il page slot viene copiato da disco nella pagina fisica
 - La PTE viene aggiornata inserendo l'NPF della pagina fisica al posto del SWPN identificatore del page slot
 
+
+#### Comportamento delle [[PFRA#Spostare pagine tra le liste|liste LRU]] in caso di swap-in
+Se avviene uno swap in: la NPV allocata in memora fisica viene inserita in testa alla lista active con ref = 1
+Altre NPV condivise con la stessa pagina fisica da parte di altri processi vengono inserite in coda alla lista inactive con ref = 0
+
+
 ## Altra ottimizzazione dello swapping
 Spesso dopo uno swap_in è necessario deallocare di nuovo la pagina, per limitare quindi i trasferimenti tra disco e memoria fisica linux non cencella immeadiatamente la pagina dalla swap area dopo lo swap_in, così in caso di swap_out se la pagina non è stata modificata non è necessaria scriverla su disco (perchè la abbiamo lasciata presente)
 
@@ -55,3 +61,6 @@ Consideriamo una pagina swappata nella swap area:
 - Se la pagina viene scritta si verifica un [[page fault]] che causa:
 	- La pagina diventa privata (viene allocata una nuova pagina fisica)
 	- La protezione diventa W
+	- Il contatore swap_map_counter viene incrementato
+	- Se il contatore è 0 il page slot viene deallocato dalla swap area
+
