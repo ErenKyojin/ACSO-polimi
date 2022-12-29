@@ -37,7 +37,11 @@ Per rappresentare gli indirizzi virtuali NPV che riempiono la memoria fisica usi
 >
 
 >[!important] Convenzioni
->
+> - Viene allocata sempre la prima pagina fisica libera disponibile
+> - Se una pagina virtuale è mappata su file viene indicato il file aggiungendo uno slash e la coppia file offset (esempio Pc1 / <X,1>)
+
+
+
 ## [[Tabella delle pagine| page table]]
 
 
