@@ -19,7 +19,19 @@ M/A: area mappata su file o anonima
 mapping: file su cui è mappata e offsett nella forma <FILE, OFF>
 
 ## [[memoria]] fisica
-La memoria fisica viene rappresentata con una tabella che contiene tutti gli indirizzi fisici (NPF), la pagina con NPF = 0 si
+La memoria fisica viene rappresentata con una tabella che contiene tutti gli indirizzi fisici (NPF), la pagina con NPF = 0 è la zero page e si indica con \<ZP>
+
+Per rappresentare gli indirizzi virtuali NPV che riempiono la memoria fisica usiamo invece la notazione `PAn` con:
+- `P` che specifica il processo
+- `A` che specifica un tipo di area virtuale
+	- **C** codice eseguibile
+	- **K** costanti
+	- **S** dati statici
+	- **D** dati dinamici
+	- **M** memoria mappata
+	- **T** pila di un thread
+	- **P** pila di main
+- `n` il numero della pagina
 
 
 ## [[Tabella delle pagine| page table]]
