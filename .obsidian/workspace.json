@@ -31,6 +31,18 @@
               }
             },
             "group": "228101cabc8ad73e"
+          },
+          {
+            "id": "7f4ee210571a2e15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheatsheet/Simulazione della memoria.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -199,15 +211,15 @@
   },
   "active": "cc010d761cbfb292",
   "lastOpenFiles": [
+    "Cheatsheet/Simulazione della memoria.md",
+    "Sistemi operativi/Tabella delle pagine.md",
     "Sistemi operativi/aree di memoria virtuale.md",
     "Sistemi operativi/PFRA.md",
-    "Sistemi operativi/Tabella delle pagine.md",
     "Canvas/Page walk.canvas",
     "Sistemi operativi/Tabella delle pagine fisiche e descrittori.md",
     "Sistemi operativi/pagina.md",
     "Sistemi operativi/Memoria virtuale.md",
     "Sistemi operativi/Gestione della memoria fisica.md",
-    "Architettura/memoria.md",
-    "Sistemi operativi/maxFree.md"
+    "Architettura/memoria.md"
   ]
 }

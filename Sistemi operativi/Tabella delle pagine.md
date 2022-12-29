@@ -34,7 +34,7 @@ In [[x64]] esiste il registro CR3 che contiene l'indirizzo del punto di partenza
 >>0x00003 | 0x00007
 >>
 >> ## Q
->> NPV </br> - | NPV </br> -
+>> NPV </br> ------------ | NPV </br> ------------
 >> ---|----
 >> 0x00000 | 0x00008
 >> 0x00001 | 0x00009
