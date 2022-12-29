@@ -1,6 +1,6 @@
 Negli esercizi sulla memoria viene semplificato di molto il sistema di gestione della memoria
 
-# [[Mappa di memoria]]
+## [[Mappa di memoria]]
 La mappa di memoria (accessibile su linux col comando `cat /proc/[PROCESS PID]/maps`)viene viene semplificata come
 
 | VMA | Start address | dim | R/W | P/S | M/A | mapping |
@@ -18,7 +18,11 @@ P/S: area privata o condivisa
 M/A: area mappata su file o anonima
 mapping: file su cui è mappata e offsett nella forma <FILE, OFF>
 
-# [[Tabella delle pagine| page table]]
+## [[memoria]] fisica
+La memoria fisica viene rappresentata con una tabella che contiene tutti gli indirizzi fisici (NPF), la pagina con NPF = 0 si
+
+
+## [[Tabella delle pagine| page table]]
 
 
 [[Thread]]

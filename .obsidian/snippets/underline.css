@@ -1,6 +1,6 @@
 :root {
 
-    --tc: #8b6cef;
+    --tc: darkcyan;
     --h1c: #67D120;
     --h2c: #F5EC50;
     --h3c: #F38F1D;
@@ -124,7 +124,7 @@ ol
 
 .inline-title:hover
 {
-    color: #b168d5;
+    color: cyan;
     text-shadow: 2px 2px 20px var(--tc);
     font-size: 40px;
     transition: .5s;
@@ -152,16 +152,12 @@ ol em, ul em
 }
 
 
-.internal-link, span.cm-hmd-internal-link
-{
-    color: darkcyan
-}
 
-h1 > a.internal-link
+h1 > a.internal-link, h1 > .cm-hmd-internal-link > .cm-underline
 {
 
     text-decoration-color: var(--h1c);
-    color: darkcyan
+    
 
 }
 
