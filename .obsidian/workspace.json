@@ -58,7 +58,7 @@
               "type": "markdown",
               "state": {
                 "file": "Cheatsheet/Simulazione della memoria.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             },
@@ -210,7 +210,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3f174685e415d9e2",
+  "active": "cc010d761cbfb292",
   "lastOpenFiles": [
     "Sistemi operativi/Tabella delle pagine.md",
     "Cheatsheet/Simulazione della memoria.md",

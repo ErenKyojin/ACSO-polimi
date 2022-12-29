@@ -150,3 +150,10 @@ ol em, ul em
     text-decoration: underline;
 
 }
+
+a.internal-link > h1
+{
+
+    color: green;
+
+}
