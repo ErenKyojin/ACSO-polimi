@@ -19,3 +19,8 @@ M/A: area mappata su file o anonima
 mapping: file su cui è mappata e offsett nella forma <FILE, OFF>
 
 # [[Tabella delle pagine| page table]]
+
+
+[[Thread]]
+
+

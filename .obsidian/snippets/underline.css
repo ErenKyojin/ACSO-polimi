@@ -151,9 +151,44 @@ ol em, ul em
 
 }
 
-a.internal-link > h1
+
+.internal-link, span.cm-hmd-internal-link
+{
+    color: darkcyan
+}
+
+h1 > a.internal-link
 {
 
-    color: green;
+    text-decoration-color: var(--h1c);
+    color: darkcyan
+
+}
+
+h2 > a.internal-link
+{
+
+    text-decoration-color: var(--h2c);
+
+}
+
+h3 > a.internal-link
+{
+
+    text-decoration-color: var(--h3c);
+
+}
+
+h4 > a.internal-link
+{
+
+    text-decoration-color: var(--h4c);
+
+}
+
+h5 > a.internal-link
+{
+
+    text-decoration-color: var(--h5c)
 
 }

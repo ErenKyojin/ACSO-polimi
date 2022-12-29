@@ -212,10 +212,10 @@
   },
   "active": "cc010d761cbfb292",
   "lastOpenFiles": [
-    "Sistemi operativi/Tabella delle pagine.md",
-    "Cheatsheet/Simulazione della memoria.md",
-    "Sistemi operativi/aree di memoria virtuale.md",
     "Sistemi operativi/PFRA.md",
+    "Cheatsheet/Simulazione della memoria.md",
+    "Sistemi operativi/Tabella delle pagine.md",
+    "Sistemi operativi/aree di memoria virtuale.md",
     "Canvas/Page walk.canvas",
     "Sistemi operativi/Tabella delle pagine fisiche e descrittori.md",
     "Sistemi operativi/pagina.md",
