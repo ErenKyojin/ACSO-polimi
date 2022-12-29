@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/pagina.md",
+                "file": "Sistemi operativi/Tabella delle pagine.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,8 +45,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/pagina.md",
-                "mode": "preview",
+                "file": "Sistemi operativi/Tabella delle pagine.md",
+                "mode": "source",
                 "source": false
               }
             },
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "PFRA",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/pagina.md",
+                "file": "Sistemi operativi/Tabella delle pagine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/pagina.md",
+                "file": "Sistemi operativi/Tabella delle pagine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/pagina.md"
+                "file": "Sistemi operativi/Tabella delle pagine.md"
               }
             }
           },
@@ -199,15 +199,15 @@
   },
   "active": "cc010d761cbfb292",
   "lastOpenFiles": [
+    "Canvas/Page walk.canvas",
+    "Sistemi operativi/Tabella delle pagine.md",
+    "Sistemi operativi/Tabella delle pagine fisiche e descrittori.md",
+    "Sistemi operativi/pagina.md",
+    "Sistemi operativi/Memoria virtuale.md",
     "Sistemi operativi/Gestione della memoria fisica.md",
     "Architettura/memoria.md",
     "Sistemi operativi/PFRA.md",
     "Sistemi operativi/maxFree.md",
-    "Sistemi operativi/Meccanismo di swapping.md",
-    "Sistemi operativi/swap area.md",
-    "Sistemi operativi/swap file.md",
-    "Sistemi operativi/Buddy system.md",
-    "Sistemi operativi/exit.md",
-    "Sistemi operativi/Copy on write.md"
+    "Sistemi operativi/Meccanismo di swapping.md"
   ]
 }
