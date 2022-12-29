@@ -33,10 +33,14 @@ Per rappresentare gli indirizzi virtuali NPV che riempiono la memoria fisica usi
 	- **P** pila di main
 - `n` il numero della pagina
 
+>[!esempio] Esempio Qc0: prima pagina del codice del processo Q 
+>
 
+>[!important] Convenzioni
+>
 ## [[Tabella delle pagine| page table]]
 
 
-[[Thread]]
+
 
 
