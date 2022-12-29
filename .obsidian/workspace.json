@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/Tabella delle pagine.md",
+                "file": "Cheatsheet/Simulazione della memoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/Tabella delle pagine.md",
+                "file": "Cheatsheet/Simulazione della memoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mappa di memoria",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/Tabella delle pagine.md",
+                "file": "Cheatsheet/Simulazione della memoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/Tabella delle pagine.md",
+                "file": "Cheatsheet/Simulazione della memoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/Tabella delle pagine.md"
+                "file": "Cheatsheet/Simulazione della memoria.md"
               }
             }
           },
@@ -209,10 +210,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cc010d761cbfb292",
+  "active": "3f174685e415d9e2",
   "lastOpenFiles": [
-    "Cheatsheet/Simulazione della memoria.md",
     "Sistemi operativi/Tabella delle pagine.md",
+    "Cheatsheet/Simulazione della memoria.md",
     "Sistemi operativi/aree di memoria virtuale.md",
     "Sistemi operativi/PFRA.md",
     "Canvas/Page walk.canvas",
