@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "file": "Sistemi operativi/Tabella delle pagine.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "file": "Sistemi operativi/Tabella delle pagine.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "file": "Sistemi operativi/Tabella delle pagine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "file": "Sistemi operativi/Tabella delle pagine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md"
+                "file": "Sistemi operativi/Tabella delle pagine.md"
               }
             }
           },
@@ -199,6 +199,7 @@
   },
   "active": "cc010d761cbfb292",
   "lastOpenFiles": [
+    "Sistemi operativi/aree di memoria virtuale.md",
     "Sistemi operativi/PFRA.md",
     "Sistemi operativi/Tabella delle pagine.md",
     "Canvas/Page walk.canvas",
@@ -207,7 +208,6 @@
     "Sistemi operativi/Memoria virtuale.md",
     "Sistemi operativi/Gestione della memoria fisica.md",
     "Architettura/memoria.md",
-    "Sistemi operativi/maxFree.md",
-    "Sistemi operativi/Meccanismo di swapping.md"
+    "Sistemi operativi/maxFree.md"
   ]
 }
