@@ -1,6 +1,6 @@
 Negli esercizi sulla memoria viene semplificato di molto il sistema di gestione della memoria
 
-## [[Mappa di memoria]]
+## 1. [[Mappa di memoria]]
 La mappa di memoria (accessibile su linux col comando `cat /proc/[PROCESS PID]/maps`)viene viene semplificata come
 
 | VMA | Start address | dim | R/W | P/S | M/A | mapping |
@@ -18,7 +18,7 @@ P/S: area privata o condivisa
 M/A: area mappata su file o anonima
 mapping: file su cui è mappata e offsett nella forma <FILE, OFF>
 
-## [[memoria]] fisica
+## 2. [[memoria]] fisica
 La memoria fisica viene rappresentata con una tabella che contiene tutti gli indirizzi fisici (NPF), la pagina con NPF = 0 è la zero page e si indica con \<ZP>
 
 Per rappresentare gli indirizzi virtuali NPV che riempiono la memoria fisica usiamo invece la notazione `PAn` con:
@@ -41,10 +41,12 @@ Per rappresentare gli indirizzi virtuali NPV che riempiono la memoria fisica usi
 > - Se una pagina virtuale è mappata su file viene indicato il file aggiungendo uno slash e la coppia file offset (esempio Pc1 / <X,1>)
 
 
+## 3. [[Tabella delle pagine| page table]]
 
-## [[Tabella delle pagine| page table]]
+La page table del processo viene rappresentata come PT entries, rappresentate come
+\<NPV : NPF protezione>
 
-
-
-
-
+## 4. NPV dei registri PC e SP
+Il NPV è attribuito ai registri PC e SP
+- Ogni volta che viene acceduta una pagina di pila il suo NPV diventa NPV dello SP
+- Ogni volta che viene acceduta una pagina di codice il suo NPV diventa il NPV corrente del PC
