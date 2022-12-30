@@ -6,7 +6,12 @@ Per mappare da blocchi logici a blocchi fisici e viceversa utiliziamo la tecnica
 Un file system è organizzato in:
 - **PARTIZIONI** che contengono insiemi di file correlati
 - **DIRECTORY** ogni partizione è divisa in directory che contengono informazioni sui file o sulle directory stesse dipendenti dalla prima
-	- *root directory*
+	- *root directory*: directory accessibile direttamente dal file system, si indica con `/`
+- **FILE** che contengono i dati o i programmi
+
+Inoltre sono importani le nozioni di:
+- **Pathname assoluto**: la concatenazione deei nomi delle directory dal root fino al file, ad esempio `/usr/nome_file`
+- **Pathname relativo**: Il nome del file nella directory a cui appartiene, ad esempio `nome_file`
 
 # Strutture dati del file system
 
