@@ -31,4 +31,11 @@ Contenere tutti i file in un'unica directory è una scelta molto semplice quanto
 
 I singoli utenti possono gestire i file solo nella propria directory, per il root invece deve farlo un amministratore di sistema (root, admin, superuser)
 
-![[Directory.canvas]]
+![[Directory a due livelli.canvas]]
+
+
+Estensione della directory a due livelli è la directory ad albero, per accedere ai file si usa il pathname (o assoluto o relativo), si definisce inoltre il **cwd** (current working directory), se un file non è nella directory corrente si usa il pathname assoluto o si cambia la directory corrente:
+
+Comandi per la gestione della cwd:
+- `cd <dir>`, change dir, cambia la cwd nella directory specificata 
+- `pwd`, print working dir
