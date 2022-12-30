@@ -16,8 +16,40 @@ L'accesso e le operazioni consentite dipendono dall'identità dell'utente, ogni 
 - Il richiedente è previsto
 - Il richiedente ha il permesso di compiere quel tipo di operazione
 
-Tuttavia le liste di accesso possono diventare molto grandi, sono a singolo file e richiedono un tempo di accesso ai file medio maggiore.
+Tuttavia le liste di accesso possono diventare molto grandi, sono a singolo file e richiedono un tempo di accesso ai file medio maggiore. Linux utilizza quindi un approccio piú semplificato, dividendo tutto in classi:
 
+#### Classi di utenti
 Gli utenti sono identificati in base a:
 - Username: identificativo dell'utente
-- Group: 
+- Group: identificativo del gruppo
+
+#### Gruppi di utenti
+Gli utenti sono raggruppati: 
+- Owner: proprietario del file
+- Group: Gruppo del proprietario del file
+- All: tutti gli utenti
+
+#### Classi di operazione
+- Read: lettura
+- Write: scrittura
+- Execute: esecuzione
+
+#### classi di file
+Ogni file ha associato
+- Owner
+- Group
+- Control access list
+
+## Controll access list
+Tre gruppi di bit, ogni gruppo si riferisce ad una classe di utenti, ed ogni bit di un gruppi si riferisce ad un;operazione
+
+| owner | group | all |
+| ----- | ----- | --- |
+| rwx   | rwx   | rwx |  
+
+| rwx | rx  | rx  |
+| --- | --- | --- |
+|     |     |     |
+
+
+<>
