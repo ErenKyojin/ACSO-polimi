@@ -47,9 +47,10 @@ Tre gruppi di bit, ogni gruppo si riferisce ad una classe di utenti, ed ogni bit
 | ----- | ----- | --- |
 | rwx   | rwx   | rwx |  
 
-| rwx | rx  | rx  |
-| --- | --- | --- |
-|     |     |     |
+| rwx | r<font color = 4a4a4a>~~w~~</font>x | r<font color = 4a4a4a>~~w~~</font>x |
+| --- | ----------------------------------- | ----------------------------------- |
+| 111 | 101                                 | 101                                 |
+| 7   | 5                                   | 5                                    |
 
 
-<>
+
