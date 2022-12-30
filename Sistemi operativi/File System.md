@@ -5,7 +5,7 @@ Per mappare da blocchi logici a blocchi fisici e viceversa utiliziamo la tecnica
 # Struttura gerarchica del file system
 Un file system è organizzato in:
 - **PARTIZIONI** che contengono insiemi di file correlati
-- **DIRECTORY** ogni partizione è divisa in directory che contengono informazioni sui file o sulle directory stesse dipendenti dalla prima
+- **[[DIRECTORY]]** ogni partizione è divisa in directory che contengono informazioni sui file o sulle directory stesse dipendenti dalla prima
 	- *root directory*: directory accessibile direttamente dal file system, si indica con `/`
 - **FILE** che contengono i dati o i programmi
 

@@ -1,0 +1,2 @@
+Le directory sono dei [[File]] (d) caratterizzati da nome e diritti d'accesso, ogni directory contiene informazioni sui file e sulle directory che contiene.
+Una directory fornisce le corrispondenze tra nome di file/directory e file/directory stesse su disco, con una entry per ogni file/directory.

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/File System.md",
+                "file": "Sistemi operativi/DIRECTORY.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/File System.md",
+                "file": "Sistemi operativi/DIRECTORY.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/File System.md",
+                "file": "Sistemi operativi/DIRECTORY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/File System.md",
+                "file": "Sistemi operativi/DIRECTORY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/File System.md"
+                "file": "Sistemi operativi/DIRECTORY.md"
               }
             }
           },
@@ -209,8 +209,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "27ff0a171839d0d3",
+  "active": "cc010d761cbfb292",
   "lastOpenFiles": [
+    "Sistemi operativi/File System.md",
     "Sistemi operativi/Primitive per la gestione dei file/Primitive per la gestione.canvas",
     "Canvas/Senza nome 2.canvas",
     "Canvas/Rappresentazione inode.canvas",
@@ -219,7 +220,6 @@
     "Canvas/Esempio strutture dati filesystem (1).canvas",
     "Canvas/Esempio directory.canvas",
     "Cheatsheet/Temi d'esame.md",
-    "Cheatsheet/Simulazione della memoria.md",
-    "Sistemi operativi/file.md"
+    "Cheatsheet/Simulazione della memoria.md"
   ]
 }
