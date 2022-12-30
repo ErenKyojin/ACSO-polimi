@@ -39,3 +39,6 @@ Estensione della directory a due livelli è la directory ad albero, per accedere
 Comandi per la gestione della cwd:
 - `cd <dir>`, change dir, cambia la cwd nella directory specificata 
 - `pwd`, print working dir
+
+
+![[Directory ad albero.canvas]]

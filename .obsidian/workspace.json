@@ -23,15 +23,11 @@
             "id": "cc010d761cbfb292",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Canvas/Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 289.5,
-                  "zoom": 0,
-                  "snapToGrid": false
-                }
+                "file": "Sistemi operativi/DIRECTORY.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -114,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Canvas/Untitled.canvas",
+                "file": "Sistemi operativi/DIRECTORY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Canvas/Untitled.canvas",
+                "file": "Sistemi operativi/DIRECTORY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Canvas/Untitled.canvas"
+                "file": "Sistemi operativi/DIRECTORY.md"
               }
             }
           },
@@ -196,6 +192,7 @@
   "active": "cc010d761cbfb292",
   "lastOpenFiles": [
     "Canvas/Directory a due livelli.canvas",
+    "Canvas/Directory ad albero.canvas",
     "Sistemi operativi/DIRECTORY.md",
     "Sistemi operativi/File System.md",
     "Sistemi operativi/Primitive per la gestione dei file/Primitive per la gestione.canvas",
@@ -203,7 +200,6 @@
     "Canvas/Rappresentazione inode.canvas",
     "Canvas/pagine non residenti.canvas",
     "Canvas/Page walk.canvas",
-    "Canvas/Esempio strutture dati filesystem (1).canvas",
-    "Canvas/Esempio directory.canvas"
+    "Canvas/Esempio strutture dati filesystem (1).canvas"
   ]
 }
