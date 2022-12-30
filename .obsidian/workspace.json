@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheet/Simulazione della memoria.md",
+                "file": "Sistemi operativi/file.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheet/Simulazione della memoria.md",
+                "file": "Sistemi operativi/file.md",
                 "mode": "preview",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mappa di memoria",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheatsheet/Simulazione della memoria.md",
+                "file": "Sistemi operativi/file.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheatsheet/Simulazione della memoria.md",
+                "file": "Sistemi operativi/file.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheet/Simulazione della memoria.md"
+                "file": "Sistemi operativi/file.md"
               }
             }
           },
@@ -210,17 +209,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cc010d761cbfb292",
+  "active": "35d124cb53a97627",
   "lastOpenFiles": [
-    "Sistemi operativi/PFRA.md",
+    "Sistemi operativi/File System.md",
     "Cheatsheet/Simulazione della memoria.md",
+    "Sistemi operativi/PFRA.md",
     "Sistemi operativi/Tabella delle pagine.md",
     "Sistemi operativi/aree di memoria virtuale.md",
     "Canvas/Page walk.canvas",
     "Sistemi operativi/Tabella delle pagine fisiche e descrittori.md",
     "Sistemi operativi/pagina.md",
     "Sistemi operativi/Memoria virtuale.md",
-    "Sistemi operativi/Gestione della memoria fisica.md",
-    "Architettura/memoria.md"
+    "Sistemi operativi/Gestione della memoria fisica.md"
   ]
 }
