@@ -30,3 +30,5 @@ Contenere tutti i file in un'unica directory è una scelta molto semplice quanto
 - Directory utente: cotneine i file di un singolo utente (`home`)
 
 I singoli utenti possono gestire i file solo nella propria directory, per il root invece deve farlo un amministratore di sistema (root, admin, superuser)
+
+![[Directory.canvas]]
