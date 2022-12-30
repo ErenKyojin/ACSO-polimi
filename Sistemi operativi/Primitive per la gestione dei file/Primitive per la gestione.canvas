@@ -3,7 +3,7 @@
 		{"id":"9ec198000ba1deeb","x":58,"y":128,"width":400,"height":400,"type":"file","file":"Sistemi operativi/Primitive per la gestione dei file/close().md"},
 		{"id":"f1aaa9c77f86b17c","x":538,"y":128,"width":400,"height":400,"type":"file","file":"Sistemi operativi/Primitive per la gestione dei file/creat().md"},
 		{"id":"b913360d8380f970","x":1018,"y":128,"width":400,"height":400,"type":"file","file":"Sistemi operativi/Primitive per la gestione dei file/dup().md"},
-		{"id":"7ea3184210eaf5da","x":58,"y":-360,"width":1360,"height":400,"type":"text","text":"# Primitive per la gestione dei file\n\nPer usare i tipi O_READ, O_WRITE, O_RDWR bisogna include `fcntl.h`\n\n"},
+		{"id":"7ea3184210eaf5da","x":58,"y":-360,"width":1360,"height":400,"type":"text","text":"# Primitive per la gestione dei file\n\nPer usare i tipi O_READ, O_WRITE, O_RDWR bisogna include `fcntl.h`\nLe funzioni creat e open richiedono il nome del file come parametro e restituiscono un intero non negativo detto file descriptor (fd)\n\n"},
 		{"id":"d5881363717192ab","x":58,"y":600,"width":400,"height":400,"type":"file","file":"Sistemi operativi/Primitive per la gestione dei file/open().md"},
 		{"id":"42e6b96d11cf83cc","x":538,"y":600,"width":400,"height":400,"type":"file","file":"Sistemi operativi/Primitive per la gestione dei file/read().md"},
 		{"id":"6dbb87145fd06209","x":1018,"y":600,"width":400,"height":400,"type":"file","file":"Sistemi operativi/Primitive per la gestione dei file/unlink().md"},

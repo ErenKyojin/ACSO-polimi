@@ -23,17 +23,14 @@
             "id": "cc010d761cbfb292",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/Primitive per la gestione dei file/Primitive per la gestione.canvas",
-                "viewState": {
-                  "x": 509.47604259938186,
-                  "y": 403.2477712373176,
-                  "zoom": -0.9024450622914634,
-                  "snapToGrid": false
-                }
+                "file": "Sistemi operativi/File System.md",
+                "mode": "source",
+                "source": false
               }
-            }
+            },
+            "group": "5a184eae271c67d2"
           },
           {
             "id": "7f4ee210571a2e15",
@@ -49,6 +46,25 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "cd9df16c76e33166",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27ff0a171839d0d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi/File System.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "5a184eae271c67d2"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/Primitive per la gestione dei file/Primitive per la gestione.canvas",
+                "file": "Sistemi operativi/File System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/Primitive per la gestione dei file/Primitive per la gestione.canvas",
+                "file": "Sistemi operativi/File System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/Primitive per la gestione dei file/Primitive per la gestione.canvas"
+                "file": "Sistemi operativi/File System.md"
               }
             }
           },
@@ -193,8 +209,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cc010d761cbfb292",
+  "active": "27ff0a171839d0d3",
   "lastOpenFiles": [
+    "Sistemi operativi/Primitive per la gestione dei file/Primitive per la gestione.canvas",
     "Canvas/Senza nome 2.canvas",
     "Canvas/Rappresentazione inode.canvas",
     "Canvas/pagine non residenti.canvas",
@@ -203,7 +220,6 @@
     "Canvas/Esempio directory.canvas",
     "Cheatsheet/Temi d'esame.md",
     "Cheatsheet/Simulazione della memoria.md",
-    "Sistemi operativi/file.md",
-    "Sistemi operativi/File System.md"
+    "Sistemi operativi/file.md"
   ]
 }

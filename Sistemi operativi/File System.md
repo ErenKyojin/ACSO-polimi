@@ -2,6 +2,11 @@ Linux gestisce i file system a livello logico attraverso dispositivi logici dett
 
 Per mappare da blocchi logici a blocchi fisici e viceversa utiliziamo la tecnica di [[i-node]]
 
+# Struttura gerarchica del file system
+Un file system è organizzato in:
+- **PARTIZIONI** che contengono insiemi di file correlati
+- **DIRECTORY** ogni partizione è divisa in directory che contengono informazioni sui file o sulle directory stesse dipendenti dalla prima
+	- *root directory*
 
 # Strutture dati del file system
 
