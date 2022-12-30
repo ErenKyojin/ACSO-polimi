@@ -25,11 +25,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/DIRECTORY.md",
+                "file": "Sistemi operativi/pagina.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "e338a7c8fe477b0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi/Protezione.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "020e56344f08cefa"
           },
           {
             "id": "7f4ee210571a2e15",
@@ -44,7 +57,26 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
+      },
+      {
+        "id": "818497989dbbefcf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a0b1460f8eb9fec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi/Protezione.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "020e56344f08cefa"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +105,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Diritti",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,7 +122,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/DIRECTORY.md",
+                "file": "Sistemi operativi/Protezione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/DIRECTORY.md",
+                "file": "Sistemi operativi/Protezione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/DIRECTORY.md"
+                "file": "Sistemi operativi/Protezione.md"
               }
             }
           },
@@ -189,17 +222,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cc010d761cbfb292",
+  "active": "0a0b1460f8eb9fec",
   "lastOpenFiles": [
+    "Sistemi operativi/pagina.md",
+    "Sistemi operativi/DIRECTORY.md",
     "Canvas/Directory a due livelli.canvas",
     "Canvas/Directory ad albero.canvas",
-    "Sistemi operativi/DIRECTORY.md",
     "Sistemi operativi/File System.md",
     "Sistemi operativi/Primitive per la gestione dei file/Primitive per la gestione.canvas",
     "Canvas/Senza nome 2.canvas",
     "Canvas/Rappresentazione inode.canvas",
     "Canvas/pagine non residenti.canvas",
-    "Canvas/Page walk.canvas",
-    "Canvas/Esempio strutture dati filesystem (1).canvas"
+    "Canvas/Page walk.canvas"
   ]
 }
