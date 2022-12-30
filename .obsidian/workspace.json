@@ -23,14 +23,17 @@
             "id": "cc010d761cbfb292",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Sistemi operativi/DIRECTORY.md",
-                "mode": "source",
-                "source": false
+                "file": "Sistemi operativi/Untitled 1.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0,
+                  "snapToGrid": true
+                }
               }
-            },
-            "group": "5a184eae271c67d2"
+            }
           },
           {
             "id": "7f4ee210571a2e15",
@@ -46,25 +49,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "cd9df16c76e33166",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "27ff0a171839d0d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemi operativi/DIRECTORY.md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "5a184eae271c67d2"
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/DIRECTORY.md",
+                "file": "Sistemi operativi/Untitled 1.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/DIRECTORY.md",
+                "file": "Sistemi operativi/Untitled 1.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/DIRECTORY.md"
+                "file": "Sistemi operativi/Untitled 1.canvas"
               }
             }
           },
@@ -211,6 +195,7 @@
   },
   "active": "cc010d761cbfb292",
   "lastOpenFiles": [
+    "Sistemi operativi/DIRECTORY.md",
     "Sistemi operativi/File System.md",
     "Sistemi operativi/Primitive per la gestione dei file/Primitive per la gestione.canvas",
     "Canvas/Senza nome 2.canvas",
@@ -219,7 +204,6 @@
     "Canvas/Page walk.canvas",
     "Canvas/Esempio strutture dati filesystem (1).canvas",
     "Canvas/Esempio directory.canvas",
-    "Cheatsheet/Temi d'esame.md",
-    "Cheatsheet/Simulazione della memoria.md"
+    "Cheatsheet/Temi d'esame.md"
   ]
 }

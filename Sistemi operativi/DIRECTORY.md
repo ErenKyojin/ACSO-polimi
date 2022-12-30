@@ -24,4 +24,9 @@ Come per quanto riguarda i file, anche per le directory ci sono molteplici opera
 - Rinonima di un file
 - Coppia di un file
 
-Per creare una directory si usa la funzione `mkdir()`
+## Organizzazione
+Contenere tutti i file in un'unica directory è una scelta molto semplice quanto problematica, la ricerca diventa inefficente, non possono essere presenti nomi uguali e bisogna gestire gli accessi per ogni singolo file, si utilizza quindi un organizzazione su due livelli:
+- Directory principale  contiene un elenco di directory (`root`)
+- Directory utente: cotneine i file di un singolo utente (`home`)
+
+I singoli utenti possono gestire i file solo nella propria directory, per il root invece deve farlo un amministratore di sistema (root, admin, superuser)
