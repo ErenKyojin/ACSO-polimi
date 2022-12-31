@@ -1,4 +1,5 @@
-La tecnica di i-node permette di mappare [[blocco#Blocchi logici]] e [[blocco#Blocco nel volume]] mediante una lista
+La tecnica di i-node permette di mappare [[blocco#Blocchi logici]] e [[blocco#Blocco nel volume]] mediante una lista.
+Ogni file ha associato un i-node ed ogni i-node contiene 64 Byte di informazioni, gli i-node dei file in un disco sono memorizzati in sequenza e formano la i-list, inoltre ogni i-node è accessibile tramite indice.
 
 
 
