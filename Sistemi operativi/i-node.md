@@ -47,4 +47,8 @@ Esiste anche un **triple indirect block** nel caso in cui la doppia indicizzazio
 ![[Rappresentazione inode.canvas]]
 # I-list
 
-Quando viene creato il file system da associare ad un [[volumi|volume]] attraverso il comando `mkfs` viene allocata la lista di dimensione fissa contenente gli i-node, detta i-list, questa lista è costituita da una serie di i-node utilizzati o liberi (che sono tali se il tipo di file indicato è `0`). Le posizioni degli i-node sono riportate nella free i-node list, contenuta nel superblocco. L'inizio della lista concatenata dei blocchi liberi (free list) è contenuto nel superblock
+Quando viene creato il file system da associare ad un [[volumi|volume]] attraverso il comando `mkfs` viene allocata la lista di dimensione fissa contenente gli i-node, detta i-list, questa lista è costituita da una serie di i-node utilizzati o liberi (che sono tali se il tipo di file indicato è `0`). Le posizioni degli i-node sono riportate nella free i-node list, contenuta nel superblocco. 
+
+## Spazio libero
+L'inizio della lista concatenata dei blocchi liberi (free list) è contenuto nel superblock:
+![[Lista dei blocchi liberi.canvas]]
