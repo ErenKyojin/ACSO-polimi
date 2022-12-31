@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/i-node.md",
+                "file": "Sistemi operativi/volumi.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/i-node.md",
-                "mode": "preview",
+                "file": "Sistemi operativi/volumi.md",
+                "mode": "source",
                 "source": false
               }
             },
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/i-node.md",
+                "file": "Sistemi operativi/volumi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/i-node.md",
+                "file": "Sistemi operativi/volumi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/i-node.md"
+                "file": "Sistemi operativi/volumi.md"
               }
             }
           },
@@ -223,15 +223,15 @@
   },
   "active": "e338a7c8fe477b0a",
   "lastOpenFiles": [
-    "Sistemi operativi/volumi.md",
+    "Canvas/Rappresentazione inode.canvas",
+    "Sistemi operativi/SYSRET.md",
     "Sistemi operativi/i-node.md",
+    "Canvas/Esempio strutture dati filesystem (1).canvas",
+    "Sistemi operativi/volumi.md",
     "Architettura/blocco.md",
     "Sistemi operativi/File System.md",
     "Sistemi operativi/settore.md",
     "Sistemi operativi/traccia.md",
-    "Sistemi operativi/Protezione.md",
-    "Sistemi operativi/pagina.md",
-    "Sistemi operativi/DIRECTORY.md",
-    "Canvas/Directory a due livelli.canvas"
+    "Sistemi operativi/Protezione.md"
   ]
 }

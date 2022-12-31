@@ -32,8 +32,8 @@ Il superblocco contiene le informazioni necessarie a creare o eliminare un file,
 - Dimensione del volume
 - Numero di blocchi liberi nel volume
 - Lista dei blocchi liberi (free-list)
-- Numero di elementi della lista dei blocchi liberi
-- Numero di elementi della lista degli i-node
-- numero di i-node liberi
-- lista degli i-node liberi
-- #todo 
+- Numero di elementi della lista dei blocchi liberi (free-list)
+- Numero di elementi della lista degli i-node (i-list)
+- numero di i-node liberi (free [[i-node]])
+- lista degli i-node liberi (free i-node list)
+- altre informazioni

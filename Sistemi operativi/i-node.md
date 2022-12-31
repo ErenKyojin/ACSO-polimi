@@ -34,3 +34,14 @@ Ogni file ha associato un i-node ed ogni i-node contiene 64 Byte di informazioni
 | Triple indirect blocks |
 
 
+## Allocazione indicizzata
+
+I primi 10 indirizzi su disco sono i puntatori ai blocchi del file su disco (indirizzamento diretto di 10 blocchi).
+
+Per file piú grandi l'i-node contiene l'indirizzo di un blocco chiamato **single indirect block**, questo blocco contiene 128 indirizzi da 4 byte. (indirizzamento indiretto di 128 blocchi).
+
+L'inode mette a disposizione un altro indirizzo, **detto double indirect block**, che contiene l'indirizzo di un blocco che contiene una lista di 128 single indirect block.
+
+Esiste anche un **triple indirect block** nel caso in cui la doppia indicizzazione non sia sufficiente e sia necessario un altro livello di indicizzazione: indirizzamento indiretto triplo di 128x128x128 blocchi.
+
+![[Rappresentazione inode.canvas]]
