@@ -18,8 +18,18 @@ Inoltre sono importani le nozioni di:
 
 Il file system accede ai dispositivi fisici tramite l'invocazione di comandi messi a disposizione dal disk driver, e la memoria viene rappresentata e gestitia come un dispositivo logico detto volume (un vettore di blocchi logici multiplo di 512 Byte, il blocco viene trasferito in memoria con un unica operazione)
 
-Inoltre l'hard disk è diviso in [[traccia|tracce]] e [[settore|settori]] 
+Inoltre l'hard disk è diviso in [[traccia|tracce]] e [[settore|settori]].
 
+L'operazione di formattazione predispone tracce e settori per la lettura e la **scrittura**
+
+![[Pasted image 20221231105048.png|500]]
+
+## Prestazioni:
+- Il tempo di accesso è sugli ordine dei ms
+	- **Seek time**, la testina deve arrivare alla traccia giusta, impegando dai 5 ai 15 ms
+	- **Latency**, il disco deve ruotare fino a portare il dato nella posizione giusta, dipende dalla velocità di rotazione (5400 - 10800 RPM $\to$ 5.4 - 2.7 ms)
+
+- Il transfer rate del disco varia dipendentemente alla densità di registrazione e alla velocità di rotazione, va dai 5 ai 20 MB/s
 
 # Strutture dati del file system
 
