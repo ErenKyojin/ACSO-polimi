@@ -66,7 +66,7 @@ Tabella globale del sistema operativo con una riga per ogni file aperto nel sist
 -------
 
 ## Tabella degli i-node (detta in-core i-node)
-Tabella globale del sistema che contiene una copia in memoria degli i-node relativi al volume.
+Tabella globale del sistema che contiene una copia in memoria degli i-node relativi al volume (detti in-core i-node).
 
 Ogni entry della tabella contiene una copia in memoria degli i-node statici presenti su disco nella i-list.
 Ogni entry della tabella contiene il contatore al numero di riferimenti che indica il numero di istanze del file che sono attivi.
@@ -77,3 +77,4 @@ Oltre alla copia delle informazioni presenti nel corrispondente i-node statico s
 
 
 ![[Esempio strutture dati filesystem (1).canvas]]
+##
