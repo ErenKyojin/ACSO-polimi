@@ -71,7 +71,10 @@ Tabella globale del sistema che contiene una copia in memoria degli i-node relat
 Ogni entry della tabella contiene una copia in memoria degli i-node statici presenti su disco nella i-list.
 Ogni entry della tabella contiene il contatore al numero di riferimenti che indica il numero di istanze del file che sono attivi.
 
-Oltre alla copia delle informazioni presenti nel corrispondente i-node statico sono presenti informazioni riguardanti lo stato dell'i-node
+>[!esempio]
+>Due processi P0 e P1 aprono il file F, P0 ottiene il descrittore fd1 mentre P1 il descrittore fd7, nella tabella globale dei file aperti ognuno di questi descrittori avrà un riferimento, ma nella tabella degli i-node il file F avrà due riferimenti
+
+Oltre alla copia delle informazioni presenti nel corrispondente i-node statico sono presenti informazioni riguardanti lo stato dell'i-node.
 
 -----
 
