@@ -13,6 +13,12 @@ Inoltre sono importani le nozioni di:
 - **Pathname assoluto**: la concatenazione deei nomi delle directory dal root fino al file, ad esempio `/usr/nome_file`
 - **Pathname relativo**: Il nome del file nella directory a cui appartiene, ad esempio `nome_file`
 
+---
+# Struttura fisica del file system
+
+Il file system accede ai dispositivi fisici accedendo tramite l'invocazione di comandi messi a dispoizioni dal device driver
+
+
 # Strutture dati del file system
 
 ## Tabella dei descrittori dei file aperti per processo
