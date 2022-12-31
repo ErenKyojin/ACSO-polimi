@@ -1,0 +1,1 @@
+Un settore è parte di una tracc

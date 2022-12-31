@@ -16,7 +16,9 @@ Inoltre sono importani le nozioni di:
 ---
 # Struttura fisica del file system
 
-Il file system accede ai dispositivi fisici accedendo tramite l'invocazione di comandi messi a dispoizioni dal device driver
+Il file system accede ai dispositivi fisici tramite l'invocazione di comandi messi a disposizione dal disk driver, e la memoria viene rappresentata e gestitia come un dispositivo logico detto volume (un vettore di blocchi logici multiplo di 512 Byte, il blocco viene trasferito in memoria con un unica operazione)
+
+Inoltre l'hard disk è diviso in [[traccia|tracce]] e [[settore|settori]] 
 
 
 # Strutture dati del file system

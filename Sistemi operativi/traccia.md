@@ -1,0 +1,1 @@
+Sequenza di bit circolare scritta in una rotazione, con una dimensione media di $5-10 \mu m$

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/File System.md",
+                "file": "Sistemi operativi/settore.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/File System.md",
+                "file": "Sistemi operativi/settore.md",
                 "mode": "preview",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/File System.md",
+                "file": "Sistemi operativi/settore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/File System.md",
+                "file": "Sistemi operativi/settore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/File System.md"
+                "file": "Sistemi operativi/settore.md"
               }
             }
           },
@@ -223,15 +223,15 @@
   },
   "active": "e338a7c8fe477b0a",
   "lastOpenFiles": [
+    "Sistemi operativi/File System.md",
+    "Sistemi operativi/traccia.md",
+    "Sistemi operativi/settore.md",
     "Sistemi operativi/Protezione.md",
     "Sistemi operativi/pagina.md",
     "Sistemi operativi/DIRECTORY.md",
     "Canvas/Directory a due livelli.canvas",
     "Canvas/Directory ad albero.canvas",
-    "Sistemi operativi/File System.md",
     "Sistemi operativi/Primitive per la gestione dei file/Primitive per la gestione.canvas",
-    "Canvas/Senza nome 2.canvas",
-    "Canvas/Rappresentazione inode.canvas",
-    "Canvas/pagine non residenti.canvas"
+    "Canvas/Senza nome 2.canvas"
   ]
 }
