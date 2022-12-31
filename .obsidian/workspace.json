@@ -35,14 +35,17 @@
             "id": "e338a7c8fe477b0a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Sistemi operativi/volumi.md",
-                "mode": "source",
-                "source": false
+                "file": "Sistemi operativi/Lista dei blocchi liberi.canvas",
+                "viewState": {
+                  "x": 5.75,
+                  "y": -132.87,
+                  "zoom": 0,
+                  "snapToGrid": true
+                }
               }
-            },
-            "group": "020e56344f08cefa"
+            }
           },
           {
             "id": "7f4ee210571a2e15",
@@ -58,25 +61,6 @@
           }
         ],
         "currentTab": 2
-      },
-      {
-        "id": "818497989dbbefcf",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0a0b1460f8eb9fec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemi operativi/volumi.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "020e56344f08cefa"
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/volumi.md",
+                "file": "Sistemi operativi/Lista dei blocchi liberi.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/volumi.md",
+                "file": "Sistemi operativi/Lista dei blocchi liberi.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/volumi.md"
+                "file": "Sistemi operativi/Lista dei blocchi liberi.canvas"
               }
             }
           },
@@ -223,11 +207,11 @@
   },
   "active": "e338a7c8fe477b0a",
   "lastOpenFiles": [
+    "Sistemi operativi/i-node.md",
+    "Sistemi operativi/volumi.md",
     "Canvas/Rappresentazione inode.canvas",
     "Sistemi operativi/SYSRET.md",
-    "Sistemi operativi/i-node.md",
     "Canvas/Esempio strutture dati filesystem (1).canvas",
-    "Sistemi operativi/volumi.md",
     "Architettura/blocco.md",
     "Sistemi operativi/File System.md",
     "Sistemi operativi/settore.md",
