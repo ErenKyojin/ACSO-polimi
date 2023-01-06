@@ -67,15 +67,11 @@
             "id": "75e2c3417eabca47",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Canvas/Esempio strutture dati filesystem (1).canvas",
-                "viewState": {
-                  "x": 222,
-                  "y": 369.51573068893526,
-                  "zoom": -1.3596807940844347,
-                  "snapToGrid": false
-                }
+                "file": "Sistemi operativi/File System.md",
+                "mode": "source",
+                "source": false
               }
             },
             "group": "b0764e1b7b4cc0a7"
@@ -103,15 +99,11 @@
             "id": "29acea6233aea873",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Canvas/Esempio strutture dati filesystem (1).canvas",
-                "viewState": {
-                  "x": 222,
-                  "y": 622.5,
-                  "zoom": -1.3596807940844347,
-                  "snapToGrid": false
-                }
+                "file": "Sistemi operativi/File System.md",
+                "mode": "source",
+                "source": false
               }
             },
             "group": "b0764e1b7b4cc0a7"
@@ -183,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Canvas/Esempio strutture dati filesystem (1).canvas",
+                "file": "Sistemi operativi/File System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Canvas/Esempio strutture dati filesystem (1).canvas",
+                "file": "Sistemi operativi/File System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Canvas/Esempio strutture dati filesystem (1).canvas"
+                "file": "Sistemi operativi/File System.md"
               }
             }
           },
@@ -264,15 +256,15 @@
   },
   "active": "75e2c3417eabca47",
   "lastOpenFiles": [
+    "Sistemi operativi/gestore del file system.md",
+    "Sistemi operativi/file.md",
+    "Canvas/Esempio strutture dati filesystem (1).canvas",
     "Sistemi operativi/File System.md",
     "Sistemi operativi/i-node.md",
     "Sistemi operativi/Interrupt.md",
     "Canvas/Lista dei blocchi liberi.canvas",
     "Canvas/Mappatura della memoria fisica.canvas",
     "Sistemi operativi/mappa di memoria.md",
-    "Sistemi operativi/volumi.md",
-    "Canvas/Rappresentazione inode.canvas",
-    "Sistemi operativi/SYSRET.md",
-    "Canvas/Esempio strutture dati filesystem (1).canvas"
+    "Sistemi operativi/volumi.md"
   ]
 }
