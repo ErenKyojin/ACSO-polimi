@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/thread group.md",
+                "file": "Sistemi operativi/PFRA.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +89,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "6a10c3e2a02965db",
@@ -101,7 +101,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/thread group.md",
+                "file": "Sistemi operativi/PFRA.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "TGID",
+                "query": "maiuscol",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -175,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/thread group.md",
+                "file": "Cheatsheet/Simulazione della memoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/thread group.md",
+                "file": "Cheatsheet/Simulazione della memoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/thread group.md"
+                "file": "Cheatsheet/Simulazione della memoria.md"
               }
             }
           },
@@ -254,17 +254,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "29acea6233aea873",
+  "active": "7f4ee210571a2e15",
   "lastOpenFiles": [
+    "Sistemi operativi/PFRA.md",
+    "Cheatsheet/Simulazione della memoria.md",
+    "Sistemi operativi/aree di memoria virtuale.md",
+    "Sistemi operativi/thread group.md",
     "Sistemi operativi/File System.md",
     "Sistemi operativi/gestore del file system.md",
     "Sistemi operativi/file.md",
     "Canvas/Esempio strutture dati filesystem (1).canvas",
     "Sistemi operativi/i-node.md",
-    "Sistemi operativi/Interrupt.md",
-    "Canvas/Lista dei blocchi liberi.canvas",
-    "Canvas/Mappatura della memoria fisica.canvas",
-    "Sistemi operativi/mappa di memoria.md",
-    "Sistemi operativi/volumi.md"
+    "Sistemi operativi/Interrupt.md"
   ]
 }
