@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/translation lookaside buffer.md",
+                "file": "Sistemi operativi/Copy on write.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "TLB",
+                "query": "write",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -175,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/translation lookaside buffer.md",
+                "file": "Sistemi operativi/Copy on write.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/translation lookaside buffer.md",
+                "file": "Sistemi operativi/Copy on write.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/translation lookaside buffer.md"
+                "file": "Sistemi operativi/Copy on write.md"
               }
             }
           },
@@ -256,15 +256,15 @@
   },
   "active": "7f4ee210571a2e15",
   "lastOpenFiles": [
-    "Sistemi operativi/fork.md",
     "Cheatsheet/Simulazione della memoria.md",
+    "Architettura/memoria.md",
+    "Sistemi operativi/Meccanismo di swapping.md",
+    "Sistemi operativi/mappa di memoria.md",
+    "Sistemi operativi/fork.md",
+    "Sistemi operativi/Primitive per la gestione dei file/write().md",
+    "Sistemi operativi/translation lookaside buffer.md",
     "Sistemi operativi/PFRA.md",
     "Sistemi operativi/aree di memoria virtuale.md",
-    "Sistemi operativi/thread group.md",
-    "Sistemi operativi/File System.md",
-    "Sistemi operativi/gestore del file system.md",
-    "Sistemi operativi/file.md",
-    "Canvas/Esempio strutture dati filesystem (1).canvas",
-    "Sistemi operativi/i-node.md"
+    "Sistemi operativi/thread group.md"
   ]
 }
