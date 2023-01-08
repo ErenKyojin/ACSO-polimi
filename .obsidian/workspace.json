@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/PFRA.md",
+                "file": "Sistemi operativi/Copy on write.md",
                 "mode": "source",
                 "source": false
               }
@@ -67,11 +67,15 @@
             "id": "75e2c3417eabca47",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Sistemi operativi/PFRA.md",
-                "mode": "source",
-                "source": false
+                "file": "Canvas/Esempio strutture dati filesystem (1).canvas",
+                "viewState": {
+                  "x": 222,
+                  "y": 369.51573068893526,
+                  "zoom": -1.3596807940844347,
+                  "snapToGrid": false
+                }
               }
             },
             "group": "b0764e1b7b4cc0a7"
@@ -82,14 +86,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/Copy on write.md",
+                "file": "Cheatsheet/Simulazione della memoria.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "6a10c3e2a02965db",
@@ -99,11 +102,15 @@
             "id": "29acea6233aea873",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Sistemi operativi/PFRA.md",
-                "mode": "source",
-                "source": false
+                "file": "Canvas/Esempio strutture dati filesystem (1).canvas",
+                "viewState": {
+                  "x": 222,
+                  "y": 622.5,
+                  "zoom": -1.3596807940844347,
+                  "snapToGrid": false
+                }
               }
             },
             "group": "b0764e1b7b4cc0a7"
@@ -137,7 +144,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "write",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -254,17 +261,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7f4ee210571a2e15",
+  "active": "a9ae59cb2c2b0059",
   "lastOpenFiles": [
-    "Cheatsheet/Simulazione della memoria.md",
-    "Architettura/memoria.md",
-    "Sistemi operativi/Meccanismo di swapping.md",
-    "Sistemi operativi/mappa di memoria.md",
     "Sistemi operativi/fork.md",
-    "Sistemi operativi/Primitive per la gestione dei file/write().md",
-    "Sistemi operativi/translation lookaside buffer.md",
     "Sistemi operativi/PFRA.md",
-    "Sistemi operativi/aree di memoria virtuale.md",
-    "Sistemi operativi/thread group.md"
+    "Canvas/Esempio strutture dati filesystem (1).canvas",
+    "Sistemi operativi/File System.md",
+    "Sistemi operativi/i-node.md",
+    "Sistemi operativi/Interrupt.md",
+    "Canvas/Lista dei blocchi liberi.canvas",
+    "Canvas/Mappatura della memoria fisica.canvas",
+    "Sistemi operativi/mappa di memoria.md",
+    "Sistemi operativi/volumi.md"
   ]
 }
