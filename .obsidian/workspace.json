@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/fork.md",
+                "file": "Cheatsheet/Simulazione della memoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -161,8 +161,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/fork.md",
+                "file": "Cheatsheet/Simulazione della memoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/fork.md",
+                "file": "Cheatsheet/Simulazione della memoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +221,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/fork.md"
+                "file": "Cheatsheet/Simulazione della memoria.md"
               }
             }
           },
@@ -263,8 +262,8 @@
   },
   "active": "a9ae59cb2c2b0059",
   "lastOpenFiles": [
-    "Sistemi operativi/Copy on write.md",
     "Sistemi operativi/fork.md",
+    "Sistemi operativi/Copy on write.md",
     "Sistemi operativi/PFRA.md",
     "Canvas/Esempio strutture dati filesystem (1).canvas",
     "Sistemi operativi/File System.md",

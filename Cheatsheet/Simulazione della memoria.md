@@ -51,3 +51,18 @@ La page table del processo viene rappresentata come PT entries, rappresentate co
 Il NPV è attribuito ai registri PC e SP
 - Ogni volta che viene acceduta una pagina di pila il suo NPV diventa NPV dello SP
 - Ogni volta che viene acceduta una pagina di codice il suo NPV diventa il NPV corrente del PC
+
+
+
+
+# Svolgimento esercizi
+
+Prima di tutto, bisogna seguire processi logici diversi in base ad ogni evento:
+
+
+## fork
+P crea processo Q
+
+
+1. Copiare tutte le pagine e porle in read only
+2. La pagina in cima alla pila (indicata dallo stack pointer), in questo caso per [[Copy on write]] bisogna avere una pagina diversa per ogni processo, quindi 
