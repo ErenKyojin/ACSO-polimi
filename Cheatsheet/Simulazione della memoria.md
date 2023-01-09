@@ -65,4 +65,4 @@ P crea processo Q
 
 
 1. Copiare tutte le pagine e porle in read only
-2. La pagina in cima alla pila (indicata dallo stack pointer), in questo caso per [[Copy on write]] bisogna avere una pagina diversa per ogni processo, quindi 
+2. La pagina in cima alla pila (indicata dallo stack pointer), in questo caso per [[Copy on write]] bisogna avere una pagina diversa per ogni processo, quindi il processo padre P è 
