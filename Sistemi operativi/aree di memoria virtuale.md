@@ -126,7 +126,7 @@ Per evitare che un processo rilegga da disco una pagina già caricata si usa la 
 
 
 ## VMA anonime
-Le aree di tipo anonimo sono utilizzate dal sistema operativo per **pila** ed **heap**, cioè per l'area dati dinamici dei processi, le aree di tipo anonimo non hanno un ifle associato la loro definizione non alloca memoria fisica (sono infatti mappati sulla [[pagina#zero page]])
+Le aree di tipo anonimo sono utilizzate dal sistema operativo per **pila** ed **heap**, cioè per l'area dati dinamici dei processi, le aree di tipo anonimo non hanno un file associato e la loro definizione non alloca memoria fisica (sono infatti mappati sulla [[pagina#zero page]])
 - La lettura di una pagina trova la zeropage e non richiede l'allocazione di nessuna pagina fisica
 - La scrittura di una pagina innesca il meccaniscmo copy on write che richiede l'allocazione di una nuova pagina fisica (come per le VMA private)
 
