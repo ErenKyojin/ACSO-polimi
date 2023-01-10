@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/NPV.md",
+                "file": "Sistemi operativi/translation lookaside buffer.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stack pointer",
+                "query": "TLB",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/NPV.md",
+                "file": "Sistemi operativi/translation lookaside buffer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/NPV.md",
+                "file": "Sistemi operativi/translation lookaside buffer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/NPV.md"
+                "file": "Sistemi operativi/translation lookaside buffer.md"
               }
             }
           },
@@ -227,6 +227,7 @@
   },
   "active": "a9ae59cb2c2b0059",
   "lastOpenFiles": [
+    "Sistemi operativi/NPV.md",
     "Sistemi operativi/aree di memoria virtuale.md",
     "Sistemi operativi/Meccanismo di swapping.md",
     "Sistemi operativi/kernel swap daemon.md",
@@ -235,7 +236,6 @@
     "Cheatsheet/Simulazione della memoria.md",
     "Sistemi operativi/pagina.md",
     "Sistemi operativi/swap area.md",
-    "Sistemi operativi/swap file.md",
-    "Canvas/Esempio strutture dati filesystem (1).canvas"
+    "Sistemi operativi/swap file.md"
   ]
 }
