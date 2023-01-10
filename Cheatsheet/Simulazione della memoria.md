@@ -72,6 +72,8 @@ P crea processo Q
 crea aree di memoria di tipo M 
 
 ## sbrk(n)
-crea n forme
+crea n pagine di heap (tipo D)
 
+
+Pagine di pila P e dati dinamici D mappate sulla zero page in read (e poi eventualmente spostate con copy on write)
 
