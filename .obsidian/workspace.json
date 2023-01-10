@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "file": "Sistemi operativi/kernel swap daemon.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "VMA",
+                "query": "kswapd",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "file": "Sistemi operativi/kernel swap daemon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "file": "Sistemi operativi/kernel swap daemon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/aree di memoria virtuale.md"
+                "file": "Sistemi operativi/kernel swap daemon.md"
               }
             }
           },
@@ -240,11 +240,11 @@
   },
   "active": "f7a83306baa597ca",
   "lastOpenFiles": [
+    "Sistemi operativi/aree di memoria virtuale.md",
     "Sistemi operativi/PFRA.md",
     "Sistemi operativi/kernel swap daemon.md",
     "Sistemi operativi/translation lookaside buffer.md",
     "Sistemi operativi/NPV.md",
-    "Sistemi operativi/aree di memoria virtuale.md",
     "Sistemi operativi/Meccanismo di swapping.md",
     "Sistemi operativi/Memoria virtuale.md",
     "Cheatsheet/Simulazione della memoria.md",
