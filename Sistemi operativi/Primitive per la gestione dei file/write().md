@@ -15,7 +15,7 @@ Byte_scritti = write(fd, buf, num_byte)
 - num_byte: numero di byte da scrivere
 
 
-Il [[File System]] mantiene un indicatore alla posizione nel file in cui deve essere effettuata la lettura/scrittura successiva
+Il [[Sistemi operativi/File System]] mantiene un indicatore alla posizione nel file in cui deve essere effettuata la lettura/scrittura successiva
 
 
 

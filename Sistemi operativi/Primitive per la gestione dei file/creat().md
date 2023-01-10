@@ -1,4 +1,4 @@
-Creazione di un file ordinario, aggiunge un nuovo file al [[File System]], e restituisce un intero che rappresenta il descriptor da usare in una seguente chiamata di sistema:
+Creazione di un file ordinario, aggiunge un nuovo file al [[Sistemi operativi/File System]], e restituisce un intero che rappresenta il descriptor da usare in una seguente chiamata di sistema:
 
 ### Prototipo
 

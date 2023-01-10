@@ -1,4 +1,4 @@
-Duplica un descrittore associato ad un file aperto, si aggiune quindi un riga nella [[File System#Tabella dei descrittori dei file aperti per processo|tabella dei file aperti]] da quel processo che punto allo stesso file aperto nella tabella globale
+Duplica un descrittore associato ad un file aperto, si aggiune quindi un riga nella [[Sistemi operativi/File System#Tabella dei descrittori dei file aperti per processo|tabella dei file aperti]] da quel processo che punto allo stesso file aperto nella tabella globale
 
 ### prototipo
 ```c

@@ -18,7 +18,7 @@ Il blocco è 'unita di informazione trasferita con un solo accesso al disco, mul
 
 
 # Blocchi logici
-Il file è visto dal [[file system]] come una sequenza di blocchi logici numerati a partire dal blocco 0, le operazioni sui file fanno riferimento.
+Il file è visto dal [[Sistemi operativi/File System]] come una sequenza di blocchi logici numerati a partire dal blocco 0, le operazioni sui file fanno riferimento.
 
 >[!esempio]
 >Ricerca del byte 520:

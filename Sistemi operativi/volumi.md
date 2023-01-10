@@ -1,5 +1,5 @@
 Un volume è composto da una sequenza di blocchi logici  di dimensioni pari ad un multiplo di 512 B.
-L'indirizzamento dei dati nel volume si basa sul conetto di Logical Block Address che può essere interpretato come l'indice del [[blocco]] nel volume, ogni volume contiene il proprio [[file system]] e viene visto come device logico.
+L'indirizzamento dei dati nel volume si basa sul conetto di Logical Block Address che può essere interpretato come l'indice del [[blocco]] nel volume, ogni volume contiene il proprio [[Sistemi operativi/File System]] e viene visto come device logico.
 
 
 
