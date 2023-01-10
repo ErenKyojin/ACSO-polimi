@@ -1,4 +1,4 @@
-Quando bisogna deallocare una pagina fisica scritta ([[dirty bit|dirty page]]) il suo contenuto deve essere salvato su disco:
+Quando bisogna deallocare una pagina fisica scritta (<[[dirty bit|dirty page]]) il suo contenuto deve essere salvato su disco:
 - se SHARED nel file di [[backing store]] 
 - se ANONIMA o PRIVATA e duplicata in memoria fisica a seguito di [[Copy on write]]
 
