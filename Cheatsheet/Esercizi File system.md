@@ -27,4 +27,4 @@ P fork e crea Q
 - read(fd1)
 - close(fd1) `//ref_count = 1`
 - contextSwitch(Q)
-- close(fd1) `ref_count = -`
+- close(fd1) `//ref_count = 0`
