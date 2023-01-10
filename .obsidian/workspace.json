@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemi operativi/PFRA.md",
+                "file": "Sistemi operativi/aree di memoria virtuale.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7a83306baa597ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sistemi operativi/aree di memoria virtuale.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,7 +91,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "PFRA",
+                "query": "VMA",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -146,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi operativi/PFRA.md",
+                "file": "Sistemi operativi/aree di memoria virtuale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi operativi/PFRA.md",
+                "file": "Sistemi operativi/aree di memoria virtuale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi operativi/PFRA.md"
+                "file": "Sistemi operativi/aree di memoria virtuale.md"
               }
             }
           },
@@ -225,10 +238,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a9ae59cb2c2b0059",
+  "active": "f7a83306baa597ca",
   "lastOpenFiles": [
-    "Sistemi operativi/kernel swap daemon.md",
     "Sistemi operativi/PFRA.md",
+    "Sistemi operativi/kernel swap daemon.md",
     "Sistemi operativi/translation lookaside buffer.md",
     "Sistemi operativi/NPV.md",
     "Sistemi operativi/aree di memoria virtuale.md",
