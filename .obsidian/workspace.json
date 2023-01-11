@@ -35,11 +35,15 @@
             "id": "a5401d9fbff04f25",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Cheatsheet/Esercizi File system.md",
-                "mode": "source",
-                "source": false
+                "file": "Sistemi operativi/Primitive per la gestione dei file/Primitive per la gestione.canvas",
+                "viewState": {
+                  "x": 738,
+                  "y": 560,
+                  "zoom": -1.015767315858317,
+                  "snapToGrid": false
+                }
               }
             }
           },
@@ -170,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheatsheet/Esercizi File system.md",
+                "file": "Sistemi operativi/Primitive per la gestione dei file/Primitive per la gestione.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheatsheet/Esercizi File system.md",
+                "file": "Sistemi operativi/Primitive per la gestione dei file/Primitive per la gestione.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheet/Esercizi File system.md"
+                "file": "Sistemi operativi/Primitive per la gestione dei file/Primitive per la gestione.canvas"
               }
             }
           },
@@ -251,15 +255,15 @@
   },
   "active": "a5401d9fbff04f25",
   "lastOpenFiles": [
+    "Canvas/Lista dei blocchi liberi.canvas",
+    "Canvas/Mappatura della memoria fisica.canvas",
+    "Cheatsheet/Esercizi File system.md",
     "Cheatsheet/Simulazione della memoria.md",
     "Cheatsheet/Temi d'esame.md",
     "Sistemi operativi/PFRA.md",
     "Sistemi operativi/kernel swap daemon.md",
     "Sistemi operativi/aree di memoria virtuale.md",
     "Sistemi operativi/translation lookaside buffer.md",
-    "Sistemi operativi/NPV.md",
-    "Sistemi operativi/Meccanismo di swapping.md",
-    "Sistemi operativi/Memoria virtuale.md",
-    "Sistemi operativi/pagina.md"
+    "Sistemi operativi/NPV.md"
   ]
 }
